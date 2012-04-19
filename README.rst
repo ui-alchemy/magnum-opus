@@ -17,7 +17,6 @@ If you have already cloned the repository without the --recursive flag, running 
   git submodule init
   git submodule update  
 
-
 ----------------------
 Developing Converge-UI
 ----------------------
@@ -26,19 +25,19 @@ To develop converge-ui while using this example app, the git config needs to be 
 
 Change:
 
-::
+
   [submodule "vendor/converge-ui"]
           url = https://github.com/Katello/converge-ui.git
 
 To:
 
-::
+
   [submodule "vendor/converge-ui"]
           url = https://<github_username>@github.com/Katello/converge-ui.git
 
 In order to commit back your changes (not the lack of a trailing slash on line 4):
 
-::
+
   cd vendor/converge-ui
   git commit -a
   cd ../../
