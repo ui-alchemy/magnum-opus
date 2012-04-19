@@ -1,0 +1,19 @@
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /home/ehelms/workspace/converge-ui-example/config/environment.rb:5)
+
+
+Started GET "/" for 127.0.0.1 at Wed Apr 18 22:40:50 -0400 2012
+  Processing by ConvergeShellController#index as HTML
+Rendered common/_header.html.haml (18.7ms)
+Rendered converge_shell/index.html.haml within layouts/application (35.1ms)
+Completed 500 Internal Server Error in 49ms
+
+ActionView::Template::Error (Missing layout layouts/converge-ui/shell_layout with {:handlers=>[:rjs, :rhtml, :rxml, :haml, :erb, :builder], :formats=>[:html], :locale=>[:en, :en]} in view paths "/home/ehelms/workspace/converge-ui-example/app/views", "/home/ehelms/workspace/converge-ui-example", "/"):
+    3: 
+    4: = render :partial => "common/header"
+    5: 
+    6: = render :file => 'layouts/converge-ui/shell_layout'
+  app/views/layouts/application.html.haml:6:in `_app_views_layouts_application_html_haml___226908988_70184695986980_0'
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.0ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (10.3ms)
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (27.0ms)
