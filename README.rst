@@ -8,11 +8,11 @@ This is a simple rails application that is used to show off how to not only inco
 Getting Started
 ------------------
 
-When cloning converge-ui-example, the simplest method is to use the --recursive flag:
+When cloning converge-ui-example, the simplest method is to use the --recursive flag::
 
   git clone --recursive  http://github.com/Katello/converge-ui-example.git
 
-If you have already cloned the repository without the --recursive flag, running the following to take care of submodule setup:
+If you have already cloned the repository without the --recursive flag, running the following to take care of submodule setup::
 
   git submodule init
   git submodule update  
@@ -23,20 +23,19 @@ Developing Converge-UI
 
 To develop converge-ui while using this example app, the git config needs to be updated to point to the read/write version of your converge-ui repository URL.  Then the master branch needs to be checked out since standard project cloning puts you on 'no branch' pointing to the latest commit.
 
-Change:
+Change::
 
 
   [submodule "vendor/converge-ui"]
           url = https://github.com/Katello/converge-ui.git
 
-To:
+To::
 
 
   [submodule "vendor/converge-ui"]
           url = https://<github_username>@github.com/Katello/converge-ui.git
 
-In order to commit back your changes (not the lack of a trailing slash on line 4):
-
+In order to commit back your changes (not the lack of a trailing slash on line 4)::
 
   cd vendor/converge-ui
   git commit -a
