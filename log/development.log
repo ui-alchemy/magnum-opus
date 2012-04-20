@@ -51,3 +51,586 @@ ActionController::RoutingError (No route matches "/images/favicon.png"):
   
 
 Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.3ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /home/edhelms/workspace/converge-ui-example/config/environment.rb:5)
+
+
+Started GET "/" for 10.11.230.159 at Fri Apr 20 11:06:45 -0400 2012
+  Processing by ConvergeShellController#index as HTML
+Rendered common/_header.html.haml (9.4ms)
+Rendered layouts/converge-ui/_header_layout.haml (2.8ms)
+Rendered layouts/converge-ui/shell_layout.haml (16.2ms)
+Rendered converge_shell/index.html.haml within layouts/application (31.6ms)
+Completed 200 OK in 36ms (Views: 35.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/katello/stylesheets/compiled/converge-example.css?1334934406" for 10.11.230.159 at Fri Apr 20 11:06:46 -0400 2012
+
+ActionController::RoutingError (No route matches "/katello/stylesheets/compiled/converge-example.css"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/katello/images/logo.png?1334840696" for 10.11.230.159 at Fri Apr 20 11:06:46 -0400 2012
+
+ActionController::RoutingError (No route matches "/katello/images/logo.png"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/katello/images/favicon.png" for 10.11.230.159 at Fri Apr 20 11:06:46 -0400 2012
+
+ActionController::RoutingError (No route matches "/katello/images/favicon.png"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 10.11.230.159 at Fri Apr 20 11:07:00 -0400 2012
+  Processing by ConvergeShellController#index as HTML
+Rendered common/_header.html.haml (9.8ms)
+Rendered layouts/converge-ui/_header_layout.haml (3.0ms)
+Rendered layouts/converge-ui/shell_layout.haml (16.6ms)
+Rendered converge_shell/index.html.haml within layouts/application (32.3ms)
+Completed 200 OK in 37ms (Views: 36.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/katello/stylesheets/compiled/converge-example.css?1334934406" for 10.11.230.159 at Fri Apr 20 11:07:00 -0400 2012
+
+ActionController::RoutingError (No route matches "/katello/stylesheets/compiled/converge-example.css"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/katello/images/logo.png?1334840696" for 10.11.230.159 at Fri Apr 20 11:07:00 -0400 2012
+
+ActionController::RoutingError (No route matches "/katello/images/logo.png"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/katello/images/favicon.png" for 10.11.230.159 at Fri Apr 20 11:07:00 -0400 2012
+
+ActionController::RoutingError (No route matches "/katello/images/favicon.png"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /home/edhelms/workspace/converge-ui-example/config/environment.rb:5)
+
+
+Started GET "/" for 10.11.230.159 at Fri Apr 20 11:07:54 -0400 2012
+  Processing by ConvergeShellController#index as HTML
+Rendered common/_header.html.haml (9.9ms)
+Rendered layouts/converge-ui/_header_layout.haml (3.0ms)
+Rendered layouts/converge-ui/shell_layout.haml (16.9ms)
+Rendered converge_shell/index.html.haml within layouts/application (33.1ms)
+Completed 200 OK in 38ms (Views: 37.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/favicon.png" for 10.11.230.159 at Fri Apr 20 11:07:54 -0400 2012
+
+ActionController::RoutingError (No route matches "/images/favicon.png"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 10.11.230.159 at Fri Apr 20 11:09:37 -0400 2012
+  Processing by ConvergeShellController#index as HTML
+Rendered common/_header.html.haml (8.5ms)
+Rendered layouts/converge-ui/_header_layout.haml (3.4ms)
+Rendered layouts/converge-ui/shell_layout.haml (77.2ms)
+Rendered converge_shell/index.html.haml within layouts/application (91.3ms)
+Completed 200 OK in 96ms (Views: 94.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/overpass_regular-web.woff" for 10.11.230.159 at Fri Apr 20 11:09:38 -0400 2012
+
+ActionController::RoutingError (No route matches "/stylesheets/overpass_regular-web.woff"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/stylesheets/overpass_bold-web.woff" for 10.11.230.159 at Fri Apr 20 11:09:38 -0400 2012
+
+ActionController::RoutingError (No route matches "/stylesheets/overpass_bold-web.woff"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/stylesheets/overpass_regular-web.ttf" for 10.11.230.159 at Fri Apr 20 11:09:38 -0400 2012
+
+ActionController::RoutingError (No route matches "/stylesheets/overpass_regular-web.ttf"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/stylesheets/overpass_bold-web.ttf" for 10.11.230.159 at Fri Apr 20 11:09:38 -0400 2012
+
+ActionController::RoutingError (No route matches "/stylesheets/overpass_bold-web.ttf"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/stylesheets/overpass_regular-web.svg" for 10.11.230.159 at Fri Apr 20 11:09:38 -0400 2012
+
+ActionController::RoutingError (No route matches "/stylesheets/overpass_regular-web.svg"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/stylesheets/overpass_bold-web.svg" for 10.11.230.159 at Fri Apr 20 11:09:38 -0400 2012
+
+ActionController::RoutingError (No route matches "/stylesheets/overpass_bold-web.svg"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/images/favicon.png" for 10.11.230.159 at Fri Apr 20 11:09:38 -0400 2012
+
+ActionController::RoutingError (No route matches "/images/favicon.png"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/images/favicon.png" for 10.11.230.159 at Fri Apr 20 11:09:44 -0400 2012
+
+ActionController::RoutingError (No route matches "/images/favicon.png"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/stylesheets/overpass_regular-web.ttf" for 10.11.230.159 at Fri Apr 20 11:09:44 -0400 2012
+
+ActionController::RoutingError (No route matches "/stylesheets/overpass_regular-web.ttf"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/stylesheets/overpass_bold-web.ttf" for 10.11.230.159 at Fri Apr 20 11:09:44 -0400 2012
+
+ActionController::RoutingError (No route matches "/stylesheets/overpass_bold-web.ttf"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (64.9ms)
+
+
+Started GET "/stylesheets/overpass_regular-web.svg" for 10.11.230.159 at Fri Apr 20 11:09:44 -0400 2012
+
+ActionController::RoutingError (No route matches "/stylesheets/overpass_regular-web.svg"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/stylesheets/overpass_bold-web.svg" for 10.11.230.159 at Fri Apr 20 11:09:44 -0400 2012
+
+ActionController::RoutingError (No route matches "/stylesheets/overpass_bold-web.svg"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 10.11.230.159 at Fri Apr 20 11:09:47 -0400 2012
+  Processing by ConvergeShellController#index as HTML
+Rendered common/_header.html.haml (8.8ms)
+Rendered layouts/converge-ui/_header_layout.haml (2.9ms)
+Rendered layouts/converge-ui/shell_layout.haml (15.7ms)
+Rendered converge_shell/index.html.haml within layouts/application (30.0ms)
+Completed 200 OK in 34ms (Views: 33.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/overpass_bold-web.ttf" for 10.11.230.159 at Fri Apr 20 11:09:48 -0400 2012
+
+ActionController::RoutingError (No route matches "/stylesheets/overpass_bold-web.ttf"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/stylesheets/overpass_regular-web.ttf" for 10.11.230.159 at Fri Apr 20 11:09:48 -0400 2012
+
+ActionController::RoutingError (No route matches "/stylesheets/overpass_regular-web.ttf"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/stylesheets/overpass_bold-web.svg" for 10.11.230.159 at Fri Apr 20 11:09:48 -0400 2012
+
+ActionController::RoutingError (No route matches "/stylesheets/overpass_bold-web.svg"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/stylesheets/overpass_regular-web.svg" for 10.11.230.159 at Fri Apr 20 11:09:48 -0400 2012
+
+ActionController::RoutingError (No route matches "/stylesheets/overpass_regular-web.svg"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/images/favicon.png" for 10.11.230.159 at Fri Apr 20 11:09:48 -0400 2012
+
+ActionController::RoutingError (No route matches "/images/favicon.png"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 10.11.230.159 at Fri Apr 20 11:12:49 -0400 2012
+  Processing by ConvergeShellController#index as HTML
+Rendered common/_header.html.haml (8.7ms)
+Rendered layouts/converge-ui/_header_layout.haml (64.0ms)
+Rendered layouts/converge-ui/shell_layout.haml (77.2ms)
+Rendered converge_shell/index.html.haml within layouts/application (91.8ms)
+Completed 200 OK in 96ms (Views: 95.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/fonts/overpass_bold-web.woff" for 10.11.230.159 at Fri Apr 20 11:12:50 -0400 2012
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/overpass_bold-web.woff"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/stylesheets/fonts/overpass_regular-web.woff" for 10.11.230.159 at Fri Apr 20 11:12:50 -0400 2012
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/overpass_regular-web.woff"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/stylesheets/fonts/overpass_bold-web.ttf" for 10.11.230.159 at Fri Apr 20 11:12:50 -0400 2012
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/overpass_bold-web.ttf"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/stylesheets/fonts/overpass_bold-web.svg" for 10.11.230.159 at Fri Apr 20 11:12:50 -0400 2012
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/overpass_bold-web.svg"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/stylesheets/fonts/overpass_regular-web.ttf" for 10.11.230.159 at Fri Apr 20 11:12:50 -0400 2012
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/overpass_regular-web.ttf"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/images/favicon.png" for 10.11.230.159 at Fri Apr 20 11:12:50 -0400 2012
+
+ActionController::RoutingError (No route matches "/images/favicon.png"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/stylesheets/fonts/overpass_regular-web.svg" for 10.11.230.159 at Fri Apr 20 11:12:50 -0400 2012
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/overpass_regular-web.svg"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/" for 10.11.230.159 at Fri Apr 20 11:13:09 -0400 2012
+  Processing by ConvergeShellController#index as HTML
+Rendered common/_header.html.haml (8.2ms)
+Rendered layouts/converge-ui/_header_layout.haml (3.2ms)
+Rendered layouts/converge-ui/shell_layout.haml (15.3ms)
+Rendered converge_shell/index.html.haml within layouts/application (29.0ms)
+Completed 200 OK in 34ms (Views: 33.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/fonts/overpass_regular-web.woff" for 10.11.230.159 at Fri Apr 20 11:13:09 -0400 2012
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/overpass_regular-web.woff"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/stylesheets/fonts/overpass_bold-web.woff" for 10.11.230.159 at Fri Apr 20 11:13:09 -0400 2012
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/overpass_bold-web.woff"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/stylesheets/fonts/overpass_regular-web.ttf" for 10.11.230.159 at Fri Apr 20 11:13:10 -0400 2012
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/overpass_regular-web.ttf"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/stylesheets/fonts/overpass_bold-web.ttf" for 10.11.230.159 at Fri Apr 20 11:13:10 -0400 2012
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/overpass_bold-web.ttf"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/stylesheets/fonts/overpass_regular-web.svg" for 10.11.230.159 at Fri Apr 20 11:13:10 -0400 2012
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/overpass_regular-web.svg"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/stylesheets/fonts/overpass_bold-web.svg" for 10.11.230.159 at Fri Apr 20 11:13:10 -0400 2012
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/overpass_bold-web.svg"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/images/favicon.png" for 10.11.230.159 at Fri Apr 20 11:13:10 -0400 2012
+
+ActionController::RoutingError (No route matches "/images/favicon.png"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 10.11.230.159 at Fri Apr 20 11:13:12 -0400 2012
+  Processing by ConvergeShellController#index as HTML
+Rendered common/_header.html.haml (8.4ms)
+Rendered layouts/converge-ui/_header_layout.haml (59.0ms)
+Rendered layouts/converge-ui/shell_layout.haml (71.0ms)
+Rendered converge_shell/index.html.haml within layouts/application (85.1ms)
+Completed 200 OK in 89ms (Views: 88.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/fonts/overpass_regular-web.woff" for 10.11.230.159 at Fri Apr 20 11:13:12 -0400 2012
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/overpass_regular-web.woff"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/stylesheets/fonts/overpass_bold-web.woff" for 10.11.230.159 at Fri Apr 20 11:13:12 -0400 2012
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/overpass_bold-web.woff"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/stylesheets/fonts/overpass_bold-web.ttf" for 10.11.230.159 at Fri Apr 20 11:13:12 -0400 2012
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/overpass_bold-web.ttf"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/stylesheets/fonts/overpass_regular-web.ttf" for 10.11.230.159 at Fri Apr 20 11:13:12 -0400 2012
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/overpass_regular-web.ttf"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/stylesheets/fonts/overpass_regular-web.svg" for 10.11.230.159 at Fri Apr 20 11:13:12 -0400 2012
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/overpass_regular-web.svg"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/stylesheets/fonts/overpass_bold-web.svg" for 10.11.230.159 at Fri Apr 20 11:13:12 -0400 2012
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/overpass_bold-web.svg"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/images/favicon.png" for 10.11.230.159 at Fri Apr 20 11:13:12 -0400 2012
+
+ActionController::RoutingError (No route matches "/images/favicon.png"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/" for 10.11.230.159 at Fri Apr 20 11:15:14 -0400 2012
+  Processing by ConvergeShellController#index as HTML
+Rendered common/_header.html.haml (7.9ms)
+Rendered layouts/converge-ui/_header_layout.haml (3.7ms)
+Rendered layouts/converge-ui/shell_layout.haml (71.4ms)
+Rendered converge_shell/index.html.haml within layouts/application (84.5ms)
+Completed 200 OK in 89ms (Views: 88.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/fonts/overpass_regular-web.woff" for 10.11.230.159 at Fri Apr 20 11:15:14 -0400 2012
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/overpass_regular-web.woff"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/stylesheets/fonts/overpass_bold-web.woff" for 10.11.230.159 at Fri Apr 20 11:15:14 -0400 2012
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/overpass_bold-web.woff"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/stylesheets/fonts/overpass_regular-web.ttf" for 10.11.230.159 at Fri Apr 20 11:15:14 -0400 2012
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/overpass_regular-web.ttf"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/stylesheets/fonts/overpass_bold-web.ttf" for 10.11.230.159 at Fri Apr 20 11:15:14 -0400 2012
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/overpass_bold-web.ttf"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/stylesheets/fonts/overpass_regular-web.svg" for 10.11.230.159 at Fri Apr 20 11:15:15 -0400 2012
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/overpass_regular-web.svg"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/stylesheets/fonts/overpass_bold-web.svg" for 10.11.230.159 at Fri Apr 20 11:15:15 -0400 2012
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/overpass_bold-web.svg"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/images/favicon.png" for 10.11.230.159 at Fri Apr 20 11:15:15 -0400 2012
+
+ActionController::RoutingError (No route matches "/images/favicon.png"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 10.11.230.159 at Fri Apr 20 11:16:44 -0400 2012
+  Processing by ConvergeShellController#index as HTML
+Rendered common/_header.html.haml (8.2ms)
+Rendered layouts/converge-ui/_header_layout.haml (3.5ms)
+Rendered layouts/converge-ui/shell_layout.haml (74.7ms)
+Rendered converge_shell/index.html.haml within layouts/application (88.4ms)
+Completed 200 OK in 93ms (Views: 92.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fonts/overpass_regular-web.woff" for 10.11.230.159 at Fri Apr 20 11:16:45 -0400 2012
+
+ActionController::RoutingError (No route matches "/fonts/overpass_regular-web.woff"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/fonts/overpass_bold-web.woff" for 10.11.230.159 at Fri Apr 20 11:16:45 -0400 2012
+
+ActionController::RoutingError (No route matches "/fonts/overpass_bold-web.woff"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/fonts/overpass_bold-web.ttf" for 10.11.230.159 at Fri Apr 20 11:16:45 -0400 2012
+
+ActionController::RoutingError (No route matches "/fonts/overpass_bold-web.ttf"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/fonts/overpass_regular-web.ttf" for 10.11.230.159 at Fri Apr 20 11:16:45 -0400 2012
+
+ActionController::RoutingError (No route matches "/fonts/overpass_regular-web.ttf"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/fonts/overpass_bold-web.svg" for 10.11.230.159 at Fri Apr 20 11:16:45 -0400 2012
+
+ActionController::RoutingError (No route matches "/fonts/overpass_bold-web.svg"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/fonts/overpass_regular-web.svg" for 10.11.230.159 at Fri Apr 20 11:16:45 -0400 2012
+
+ActionController::RoutingError (No route matches "/fonts/overpass_regular-web.svg"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/images/favicon.png" for 10.11.230.159 at Fri Apr 20 11:16:45 -0400 2012
+
+ActionController::RoutingError (No route matches "/images/favicon.png"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+
+
+Started GET "/" for 10.11.230.159 at Fri Apr 20 11:18:14 -0400 2012
+  Processing by ConvergeShellController#index as HTML
+Rendered common/_header.html.haml (8.4ms)
+Rendered layouts/converge-ui/_header_layout.haml (3.6ms)
+Rendered layouts/converge-ui/shell_layout.haml (73.8ms)
+Rendered converge_shell/index.html.haml within layouts/application (87.6ms)
+Completed 200 OK in 92ms (Views: 91.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/favicon.png" for 10.11.230.159 at Fri Apr 20 11:18:14 -0400 2012
+
+ActionController::RoutingError (No route matches "/images/favicon.png"):
+  
+
+Rendered /usr/lib/ruby/gems/1.8/gems/actionpack-3.0.10/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.9ms)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /home/edhelms/workspace/converge-ui-example/config/environment.rb:5)
+DEPRECATION WARNING: config.action_view.debug_rjs will be removed in 3.1, from 3.1 onwards you will need to install prototype-rails to continue to use RJS templates . (called from /home/edhelms/workspace/converge-ui-example/config/environment.rb:5)
