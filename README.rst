@@ -21,24 +21,24 @@ If you have already cloned the repository without the --recursive flag, running 
 Developing Converge-UI
 ----------------------
 
-To develop converge-ui while using this example app, the git config needs to be updated to point to the read/write version of your converge-ui repository URL.  Then the master branch needs to be checked out since standard project cloning puts you on 'no branch' pointing to the latest commit.
+To develop converge-ui while using this example app, the git config inside the submodule needs to be updated to point to your fork of converge-ui.  Then the master branch needs to be checked out since standard project cloning puts you on 'no branch' pointing to the latest commit.  Change directories to vendor/converge-ui and edit the .git/config file to point to your fork of converge-ui.
 
-Change::
+Command Line::
+ 
+  git add remote <github_username> git@github.com:<github_username>/converge-ui.git
 
+Or Add Directly::
 
-  [submodule "vendor/converge-ui"]
-          url = https://github.com/Katello/converge-ui.git
-
-To::
-
-
-  [submodule "vendor/converge-ui"]
-          url = https://<github_username>@github.com/Katello/converge-ui.git
+  [remote "ehelms"]
+          url = git@github.com:<github_username>/converge-ui.git
+          fetch = +refs/heads/*:refs/remotes/<github_username>/*
 
 In order to commit back your changes (not the lack of a trailing slash on line 4)::
 
   cd vendor/converge-ui
   git commit -a
+  git push <github_username> master
   cd ../../
   git add vendor/converge-ui
   git commit -a
+  git push <github_username> master
