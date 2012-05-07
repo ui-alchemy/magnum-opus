@@ -68,12 +68,26 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* default links */
 /* unfocused tabs */
 /* list items prelight state */
-/* line 6, ../../../app/stylesheets/converge-ui/shell.scss */
-body {
-  background-color: #d9d9d9;
+/* line 7, ../../../app/stylesheets/converge-ui/shell.scss */
+* {
+  margin: 0;
+  padding: 0;
 }
 
 /* line 9, ../../../app/stylesheets/converge-ui/shell.scss */
+body {
+  background-color: #d9d9d9;
+}
+/* line 11, ../../../app/stylesheets/converge-ui/shell.scss */
+body:before {
+  content: "";
+  height: 100%;
+  float: left;
+  width: 0;
+  margin-top: -32767px;
+}
+
+/* line 20, ../../../app/stylesheets/converge-ui/shell.scss */
 body, html {
   height: 100%;
   font-size: 12px;
@@ -85,7 +99,7 @@ body, html {
   line-height: 1.5;
 }
 
-/* line 20, ../../../app/stylesheets/converge-ui/shell.scss */
+/* line 32, ../../../app/stylesheets/converge-ui/shell.scss */
 html {
   /*forcing scrl*/
   height: 100%;
@@ -93,15 +107,17 @@ html {
   overflow-y: scroll;
 }
 
-/* line 26, ../../../app/stylesheets/converge-ui/shell.scss */
+/* line 38, ../../../app/stylesheets/converge-ui/shell.scss */
+#wrapper {
+  min-height: 100%;
+}
+
+/* line 39, ../../../app/stylesheets/converge-ui/shell.scss */
 #maincontent {
-  border-bottom: 1px solid #f2f2f2;
+  overflow: auto;
+  padding-bottom: 120px;
 }
-/* line 28, ../../../app/stylesheets/converge-ui/shell.scss */
-#maincontent blockquote.important a {
-  color: white;
-}
-/* line 29, ../../../app/stylesheets/converge-ui/shell.scss */
+/* line 42, ../../../app/stylesheets/converge-ui/shell.scss */
 #maincontent section.maincontent {
   background-color: white;
   min-height: 20em;
@@ -111,7 +127,7 @@ html {
   -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.6);
   -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.6);
 }
-/* line 35, ../../../app/stylesheets/converge-ui/shell.scss */
+/* line 48, ../../../app/stylesheets/converge-ui/shell.scss */
 #maincontent section.maincontent h1 {
   color: transparent;
   padding-top: 3em;
@@ -122,15 +138,25 @@ html {
 }
 
 /* microclearfix on all areas */
-/* line 48, ../../../app/stylesheets/converge-ui/shell.scss */
+/* line 61, ../../../app/stylesheets/converge-ui/shell.scss */
 section:before, section:after, article:before, article:after {
   content: "";
   display: table;
 }
 
-/* line 53, ../../../app/stylesheets/converge-ui/shell.scss */
+/* line 66, ../../../app/stylesheets/converge-ui/shell.scss */
 article:after, section:after {
   clear: both;
+}
+
+/* line 70, ../../../app/stylesheets/converge-ui/shell.scss */
+footer {
+  position: relative;
+  margin-top: -120px;
+  /* negative value of footer height */
+  height: 120px;
+  clear: both;
+  border-top: 1px solid #f2f2f2;
 }
 
 /* line 6, ../../../app/stylesheets/converge-ui/header.scss */
