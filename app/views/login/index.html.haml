@@ -1,0 +1,11 @@
+= content_for(:stylesheets) do
+  = stylesheet_link_tag "compiled/login"
+
+= content_for(:project_name) do
+  = image_tag("logo.png", :alt => _('Example Logo'))
+
+= content_for(:forgot_password_link) do
+  = link_to "Forgot username or password?", user_session_path
+
+= content_for(:show_password) do
+  = "Show Password"

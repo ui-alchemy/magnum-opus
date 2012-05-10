@@ -3,6 +3,9 @@ ConvergeExample::Application.routes.draw do
   root :to => 'converge_shell#index'
 
   resources :converge_shell, :only => :index
+  resources :login, :only => :index
+
+  match 'login/' => 'login#update', :via => :post, :as => 'user_session'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
