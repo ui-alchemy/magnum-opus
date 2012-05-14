@@ -320,12 +320,12 @@ fieldset {
 }
 
 /* line 1, ../../../app/stylesheets/converge-ui/utils.scss */
-.right {
+.fr {
   float: right;
 }
 
 /* line 5, ../../../app/stylesheets/converge-ui/utils.scss */
-.left {
+.fl {
   float: left;
 }
 
@@ -474,20 +474,6 @@ header#header #appnav {
   z-index: 2;
 }
 /* line 39, ../../../app/stylesheets/converge-ui/header.scss */
-header#header #appnav:before {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: -219px;
-  border-radius: 0 0 3px 0;
-  width: 218px;
-  height: 1px;
-  z-index: 4;
-  border-bottom: 1px solid rgba(205, 206, 208, 0.4);
-  border-right: 1px solid rgba(11, 15, 16, 0.55);
-  background: rgba(11, 15, 16, 0.55);
-}
-/* line 53, ../../../app/stylesheets/converge-ui/header.scss */
 header#header #appnav ul {
   position: relative;
   overflow: auto;
@@ -495,13 +481,13 @@ header#header #appnav ul {
   border: 1px solid rgba(205, 206, 208, 0.4);
   border-bottom: none;
 }
-/* line 60, ../../../app/stylesheets/converge-ui/header.scss */
+/* line 46, ../../../app/stylesheets/converge-ui/header.scss */
 header#header #appnav ul li {
   display: block;
   float: left;
   position: relative;
 }
-/* line 65, ../../../app/stylesheets/converge-ui/header.scss */
+/* line 51, ../../../app/stylesheets/converge-ui/header.scss */
 header#header #appnav ul li a {
   display: block;
   text-decoration: none;
@@ -522,7 +508,7 @@ header#header #appnav ul li a {
   -webkit-background-clip: padding;
   background-clip: padding-box;
 }
-/* line 85, ../../../app/stylesheets/converge-ui/header.scss */
+/* line 71, ../../../app/stylesheets/converge-ui/header.scss */
 header#header #appnav ul li a.selected {
   color: #50505a;
   position: relative;
@@ -546,31 +532,31 @@ header#header #appnav ul li a.selected {
   -webkit-background-clip: padding;
   background-clip: padding-box;
 }
-/* line 101, ../../../app/stylesheets/converge-ui/header.scss */
+/* line 87, ../../../app/stylesheets/converge-ui/header.scss */
 header#header #appnav ul li a:hover {
   background: rgba(25, 25, 30, 0.15);
   color: #f1f1f1;
 }
-/* line 107, ../../../app/stylesheets/converge-ui/header.scss */
+/* line 93, ../../../app/stylesheets/converge-ui/header.scss */
 header#header #appnav ul li:first-child > a {
   -webkit-border-radius: 3px 0 0 0;
   -moz-border-radius: 3px 0 0 0;
   border-radius: 3px 0 0 0;
 }
-/* line 113, ../../../app/stylesheets/converge-ui/header.scss */
+/* line 99, ../../../app/stylesheets/converge-ui/header.scss */
 header#header #appnav ul li:last-child > a {
   -webkit-border-radius: 0 3px 0 0;
   -moz-border-radius: 0 3px 0 0;
   border-radius: 0 3px 0 0;
   border-right: none;
 }
-/* line 123, ../../../app/stylesheets/converge-ui/header.scss */
+/* line 109, ../../../app/stylesheets/converge-ui/header.scss */
 header#header #widget-container {
   position: absolute;
   top: 22px;
   right: 30px;
 }
-/* line 129, ../../../app/stylesheets/converge-ui/header.scss */
+/* line 115, ../../../app/stylesheets/converge-ui/header.scss */
 header#header .header-widget {
   background-color: rgba(25, 25, 30, 0.4);
   -webkit-border-radius: 5px;
@@ -584,7 +570,7 @@ header#header .header-widget {
   text-decoration: none;
 }
 
-/* line 144, ../../../app/stylesheets/converge-ui/header.scss */
+/* line 130, ../../../app/stylesheets/converge-ui/header.scss */
 #notifications {
   position: absolute;
   right: 0em;
@@ -592,7 +578,7 @@ header#header .header-widget {
   max-width: 30em;
   line-height: 1.5em;
 }
-/* line 151, ../../../app/stylesheets/converge-ui/header.scss */
+/* line 137, ../../../app/stylesheets/converge-ui/header.scss */
 #notifications section {
   /*border-radius*/
   -webkit-border-radius: .5em;
@@ -616,7 +602,7 @@ header#header .header-widget {
   -moz-box-shadow: 0px 0em 0em 0.1em white, 0px 0.2em 0.5em rgba(0, 0, 0, 0.1);
   box-shadow: 0px 0em 0em 0.1em white, 0px 0.2em 0.5em rgba(0, 0, 0, 0.1);
 }
-/* line 174, ../../../app/stylesheets/converge-ui/header.scss */
+/* line 160, ../../../app/stylesheets/converge-ui/header.scss */
 #notifications section:before {
   position: absolute;
   display: block;
@@ -629,7 +615,7 @@ header#header .header-widget {
   right: 6.75em;
   border-color: transparent transparent #fff transparent;
 }
-/* line 187, ../../../app/stylesheets/converge-ui/header.scss */
+/* line 173, ../../../app/stylesheets/converge-ui/header.scss */
 #notifications section:after {
   position: absolute;
   display: block;
@@ -642,11 +628,11 @@ header#header .header-widget {
   right: 6.75em;
   border-color: transparent transparent #555 transparent;
 }
-/* line 200, ../../../app/stylesheets/converge-ui/header.scss */
+/* line 186, ../../../app/stylesheets/converge-ui/header.scss */
 #notifications section a {
   color: #fff;
 }
-/* line 202, ../../../app/stylesheets/converge-ui/header.scss */
+/* line 188, ../../../app/stylesheets/converge-ui/header.scss */
 #notifications section .alert {
   background-color: #a00;
   color: #fff;
@@ -656,7 +642,7 @@ header#header .header-widget {
   -moz-box-shadow: 0px 0em 0em 0.1em white, 0px 0.2em 0.5em 0.2em rgba(255, 0, 0, 0.21);
   box-shadow: 0px 0em 0em 0.1em white, 0px 0.2em 0.5em 0.2em rgba(255, 0, 0, 0.21);
 }
-/* line 211, ../../../app/stylesheets/converge-ui/header.scss */
+/* line 197, ../../../app/stylesheets/converge-ui/header.scss */
 #notifications section .alert:after {
   border-color: transparent transparent #a00 transparent;
 }
