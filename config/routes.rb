@@ -3,6 +3,12 @@ ConvergeExample::Application.routes.draw do
   root :to => 'converge_shell#index'
 
   resources :converge_shell, :only => :index
+  resources :login, :only => :index
+
+  match 'user_session/login' => 'login#index', :via => :get, :as => 'user_session'
+  match 'user_session/login' => 'login#update', :via => :post, :as => 'user_session'
+  match 'user_session/password_reset' => 'login#password_reset', :via => :get, :as => 'password_reset'
+  match 'user_session/password_reset' => 'login#password_reset', :via => :post, :as => 'email_password_reset'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
