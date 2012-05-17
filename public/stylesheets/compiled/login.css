@@ -105,22 +105,16 @@ h5 {
 h1, h2, h3, h4, h5 {
   color: #939292;
   font-family: "Overpass", Interstate, sans-serif;
-  margin-top: 1em;
   font-weight: bold;
   word-wrap: break-word;
 }
 
-/* line 26, ../../../app/stylesheets/converge-ui/text.scss */
+/* line 25, ../../../app/stylesheets/converge-ui/text.scss */
 li {
   margin-left: 0;
 }
 
-/* line 29, ../../../app/stylesheets/converge-ui/text.scss */
-h1, h2, h3, h4, h5, p {
-  margin: 0.5em 0;
-}
-
-/* line 32, ../../../app/stylesheets/converge-ui/text.scss */
+/* line 28, ../../../app/stylesheets/converge-ui/text.scss */
 fieldset {
   margin-bottom: 10px;
 }
@@ -352,26 +346,26 @@ html, body {
 }
 
 /* line 24, ../../../app/stylesheets/converge-ui/login.scss */
-#login {
-  position: absolute;
-  left: 50%;
-  bottom: 40%;
-  margin-left: -258.5px;
-  width: 517px;
-  height: 280px;
+.floater {
+  float: left;
+  height: 50%;
+  margin-bottom: -280px;
 }
-/* line 32, ../../../app/stylesheets/converge-ui/login.scss */
-#login .container {
+
+/* line 31, ../../../app/stylesheets/converge-ui/login.scss */
+article .container {
+  clear: left;
   position: relative;
   width: 540px;
   min-height: 280px;
+  margin: 0 auto;
   background: black;
   box-shadow: 0px 0px 30px #000;
   border-radius: 7px;
   overflow: auto;
 }
-/* line 41, ../../../app/stylesheets/converge-ui/login.scss */
-#login .container aside {
+/* line 42, ../../../app/stylesheets/converge-ui/login.scss */
+article .container aside {
   float: left;
   width: 135px;
   min-height: 280px;
@@ -379,8 +373,8 @@ html, body {
   border-top-left-radius: 7px;
   border-bottom-left-radius: 7px;
 }
-/* line 50, ../../../app/stylesheets/converge-ui/login.scss */
-#login .container section {
+/* line 51, ../../../app/stylesheets/converge-ui/login.scss */
+article .container section {
   float: left;
   width: 405px;
   min-height: 280px;
@@ -404,25 +398,25 @@ html, body {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#d9d9d9',GradientType=0 );
   /* IE6-9 */
 }
-/* line 59, ../../../app/stylesheets/converge-ui/login.scss */
-#login .container section .content {
+/* line 60, ../../../app/stylesheets/converge-ui/login.scss */
+article .container section .content {
   margin: 10px 18px;
   left: 143px;
 }
-/* line 64, ../../../app/stylesheets/converge-ui/login.scss */
-#login .container section .content fieldset.primary {
+/* line 65, ../../../app/stylesheets/converge-ui/login.scss */
+article .container section .content fieldset.primary {
   margin-top: 10px;
 }
-/* line 67, ../../../app/stylesheets/converge-ui/login.scss */
-#login .container section .content fieldset.primary label {
+/* line 68, ../../../app/stylesheets/converge-ui/login.scss */
+article .container section .content fieldset.primary label {
   display: block;
   margin-bottom: 2px;
   margin-left: 6px;
   font-size: 14px;
   color: #666;
 }
-/* line 75, ../../../app/stylesheets/converge-ui/login.scss */
-#login .container section .content fieldset.primary input {
+/* line 76, ../../../app/stylesheets/converge-ui/login.scss */
+article .container section .content fieldset.primary input {
   width: 333px;
   padding: 8px 0px 8px 16px;
   font-size: 18px;
@@ -431,57 +425,61 @@ html, body {
   outline: none;
   border: 1px solid #CCC;
 }
-/* line 84, ../../../app/stylesheets/converge-ui/login.scss */
-#login .container section .content fieldset.primary input:focus {
+/* line 85, ../../../app/stylesheets/converge-ui/login.scss */
+article .container section .content fieldset.primary input:focus {
   box-shadow: 0px 0px 10px orange;
 }
-/* line 91, ../../../app/stylesheets/converge-ui/login.scss */
-#login .container section .content div.group.left {
+/* line 92, ../../../app/stylesheets/converge-ui/login.scss */
+article .container section .content div.group {
+  margin-bottom: 10px;
+}
+/* line 96, ../../../app/stylesheets/converge-ui/login.scss */
+article .container section .content div.group.left {
   display: inline;
   float: left;
 }
-/* line 96, ../../../app/stylesheets/converge-ui/login.scss */
-#login .container section .content div.group.right {
+/* line 101, ../../../app/stylesheets/converge-ui/login.scss */
+article .container section .content div.group.right {
   display: inline;
   float: right;
   text-align: right;
 }
-/* line 102, ../../../app/stylesheets/converge-ui/login.scss */
-#login .container section .content div.group.bottom {
+/* line 107, ../../../app/stylesheets/converge-ui/login.scss */
+article .container section .content div.group.bottom {
   position: absolute;
   bottom: 18px;
 }
-/* line 107, ../../../app/stylesheets/converge-ui/login.scss */
-#login .container section .content div.group.submit {
+/* line 112, ../../../app/stylesheets/converge-ui/login.scss */
+article .container section .content div.submit {
   position: absolute;
   right: 18px;
   width: 110px;
+  bottom: 10px;
 }
-/* line 113, ../../../app/stylesheets/converge-ui/login.scss */
-#login .container section .content #progress-indicator {
+/* line 119, ../../../app/stylesheets/converge-ui/login.scss */
+article .container section .content #progress-indicator {
   margin: 4px;
   display: none;
 }
-/* line 118, ../../../app/stylesheets/converge-ui/login.scss */
-#login .container section .content a {
+/* line 124, ../../../app/stylesheets/converge-ui/login.scss */
+article .container section .content a {
   display: inline-block;
   outline: 0;
   text-align: left;
   margin: 0 10px 0 0;
 }
-/* line 124, ../../../app/stylesheets/converge-ui/login.scss */
-#login .container section .content a:hover {
+/* line 130, ../../../app/stylesheets/converge-ui/login.scss */
+article .container section .content a:hover {
   background-position-y: -16px;
 }
-/* line 129, ../../../app/stylesheets/converge-ui/login.scss */
-#login .container section .content #login-btn {
+/* line 135, ../../../app/stylesheets/converge-ui/login.scss */
+article .container section .content #login-btn {
   float: right;
   padding-left: 20px;
   padding-right: 20px;
-  cursor: pointer;
 }
-/* line 139, ../../../app/stylesheets/converge-ui/login.scss */
-#login .button {
+/* line 144, ../../../app/stylesheets/converge-ui/login.scss */
+article .button {
   height: 26px;
   border: 1px solid #999;
   font-size: 13px;
@@ -506,4 +504,13 @@ html, body {
   /* IE6-9 */
   background: linear-gradient(top, #ffffff 0%, #cccccc 100%);
   /* W3C */
+  cursor: pointer;
+}
+
+/* line 158, ../../../app/stylesheets/converge-ui/login.scss */
+.divider {
+  margin: 15px 0;
+  height: 2px;
+  background: #CCC;
+  clear: both;
 }

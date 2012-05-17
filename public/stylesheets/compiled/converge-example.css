@@ -110,22 +110,16 @@ h5 {
 h1, h2, h3, h4, h5 {
   color: #939292;
   font-family: "Overpass", Interstate, sans-serif;
-  margin-top: 1em;
   font-weight: bold;
   word-wrap: break-word;
 }
 
-/* line 26, ../../../app/stylesheets/converge-ui/text.scss */
+/* line 25, ../../../app/stylesheets/converge-ui/text.scss */
 li {
   margin-left: 0;
 }
 
-/* line 29, ../../../app/stylesheets/converge-ui/text.scss */
-h1, h2, h3, h4, h5, p {
-  margin: 0.5em 0;
-}
-
-/* line 32, ../../../app/stylesheets/converge-ui/text.scss */
+/* line 28, ../../../app/stylesheets/converge-ui/text.scss */
 fieldset {
   margin-bottom: 10px;
 }
@@ -454,12 +448,14 @@ header#header {
   position: relative;
   font-family: "Overpass",Interstate,sans-serif;
 }
-/* line 21, ../../../app/stylesheets/converge-ui/header.scss */
-header#header h1 a {
+/* line 20, ../../../app/stylesheets/converge-ui/header.scss */
+header#header h1 {
   position: absolute;
   bottom: 25px;
   left: 15px;
   display: inline-block;
+  margin: 0;
+  font-size: inherit;
 }
 /* line 28, ../../../app/stylesheets/converge-ui/header.scss */
 header#header #appnav {
