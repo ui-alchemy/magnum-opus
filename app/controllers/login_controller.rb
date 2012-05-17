@@ -12,4 +12,8 @@ class LoginController < ApplicationController
     render "password_reset", :layout => "converge-ui/password_reset_layout"
   end
 
+  def change_password
+    render "change_password", :layout => "converge-ui/change_password_layout"
+  end
+
 end
