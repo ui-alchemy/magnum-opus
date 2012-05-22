@@ -1,3 +1,8 @@
 = content_for(:content) do
-  = link_to "Login Page", user_session_path
-  = link_to "Password Reset", password_reset_path
+  %ul
+    %li
+      = link_to "Login Page", user_session_path
+    %li
+      = link_to "Password Reset", password_reset_path
+    %li
+      = link_to "Change Password", change_password_path
