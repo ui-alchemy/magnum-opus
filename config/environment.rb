@@ -6,6 +6,3 @@ ConvergeExample::Application.initialize!
 
 GettextI18nRails.translations_are_html_safe = true
 
-Object.send(:include, FastGettext::Translation)
-FastGettext.default_text_domain = 'app'
-FastGettext.add_text_domain('app', :path => 'locale', :type => :po)

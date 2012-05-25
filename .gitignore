@@ -1,5 +1,4 @@
 *.swp
 *.swo
-Gemfile.lock
 log/
 tmp
