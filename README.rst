@@ -2,7 +2,9 @@
 Converge-UI Example
 ===================
 
-This is a simple rails application that is used to show off how to not only incorporate converge-ui but as a simple test bed for viewing styles and layouts.  This repository can be used for demo purposes or with some tweaks to the git configuration, as a development environment for converge-ui.
+This is a simple rails application that is used to show off how to not only incorporate converge-ui but as a simple test bed for viewing styles and layouts.  This repository can be used for demo purposes or with some tweaks to the git configuration, as a development environment for converge-ui. A demo of the site running on Openshift can be seen here:
+
+http://convergeui-ehelms.rhcloud.com/
 
 ------------------
 Getting Started
