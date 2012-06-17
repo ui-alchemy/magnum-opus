@@ -1,46 +1,6 @@
-===================
-Converge-UI Example
-===================
+Please see latest documentation at on the Github page or all current and previous versions at Read The Do
+cs.
 
-This is a simple rails application that is used to show off how to not only incorporate converge-ui but as a simple test bed for viewing styles and layouts.  This repository can be used for demo purposes or with some tweaks to the git configuration, as a development environment for converge-ui. A demo of the site running on Openshift can be seen here:
+Github Pages: http://katello.github.com/converge-ui-example/
 
-http://convergeui-ehelms.rhcloud.com/
-
-------------------
-Getting Started
-------------------
-
-When cloning converge-ui-example, the simplest method is to use the --recursive flag::
-
-  git clone --recursive  http://github.com/Katello/converge-ui-example.git
-
-If you have already cloned the repository without the --recursive flag, running the following to take care of submodule setup::
-
-  git submodule init
-  git submodule update  
-
-----------------------
-Developing Converge-UI
-----------------------
-
-To develop converge-ui while using this example app, the git config inside the submodule needs to be updated to point to your fork of converge-ui.  Then the master branch needs to be checked out since standard project cloning puts you on 'no branch' pointing to the latest commit.  Change directories to vendor/converge-ui and edit the .git/config file to point to your fork of converge-ui.
-
-Command Line::
- 
-  git add remote <github_username> git@github.com:<github_username>/converge-ui.git
-
-Or Add Directly::
-
-  [remote "ehelms"]
-          url = git@github.com:<github_username>/converge-ui.git
-          fetch = +refs/heads/*:refs/remotes/<github_username>/*
-
-In order to commit back your changes (not the lack of a trailing slash on line 4)::
-
-  cd vendor/converge-ui
-  git commit -a
-  git push <github_username> master
-  cd ../../
-  git add vendor/converge-ui
-  git commit -a
-  git push <github_username> master
+Read The Docs: http://readthedocs.org/projects/convergeui-example/
