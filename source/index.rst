@@ -23,6 +23,10 @@ If you have already cloned the repository without the --recursive flag, running 
   git submodule init
   git submodule update  
 
+or::
+
+  git submodule update --init
+
 ----------------------
 Developing Converge-UI
 ----------------------
