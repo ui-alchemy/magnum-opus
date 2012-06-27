@@ -2,5 +2,5 @@
 *.swo
 Gemfile.lock
 log/
-tmp
+tmp/
 docs/build/*
