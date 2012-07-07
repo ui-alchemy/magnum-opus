@@ -1,6 +1,9 @@
 = content_for(:content) do
   %ul
     %li
+      %a{ :href => "http://convergeui.readthedocs.org/en/latest/" }
+        = "ConvergeUI Official Documentation"
+    %li
       = link_to "Login Page", user_session_path
     %li
       = link_to "Change Password", change_password_path
