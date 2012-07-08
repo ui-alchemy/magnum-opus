@@ -12,7 +12,8 @@
       font-size: 14px;
       font-family: $headlinefont;
 
-      a { 
+      a, a:visited, a:link, a:active {
+        color: $kselected_color;
         text-decoration: none;
       }
     }

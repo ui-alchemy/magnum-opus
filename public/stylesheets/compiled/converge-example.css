@@ -77,6 +77,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* default links */
 /* unfocused tabs */
 /* list items prelight state */
+/*************************************************
+*   Header Colors
+**************************************************/
+/*************************************************
+*   Login Colors
+**************************************************/
 /**
 * Complex Color Definitions
 **/
@@ -409,6 +415,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* default links */
 /* unfocused tabs */
 /* list items prelight state */
+/*************************************************
+*   Header Colors
+**************************************************/
+/*************************************************
+*   Login Colors
+**************************************************/
 /**
 * Complex Color Definitions
 **/
@@ -428,6 +440,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* default links */
 /* unfocused tabs */
 /* list items prelight state */
+/*************************************************
+*   Header Colors
+**************************************************/
+/*************************************************
+*   Login Colors
+**************************************************/
 /**
 * Complex Color Definitions
 **/
@@ -461,6 +479,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* default links */
 /* unfocused tabs */
 /* list items prelight state */
+/*************************************************
+*   Header Colors
+**************************************************/
+/*************************************************
+*   Login Colors
+**************************************************/
 /**
 * Complex Color Definitions
 **/
@@ -558,6 +582,12 @@ fieldset {
 /* default links */
 /* unfocused tabs */
 /* list items prelight state */
+/*************************************************
+*   Header Colors
+**************************************************/
+/*************************************************
+*   Login Colors
+**************************************************/
 /**
 * Complex Color Definitions
 **/
@@ -581,11 +611,22 @@ header#header {
   background: linear-gradient(top, #009dcc 0%, #009dcc 50%, #006f8f 100%);
   height: 85px;
   border-top: 4px solid #01536d;
-  border-bottom: 4px solid #d9d9d9;
+  border-bottom: 1px solid rgba(11, 15, 16, 0.55);
   position: relative;
   font-family: "Overpass",Interstate,sans-serif;
 }
-/* line 18, ../../../app/stylesheets/converge-ui/components/_header.scss */
+/* line 19, ../../../app/stylesheets/converge-ui/components/_header.scss */
+header#header:after {
+  background: #d9d9d9;
+  border-top: 1px solid rgba(205, 205, 208, 0.4);
+  height: 4px;
+  width: 100%;
+  content: "";
+  position: absolute;
+  bottom: -6px;
+  z-index: 0;
+}
+/* line 30, ../../../app/stylesheets/converge-ui/components/_header.scss */
 header#header h1 {
   position: absolute;
   bottom: 25px;
@@ -595,9 +636,9 @@ header#header h1 {
   font-size: inherit;
   text-indent: -5555px;
 }
-/* line 27, ../../../app/stylesheets/converge-ui/components/_header.scss */
+/* line 40, ../../../app/stylesheets/converge-ui/components/_header.scss */
 header#header .logo {
-  background: url('/images/embed/logo.png?1340766981') no-repeat 0 0 transparent;
+  background: url('/images/embed/logo.png?1341760487') no-repeat 0 0 transparent;
   text-indent: -5555px;
   width: 170px;
   height: 30px;
@@ -606,7 +647,7 @@ header#header .logo {
   position: absolute;
   display: block;
 }
-/* line 37, ../../../app/stylesheets/converge-ui/components/_header.scss */
+/* line 51, ../../../app/stylesheets/converge-ui/components/_header.scss */
 header#header #loading {
   display: none;
   bottom: 27px;
@@ -618,7 +659,7 @@ header#header #loading {
   z-index: 100;
   background: url('/images/converge-ui/icons/spinner_head.gif?1340768956') no-repeat 0 0 transparent;
 }
-/* line 48, ../../../app/stylesheets/converge-ui/components/_header.scss */
+/* line 62, ../../../app/stylesheets/converge-ui/components/_header.scss */
 header#header #appnav {
   border: 1px solid rgba(11, 15, 16, 0.55);
   border-bottom: none;
@@ -628,7 +669,7 @@ header#header #appnav {
   z-index: 2;
   float: left;
 }
-/* line 56, ../../../app/stylesheets/converge-ui/components/_header.scss */
+/* line 70, ../../../app/stylesheets/converge-ui/components/_header.scss */
 header#header #appnav ul {
   position: relative;
   overflow: auto;
@@ -636,15 +677,21 @@ header#header #appnav ul {
   border: 1px solid rgba(205, 206, 208, 0.4);
   border-bottom: none;
   outline: 0 none;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #009dcc), color-stop(50%, #009dcc), color-stop(100%, #006f8f));
+  background: -webkit-linear-gradient(top, #009dcc 0%, #009dcc 50%, #006f8f 100%);
+  background: -moz-linear-gradient(top, #009dcc 0%, #009dcc 50%, #006f8f 100%);
+  background: -o-linear-gradient(top, #009dcc 0%, #009dcc 50%, #006f8f 100%);
+  background: -ms-linear-gradient(top, #009dcc 0%, #009dcc 50%, #006f8f 100%);
+  background: linear-gradient(top, #009dcc 0%, #009dcc 50%, #006f8f 100%);
 }
-/* line 63, ../../../app/stylesheets/converge-ui/components/_header.scss */
+/* line 79, ../../../app/stylesheets/converge-ui/components/_header.scss */
 header#header #appnav ul li {
   display: block;
   float: left;
   position: relative;
   outline: 0 none;
 }
-/* line 68, ../../../app/stylesheets/converge-ui/components/_header.scss */
+/* line 84, ../../../app/stylesheets/converge-ui/components/_header.scss */
 header#header #appnav ul li a {
   display: block;
   text-decoration: none;
@@ -666,7 +713,7 @@ header#header #appnav ul li a {
   background-clip: padding-box;
   outline: 0 none;
 }
-/* line 88, ../../../app/stylesheets/converge-ui/components/_header.scss */
+/* line 104, ../../../app/stylesheets/converge-ui/components/_header.scss */
 header#header #appnav ul li a.selected {
   color: #50505a;
   position: relative;
@@ -691,7 +738,7 @@ header#header #appnav ul li a.selected {
   -webkit-background-clip: padding;
   background-clip: padding-box;
 }
-/* line 93, ../../../app/stylesheets/converge-ui/components/_header.scss */
+/* line 109, ../../../app/stylesheets/converge-ui/components/_header.scss */
 header#header #appnav ul li a.selected:hover {
   background: #ffffff;
   /* Old browsers */
@@ -714,34 +761,35 @@ header#header #appnav ul li a.selected:hover {
   background-clip: padding-box;
   color: #37373E;
 }
-/* line 99, ../../../app/stylesheets/converge-ui/components/_header.scss */
+/* line 115, ../../../app/stylesheets/converge-ui/components/_header.scss */
 header#header #appnav ul li a:hover {
   outline: 0 none;
   background: rgba(25, 25, 30, 0.15);
   color: #f1f1f1;
 }
-/* line 106, ../../../app/stylesheets/converge-ui/components/_header.scss */
+/* line 122, ../../../app/stylesheets/converge-ui/components/_header.scss */
 header#header #appnav ul li:first-child > a {
   outline: 0 none;
   -webkit-border-radius: 3px 0 0 0;
   -moz-border-radius: 3px 0 0 0;
   border-radius: 3px 0 0 0;
 }
-/* line 113, ../../../app/stylesheets/converge-ui/components/_header.scss */
+/* line 129, ../../../app/stylesheets/converge-ui/components/_header.scss */
 header#header #appnav ul li:last-child > a {
   -webkit-border-radius: 0 3px 0 0;
   -moz-border-radius: 0 3px 0 0;
   border-radius: 0 3px 0 0;
   border-right: none;
 }
-/* line 122, ../../../app/stylesheets/converge-ui/components/_header.scss */
+/* line 138, ../../../app/stylesheets/converge-ui/components/_header.scss */
 header#header #nav-container {
-  bottom: 0;
+  bottom: -1px;
   display: block;
   height: 2.5em;
   left: 35%;
   padding: 5px 6px 0 6px;
   position: absolute;
+  z-index: 1;
   -webkit-border-top-left-radius: 5px;
   -webkit-border-top-right-radius: 5px;
   -moz-border-radius-topleft: 5px;
@@ -749,7 +797,7 @@ header#header #nav-container {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
-/* line 131, ../../../app/stylesheets/converge-ui/components/_header.scss */
+/* line 148, ../../../app/stylesheets/converge-ui/components/_header.scss */
 header#header #widget-container {
   float: right;
   margin-right: 15px;
@@ -757,15 +805,15 @@ header#header #widget-container {
   top: 22px;
   min-width: 225px;
 }
-/* line 137, ../../../app/stylesheets/converge-ui/components/_header.scss */
+/* line 154, ../../../app/stylesheets/converge-ui/components/_header.scss */
 header#header #widget-container a {
   color: white;
 }
-/* line 138, ../../../app/stylesheets/converge-ui/components/_header.scss */
+/* line 155, ../../../app/stylesheets/converge-ui/components/_header.scss */
 header#header #widget-container ul {
   float: left;
 }
-/* line 141, ../../../app/stylesheets/converge-ui/components/_header.scss */
+/* line 158, ../../../app/stylesheets/converge-ui/components/_header.scss */
 header#header #widget-container ul li ul {
   display: none;
   position: absolute;
@@ -794,7 +842,7 @@ header#header #widget-container ul li ul {
   top: 16px;
   z-index: 99;
 }
-/* line 155, ../../../app/stylesheets/converge-ui/components/_header.scss */
+/* line 172, ../../../app/stylesheets/converge-ui/components/_header.scss */
 header#header #widget-container ul li .arrow_icon_menu {
   height: 11px;
   width: 13px;
@@ -802,12 +850,12 @@ header#header #widget-container ul li .arrow_icon_menu {
   float: right;
   margin: 4px 0 0 0;
 }
-/* line 161, ../../../app/stylesheets/converge-ui/components/_header.scss */
+/* line 178, ../../../app/stylesheets/converge-ui/components/_header.scss */
 header#header #widget-container ul li .arrow_icon_menu:hover {
   background: url('/images/converge-ui/icons/arrow_icon.png?1340768956') no-repeat 0 0;
   background-position: 0 -13px;
 }
-/* line 170, ../../../app/stylesheets/converge-ui/components/_header.scss */
+/* line 187, ../../../app/stylesheets/converge-ui/components/_header.scss */
 header#header .header-widget {
   background-color: rgba(25, 25, 30, 0.4);
   -webkit-border-radius: 5px;
@@ -836,6 +884,12 @@ header#header .header-widget {
 /* default links */
 /* unfocused tabs */
 /* list items prelight state */
+/*************************************************
+*   Header Colors
+**************************************************/
+/*************************************************
+*   Login Colors
+**************************************************/
 /**
 * Complex Color Definitions
 **/
@@ -938,6 +992,12 @@ article:after, section:after {
 /* default links */
 /* unfocused tabs */
 /* list items prelight state */
+/*************************************************
+*   Header Colors
+**************************************************/
+/*************************************************
+*   Login Colors
+**************************************************/
 /**
 * Complex Color Definitions
 **/
@@ -1009,6 +1069,7 @@ body > footer .versioning {
   font-family: "Overpass", Interstate, sans-serif;
 }
 /* line 15, ../../../app/stylesheets/converge-example.scss */
-.maincontent ul li a {
+.maincontent ul li a, .maincontent ul li a:visited, .maincontent ul li a:link, .maincontent ul li a:active {
+  color: #1682a5;
   text-decoration: none;
 }
