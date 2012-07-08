@@ -1,5 +1,21 @@
 @import "compass/reset";
-@import "converge-ui/shell.scss";
-@import "converge-ui/header.scss";
-@import "converge-ui/footer.scss";
-@import "converge-ui/media.scss";
+@import "converge-ui/composites/shell";
+
+.maincontent {
+  ul { 
+    list-style: circle; 
+    padding: 20px 40px; 
+
+    li { 
+      display: list-item; 
+      margin-top: 10px; 
+      font-size: 14px;
+      font-family: $headlinefont;
+
+      a, a:visited, a:link, a:active {
+        color: $kselected_color;
+        text-decoration: none;
+      }
+    }
+  }
+}

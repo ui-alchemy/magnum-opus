@@ -1,3 +1,5 @@
+require 'ostruct'
+
 class LoginController < ApplicationController
 
   def index
@@ -9,10 +11,11 @@ class LoginController < ApplicationController
   end
 
   def password_reset
-    render "password_reset", :layout => "converge-ui/password_reset_layout"
+    render "index", :layout => "converge-ui/login_layout"
   end
 
   def change_password
+    @user = OpenStruct.new(:password_reset_token => "")
     render "change_password", :layout => "converge-ui/change_password_layout"
   end
 

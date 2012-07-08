@@ -5,4 +5,3 @@ require File.expand_path('../application', __FILE__)
 ConvergeExample::Application.initialize!
 
 GettextI18nRails.translations_are_html_safe = true
-
