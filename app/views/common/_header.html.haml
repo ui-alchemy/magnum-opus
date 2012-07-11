@@ -22,3 +22,13 @@
     %li
       %a{ :href => "#" }
         Fifth Tab
+
+= content_for(:widgets) do
+  %a{ :href => "#", "class" => "header-widget" }
+    = "Widget 1"
+  %a{ :href => "#", "class" => "header-widget" }
+    = "Widget 2"
+  %ul.header-widget
+    %li
+      %a{ :href => "#" }
+        = "Widget 3"
