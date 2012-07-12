@@ -1166,19 +1166,277 @@ body > footer .versioning {
   text-align: center;
 }
 
-/* line 5, ../../../app/stylesheets/converge-example.scss */
+/*
+* Font Type Variables
+*/
+/*
+* Component Size Variables
+*/
+/*****************
+* Sign-On Screen
+*****************/
+/********
+* Images
+*********/
+/*************
+* Base Colors
+**************/
+/* default links */
+/* unfocused tabs */
+/* list items prelight state */
+/**************
+* Form Colors
+***************/
+/****************
+*  Header Colors
+*****************/
+/****************
+*  Footer Colors
+*****************/
+/****************
+*  Login Colors
+*****************/
+/****************************
+*  Complex Color Definitions
+*****************************/
+/* background for header */
+/* background for tabs on header */
+/*****************
+* Switcher Colors
+******************/
+/* line 4, ../../../app/stylesheets/converge-ui/components/_forms.scss */
+input, textarea {
+  margin: 0;
+  padding: .75em 1em;
+  /*box-shadow*/
+  -webkit-box-shadow: inset 0px .15em .5em #dadada;
+  -moz-box-shadow: inset 0px .15em .5em #dadada;
+  box-shadow: inset 0px .15em .5em #dadada;
+  border: .09em solid #ddd;
+  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+/* line 15, ../../../app/stylesheets/converge-ui/components/_forms.scss */
+input:focus, textarea:focus {
+  border-color: #fa0;
+  outline: none;
+  /*box-shadow*/
+  -webkit-box-shadow: 0px 0em  .25em .2em #fa0;
+  -moz-box-shadow: 0px 0em  .25em .2em #fa0;
+  box-shadow: 0px 0em  .25em .2em #fa0;
+  -moz-box-shadow: 0px 0px 4px #0194e8;
+  -webkit-box-shadow: 0px 0px 4px #0194e8;
+  -o-box-shadow: 0px 0px 4px #0194e8;
+  box-shadow: 0px 0px 4px #0194e8;
+  border: 1px solid #0194e8;
+  background-color: #fff;
+}
+
+/*radio and checkboxes are special*/
+/* line 27, ../../../app/stylesheets/converge-ui/components/_forms.scss */
+input[type="checkbox"], input[type="radio"] {
+  display: inline;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+}
+
+/*input types with icons*/
+/*we don't use our icon font because :before and :after selectors are not allowed on form elements, this means background-image is the only way*/
+/* line 34, ../../../app/stylesheets/converge-ui/components/_forms.scss */
+input {
+  background-repeat: no-repeat;
+  background-position: .5em 50%;
+  /*background-size*/
+  -webkit-background-size: 1em;
+  -moz-background-size: 1em;
+  -o-background-size: 1em;
+  background-size: 1em;
+}
+
+/*making room for the icons*/
+/* line 44, ../../../app/stylesheets/converge-ui/components/_forms.scss */
+input[type="username"], input[type="password"], input[type="search"] {
+  padding-left: 2em;
+}
+
+/*setting the icons*/
+/* line 48, ../../../app/stylesheets/converge-ui/components/_forms.scss */
+input[type="username"] {
+  background-image: url(../img/user.png);
+  /*fallback png then inline svg*/
+}
+
+/* line 52, ../../../app/stylesheets/converge-ui/components/_forms.scss */
+input[type="password"] {
+  background-image: url(../img/lock.png);
+}
+
+/* line 55, ../../../app/stylesheets/converge-ui/components/_forms.scss */
+input[required="required"] {
+  /*consider adding an svg asterisk * */
+}
+
+/*buttons are special*/
+/*Buttons*/
+/*remove the border if we cansafely do box-shadow */
+/* line 63, ../../../app/stylesheets/converge-ui/components/_forms.scss */
+.boxshadow input, .boxshadow textarea {
+  border-style: none;
+}
+
+/*only apply the tiny border if we can support boxshadow */
+/* line 67, ../../../app/stylesheets/converge-ui/components/_forms.scss */
+.boxshadow.borderradius input, .boxshadow.borderradius textarea {
+  -webkit-border-radius: .35em;
+  -moz-border-radius: .35em;
+  border-radius: .35em;
+}
+
+/* line 76, ../../../app/stylesheets/converge-ui/components/_forms.scss */
+.boxshadow.borderradius input[type="button"]:hover,
+.boxshadow.borderradius input[type="submit"]:hover,
+.boxshadow.borderradius input[type="button"]:focus,
+.boxshadow.borderradius input[type="submit"]:focus {
+  background-color: #222;
+  color: #fff;
+  border-color: #222;
+}
+
+/* line 84, ../../../app/stylesheets/converge-ui/components/_forms.scss */
+.boxshadow.borderradius input[type="button"]:hover,
+.boxshadow.borderradius input[type="submit"]:hover,
+.boxshadow.borderradius input[type="button"]:focus,
+.boxshadow.borderradius input[type="submit"]:focus {
+  /*box-shadow*/
+  -webkit-box-shadow: 0px 0em 0.25em 0.2em #ffaa00, 0 1.5px 2px rgba(0, 0, 0, 0.1), 0 4px 5px rgba(0, 0, 0, 0.2), 0 0 4px rgba(255, 255, 255, 0.7) inset, 0 -5px 10px rgba(0, 0, 0, 0.2) inset;
+  -moz-box-shadow: 0px 0em 0.25em 0.2em #ffaa00, 0 1.5px 2px rgba(0, 0, 0, 0.1), 0 4px 5px rgba(0, 0, 0, 0.2), 0 0 4px rgba(255, 255, 255, 0.7) inset, 0 -5px 10px rgba(0, 0, 0, 0.2) inset;
+  box-shadow: 0px 0em 0.25em 0.2em #ffaa00, 0 1.5px 2px rgba(0, 0, 0, 0.1), 0 4px 5px rgba(0, 0, 0, 0.2), 0 0 4px rgba(255, 255, 255, 0.7) inset, 0 -5px 10px rgba(0, 0, 0, 0.2) inset;
+  text-shadow: 0px -1px rgba(0, 0, 0, 0.4);
+}
+
+/* line 91, ../../../app/stylesheets/converge-ui/components/_forms.scss */
+input[type="submit"].active {
+  outline: none;
+}
+
+/* BUTTONS */
+/* line 95, ../../../app/stylesheets/converge-ui/components/_forms.scss */
+input[type='submit'], button, .button {
+  font-family: "Liberation Sans", sans-serif;
+  /* for some reason ff3.6 won't inherit from body */
+  font-size: 10px;
+  display: inline-block;
+  background: -moz-linear-gradient(top, #f9f9f9, #f0f0f0, #e5e5e5, #e9e9e9);
+  background: -webkit-gradient(linear, left top, left bottom, from(#f9f9f9), color-stop(0.9, #e5e5e5), to(#e9e9e9));
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  color: #221e1f;
+  cursor: pointer;
+  margin: 4px;
+  padding: 4px 12px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  text-shadow: white 0 1px 0;
+  -moz-text-shadow: white 0 1px 0;
+  -webkit-text-shadow: white 0 1px 0;
+  min-height: 14px;
+}
+/* line 110, ../../../app/stylesheets/converge-ui/components/_forms.scss */
+input[type='submit'] .nomargin, button .nomargin, .button .nomargin {
+  margin: 0;
+}
+/* line 113, ../../../app/stylesheets/converge-ui/components/_forms.scss */
+input[type='submit']:hover, button:hover, .button:hover {
+  background: -moz-linear-gradient(top, white, white, #cfcfcf);
+  background: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(0.6, white), to(#cfcfcf));
+  -moz-box-shadow: 0, 1px, 2px, rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0, 1px, 2px, rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 0, 1px, 2px, rgba(0, 0, 0, 0.5);
+  box-shadow: 0, 1px, 2px, rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  color: black;
+}
+/* line 120, ../../../app/stylesheets/converge-ui/components/_forms.scss */
+input[type='submit']:active, button:active, .button:active {
+  background: -moz-linear-gradient(top, #c2c3c0, #e4e5e4);
+  background: -webkit-gradient(linear, left top, left bottom, from(#c2c3c0), to(#e4e5e4));
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  padding: 5px 12px 3px;
+  text-decoration: none;
+}
+/* line 127, ../../../app/stylesheets/converge-ui/components/_forms.scss */
+input[type='submit']:focus, button:focus, .button:focus {
+  text-decoration: none;
+  color: #000;
+  border-width: 2px;
+  padding: 3px 11px;
+}
+/* line 133, ../../../app/stylesheets/converge-ui/components/_forms.scss */
+input[type='submit'].dialogbutton, button.dialogbutton, .button.dialogbutton {
+  float: right;
+  margin-left: 3px;
+  margin: 40px 4px 4px;
+}
+/* line 138, ../../../app/stylesheets/converge-ui/components/_forms.scss */
+input[type='submit'].formbutton, button.formbutton, .button.formbutton {
+  display: inline-block;
+  margin-left: 3px;
+  margin: 40px 4px 4px;
+}
+/* line 143, ../../../app/stylesheets/converge-ui/components/_forms.scss */
+input[type='submit'].actionlink, button.actionlink, .button.actionlink {
+  margin: 40px 0 0;
+}
+/* line 146, ../../../app/stylesheets/converge-ui/components/_forms.scss */
+input[type='submit'].disabled, input[type='submit'][disabled], button.disabled, button[disabled], .button.disabled, .button[disabled] {
+  cursor: default;
+  background: transparent;
+  opacity: 0.4;
+}
+/* line 151, ../../../app/stylesheets/converge-ui/components/_forms.scss */
+input[type='submit'].disabled:hover, input[type='submit'][disabled]:hover, button.disabled:hover, button[disabled]:hover, .button.disabled:hover, .button[disabled]:hover {
+  background: transparent;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+}
+/* line 156, ../../../app/stylesheets/converge-ui/components/_forms.scss */
+input[type='submit'].iconbutton, button.iconbutton, .button.iconbutton {
+  display: inline-block;
+}
+/* line 159, ../../../app/stylesheets/converge-ui/components/_forms.scss */
+input[type='submit'].tiny, button.tiny, .button.tiny {
+  padding: 4px;
+  margin: 0;
+}
+/* line 162, ../../../app/stylesheets/converge-ui/components/_forms.scss */
+input[type='submit'].tiny:active, input[type='submit'].tiny:focus, button.tiny:active, button.tiny:focus, .button.tiny:active, .button.tiny:focus {
+  margin: 0;
+  padding: 3px;
+}
+
+/* line 6, ../../../app/stylesheets/converge-example.scss */
 .maincontent ul {
   list-style: circle;
   padding: 20px 40px;
 }
-/* line 9, ../../../app/stylesheets/converge-example.scss */
+/* line 10, ../../../app/stylesheets/converge-example.scss */
 .maincontent ul li {
   display: list-item;
   margin-top: 10px;
   font-size: 14px;
   font-family: "Overpass", Interstate, sans-serif;
 }
-/* line 15, ../../../app/stylesheets/converge-example.scss */
+/* line 16, ../../../app/stylesheets/converge-example.scss */
 .maincontent ul li a, .maincontent ul li a:visited, .maincontent ul li a:link, .maincontent ul li a:active {
   color: #1682a5;
   text-decoration: none;
