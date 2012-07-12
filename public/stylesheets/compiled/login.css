@@ -498,7 +498,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 @font-face {
-  font-family: 'Overpass-bold';
+  font-family: 'Overpass';
   src: local("Overpass Bold"), local("OverpassBold"), url('/fonts/overpass_bold-web.eot?#iefix') format("eot"), url('/fonts/overpass_bold-web.woff') format("woff"), url('/fonts/overpass_bold-web.ttf') format("truetype"), url('/fonts/overpass_bold-web.svg#webfontzAU82Ltw') format("svg");
   font-weight: bold;
   font-style: normal;
@@ -605,7 +605,7 @@ h5 {
 /* line 18, ../../../app/stylesheets/converge-ui/components/_text.scss */
 h1, h2, h3, h4, h5 {
   color: #939292;
-  font-family: "Overpass-bold", Interstate-bold, sans-serif;
+  font-family: "Overpass", Interstate, sans-serif;
   font-weight: bold;
   word-wrap: break-word;
 }
@@ -843,10 +843,9 @@ article .container section .card h2 {
   display: inline-block;
   margin-top: 42px;
   font-size: 12px;
-  font-family: "Overpass", Interstate, sans-serif;
   color: #50505a;
 }
-/* line 137, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 136, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .container section .card p {
   text-align: justify;
   height: 30px;
@@ -855,17 +854,17 @@ article .container section .card p {
   font-size: 10px;
   margin-left: 10px;
 }
-/* line 148, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 147, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .container section .card fieldset.primary label {
   display: block;
   margin-bottom: 0px;
   margin-left: 10px;
   font-size: 12px;
-  font-weight: bold;
   color: #cccccc;
   text-align: left;
+  font-weight: bold;
 }
-/* line 158, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 157, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .container section .card fieldset.primary input {
   width: 290px;
   padding: 6px 0px 6px 10px;
@@ -884,7 +883,7 @@ article .container section .card fieldset.primary input {
   -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.2);
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.2);
 }
-/* line 168, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 167, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .container section .card fieldset.primary input:focus {
   -moz-box-shadow: 0px 0px 4px #0194e8;
   -webkit-box-shadow: 0px 0px 4px #0194e8;
@@ -892,21 +891,21 @@ article .container section .card fieldset.primary input:focus {
   box-shadow: 0px 0px 4px #0194e8;
   border: 1px solid #0194e8;
 }
-/* line 176, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 175, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .container section .card #password_conflict {
   color: red;
 }
-/* line 178, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 177, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .container section .card .group {
   position: relative;
   height: 50px;
 }
-/* line 182, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 181, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .container section .card .group.secondary_actions {
   margin-bottom: 15px;
   height: 18px;
 }
-/* line 187, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 186, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .container section .card .group span {
   position: absolute;
   bottom: 0;
@@ -914,31 +913,31 @@ article .container section .card .group span {
   font-size: 11px;
   color: #50505a;
 }
-/* line 194, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 193, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .container section .card .group span a {
   color: #0194e8;
 }
-/* line 198, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 197, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .container section .card #progress-indicator {
   margin: 4px;
   display: none;
 }
-/* line 203, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 202, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .container section .card a {
   display: inline-block;
   outline: 0;
   text-align: left;
   margin: 0;
 }
-/* line 209, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 208, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .container section .card a:hover {
   background-position-y: -16px;
 }
-/* line 214, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 213, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .container section .card .button {
   margin-bottom: 0px;
 }
-/* line 221, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 220, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .button {
   height: 30px;
   border: 1px solid #cccccc;
@@ -975,17 +974,17 @@ article .button {
   right: 0;
 }
 
-/* line 239, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 238, ../../../app/stylesheets/converge-ui/components/_login.scss */
 .invisible {
   visibility: hidden;
 }
 
-/* line 243, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 242, ../../../app/stylesheets/converge-ui/components/_login.scss */
 .hidden {
   display: none;
 }
 
-/* line 247, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 246, ../../../app/stylesheets/converge-ui/components/_login.scss */
 input[type='submit'], button, .button {
   font-family: "Liberation Sans", sans-serif;
   /* for some reason ff3.6 won't inherit from body */
@@ -1000,11 +999,11 @@ input[type='submit'], button, .button {
   min-height: 14px;
   color: #50505a;
 }
-/* line 258, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 257, ../../../app/stylesheets/converge-ui/components/_login.scss */
 input[type='submit'] .nomargin, button .nomargin, .button .nomargin {
   margin: 0;
 }
-/* line 261, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 260, ../../../app/stylesheets/converge-ui/components/_login.scss */
 input[type='submit']:hover, button:hover, .button:hover {
   background: -moz-linear-gradient(top, white, white, #cfcfcf);
   background: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(0.6, white), to(#cfcfcf));
@@ -1015,7 +1014,7 @@ input[type='submit']:hover, button:hover, .button:hover {
   text-decoration: none;
   color: black;
 }
-/* line 268, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 267, ../../../app/stylesheets/converge-ui/components/_login.scss */
 input[type='submit']:active, button:active, .button:active {
   background: -moz-linear-gradient(top, #c2c3c0, #e4e5e4);
   background: -webkit-gradient(linear, left top, left bottom, from(#c2c3c0), to(#e4e5e4));
@@ -1024,52 +1023,52 @@ input[type='submit']:active, button:active, .button:active {
   -webkit-box-shadow: none;
   text-decoration: none;
 }
-/* line 274, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 273, ../../../app/stylesheets/converge-ui/components/_login.scss */
 input[type='submit']:focus, button:focus, .button:focus {
   text-decoration: none;
   color: #000;
   border-width: 2px;
   padding: 3px 11px;
 }
-/* line 280, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 279, ../../../app/stylesheets/converge-ui/components/_login.scss */
 input[type='submit'].dialogbutton, button.dialogbutton, .button.dialogbutton {
   float: right;
   margin-left: 3px;
   margin: 40px 4px 4px;
 }
-/* line 285, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 284, ../../../app/stylesheets/converge-ui/components/_login.scss */
 input[type='submit'].formbutton, button.formbutton, .button.formbutton {
   display: inline-block;
   margin-left: 3px;
   margin: 40px 4px 4px;
 }
-/* line 290, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 289, ../../../app/stylesheets/converge-ui/components/_login.scss */
 input[type='submit'].actionlink, button.actionlink, .button.actionlink {
   margin: 40px 0 0;
 }
-/* line 293, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 292, ../../../app/stylesheets/converge-ui/components/_login.scss */
 input[type='submit'].disabled, input[type='submit'][disabled], button.disabled, button[disabled], .button.disabled, .button[disabled] {
   cursor: default;
   background: transparent;
   opacity: 0.4;
 }
-/* line 298, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 297, ../../../app/stylesheets/converge-ui/components/_login.scss */
 input[type='submit'].disabled:hover, input[type='submit'][disabled]:hover, button.disabled:hover, button[disabled]:hover, .button.disabled:hover, .button[disabled]:hover {
   background: transparent;
   box-shadow: none;
   -moz-box-shadow: none;
   -webkit-box-shadow: none;
 }
-/* line 303, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 302, ../../../app/stylesheets/converge-ui/components/_login.scss */
 input[type='submit'].iconbutton, button.iconbutton, .button.iconbutton {
   display: inline-block;
 }
-/* line 306, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 305, ../../../app/stylesheets/converge-ui/components/_login.scss */
 input[type='submit'].tiny, button.tiny, .button.tiny {
   padding: 4px;
   margin: 0;
 }
-/* line 309, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 308, ../../../app/stylesheets/converge-ui/components/_login.scss */
 input[type='submit'].tiny:active, input[type='submit'].tiny:focus, button.tiny:active, button.tiny:focus, .button.tiny:active, .button.tiny:focus {
   margin: 0;
   padding: 3px;

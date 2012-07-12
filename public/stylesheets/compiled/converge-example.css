@@ -498,7 +498,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 @font-face {
-  font-family: 'Overpass-bold';
+  font-family: 'Overpass';
   src: local("Overpass Bold"), local("OverpassBold"), url('/fonts/overpass_bold-web.eot?#iefix') format("eot"), url('/fonts/overpass_bold-web.woff') format("woff"), url('/fonts/overpass_bold-web.ttf') format("truetype"), url('/fonts/overpass_bold-web.svg#webfontzAU82Ltw') format("svg");
   font-weight: bold;
   font-style: normal;
@@ -605,7 +605,7 @@ h5 {
 /* line 18, ../../../app/stylesheets/converge-ui/components/_text.scss */
 h1, h2, h3, h4, h5 {
   color: #939292;
-  font-family: "Overpass-bold", Interstate-bold, sans-serif;
+  font-family: "Overpass", Interstate, sans-serif;
   font-weight: bold;
   word-wrap: break-word;
 }
