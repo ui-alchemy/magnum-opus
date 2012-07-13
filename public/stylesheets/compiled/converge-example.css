@@ -112,7 +112,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   height: 16px;
   line-height: 16px;
   vertical-align: text-top;
-  background-image: url('/images/converge-ui/icons/action-icons.png?1342144336');
+  background-image: url('/images/converge-ui/icons/action-icons.png?1342144795');
   background-position: 16px 16px;
   background-repeat: no-repeat;
 }
@@ -378,46 +378,46 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 /* line 133, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
 .security_icon {
-  background: url('/images/converge-ui/icons/action-icons.png?1342144336') -432px -16px no-repeat;
+  background: url('/images/converge-ui/icons/action-icons.png?1342144795') -432px -16px no-repeat;
 }
 
 /* line 137, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
 .enhancement_icon {
-  background: url('/images/converge-ui/icons/action-icons.png?1342144336') -400px -16px no-repeat;
+  background: url('/images/converge-ui/icons/action-icons.png?1342144795') -400px -16px no-repeat;
 }
 
 /* line 141, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
 .bugzilla_icon {
-  background: url('/images/converge-ui/icons/action-icons.png?1342144336') -416px -16px no-repeat;
+  background: url('/images/converge-ui/icons/action-icons.png?1342144795') -416px -16px no-repeat;
 }
 
 /* line 145, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
 .details-icon {
-  background: url('/images/converge-ui/icons/action-icons.png?1342144336') -256px 0px no-repeat;
+  background: url('/images/converge-ui/icons/action-icons.png?1342144795') -256px 0px no-repeat;
   float: right;
 }
 /* line 149, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
 .details-icon:hover {
-  background: url('/images/converge-ui/icons/action-icons.png?1342144336') -256px -16px no-repeat;
+  background: url('/images/converge-ui/icons/action-icons.png?1342144795') -256px -16px no-repeat;
 }
 
 /* line 151, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
 .details-icon-hover {
-  background: url('/images/converge-ui/icons/action-icons.png?1342144336') -256px -16px no-repeat;
+  background: url('/images/converge-ui/icons/action-icons.png?1342144795') -256px -16px no-repeat;
 }
 
 /* line 155, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
 .details-icon-nohover {
-  background: url('/images/converge-ui/icons/action-icons.png?1342144336') -256px 0px no-repeat;
+  background: url('/images/converge-ui/icons/action-icons.png?1342144795') -256px 0px no-repeat;
 }
 
 /* line 160, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
 .gears_icon {
-  background: url('/images/converge-ui/icons/action-icons.png?1342144336') -64px -16px no-repeat;
+  background: url('/images/converge-ui/icons/action-icons.png?1342144795') -64px -16px no-repeat;
 }
 /* line 163, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
 .gears_icon:hover {
-  background: url('/images/converge-ui/icons/action-icons.png?1342144336') -64px 0px no-repeat;
+  background: url('/images/converge-ui/icons/action-icons.png?1342144795') -64px 0px no-repeat;
 }
 
 /*
