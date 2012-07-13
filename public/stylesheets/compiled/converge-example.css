@@ -1431,7 +1431,7 @@ input[type='submit'].tiny:active, input[type='submit'].tiny:focus, button.tiny:a
 }
 
 /* @group Base */
-/* line 2, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
+/* line 3, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
 .chzn-container {
   font-size: 13px;
   position: relative;
@@ -1439,8 +1439,7 @@ input[type='submit'].tiny:active, input[type='submit'].tiny:focus, button.tiny:a
   zoom: 1;
   *display: inline;
 }
-
-/* line 9, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
+/* line 10, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
 .chzn-container .chzn-drop {
   background: #fff;
   border: 1px solid #aaa;
@@ -1452,48 +1451,39 @@ input[type='submit'].tiny:active, input[type='submit'].tiny:focus, button.tiny:a
   -moz-box-shadow: 0 4px 5px rgba(0, 0, 0, 0.15);
   -o-box-shadow: 0 4px 5px rgba(0, 0, 0, 0.15);
   box-shadow: 0 4px 5px rgba(0, 0, 0, 0.15);
-  z-index: 1010;
+  z-index: 999;
 }
 
 /* @end */
 /* @group Single Chosen */
-/* line 25, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
+/* line 30, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
 .chzn-container-single .chzn-single {
-  background-color: #ffffff;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#eeeeee', GradientType=0 );
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(20%, white), color-stop(50%, #f6f6f6), color-stop(52%, #eeeeee), color-stop(100%, #f4f4f4));
-  background-image: -webkit-linear-gradient(top, white 20%, #f6f6f6 50%, #eeeeee 52%, #f4f4f4 100%);
-  background-image: -moz-linear-gradient(top, white 20%, #f6f6f6 50%, #eeeeee 52%, #f4f4f4 100%);
-  background-image: -o-linear-gradient(top, white 20%, #f6f6f6 50%, #eeeeee 52%, #f4f4f4 100%);
-  background-image: -ms-linear-gradient(top, white 20%, #f6f6f6 50%, #eeeeee 52%, #f4f4f4 100%);
-  background-image: linear-gradient(top, #ffffff 20%, #f6f6f6 50%, #eeeeee 52%, #f4f4f4 100%);
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
+  background-color: #fff;
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #eeeeee), color-stop(0.5, white));
+  background-image: -webkit-linear-gradient(center bottom, #eeeeee 0%, white 50%);
+  background-image: -moz-linear-gradient(center bottom, #eeeeee 0%, white 50%);
+  background-image: -o-linear-gradient(top, #eeeeee 0%, white 50%);
+  background-image: -ms-linear-gradient(top, #eeeeee 0%, white 50%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eeeeee', endColorstr='#ffffff',GradientType=0 );
+  background-image: linear-gradient(top, #eeeeee 0%, #ffffff 50%);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  border: 1px solid #aaaaaa;
-  -webkit-box-shadow: 0 0 3px white inset, 0 1px 1px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0 0 3px white inset, 0 1px 1px rgba(0, 0, 0, 0.1);
-  box-shadow: 0 0 3px white inset, 0 1px 1px rgba(0, 0, 0, 0.1);
+  border: 1px solid #aaa;
   display: block;
   overflow: hidden;
   white-space: nowrap;
   position: relative;
-  height: 23px;
-  line-height: 24px;
+  height: 19px;
+  line-height: 19px;
   padding: 0 0 0 8px;
-  color: #444444;
+  color: #999999;
   text-decoration: none;
 }
-
-/* line 54, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
-.chzn-container-single .chzn-default {
-  color: #999;
-}
-
-/* line 57, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
+/* line 55, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
 .chzn-container-single .chzn-single span {
   margin-right: 26px;
   display: block;
@@ -1503,31 +1493,38 @@ input[type='submit'].tiny:active, input[type='submit'].tiny:focus, button.tiny:a
   -ms-text-overflow: ellipsis;
   text-overflow: ellipsis;
 }
-
-/* line 66, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
+/* line 64, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
 .chzn-container-single .chzn-single abbr {
   display: block;
   position: absolute;
   right: 26px;
-  top: 6px;
+  top: 8px;
   width: 12px;
   height: 13px;
   font-size: 1px;
   background: url("../../images/converge-ui/icons/chosen-sprite.png") right top no-repeat;
 }
-
-/* line 76, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
+/* line 73, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
 .chzn-container-single .chzn-single abbr:hover {
   background-position: right -11px;
 }
-
-/* line 79, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
-.chzn-container-single.chzn-disabled .chzn-single abbr:hover {
-  background-position: right top;
-}
-
-/* line 82, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
+/* line 77, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
 .chzn-container-single .chzn-single div {
+  -webkit-border-radius: 0 4px 4px 0;
+  -moz-border-radius: 0 4px 4px 0;
+  border-radius: 0 4px 4px 0;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  background: #ccc;
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #cccccc), color-stop(0.6, #eeeeee));
+  background-image: -webkit-linear-gradient(center bottom, #cccccc 0%, #eeeeee 60%);
+  background-image: -moz-linear-gradient(center bottom, #cccccc 0%, #eeeeee 60%);
+  background-image: -o-linear-gradient(bottom, #cccccc 0%, #eeeeee 60%);
+  background-image: -ms-linear-gradient(top, #cccccc 0%, #eeeeee 60%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cccccc', endColorstr='#eeeeee',GradientType=0 );
+  background-image: linear-gradient(top, #cccccc 0%, #eeeeee 60%);
+  border-left: 1px solid #aaa;
   position: absolute;
   right: 0;
   top: 0;
@@ -1535,16 +1532,15 @@ input[type='submit'].tiny:active, input[type='submit'].tiny:focus, button.tiny:a
   height: 100%;
   width: 18px;
 }
-
-/* line 90, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
+/* line 99, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
 .chzn-container-single .chzn-single div b {
-  background: url("../../images/converge-ui/icons/chosen-sprite.png") no-repeat 0 0;
+  margin-top: -4px;
+  background: url("../../images/converge-ui/icons/chosen-sprite.png") no-repeat 0 1px;
   display: block;
   width: 100%;
   height: 100%;
 }
-
-/* line 96, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
+/* line 108, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
 .chzn-container-single .chzn-search {
   padding: 3px 4px;
   position: relative;
@@ -1552,16 +1548,15 @@ input[type='submit'].tiny:active, input[type='submit'].tiny:focus, button.tiny:a
   white-space: nowrap;
   z-index: 1010;
 }
-
-/* line 103, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
+/* line 114, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
 .chzn-container-single .chzn-search input {
   background: white url("../../images/converge-ui/icons/chosen-sprite.png") no-repeat 100% -22px;
-  background: url("../../images/converge-ui/icons/chosen-sprite.png") no-repeat 100% -22px, -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(1%, #eeeeee), color-stop(15%, white));
-  background: url("../../images/converge-ui/icons/chosen-sprite.png") no-repeat 100% -22px, -webkit-linear-gradient(top, #eeeeee 1%, white 15%);
-  background: url("../../images/converge-ui/icons/chosen-sprite.png") no-repeat 100% -22px, -moz-linear-gradient(top, #eeeeee 1%, white 15%);
-  background: url("../../images/converge-ui/icons/chosen-sprite.png") no-repeat 100% -22px, -o-linear-gradient(top, #eeeeee 1%, white 15%);
-  background: url("../../images/converge-ui/icons/chosen-sprite.png") no-repeat 100% -22px, -ms-linear-gradient(top, #eeeeee 1%, white 15%);
-  background: url("../../images/converge-ui/icons/chosen-sprite.png") no-repeat 100% -22px, linear-gradient(top, #eeeeee 1%, #ffffff 15%);
+  background: url("../../images/converge-ui/icons/chosen-sprite.png") no-repeat 100% -22px, -webkit-gradient(linear, left bottom, left top, color-stop(0.85, white), color-stop(0.99, #eeeeee));
+  background: url("../../images/converge-ui/icons/chosen-sprite.png") no-repeat 100% -22px, -webkit-linear-gradient(center bottom, white 85%, #eeeeee 99%);
+  background: url("../../images/converge-ui/icons/chosen-sprite.png") no-repeat 100% -22px, -moz-linear-gradient(center bottom, white 85%, #eeeeee 99%);
+  background: url("../../images/converge-ui/icons/chosen-sprite.png") no-repeat 100% -22px, -o-linear-gradient(bottom, white 85%, #eeeeee 99%);
+  background: url("../../images/converge-ui/icons/chosen-sprite.png") no-repeat 100% -22px, -ms-linear-gradient(top, white 85%, #eeeeee 99%);
+  background: url("../../images/converge-ui/icons/chosen-sprite.png") no-repeat 100% -22px, linear-gradient(top, #ffffff 85%, #eeeeee 99%);
   margin: 1px 0;
   padding: 4px 20px 4px 5px;
   outline: 0;
@@ -1569,8 +1564,7 @@ input[type='submit'].tiny:active, input[type='submit'].tiny:focus, button.tiny:a
   font-family: sans-serif;
   font-size: 1em;
 }
-
-/* line 118, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
+/* line 130, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
 .chzn-container-single .chzn-drop {
   -webkit-border-radius: 0 0 4px 4px;
   -moz-border-radius: 0 0 4px 4px;
@@ -1581,22 +1575,23 @@ input[type='submit'].tiny:active, input[type='submit'].tiny:focus, button.tiny:a
 }
 
 /* @end */
-/* line 128, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
+/* line 142, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
 .chzn-container-single-nosearch .chzn-search input {
   position: absolute;
   left: -9000px;
 }
 
 /* @group Multi Chosen */
-/* line 134, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
+/* line 149, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
 .chzn-container-multi .chzn-choices {
   background-color: #fff;
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(1%, #eeeeee), color-stop(15%, white));
-  background-image: -webkit-linear-gradient(top, #eeeeee 1%, white 15%);
-  background-image: -moz-linear-gradient(top, #eeeeee 1%, white 15%);
-  background-image: -o-linear-gradient(top, #eeeeee 1%, white 15%);
-  background-image: -ms-linear-gradient(top, #eeeeee 1%, white 15%);
-  background-image: linear-gradient(top, #eeeeee 1%, #ffffff 15%);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.85, white), color-stop(0.99, #eeeeee));
+  background-image: -webkit-linear-gradient(center bottom, white 85%, #eeeeee 99%);
+  background-image: -moz-linear-gradient(center bottom, white 85%, #eeeeee 99%);
+  background-image: -o-linear-gradient(bottom, white 85%, #eeeeee 99%);
+  background-image: -ms-linear-gradient(top, white 85%, #eeeeee 99%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#eeeeee',GradientType=0 );
+  background-image: linear-gradient(top, #ffffff 85%, #eeeeee 99%);
   border: 1px solid #aaa;
   margin: 0;
   padding: 0;
@@ -1606,28 +1601,22 @@ input[type='submit'].tiny:active, input[type='submit'].tiny:focus, button.tiny:a
   height: 1%;
   position: relative;
 }
-
-/* line 151, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
+/* line 166, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
 .chzn-container-multi .chzn-choices li {
   float: left;
   list-style: none;
 }
-
-/* line 155, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
+/* line 170, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
 .chzn-container-multi .chzn-choices .search-field {
   white-space: nowrap;
   margin: 0;
   padding: 0;
 }
-
-/* line 160, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
+/* line 174, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
 .chzn-container-multi .chzn-choices .search-field input {
   color: #666;
   background: transparent !important;
   border: 0 !important;
-  font-family: sans-serif;
-  font-size: 100%;
-  height: 15px;
   padding: 5px;
   margin: 1px 0;
   outline: 0;
@@ -1636,13 +1625,11 @@ input[type='submit'].tiny:active, input[type='submit'].tiny:focus, button.tiny:a
   -o-box-shadow: none;
   box-shadow: none;
 }
-
-/* line 175, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
+/* line 186, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
 .chzn-container-multi .chzn-choices .search-field .default {
   color: #999;
 }
-
-/* line 178, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
+/* line 190, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
 .chzn-container-multi .chzn-choices .search-choice {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -1651,31 +1638,29 @@ input[type='submit'].tiny:active, input[type='submit'].tiny:focus, button.tiny:a
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
   background-color: #e4e4e4;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f4f4f4', endColorstr='#eeeeee', GradientType=0 );
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(20%, #f4f4f4), color-stop(50%, #f0f0f0), color-stop(52%, #e8e8e8), color-stop(100%, #eeeeee));
-  background-image: -webkit-linear-gradient(top, #f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eeeeee 100%);
-  background-image: -moz-linear-gradient(top, #f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eeeeee 100%);
-  background-image: -o-linear-gradient(top, #f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eeeeee 100%);
-  background-image: -ms-linear-gradient(top, #f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eeeeee 100%);
-  background-image: linear-gradient(top, #f4f4f4 20%, #f0f0f0 50%, #e8e8e8 52%, #eeeeee 100%);
-  -webkit-box-shadow: 0 0 2px white inset, 0 1px 0 rgba(0, 0, 0, 0.05);
-  -moz-box-shadow: 0 0 2px white inset, 0 1px 0 rgba(0, 0, 0, 0.05);
-  box-shadow: 0 0 2px white inset, 0 1px 0 rgba(0, 0, 0, 0.05);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #e4e4e4), color-stop(0.7, #eeeeee));
+  background-image: -webkit-linear-gradient(center bottom, #e4e4e4 0%, #eeeeee 70%);
+  background-image: -moz-linear-gradient(center bottom, #e4e4e4 0%, #eeeeee 70%);
+  background-image: -o-linear-gradient(bottom, #e4e4e4 0%, #eeeeee 70%);
+  background-image: -ms-linear-gradient(top, #e4e4e4 0%, #eeeeee 70%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e4e4e4', endColorstr='#eeeeee',GradientType=0 );
+  background-image: linear-gradient(top, #e4e4e4 0%, #eeeeee 70%);
   color: #333;
-  border: 1px solid #aaaaaa;
+  border: 1px solid #b4b4b4;
   line-height: 13px;
-  padding: 3px 20px 3px 5px;
+  padding: 3px 19px 3px 6px;
   margin: 3px 0 3px 5px;
   position: relative;
+}
+/* line 211, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
+.chzn-container-multi .chzn-choices .search-choice span {
   cursor: default;
 }
-
-/* line 204, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
+/* line 215, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
 .chzn-container-multi .chzn-choices .search-choice-focus {
   background: #d4d4d4;
 }
-
-/* line 207, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
+/* line 218, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
 .chzn-container-multi .chzn-choices .search-choice .search-choice-close {
   display: block;
   position: absolute;
@@ -1684,137 +1669,86 @@ input[type='submit'].tiny:active, input[type='submit'].tiny:focus, button.tiny:a
   width: 12px;
   height: 13px;
   font-size: 1px;
-  background: url("../../images/converge-ui/icons/chosen-sprite.png") right top no-repeat;
+  background: url(chosen-sprite.png) right top no-repeat;
 }
-
-/* line 217, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
+/* line 227, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
 .chzn-container-multi .chzn-choices .search-choice .search-choice-close:hover {
   background-position: right -11px;
 }
-
-/* line 220, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
+/* line 231, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
 .chzn-container-multi .chzn-choices .search-choice-focus .search-choice-close {
   background-position: right -11px;
 }
 
 /* @end */
 /* @group Results */
-/* line 226, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
+/* line 240, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
 .chzn-container .chzn-results {
   margin: 0 4px 4px 0;
-  max-height: 240px;
+  max-height: 190px;
   padding: 0 0 0 4px;
   position: relative;
   overflow-x: hidden;
   overflow-y: auto;
-  -webkit-overflow-scrolling: touch;
 }
 
-/* line 235, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
+/* line 249, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
 .chzn-container-multi .chzn-results {
   margin: -1px 0 0;
   padding: 0;
 }
 
-/* line 239, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
+/* line 255, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
 .chzn-container .chzn-results li {
   display: none;
-  line-height: 15px;
-  padding: 5px 6px;
+  line-height: 80%;
+  padding: 7px 7px 8px;
   margin: 0;
   list-style: none;
 }
-
-/* line 246, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
+/* line 262, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
 .chzn-container .chzn-results .active-result {
   cursor: pointer;
   display: list-item;
 }
-
-/* line 250, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
+/* line 266, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
 .chzn-container .chzn-results .highlighted {
-  background-color: #3875d7;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3875d7', endColorstr='#2a62bc', GradientType=0 );
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(20%, #3875d7), color-stop(90%, #2a62bc));
-  background-image: -webkit-linear-gradient(top, #3875d7 20%, #2a62bc 90%);
-  background-image: -moz-linear-gradient(top, #3875d7 20%, #2a62bc 90%);
-  background-image: -o-linear-gradient(top, #3875d7 20%, #2a62bc 90%);
-  background-image: -ms-linear-gradient(top, #3875d7 20%, #2a62bc 90%);
-  background-image: linear-gradient(top, #3875d7 20%, #2a62bc 90%);
+  background: #3875d7;
   color: #fff;
 }
-
-/* line 261, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
+/* line 270, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
 .chzn-container .chzn-results li em {
   background: #feffde;
   font-style: normal;
 }
-
-/* line 265, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
+/* line 274, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
 .chzn-container .chzn-results .highlighted em {
   background: transparent;
 }
-
-/* line 268, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
+/* line 277, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
 .chzn-container .chzn-results .no-results {
   background: #f4f4f4;
   display: list-item;
 }
-
-/* line 272, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
+/* line 281, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
 .chzn-container .chzn-results .group-result {
   cursor: default;
   color: #999;
   font-weight: bold;
 }
-
-/* line 277, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
+/* line 286, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
 .chzn-container .chzn-results .group-option {
-  padding-left: 15px;
+  padding-left: 20px;
 }
 
-/* line 280, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
+/* line 291, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
 .chzn-container-multi .chzn-drop .result-selected {
   display: none;
 }
 
-/* line 283, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
-.chzn-container .chzn-results-scroll {
-  background: white;
-  margin: 0 4px;
-  position: absolute;
-  text-align: center;
-  width: 321px;
-  /* This should by dynamic with js */
-  z-index: 1;
-}
-
-/* line 291, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
-.chzn-container .chzn-results-scroll span {
-  display: inline-block;
-  height: 17px;
-  text-indent: -5000px;
-  width: 9px;
-}
-
-/* line 297, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
-.chzn-container .chzn-results-scroll-down {
-  bottom: 0;
-}
-
-/* line 300, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
-.chzn-container .chzn-results-scroll-down span {
-  background: url("../../images/converge-ui/icons/chosen-sprite.png") no-repeat -4px -3px;
-}
-
-/* line 303, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
-.chzn-container .chzn-results-scroll-up span {
-  background: url("../../images/converge-ui/icons/chosen-sprite.png") no-repeat -22px -3px;
-}
-
 /* @end */
 /* @group Active  */
-/* line 309, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
+/* line 300, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
 .chzn-container-active .chzn-single {
   -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
@@ -1822,8 +1756,7 @@ input[type='submit'].tiny:active, input[type='submit'].tiny:focus, button.tiny:a
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
   border: 1px solid #5897fb;
 }
-
-/* line 316, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
+/* line 307, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
 .chzn-container-active .chzn-single-with-drop {
   border: 1px solid #aaa;
   -webkit-box-shadow: 0 1px 0 #fff inset;
@@ -1831,13 +1764,13 @@ input[type='submit'].tiny:active, input[type='submit'].tiny:focus, button.tiny:a
   -o-box-shadow: 0 1px 0 #fff inset;
   box-shadow: 0 1px 0 #fff inset;
   background-color: #eee;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eeeeee', endColorstr='#ffffff', GradientType=0 );
-  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(20%, #eeeeee), color-stop(80%, white));
-  background-image: -webkit-linear-gradient(top, #eeeeee 20%, white 80%);
-  background-image: -moz-linear-gradient(top, #eeeeee 20%, white 80%);
-  background-image: -o-linear-gradient(top, #eeeeee 20%, white 80%);
-  background-image: -ms-linear-gradient(top, #eeeeee 20%, white 80%);
-  background-image: linear-gradient(top, #eeeeee 20%, #ffffff 80%);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, white), color-stop(0.5, #eeeeee));
+  background-image: -webkit-linear-gradient(center bottom, white 0%, #eeeeee 50%);
+  background-image: -moz-linear-gradient(center bottom, white 0%, #eeeeee 50%);
+  background-image: -o-linear-gradient(bottom, white 0%, #eeeeee 50%);
+  background-image: -ms-linear-gradient(top, white 0%, #eeeeee 50%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#eeeeee',GradientType=0 );
+  background-image: linear-gradient(top, #ffffff 0%, #eeeeee 50%);
   -webkit-border-bottom-left-radius: 0;
   -webkit-border-bottom-right-radius: 0;
   -moz-border-radius-bottomleft: 0;
@@ -1845,19 +1778,16 @@ input[type='submit'].tiny:active, input[type='submit'].tiny:focus, button.tiny:a
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
 }
-
-/* line 337, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
+/* line 327, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
 .chzn-container-active .chzn-single-with-drop div {
   background: transparent;
   border-left: none;
 }
-
-/* line 341, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
+/* line 330, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
 .chzn-container-active .chzn-single-with-drop div b {
   background-position: -18px 1px;
 }
-
-/* line 344, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
+/* line 335, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
 .chzn-container-active .chzn-choices {
   -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
@@ -1865,112 +1795,91 @@ input[type='submit'].tiny:active, input[type='submit'].tiny:focus, button.tiny:a
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
   border: 1px solid #5897fb;
 }
-
-/* line 351, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
+/* line 341, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
 .chzn-container-active .chzn-choices .search-field input {
   color: #111 !important;
 }
 
 /* @end */
 /* @group Disabled Support */
-/* line 357, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
+/* line 351, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
 .chzn-disabled {
   cursor: default;
   opacity: 0.5 !important;
 }
-
-/* line 361, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
-.chzn-disabled .chzn-single {
-  cursor: default;
-}
-
-/* line 364, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
-.chzn-disabled .chzn-choices .search-choice .search-choice-close {
+/* line 354, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
+.chzn-disabled .chzn-single, .chzn-disabled .chzn-choices .search-choice .search-choice-close {
   cursor: default;
 }
 
 /* @group Right to Left */
-/* line 369, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
+/* line 361, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
 .chzn-rtl {
+  direction: rtl;
   text-align: right;
 }
-
-/* line 370, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
+/* line 364, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
 .chzn-rtl .chzn-single {
-  padding: 0 8px 0 0;
-  overflow: visible;
+  padding-left: 0;
+  padding-right: 8px;
 }
-
-/* line 371, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
+/* line 367, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
 .chzn-rtl .chzn-single span {
   margin-left: 26px;
   margin-right: 0;
-  direction: rtl;
 }
-
-/* line 373, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
+/* line 371, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
 .chzn-rtl .chzn-single div {
-  left: 3px;
+  left: 0;
   right: auto;
+  border-left: none;
+  border-right: 1px solid #aaaaaa;
+  -webkit-border-radius: 4px 0 0 4px;
+  -moz-border-radius: 4px 0 0 4px;
+  border-radius: 4px 0 0 4px;
 }
-
-/* line 374, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
-.chzn-rtl .chzn-single abbr {
-  left: 26px;
-  right: auto;
-}
-
-/* line 378, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
-.chzn-rtl .chzn-choices .search-field input {
-  direction: rtl;
-}
-
-/* line 379, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
+/* line 382, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
 .chzn-rtl .chzn-choices li {
   float: right;
 }
-
-/* line 380, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
+/* line 385, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
 .chzn-rtl .chzn-choices .search-choice {
-  padding: 3px 5px 3px 19px;
+  padding: 3px 6px 3px 19px;
   margin: 3px 5px 3px 0;
 }
-
-/* line 381, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
+/* line 388, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
 .chzn-rtl .chzn-choices .search-choice .search-choice-close {
-  left: 4px;
+  left: 5px;
   right: auto;
   background-position: right top;
 }
-
-/* line 382, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
+/* line 395, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
 .chzn-rtl.chzn-container-single .chzn-results {
-  margin: 0 0 4px 4px;
-  padding: 0 4px 0 0;
+  margin-left: 4px;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 4px;
 }
-
-/* line 383, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
+/* line 401, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
 .chzn-rtl .chzn-results .group-option {
   padding-left: 0;
-  padding-right: 15px;
+  padding-right: 20px;
 }
-
-/* line 384, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
+/* line 405, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
 .chzn-rtl.chzn-container-active .chzn-single-with-drop div {
   border-right: none;
 }
-
-/* line 385, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
+/* line 408, ../../../app/stylesheets/converge-ui/components/_chosen.scss */
 .chzn-rtl .chzn-search input {
-  background: white url("../../images/converge-ui/icons/chosen-sprite.png") no-repeat -38px -22px;
-  background: url("../../images/converge-ui/icons/chosen-sprite.png") no-repeat -38px -22px, -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(1%, #eeeeee), color-stop(15%, white));
-  background: url("../../images/converge-ui/icons/chosen-sprite.png") no-repeat -38px -22px, -webkit-linear-gradient(top, #eeeeee 1%, white 15%);
-  background: url("../../images/converge-ui/icons/chosen-sprite.png") no-repeat -38px -22px, -moz-linear-gradient(top, #eeeeee 1%, white 15%);
-  background: url("../../images/converge-ui/icons/chosen-sprite.png") no-repeat -38px -22px, -o-linear-gradient(top, #eeeeee 1%, white 15%);
-  background: url("../../images/converge-ui/icons/chosen-sprite.png") no-repeat -38px -22px, -ms-linear-gradient(top, #eeeeee 1%, white 15%);
-  background: url("../../images/converge-ui/icons/chosen-sprite.png") no-repeat -38px -22px, linear-gradient(top, #eeeeee 1%, #ffffff 15%);
+  background: url("../../images/converge-ui/icons/chosen-sprite.png") no-repeat -38px -22px, white;
+  background: url("../../images/converge-ui/icons/chosen-sprite.png") no-repeat -38px -22px, -webkit-gradient(linear, left bottom, left top, color-stop(0.85, white), color-stop(0.99, #eeeeee));
+  background: url("../../images/converge-ui/icons/chosen-sprite.png") no-repeat -38px -22px, -webkit-linear-gradient(center bottom, white 85%, #eeeeee 99%);
+  background: url("../../images/converge-ui/icons/chosen-sprite.png") no-repeat -38px -22px, -moz-linear-gradient(center bottom, white 85%, #eeeeee 99%);
+  background: url("../../images/converge-ui/icons/chosen-sprite.png") no-repeat -38px -22px, -o-linear-gradient(bottom, white 85%, #eeeeee 99%);
+  background: url("../../images/converge-ui/icons/chosen-sprite.png") no-repeat -38px -22px, -ms-linear-gradient(top, white 85%, #eeeeee 99%);
+  background: url("../../images/converge-ui/icons/chosen-sprite.png") no-repeat -38px -22px, -ms-linear-gradient(top, white 85%, #eeeeee 99%);
+  background: url("../../images/converge-ui/icons/chosen-sprite.png") no-repeat -38px -22px, linear-gradient(top, #ffffff 85%, #eeeeee 99%);
   padding: 4px 5px 4px 20px;
-  direction: rtl;
 }
 
 /* @end */
