@@ -1,11 +1,13 @@
 @import "compass/reset";
 @import "converge-ui/composites/shell";
 @import "converge-ui/components/forms";
+@import "converge-ui/components/chosen";
 
 .maincontent {
+  padding: 20px 40px;
+
   ul { 
     list-style: circle; 
-    padding: 20px 40px; 
 
     li { 
       display: list-item; 
