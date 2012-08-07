@@ -103,10 +103,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 ******************/
 /* this needs to work for converge-ui */
 /* line 10, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
-[class$="_icon_grey"],
-[class$="_icon_black"],
-[class*="-icon-"],
-[class*="-icon"] {
+[class*="_icon_grey"],
+[class*="_icon_black"],
+[class*="_icon-"],
+[class*="_icon"] {
   display: inline-block;
   width: 16px;
   height: 16px;
@@ -117,229 +117,434 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   background-repeat: no-repeat;
 }
 
-/* line 21, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
-[class$="-icon-grey"], [class$="_icon_grey"] {
-  background-position-y: 0px;
+/* line 22, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.search_icon-black {
+  background-position: 1px -16px;
 }
 
-/* line 22, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
-[class$="-icon-black"], [class$="_icon_black"] {
-  background-position-y: -16px;
+/* line 23, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.edit_icon-black {
+  background-position: -16px -16px;
+}
+
+/* line 24, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.x_icon-black {
+  background-position: -33px -16px;
 }
 
 /* line 25, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
-[class^="search_icon"] {
-  background-position-x: 0;
+.add_icon-black {
+  background-position: -48px -16px;
 }
 
 /* line 26, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
-[class^="edit_icon"] {
-  background-position-x: -16px;
+.gears_icon-black {
+  background-position: -63px -16px;
 }
 
 /* line 27, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
-[class^="x_icon"] {
-  background-position-x: -32px;
+.unknown_icon-black {
+  background-position: -80px -16px;
 }
 
 /* line 28, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
-[class^="add_icon"] {
-  background-position-x: -48px;
+.lock_icon-black {
+  background-position: -97px -16px;
 }
 
 /* line 29, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
-[class^="gears_icon"] {
-  background-position-x: -64px;
+.unlock_icon-black {
+  background-position: -112px -17px;
 }
 
 /* line 30, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
-[class^="unknown_icon"] {
-  background-position-x: -80px;
+.progress_gear_icon-black {
+  background-position: -128px -16px;
 }
 
 /* line 31, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
-[class^="lock_icon"] {
-  background-position-x: -96px;
+.discs_icon-black {
+  background-position: -144px -16px;
 }
 
 /* line 32, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
-[class^="unlock_icon"] {
-  background-position-x: -112px;
+.circle_x_icon-black {
+  background-position: -160px -16px;
 }
 
 /* line 33, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
-[class^="progress_gear_icon"] {
-  background-position-x: -128px;
+.play_icon-black {
+  background-position: -176px -16px;
 }
 
 /* line 34, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
-[class^="discs_icon"] {
-  background-position-x: -144px;
+.stop_icon-black {
+  background-position: -192px -16px;
 }
 
 /* line 35, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
-[class^="circle_x_icon"] {
-  background-position-x: -160px;
+.camera_icon-black {
+  background-position: -208px -16px;
 }
 
 /* line 36, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
-[class^="play_icon"] {
-  background-position-x: -176px;
+.key_icon-black {
+  background-position: -224px -16px;
 }
 
 /* line 37, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
-[class^="stop_icon"] {
-  background-position-x: -192px;
+.circle_plus_icon-black {
+  background-position: -240px -16px;
 }
 
 /* line 38, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
-[class^="camera_icon"] {
-  background-position-x: -208px;
+.details_icon-black {
+  background-position: -257px -16px;
 }
 
 /* line 39, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
-[class^="key_icon"] {
-  background-position-x: -224px;
+.refresh_icon-black {
+  background-position: -272px -16px;
 }
 
 /* line 40, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
-[class^="circle_plus_icon"] {
-  background-position-x: -240px;
+.power_icon-black {
+  background-position: -288px -16px;
 }
 
 /* line 41, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
-[class^="details_icon"] {
-  background-position-x: -256px;
+.terminal_icon-black {
+  background-position: -304px -16px;
 }
 
 /* line 42, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
-[class^="refresh_icon"] {
-  background-position-x: -272px;
+.computer_icon-black {
+  background-position: -320px -16px;
 }
 
 /* line 43, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
-[class^="power_icon"] {
-  background-position-x: -288px;
+.help_tip_icon-black {
+  background-position: -336px -16px;
 }
 
 /* line 44, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
-[class^="terminal_icon"] {
-  background-position-x: -304px;
+.machine_icon-black {
+  background-position: -352px -16px;
 }
 
 /* line 45, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
-[class^="computer_icon"] {
-  background-position-x: -320px;
+.machine_outline_icon-black {
+  background-position: -368px -16px;
 }
 
 /* line 46, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
-[class^="help_tip_icon"] {
-  background-position-x: -336px;
+.warning_icon-black {
+  background-position: -384px -16px;
 }
 
 /* line 47, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
-[class^="machine_icon"] {
-  background-position-x: -352px;
+.plus_box_icon-black {
+  background-position: -400px -16px;
 }
 
 /* line 48, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
-[class^="machine_outline_icon"] {
-  background-position-x: -368px;
+.bug_icon-black {
+  background-position: -416px -16px;
 }
 
 /* line 49, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
-[class^="warning_icon"] {
-  background-position-x: -384px;
+.shield_icon-black {
+  background-position: -432px -16px;
 }
 
 /* line 50, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
-[class^="plus_box_icon"] {
-  background-position-x: -400px;
+.check_icon-black {
+  background-position: -448px -16px;
 }
 
 /* line 51, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
-[class^="bug_icon"] {
-  background-position-x: -416px;
+.clock_icon-black {
+  background-position: -464px -16px;
 }
 
 /* line 52, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
-[class^="shield_icon"] {
-  background-position-x: -432px;
+.gear_menu_icon-black {
+  background-position: -480px -16px;
 }
 
 /* line 53, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
-[class^="check_icon"] {
-  background-position-x: -448px;
+.download_icon-black {
+  background-position: -512px -16px;
 }
 
 /* line 54, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
-[class^="clock_icon"] {
-  background-position-x: -464px;
+.down_arrow_icon-black {
+  background-position: -528px -16px;
 }
 
 /* line 55, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
-[class^="gear_menu_icon"] {
-  background-position-x: -480px;
+.right_arrow_icon-black {
+  background-position: -544px -16px;
 }
 
 /* line 56, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
-[class^="download_icon"] {
-  background-position-x: -512px;
+.package_icon-black {
+  background-position: -560px -16px;
 }
 
 /* line 57, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
-[class^="down_arrow_icon"] {
-  background-position-x: -528px;
+.errata_icon-black {
+  background-position: -576px -16px;
 }
 
 /* line 58, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
-[class^="right_arrow_icon"] {
-  background-position-x: -544px;
+.system_group_icon-black {
+  background-position: -592px -16px;
 }
 
 /* line 59, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
-[class^="package_icon"] {
-  background-position-x: -560px;
+.collapse_icon-black {
+  background-position: -608px -16px;
 }
 
 /* line 60, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
-[class^="errata_icon"] {
-  background-position-x: -576px;
+.favorites_icon-black {
+  background-position: -624px -16px;
 }
 
 /* line 61, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
-[class^="system_group_icon"] {
-  background-position-x: -592px;
+.dot_icon-black {
+  background-position: -640px -16px;
 }
 
 /* line 62, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
-[class^="collapse_icon"] {
-  background-position-x: -608px;
+.left_arrow_icon-black {
+  background-position: -656px -16px;
 }
 
 /* line 63, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
-[class^="favorites_icon"] {
-  background-position-x: -624px;
+.selector_icon-black {
+  background-position: -672px -16px;
 }
 
 /* line 64, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
-[class^="dot_icon"] {
-  background-position-x: -640px;
-}
-
-/* line 65, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
-[class^="left_arrow_icon"] {
-  background-position-x: -656px;
-}
-
-/* line 66, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
-[class^="selector_icon"] {
-  background-position-x: -672px;
+.validation_icon-black {
+  background-position: -688px -16px;
 }
 
 /* line 67, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
-[class^="validation_icon"] {
-  background-position-x: -688px;
+.search_icon-grey {
+  background-position: 1px 0;
+}
+
+/* line 68, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.edit_icon-grey {
+  background-position: -16px 0;
+}
+
+/* line 69, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.x_icon-grey {
+  background-position: -33px 0;
+}
+
+/* line 70, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.add_icon-grey {
+  background-position: -48px 0;
+}
+
+/* line 71, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.gears_icon-grey {
+  background-position: -63px 0;
+}
+
+/* line 72, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.unknown_icon-grey {
+  background-position: -80px 0;
+}
+
+/* line 73, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.lock_icon-grey {
+  background-position: -97px 0;
+}
+
+/* line 74, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.unlock_icon-grey {
+  background-position: -112px 0;
+}
+
+/* line 75, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.progress_gear_icon-grey {
+  background-position: -128px 0;
+}
+
+/* line 76, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.discs_icon-grey {
+  background-position: -144px 0;
+}
+
+/* line 77, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.circle_x_icon-grey {
+  background-position: -160px 0;
+}
+
+/* line 78, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.play_icon-grey {
+  background-position: -176px 0;
+}
+
+/* line 79, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.stop_icon-grey {
+  background-position: -192px 0;
+}
+
+/* line 80, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.camera_icon-grey {
+  background-position: -208px 0;
+}
+
+/* line 81, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.key_icon-grey {
+  background-position: -224px 0;
+}
+
+/* line 82, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.circle_plus_icon-grey {
+  background-position: -240px 0;
+}
+
+/* line 83, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.details_icon-grey {
+  background-position: -257px 0;
+}
+
+/* line 84, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.refresh_icon-grey {
+  background-position: -272px 0;
+}
+
+/* line 85, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.power_icon-grey {
+  background-position: -288px 0;
+}
+
+/* line 86, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.terminal_icon-grey {
+  background-position: -304px 0;
+}
+
+/* line 87, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.computer_icon-grey {
+  background-position: -320px 0;
+}
+
+/* line 88, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.help_tip_icon-grey {
+  background-position: -336px 0;
+}
+
+/* line 89, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.machine_icon-grey {
+  background-position: -352px 0;
+}
+
+/* line 90, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.machine_outline_icon-grey {
+  background-position: -368px 0;
+}
+
+/* line 91, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.warning_icon-grey {
+  background-position: -384px 0;
+}
+
+/* line 92, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.plus_box_icon-grey {
+  background-position: -400px 0;
+}
+
+/* line 93, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.bug_icon-grey {
+  background-position: -416px 0;
+}
+
+/* line 94, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.shield_icon-grey {
+  background-position: -432px 0;
+}
+
+/* line 95, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.check_icon-grey {
+  background-position: -448px 0;
+}
+
+/* line 96, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.clock_icon-grey {
+  background-position: -464px 0;
+}
+
+/* line 97, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.gear_menu_icon-grey {
+  background-position: -480px 0;
+}
+
+/* line 98, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.download_icon-grey {
+  background-position: -512px 0;
+}
+
+/* line 99, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.down_arrow_icon-grey {
+  background-position: -528px 0;
+}
+
+/* line 100, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.right_arrow_icon-grey {
+  background-position: -544px 0;
+}
+
+/* line 101, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.package_icon-grey {
+  background-position: -560px 0;
+}
+
+/* line 102, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.errata_icon-grey {
+  background-position: -576px 0;
+}
+
+/* line 103, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.system_group_icon-grey {
+  background-position: -592px 0;
+}
+
+/* line 104, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.collapse_icon-grey {
+  background-position: -608px 0;
+}
+
+/* line 105, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.favorites_icon-grey {
+  background-position: -624px 0;
+}
+
+/* line 106, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.dot_icon-grey {
+  background-position: -640px 0;
+}
+
+/* line 107, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.left_arrow_icon-grey {
+  background-position: -656px 0;
+}
+
+/* line 108, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.selector_icon-grey {
+  background-position: -672px 0;
+}
+
+/* line 109, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.validation_icon-grey {
+  background-position: -688px 0;
 }
 
 /*
@@ -1133,7 +1338,7 @@ body > footer .versioning {
 * Switcher Colors
 ******************/
 /*radio and checkboxes are special*/
-/* line 5, ../../../app/stylesheets/converge-ui/components/_forms.scss */
+/* line 7, ../../../app/stylesheets/converge-ui/components/_forms.scss */
 input[type="checkbox"], input[type="radio"] {
   display: inline;
   display: inline-block;
@@ -1142,7 +1347,7 @@ input[type="checkbox"], input[type="radio"] {
 }
 
 /* BUTTONS */
-/* line 12, ../../../app/stylesheets/converge-ui/components/_forms.scss */
+/* line 14, ../../../app/stylesheets/converge-ui/components/_forms.scss */
 input[type='submit'], button, .button {
   font-family: "Liberation Sans", sans-serif;
   /* for some reason ff3.6 won't inherit from body */
@@ -1168,11 +1373,11 @@ input[type='submit'], button, .button {
   -webkit-text-shadow: white 0 1px 0;
   min-height: 14px;
 }
-/* line 27, ../../../app/stylesheets/converge-ui/components/_forms.scss */
+/* line 29, ../../../app/stylesheets/converge-ui/components/_forms.scss */
 input[type='submit'] .nomargin, button .nomargin, .button .nomargin {
   margin: 0;
 }
-/* line 30, ../../../app/stylesheets/converge-ui/components/_forms.scss */
+/* line 32, ../../../app/stylesheets/converge-ui/components/_forms.scss */
 input[type='submit']:hover, button:hover, .button:hover {
   background: -moz-linear-gradient(top, white, white, #cfcfcf);
   background: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(0.6, white), to(#cfcfcf));
@@ -1183,7 +1388,7 @@ input[type='submit']:hover, button:hover, .button:hover {
   text-decoration: none;
   color: black;
 }
-/* line 37, ../../../app/stylesheets/converge-ui/components/_forms.scss */
+/* line 39, ../../../app/stylesheets/converge-ui/components/_forms.scss */
 input[type='submit']:active, button:active, .button:active {
   background: -moz-linear-gradient(top, #c2c3c0, #e4e5e4);
   background: -webkit-gradient(linear, left top, left bottom, from(#c2c3c0), to(#e4e5e4));
@@ -1193,58 +1398,58 @@ input[type='submit']:active, button:active, .button:active {
   padding: 5px 12px 3px;
   text-decoration: none;
 }
-/* line 44, ../../../app/stylesheets/converge-ui/components/_forms.scss */
+/* line 46, ../../../app/stylesheets/converge-ui/components/_forms.scss */
 input[type='submit']:focus, button:focus, .button:focus {
   text-decoration: none;
   color: #000;
   border-width: 2px;
   padding: 3px 11px;
 }
-/* line 50, ../../../app/stylesheets/converge-ui/components/_forms.scss */
+/* line 52, ../../../app/stylesheets/converge-ui/components/_forms.scss */
 input[type='submit'].dialogbutton, button.dialogbutton, .button.dialogbutton {
   float: right;
   margin-left: 3px;
   margin: 40px 4px 4px;
 }
-/* line 55, ../../../app/stylesheets/converge-ui/components/_forms.scss */
+/* line 57, ../../../app/stylesheets/converge-ui/components/_forms.scss */
 input[type='submit'].formbutton, button.formbutton, .button.formbutton {
   display: inline-block;
   margin-left: 3px;
   margin: 40px 4px 4px;
 }
-/* line 60, ../../../app/stylesheets/converge-ui/components/_forms.scss */
+/* line 62, ../../../app/stylesheets/converge-ui/components/_forms.scss */
 input[type='submit'].actionlink, button.actionlink, .button.actionlink {
   margin: 40px 0 0;
 }
-/* line 63, ../../../app/stylesheets/converge-ui/components/_forms.scss */
+/* line 65, ../../../app/stylesheets/converge-ui/components/_forms.scss */
 input[type='submit'].disabled, input[type='submit'][disabled], button.disabled, button[disabled], .button.disabled, .button[disabled] {
   cursor: default;
   background: transparent;
   opacity: 0.4;
 }
-/* line 68, ../../../app/stylesheets/converge-ui/components/_forms.scss */
+/* line 70, ../../../app/stylesheets/converge-ui/components/_forms.scss */
 input[type='submit'].disabled:hover, input[type='submit'][disabled]:hover, button.disabled:hover, button[disabled]:hover, .button.disabled:hover, .button[disabled]:hover {
   background: transparent;
   box-shadow: none;
   -moz-box-shadow: none;
   -webkit-box-shadow: none;
 }
-/* line 73, ../../../app/stylesheets/converge-ui/components/_forms.scss */
+/* line 75, ../../../app/stylesheets/converge-ui/components/_forms.scss */
 input[type='submit'].iconbutton, button.iconbutton, .button.iconbutton {
   display: inline-block;
 }
-/* line 76, ../../../app/stylesheets/converge-ui/components/_forms.scss */
+/* line 78, ../../../app/stylesheets/converge-ui/components/_forms.scss */
 input[type='submit'].tiny, button.tiny, .button.tiny {
   padding: 4px;
   margin: 0;
 }
-/* line 79, ../../../app/stylesheets/converge-ui/components/_forms.scss */
+/* line 81, ../../../app/stylesheets/converge-ui/components/_forms.scss */
 input[type='submit'].tiny:active, input[type='submit'].tiny:focus, button.tiny:active, button.tiny:focus, .button.tiny:active, .button.tiny:focus {
   margin: 0;
   padding: 3px;
 }
 
-/* line 88, ../../../app/stylesheets/converge-ui/components/_forms.scss */
+/* line 90, ../../../app/stylesheets/converge-ui/components/_forms.scss */
 fieldset label {
   display: block;
   margin-bottom: 0px;
@@ -1254,8 +1459,8 @@ fieldset label {
   text-align: left;
   font-weight: bold;
 }
-/* line 98, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-fieldset input {
+/* line 100, ../../../app/stylesheets/converge-ui/components/_forms.scss */
+fieldset input, fieldset textarea {
   width: 290px;
   padding: 6px 0px 6px 10px;
   font-size: 14px;
@@ -1273,13 +1478,17 @@ fieldset input {
   -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.2);
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.2);
 }
-/* line 108, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-fieldset input:focus {
+/* line 111, ../../../app/stylesheets/converge-ui/components/_forms.scss */
+fieldset input:focus, fieldset textarea:focus {
   -moz-box-shadow: 0px 0px 4px #0194e8;
   -webkit-box-shadow: 0px 0px 4px #0194e8;
   -o-box-shadow: 0px 0px 4px #0194e8;
   box-shadow: 0px 0px 4px #0194e8;
   border: 1px solid #0194e8;
+}
+/* line 117, ../../../app/stylesheets/converge-ui/components/_forms.scss */
+fieldset textarea {
+  height: 63px;
 }
 
 /* @group Base */
