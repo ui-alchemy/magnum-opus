@@ -35,7 +35,7 @@ To develop converge-ui while using this example app, the git config inside the s
 
 Command Line::
  
-  git add remote <github_username> git@github.com:<github_username>/converge-ui.git
+  git remote add <github_username> git@github.com:<github_username>/converge-ui.git
 
 Or Add Directly::
 

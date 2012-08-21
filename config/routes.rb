@@ -7,6 +7,7 @@ ConvergeExample::Application.routes.draw do
   resources :form, :only => :index
   resources :typography, :only => :index
   resources :images, :only => :index
+  resources :color, :only => :index
 
   match 'user_session/login' => 'login#index', :via => :get, :as => 'user_session'
   match 'user_session/login' => 'login#update', :via => :post, :as => 'user_session'
