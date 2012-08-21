@@ -93,6 +93,512 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /****************
 *  Login Colors
 *****************/
+/*********************************
+*  Pallette Colors
+**********************************/
+/*proposed colour palette*/
+/*generic default tone for non interactive elements*/
+/*favorite greys for warm interactve elements*/
+/* Red Hat toners */
+/*Red Hat Official*/
+/* Red Hat Apps  - Web Extended */
+/*orange (the letter o)*/
+/*green*/
+/****************************
+*  Complex Color Definitions
+*****************************/
+/* background for header */
+/* background for tabs on header */
+/*****************
+* Switcher Colors
+******************/
+/* this needs to work for converge-ui */
+/* line 10, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+[class*="_icon_grey"],
+[class*="_icon_black"],
+[class*="_icon-"],
+[class*="_icon"] {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
+  vertical-align: text-top;
+  background-image: url('/images/converge-ui/icons/action-icons.png?1343144345');
+  background-position: 16px 16px;
+  background-repeat: no-repeat;
+}
+
+/* line 22, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.search_icon-black {
+  background-position: 1px -16px;
+}
+
+/* line 23, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.edit_icon-black {
+  background-position: -16px -16px;
+}
+
+/* line 24, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.x_icon-black {
+  background-position: -33px -16px;
+}
+
+/* line 25, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.add_icon-black {
+  background-position: -48px -16px;
+}
+
+/* line 26, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.gears_icon-black {
+  background-position: -63px -16px;
+}
+
+/* line 27, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.unknown_icon-black {
+  background-position: -80px -16px;
+}
+
+/* line 28, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.lock_icon-black {
+  background-position: -97px -16px;
+}
+
+/* line 29, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.unlock_icon-black {
+  background-position: -112px -17px;
+}
+
+/* line 30, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.progress_gear_icon-black {
+  background-position: -128px -16px;
+}
+
+/* line 31, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.discs_icon-black {
+  background-position: -144px -16px;
+}
+
+/* line 32, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.circle_x_icon-black {
+  background-position: -160px -16px;
+}
+
+/* line 33, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.play_icon-black {
+  background-position: -176px -16px;
+}
+
+/* line 34, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.stop_icon-black {
+  background-position: -192px -16px;
+}
+
+/* line 35, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.camera_icon-black {
+  background-position: -208px -16px;
+}
+
+/* line 36, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.key_icon-black {
+  background-position: -224px -16px;
+}
+
+/* line 37, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.circle_plus_icon-black {
+  background-position: -240px -16px;
+}
+
+/* line 38, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.details_icon-black {
+  background-position: -257px -16px;
+}
+
+/* line 39, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.refresh_icon-black {
+  background-position: -272px -16px;
+}
+
+/* line 40, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.power_icon-black {
+  background-position: -288px -16px;
+}
+
+/* line 41, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.terminal_icon-black {
+  background-position: -304px -16px;
+}
+
+/* line 42, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.computer_icon-black {
+  background-position: -320px -16px;
+}
+
+/* line 43, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.help_tip_icon-black {
+  background-position: -336px -16px;
+}
+
+/* line 44, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.machine_icon-black {
+  background-position: -352px -16px;
+}
+
+/* line 45, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.machine_outline_icon-black {
+  background-position: -368px -16px;
+}
+
+/* line 46, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.warning_icon-black {
+  background-position: -384px -16px;
+}
+
+/* line 47, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.plus_box_icon-black {
+  background-position: -400px -16px;
+}
+
+/* line 48, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.bug_icon-black {
+  background-position: -416px -16px;
+}
+
+/* line 49, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.shield_icon-black {
+  background-position: -432px -16px;
+}
+
+/* line 50, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.check_icon-black {
+  background-position: -448px -16px;
+}
+
+/* line 51, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.clock_icon-black {
+  background-position: -464px -16px;
+}
+
+/* line 52, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.gear_menu_icon-black {
+  background-position: -480px -16px;
+}
+
+/* line 53, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.download_icon-black {
+  background-position: -512px -16px;
+}
+
+/* line 54, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.down_arrow_icon-black {
+  background-position: -528px -16px;
+}
+
+/* line 55, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.right_arrow_icon-black {
+  background-position: -544px -16px;
+}
+
+/* line 56, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.package_icon-black {
+  background-position: -560px -16px;
+}
+
+/* line 57, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.errata_icon-black {
+  background-position: -576px -16px;
+}
+
+/* line 58, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.system_group_icon-black {
+  background-position: -592px -16px;
+}
+
+/* line 59, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.collapse_icon-black {
+  background-position: -608px -16px;
+}
+
+/* line 60, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.favorites_icon-black {
+  background-position: -624px -16px;
+}
+
+/* line 61, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.dot_icon-black {
+  background-position: -640px -16px;
+}
+
+/* line 62, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.left_arrow_icon-black {
+  background-position: -656px -16px;
+}
+
+/* line 63, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.selector_icon-black {
+  background-position: -672px -16px;
+}
+
+/* line 64, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.validation_icon-black {
+  background-position: -688px -16px;
+}
+
+/* line 67, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.search_icon-grey {
+  background-position: 1px 0;
+}
+
+/* line 68, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.edit_icon-grey {
+  background-position: -16px 0;
+}
+
+/* line 69, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.x_icon-grey {
+  background-position: -33px 0;
+}
+
+/* line 70, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.add_icon-grey {
+  background-position: -48px 0;
+}
+
+/* line 71, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.gears_icon-grey {
+  background-position: -63px 0;
+}
+
+/* line 72, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.unknown_icon-grey {
+  background-position: -80px 0;
+}
+
+/* line 73, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.lock_icon-grey {
+  background-position: -97px 0;
+}
+
+/* line 74, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.unlock_icon-grey {
+  background-position: -112px 0;
+}
+
+/* line 75, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.progress_gear_icon-grey {
+  background-position: -128px 0;
+}
+
+/* line 76, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.discs_icon-grey {
+  background-position: -144px 0;
+}
+
+/* line 77, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.circle_x_icon-grey {
+  background-position: -160px 0;
+}
+
+/* line 78, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.play_icon-grey {
+  background-position: -176px 0;
+}
+
+/* line 79, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.stop_icon-grey {
+  background-position: -192px 0;
+}
+
+/* line 80, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.camera_icon-grey {
+  background-position: -208px 0;
+}
+
+/* line 81, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.key_icon-grey {
+  background-position: -224px 0;
+}
+
+/* line 82, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.circle_plus_icon-grey {
+  background-position: -240px 0;
+}
+
+/* line 83, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.details_icon-grey {
+  background-position: -257px 0;
+}
+
+/* line 84, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.refresh_icon-grey {
+  background-position: -272px 0;
+}
+
+/* line 85, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.power_icon-grey {
+  background-position: -288px 0;
+}
+
+/* line 86, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.terminal_icon-grey {
+  background-position: -304px 0;
+}
+
+/* line 87, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.computer_icon-grey {
+  background-position: -320px 0;
+}
+
+/* line 88, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.help_tip_icon-grey {
+  background-position: -336px 0;
+}
+
+/* line 89, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.machine_icon-grey {
+  background-position: -352px 0;
+}
+
+/* line 90, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.machine_outline_icon-grey {
+  background-position: -368px 0;
+}
+
+/* line 91, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.warning_icon-grey {
+  background-position: -384px 0;
+}
+
+/* line 92, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.plus_box_icon-grey {
+  background-position: -400px 0;
+}
+
+/* line 93, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.bug_icon-grey {
+  background-position: -416px 0;
+}
+
+/* line 94, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.shield_icon-grey {
+  background-position: -432px 0;
+}
+
+/* line 95, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.check_icon-grey {
+  background-position: -448px 0;
+}
+
+/* line 96, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.clock_icon-grey {
+  background-position: -464px 0;
+}
+
+/* line 97, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.gear_menu_icon-grey {
+  background-position: -480px 0;
+}
+
+/* line 98, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.download_icon-grey {
+  background-position: -512px 0;
+}
+
+/* line 99, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.down_arrow_icon-grey {
+  background-position: -528px 0;
+}
+
+/* line 100, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.right_arrow_icon-grey {
+  background-position: -544px 0;
+}
+
+/* line 101, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.package_icon-grey {
+  background-position: -560px 0;
+}
+
+/* line 102, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.errata_icon-grey {
+  background-position: -576px 0;
+}
+
+/* line 103, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.system_group_icon-grey {
+  background-position: -592px 0;
+}
+
+/* line 104, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.collapse_icon-grey {
+  background-position: -608px 0;
+}
+
+/* line 105, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.favorites_icon-grey {
+  background-position: -624px 0;
+}
+
+/* line 106, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.dot_icon-grey {
+  background-position: -640px 0;
+}
+
+/* line 107, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.left_arrow_icon-grey {
+  background-position: -656px 0;
+}
+
+/* line 108, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.selector_icon-grey {
+  background-position: -672px 0;
+}
+
+/* line 109, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
+.validation_icon-grey {
+  background-position: -688px 0;
+}
+
+/*
+* Font Type Variables
+*/
+/*
+* Component Size Variables
+*/
+/*****************
+* Sign-On Screen
+*****************/
+/********
+* Images
+*********/
+/*************
+* Base Colors
+**************/
+/* default links */
+/* unfocused tabs */
+/* list items prelight state */
+/**************
+* Form Colors
+***************/
+/****************
+*  Header Colors
+*****************/
+/****************
+*  Footer Colors
+*****************/
+/****************
+*  Login Colors
+*****************/
+/*********************************
+*  Pallette Colors
+**********************************/
+/*proposed colour palette*/
+/*generic default tone for non interactive elements*/
+/*favorite greys for warm interactve elements*/
+/* Red Hat toners */
+/*Red Hat Official*/
+/* Red Hat Apps  - Web Extended */
+/*orange (the letter o)*/
+/*green*/
 /****************************
 *  Complex Color Definitions
 *****************************/
@@ -131,6 +637,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /****************
 *  Login Colors
 *****************/
+/*********************************
+*  Pallette Colors
+**********************************/
+/*proposed colour palette*/
+/*generic default tone for non interactive elements*/
+/*favorite greys for warm interactve elements*/
+/* Red Hat toners */
+/*Red Hat Official*/
+/* Red Hat Apps  - Web Extended */
+/*orange (the letter o)*/
+/*green*/
 /****************************
 *  Complex Color Definitions
 *****************************/
@@ -147,7 +664,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 @font-face {
-  font-family: 'Overpass-bold';
+  font-family: 'Overpass';
   src: local("Overpass Bold"), local("OverpassBold"), url('/fonts/overpass_bold-web.eot?#iefix') format("eot"), url('/fonts/overpass_bold-web.woff') format("woff"), url('/fonts/overpass_bold-web.ttf') format("truetype"), url('/fonts/overpass_bold-web.svg#webfontzAU82Ltw') format("svg");
   font-weight: bold;
   font-style: normal;
@@ -183,6 +700,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /****************
 *  Login Colors
 *****************/
+/*********************************
+*  Pallette Colors
+**********************************/
+/*proposed colour palette*/
+/*generic default tone for non interactive elements*/
+/*favorite greys for warm interactve elements*/
+/* Red Hat toners */
+/*Red Hat Official*/
+/* Red Hat Apps  - Web Extended */
+/*orange (the letter o)*/
+/*green*/
 /****************************
 *  Complex Color Definitions
 *****************************/
@@ -222,7 +750,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* line 5, ../../../app/stylesheets/converge-ui/components/_text.scss */
 body {
   font: 12px/1.5 "Liberation Sans", sans-serif;
-  color: #a1a1a1;
+  color: #1a1a1a;
 }
 
 /* line 10, ../../../app/stylesheets/converge-ui/components/_text.scss */
@@ -254,7 +782,7 @@ h5 {
 /* line 18, ../../../app/stylesheets/converge-ui/components/_text.scss */
 h1, h2, h3, h4, h5 {
   color: #939292;
-  font-family: "Overpass-bold", Interstate-bold, sans-serif;
+  font-family: "Overpass", Interstate, sans-serif;
   font-weight: bold;
   word-wrap: break-word;
 }
@@ -299,6 +827,17 @@ fieldset {
 /****************
 *  Login Colors
 *****************/
+/*********************************
+*  Pallette Colors
+**********************************/
+/*proposed colour palette*/
+/*generic default tone for non interactive elements*/
+/*favorite greys for warm interactve elements*/
+/* Red Hat toners */
+/*Red Hat Official*/
+/* Red Hat Apps  - Web Extended */
+/*orange (the letter o)*/
+/*green*/
 /****************************
 *  Complex Color Definitions
 *****************************/
@@ -407,8 +946,9 @@ article .container section .card_container {
   left: -360px;
   z-index: -1;
 }
-/* line 69, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 70, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .container section .card {
+  position: relative;
   min-height: 275px;
   width: 300px;
   background: #FFF;
@@ -424,41 +964,95 @@ article .container section .card {
   -o-box-shadow: inset -15px -15px 30px -7px #d9d9d9, inset 0px -15px 130px #d9d9d9;
   box-shadow: inset -15px -15px 30px -7px #d9d9d9, inset 0px -15px 130px #d9d9d9;
 }
-/* line 77, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 80, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .container section .card .spinner {
   margin-top: 1.8em;
   left: 4.5em;
   display: none;
 }
-/* line 82, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 85, ../../../app/stylesheets/converge-ui/components/_login.scss */
+article .container section .card .return_link_container {
+  position: absolute;
+  left: 30px;
+  bottom: 37px;
+}
+/* line 90, ../../../app/stylesheets/converge-ui/components/_login.scss */
+article .container section .card .return_link_container a {
+  margin-top: 15px;
+  float: right;
+  height: 20px;
+  width: 20px;
+  border: 2px solid #B5B5B5;
+  border-radius: 30px;
+  background: #DEDEDE;
+}
+/* line 99, ../../../app/stylesheets/converge-ui/components/_login.scss */
+article .container section .card .return_link_container a:hover {
+  border: 2px solid #0194e8;
+  -moz-box-shadow: 0px 0px 4px #0194e8;
+  -webkit-box-shadow: 0px 0px 4px #0194e8;
+  -o-box-shadow: 0px 0px 4px #0194e8;
+  box-shadow: 0px 0px 4px #0194e8;
+}
+/* line 105, ../../../app/stylesheets/converge-ui/components/_login.scss */
+article .container section .card .return_link_container .left_arrow-icon-black {
+  background-position: -654px -15px;
+}
+/* line 107, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .container section .card #login_form {
   position: absolute;
   top: 52px;
 }
-/* line 87, ../../../app/stylesheets/converge-ui/components/_login.scss */
-article .container section .card #password_recovery_form, article .container section .card #login_recovery_form {
+/* line 112, ../../../app/stylesheets/converge-ui/components/_login.scss */
+article .container section .card #username_recovery_form {
   position: absolute;
-  top: 75px;
+  top: 110px;
 }
-/* line 91, ../../../app/stylesheets/converge-ui/components/_login.scss */
-article .container section .card #password_recovery_form .secondary_actions, article .container section .card #login_recovery_form .secondary_actions {
+/* line 116, ../../../app/stylesheets/converge-ui/components/_login.scss */
+article .container section .card #username_recovery_form .secondary_actions {
   margin-bottom: 0px;
 }
-/* line 94, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 117, ../../../app/stylesheets/converge-ui/components/_login.scss */
+article .container section .card #username_recovery_form .button {
+  margin-top: 20px;
+}
+/* line 120, ../../../app/stylesheets/converge-ui/components/_login.scss */
+article .container section .card #password_recovery_form {
+  position: absolute;
+  top: 85px;
+}
+/* line 124, ../../../app/stylesheets/converge-ui/components/_login.scss */
+article .container section .card #password_recovery_form .secondary_actions {
+  margin-bottom: 0px;
+}
+/* line 127, ../../../app/stylesheets/converge-ui/components/_login.scss */
+article .container section .card h2 {
+  margin-left: 10px;
+  display: inline-block;
+  margin-top: 27px;
+  font-size: 12px;
+  color: #50505a;
+}
+/* line 135, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .container section .card p {
   text-align: justify;
+  height: 30px;
+  font-family: "Overpass", Interstate, sans-serif;
+  color: #999999;
+  font-size: 10px;
+  margin-left: 10px;
 }
-/* line 98, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 146, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .container section .card fieldset.primary label {
   display: block;
   margin-bottom: 0px;
   margin-left: 10px;
   font-size: 12px;
-  font-weight: bold;
   color: #cccccc;
   text-align: left;
+  font-weight: bold;
 }
-/* line 108, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 156, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .container section .card fieldset.primary input {
   width: 290px;
   padding: 6px 0px 6px 10px;
@@ -477,7 +1071,7 @@ article .container section .card fieldset.primary input {
   -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.2);
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.2);
 }
-/* line 118, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 166, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .container section .card fieldset.primary input:focus {
   -moz-box-shadow: 0px 0px 4px #0194e8;
   -webkit-box-shadow: 0px 0px 4px #0194e8;
@@ -485,21 +1079,21 @@ article .container section .card fieldset.primary input:focus {
   box-shadow: 0px 0px 4px #0194e8;
   border: 1px solid #0194e8;
 }
-/* line 126, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 174, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .container section .card #password_conflict {
   color: red;
 }
-/* line 128, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 178, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .container section .card .group {
   position: relative;
   height: 50px;
 }
-/* line 132, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 182, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .container section .card .group.secondary_actions {
   margin-bottom: 15px;
   height: 18px;
 }
-/* line 137, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 187, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .container section .card .group span {
   position: absolute;
   bottom: 0;
@@ -507,98 +1101,73 @@ article .container section .card .group span {
   font-size: 11px;
   color: #50505a;
 }
-/* line 144, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 194, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .container section .card .group span a {
   color: #0194e8;
 }
-/* line 148, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 198, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .container section .card #progress-indicator {
   margin: 4px;
   display: none;
 }
-/* line 153, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 203, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .container section .card a {
   display: inline-block;
   outline: 0;
   text-align: left;
   margin: 0;
 }
-/* line 159, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 209, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .container section .card a:hover {
   background-position-y: -16px;
 }
-/* line 164, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 214, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .container section .card .button {
   margin-bottom: 0px;
 }
-/* line 171, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 221, ../../../app/stylesheets/converge-ui/components/_login.scss */
+article #save_password {
+  margin-top: 18px;
+}
+/* line 223, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .button {
-  height: 30px;
-  border: 1px solid #cccccc;
+  font-family: "Liberation Sans", sans-serif;
+  /* for some reason ff3.6 won't inherit from body */
   font-size: 12px;
   font-weight: bold;
   text-align: center;
+  display: inline-block;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  cursor: pointer;
+  height: 30px;
+  padding: 0 21px;
+  margin: 0;
+  margin-bottom: 8px;
+  position: absolute;
+  right: 0;
+  color: #50505a;
+  border: 1px solid #cccccc;
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
   -o-border-radius: 10px;
   -ms-border-radius: 10px;
   -khtml-border-radius: 10px;
   border-radius: 10px;
-  cursor: pointer;
-  background: white;
-  /* Old browsers */
-  background: -moz-linear-gradient(top, white 0%, #cccccc 100%);
-  /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, white), color-stop(100%, #cccccc));
-  /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, white 0%, #cccccc 100%);
-  /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, white 0%, #cccccc 100%);
-  /* Opera11.10+ */
-  background: -ms-linear-gradient(top, white 0%, #cccccc 100%);
-  /* IE10+ */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#cccccc',GradientType=0 );
-  /* IE6-9 */
-  background: linear-gradient(top, #ffffff 0%, #cccccc 100%);
-  /* W3C */
-  padding: 0 21px;
-  margin: 0;
-  margin-bottom: 8px;
-  position: absolute;
-  right: 0;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f9f9f9), color-stop(33.333%, #f0f0f0), color-stop(66.667%, #e5e5e5), color-stop(100%, #e9e9e9));
+  background-image: -webkit-linear-gradient(top, #f9f9f9, #f0f0f0, #e5e5e5, #e9e9e9);
+  background-image: -moz-linear-gradient(top, #f9f9f9, #f0f0f0, #e5e5e5, #e9e9e9);
+  background-image: -o-linear-gradient(top, #f9f9f9, #f0f0f0, #e5e5e5, #e9e9e9);
+  background-image: -ms-linear-gradient(top, #f9f9f9, #f0f0f0, #e5e5e5, #e9e9e9);
+  background-image: linear-gradient(top, #f9f9f9, #f0f0f0, #e5e5e5, #e9e9e9);
 }
-
-/* line 189, ../../../app/stylesheets/converge-ui/components/_login.scss */
-.invisible {
-  visibility: hidden;
-}
-
-/* line 193, ../../../app/stylesheets/converge-ui/components/_login.scss */
-.hidden {
-  display: none;
-}
-
-/* line 197, ../../../app/stylesheets/converge-ui/components/_login.scss */
-input[type='submit'], button, .button {
-  font-family: "Liberation Sans", sans-serif;
-  /* for some reason ff3.6 won't inherit from body */
-  font-size: 12px;
-  display: inline-block;
-  background: -moz-linear-gradient(top, #f9f9f9, #f0f0f0, #e5e5e5, #e9e9e9);
-  background: -webkit-gradient(linear, left top, left bottom, from(#f9f9f9), color-stop(0.9, #e5e5e5), to(#e9e9e9));
-  box-shadow: none;
-  -moz-box-shadow: none;
-  -webkit-box-shadow: none;
-  cursor: pointer;
-  min-height: 14px;
-  color: #50505a;
-}
-/* line 208, ../../../app/stylesheets/converge-ui/components/_login.scss */
-input[type='submit'] .nomargin, button .nomargin, .button .nomargin {
+/* line 242, ../../../app/stylesheets/converge-ui/components/_login.scss */
+article .button .nomargin {
   margin: 0;
 }
-/* line 211, ../../../app/stylesheets/converge-ui/components/_login.scss */
-input[type='submit']:hover, button:hover, .button:hover {
+/* line 245, ../../../app/stylesheets/converge-ui/components/_login.scss */
+article .button:hover {
   background: -moz-linear-gradient(top, white, white, #cfcfcf);
   background: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(0.6, white), to(#cfcfcf));
   -moz-box-shadow: 0, 1px, 2px, rgba(0, 0, 0, 0.5);
@@ -608,8 +1177,8 @@ input[type='submit']:hover, button:hover, .button:hover {
   text-decoration: none;
   color: black;
 }
-/* line 218, ../../../app/stylesheets/converge-ui/components/_login.scss */
-input[type='submit']:active, button:active, .button:active {
+/* line 252, ../../../app/stylesheets/converge-ui/components/_login.scss */
+article .button:active {
   background: -moz-linear-gradient(top, #c2c3c0, #e4e5e4);
   background: -webkit-gradient(linear, left top, left bottom, from(#c2c3c0), to(#e4e5e4));
   box-shadow: none;
@@ -617,55 +1186,65 @@ input[type='submit']:active, button:active, .button:active {
   -webkit-box-shadow: none;
   text-decoration: none;
 }
-/* line 224, ../../../app/stylesheets/converge-ui/components/_login.scss */
-input[type='submit']:focus, button:focus, .button:focus {
+/* line 258, ../../../app/stylesheets/converge-ui/components/_login.scss */
+article .button:focus {
   text-decoration: none;
   color: #000;
   border-width: 2px;
   padding: 3px 11px;
 }
-/* line 230, ../../../app/stylesheets/converge-ui/components/_login.scss */
-input[type='submit'].dialogbutton, button.dialogbutton, .button.dialogbutton {
+/* line 264, ../../../app/stylesheets/converge-ui/components/_login.scss */
+article .button.dialogbutton {
   float: right;
   margin-left: 3px;
   margin: 40px 4px 4px;
 }
-/* line 235, ../../../app/stylesheets/converge-ui/components/_login.scss */
-input[type='submit'].formbutton, button.formbutton, .button.formbutton {
+/* line 269, ../../../app/stylesheets/converge-ui/components/_login.scss */
+article .button.formbutton {
   display: inline-block;
   margin-left: 3px;
   margin: 40px 4px 4px;
 }
-/* line 240, ../../../app/stylesheets/converge-ui/components/_login.scss */
-input[type='submit'].actionlink, button.actionlink, .button.actionlink {
+/* line 274, ../../../app/stylesheets/converge-ui/components/_login.scss */
+article .button.actionlink {
   margin: 40px 0 0;
 }
-/* line 243, ../../../app/stylesheets/converge-ui/components/_login.scss */
-input[type='submit'].disabled, input[type='submit'][disabled], button.disabled, button[disabled], .button.disabled, .button[disabled] {
+/* line 277, ../../../app/stylesheets/converge-ui/components/_login.scss */
+article .button.disabled, article .button[disabled] {
   cursor: default;
   background: transparent;
   opacity: 0.4;
 }
-/* line 248, ../../../app/stylesheets/converge-ui/components/_login.scss */
-input[type='submit'].disabled:hover, input[type='submit'][disabled]:hover, button.disabled:hover, button[disabled]:hover, .button.disabled:hover, .button[disabled]:hover {
+/* line 282, ../../../app/stylesheets/converge-ui/components/_login.scss */
+article .button.disabled:hover, article .button[disabled]:hover {
   background: transparent;
   box-shadow: none;
   -moz-box-shadow: none;
   -webkit-box-shadow: none;
 }
-/* line 253, ../../../app/stylesheets/converge-ui/components/_login.scss */
-input[type='submit'].iconbutton, button.iconbutton, .button.iconbutton {
+/* line 287, ../../../app/stylesheets/converge-ui/components/_login.scss */
+article .button.iconbutton {
   display: inline-block;
 }
-/* line 256, ../../../app/stylesheets/converge-ui/components/_login.scss */
-input[type='submit'].tiny, button.tiny, .button.tiny {
+/* line 290, ../../../app/stylesheets/converge-ui/components/_login.scss */
+article .button.tiny {
   padding: 4px;
   margin: 0;
 }
-/* line 259, ../../../app/stylesheets/converge-ui/components/_login.scss */
-input[type='submit'].tiny:active, input[type='submit'].tiny:focus, button.tiny:active, button.tiny:focus, .button.tiny:active, .button.tiny:focus {
+/* line 293, ../../../app/stylesheets/converge-ui/components/_login.scss */
+article .button.tiny:active, article .button.tiny:focus {
   margin: 0;
   padding: 3px;
+}
+
+/* line 301, ../../../app/stylesheets/converge-ui/components/_login.scss */
+.invisible {
+  visibility: hidden;
+}
+
+/* line 305, ../../../app/stylesheets/converge-ui/components/_login.scss */
+.hidden {
+  display: none;
 }
 
 /*
@@ -698,6 +1277,17 @@ input[type='submit'].tiny:active, input[type='submit'].tiny:focus, button.tiny:a
 /****************
 *  Login Colors
 *****************/
+/*********************************
+*  Pallette Colors
+**********************************/
+/*proposed colour palette*/
+/*generic default tone for non interactive elements*/
+/*favorite greys for warm interactve elements*/
+/* Red Hat toners */
+/*Red Hat Official*/
+/* Red Hat Apps  - Web Extended */
+/*orange (the letter o)*/
+/*green*/
 /****************************
 *  Complex Color Definitions
 *****************************/
