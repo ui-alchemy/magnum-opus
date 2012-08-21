@@ -1,0 +1,68 @@
+@import "converge-ui/partials/base";
+
+
+section.palette div { 
+  height:9em; width: 9em; margin:.5em; float:left; border-radius: .5em .75em 4em 2em; box-shadow: inset 0 1em  1em -.5em rgba(255,255,255,0.3), 0 .32em .5em rgba(0,0,0,0.07), 0 .2em .2em rgba(0,0,0,0.15), inset 0 -.15em 3em -.1em rgba(0,0,0,0.32); position:relative}
+
+
+section.palette { h2, h1{text-align:left;text-indent:.5em; color:darken($tone,6%); text-transform: uppercase; font-weight: 700; padding-top: 2em; width:100%;clear:both; text-shadow: 0 1px lighten($tone, 15%);} }
+
+section.palette div:after{content: ""attr(class)""; text-indent:1em; text-align:left; color:#fff; text-shadow: 0 -1px rgba(0,0,0,0.152), 0 0 5px rgba(0,0,0,0.3); background-color:rgba(0,0,0,0.1);  border-radius: .5em .275em .91em 0; padding: .5em 0; display:block;  box-shadow: inset 0 0 .5em rgba(0,0,0,0.2), 0 1px 0 rgba(255,255,255,0.15); font-family: Overpass, sans; margin-top:1.25em; width: 90%;}
+
+
+section.palette div:before{content: "$"; position: absolute;top:1.75em; text-indent:.45em; color:#fff; opacity: 0.25}
+
+/*proposed colour palette*/
+
+/*generic default tone for non interactive elements*/
+.tone{background-color:$tone} 
+
+/*favorite greys for warm interactve elements*/
+.g0{background-color:$g0}
+.g1{background-color:$g1}
+.g2{background-color:$g2}
+.g3{background-color:$g3}
+.g4{background-color:$g4}
+.g5{background-color:$g5}
+.g6{background-color:$g6}
+.g7{background-color:$g7}
+.g8{background-color:$g8}
+.g9{background-color:$g9}
+
+/* Red Hat toners */
+.rh-base        {background-color:$rh-base}
+.rhbase-light   {background-color: lighten( $rh-base, 34% )}
+.rh-cream      {background-color:$rh-cream}
+
+/*Red Hat Official*/
+.rh-red1       {background-color:$rh-red1}
+.rh-red2       {background-color:$rh-red2}
+.rh-red3       {background-color:$rh-red3}
+
+.rh-blue       {background-color:$rh-blue}
+.rh-lightblue  {background-color:$rh-lightblue}
+.rh-teal       {background-color:$rh-teal}
+.rh-dark-blue  {background-color:$rh-dark-blue}
+.rh-lime       {background-color:$rh-lime}
+.rh-green      {background-color:$rh-green}
+.rh-purple      {background-color:$rh-purple}
+.rh-orange      {background-color:$rh-orange}
+
+/* Red Hat Apps  - Web Extended */
+
+/*orange (the letter o)*/
+.o7      {background-color:$o7}
+.o6      {background-color:$o6}
+.o5      {background-color:$o5}
+.o4      {background-color:$o4}
+.o3      {background-color:$o3}
+.o2      {background-color:$o2}
+.o1      {background-color:$o1}
+
+/*green*/
+.link-light    {background-color:$link-light}
+.link          {background-color:$link}
+.link-dark     {background-color:$link-dark}
+.green1     {background-color:$green1}
+.green2     {background-color:$green2}
+.green3     {background-color:$green3}
