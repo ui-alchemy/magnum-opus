@@ -1,5 +1,6 @@
 class ApplicationController < ActionController::Base
   include FastGettext::Translation
+  include ApplicationHelper
 
   helper "converge-ui/translation"
 

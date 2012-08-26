@@ -6,87 +6,16 @@
 
 = content_for(:content) do
   %h2
-    = "Standard HTML Inputs"
-  %form
-    %fieldset
-      %label
-        = "Text Input"
-      %input{ :type => "text" }
-    %fieldset
-      %label
-        = "Password Input"
-      %input{ :type => "password" }
-    %fieldset
-      %label
-        = "Textarea"
-      %textarea
-    %fieldset
-      %label
-        = "Checkbox"
-      %input{ :type => "checkbox", :name => "checkbox_1", :value => "1" }
-    %fieldset
-      %label
-        = "Radio Button"
-      %input{ :type => "radio", :name => "checkbox_1", :value => "1" }
-    %fieldset
-      %label
-        = "Select"
-      %select{ :style => "width: 250px" }
-        %option
-          = "Option 1"
-        %option
-          = "Option 2"
-        %option
-          = "Option 3"
-    %fieldset
-      %label
-        = "Select Multiple"
-      %select{ :multiple => "multple" }
-        %option
-          = "Option 1"
-        %option
-          = "Option 2"
-        %option
-          = "Option 3"
-    %fieldset
-      %label
-        = "Submit Button"
-      %input{ :type => "submit", :class => "button" }
-
-  %h2
-    = "HTML 5 Inputs"
-  %form
-    %fieldset
-      %label
-        = "Placeholder text"
-      %input{ :type => "text", :placeholder => "Placeholder text..." }
-    %fieldset
-      %label
-        = "Required Field"
-      %input{ :type => "text", :required => "" }
-    %fieldset
-      %label
-        = "Email Input"
-      %input{ :type => "email" }
-    %fieldset
-      %label
-        = "URL Input"
-      %input{ :type => "url" }
-    %fieldset
-      %label
-        = "Search Input"
-      %input{ :type => "search" }
-    %fieldset
-      %label
-        = "Number Input"
-      %input{ :type => "number", :min => 0, :max => 20 }
-    %fieldset
-      %label
-        = "Slider Input"
-      %input{ :type => "range", :min => 0, :max => 20 }
-    %fieldset
-      %label
-        = "Date Input"
-      %input{ :type => "date" }
-
-
+    = "Form Inputs"
+  = render :partial => "reference"
+  %div
+    %h2
+      Example HTML
+    %pre
+      = "#{html_reference}"
+  %div
+    %h2
+      Example HAML
+    %pre
+      :ruby
+        puts "#{haml_reference}"
