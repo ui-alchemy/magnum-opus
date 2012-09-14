@@ -2,8 +2,7 @@
   = stylesheet_link_tag "login"
 
 = content_for(:javascripts_block) do
-  = javascript_include_tag "converge-ui/vendor/jquery/jquery-1.6.2.js"
-  = javascript_include_tag "converge-ui/login.js"
+  = javascript_include_tag "manifests/login"
 
 = content_for(:project_name) do
   = image_tag("logo.png", :alt => get_string(:example_logo))
