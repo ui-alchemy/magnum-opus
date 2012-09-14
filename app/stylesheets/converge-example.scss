@@ -1,6 +1,7 @@
 @import "compass/reset";
 @import "converge-ui/composites/shell";
 @import "converge-ui/components/forms";
+@import "converge-ui/components/buttons";
 @import "converge-ui/components/chosen";
 
 .maincontent {
@@ -20,5 +21,9 @@
         text-decoration: none;
       }
     }
+  }
+
+  h3 {
+    margin: 35px 0 0 0;
   }
 }
