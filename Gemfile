@@ -14,10 +14,6 @@ gem 'haml-rails'
 
 gem 'gettext_i18n_rails'
 
-group :development do
-  gem 'ruby-debug19'
-end
-
 # Use unicorn as the web server
 # gem 'unicorn'
 
