@@ -5,7 +5,7 @@
   = javascript_include_tag "manifests/login"
 
 = content_for(:project_name) do
-  = image_tag("logo.png", :alt => get_string(:example_logo))
+  = image_tag("embed/logo.png", :alt => get_string(:example_logo))
 
 = content_for(:forgot_password_link) do
   = link_to get_string(:forgot_username_password), password_resets_path
