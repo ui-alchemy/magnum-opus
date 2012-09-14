@@ -1,4 +1,4 @@
-/* line 17, ../../../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../bundle/ruby/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,45 +20,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 20, ../../../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 20, ../../../bundle/ruby/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 body {
   line-height: 1;
 }
 
-/* line 22, ../../../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../bundle/ruby/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 24, ../../../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../bundle/ruby/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 26, ../../../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../bundle/ruby/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 28, ../../../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../bundle/ruby/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 101, ../../../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 101, ../../../bundle/ruby/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 30, ../../../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../bundle/ruby/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 114, ../../../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 114, ../../../bundle/ruby/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -69,6 +69,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /*
 * Component Size Variables
 */
+/*****************
+* Responsive
+*****************/
+/*****************
+* Elements - Global
+*****************/
 /*****************
 * Sign-On Screen
 *****************/
@@ -94,16 +100,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 *  Login Colors
 *****************/
 /*********************************
-*  Pallette Colors
+*  Palette Colors
 **********************************/
 /*proposed colour palette*/
 /*generic default tone for non interactive elements*/
-/*favorite greys for warm interactve elements*/
+/*favorite greys for warm interactive elements*/
 /* Red Hat toners */
 /*Red Hat Official*/
 /* Red Hat Apps  - Web Extended */
 /*orange (the letter o)*/
 /*green*/
+/* red */
 /****************************
 *  Complex Color Definitions
 *****************************/
@@ -112,6 +119,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /*****************
 * Switcher Colors
 ******************/
+/* ie9 support */
 /* this needs to work for converge-ui */
 /* line 10, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
 [class*="_icon_grey"],
@@ -123,7 +131,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   height: 16px;
   line-height: 16px;
   vertical-align: text-top;
-  background-image: url('/images/converge-ui/icons/action-icons.png?1343144345');
+  background-image: url('/images/converge-ui/icons/action-icons.png?1347638458');
   background-position: 16px 16px;
   background-repeat: no-repeat;
 }
@@ -565,6 +573,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 * Component Size Variables
 */
 /*****************
+* Responsive
+*****************/
+/*****************
+* Elements - Global
+*****************/
+/*****************
 * Sign-On Screen
 *****************/
 /********
@@ -589,16 +603,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 *  Login Colors
 *****************/
 /*********************************
-*  Pallette Colors
+*  Palette Colors
 **********************************/
 /*proposed colour palette*/
 /*generic default tone for non interactive elements*/
-/*favorite greys for warm interactve elements*/
+/*favorite greys for warm interactive elements*/
 /* Red Hat toners */
 /*Red Hat Official*/
 /* Red Hat Apps  - Web Extended */
 /*orange (the letter o)*/
 /*green*/
+/* red */
 /****************************
 *  Complex Color Definitions
 *****************************/
@@ -607,6 +622,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /*****************
 * Switcher Colors
 ******************/
+/* ie9 support */
 /*
 * Font Type Variables
 */
@@ -614,6 +630,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 * Component Size Variables
 */
 /*****************
+* Responsive
+*****************/
+/*****************
+* Elements - Global
+*****************/
+/*****************
 * Sign-On Screen
 *****************/
 /********
@@ -638,16 +660,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 *  Login Colors
 *****************/
 /*********************************
-*  Pallette Colors
+*  Palette Colors
 **********************************/
 /*proposed colour palette*/
 /*generic default tone for non interactive elements*/
-/*favorite greys for warm interactve elements*/
+/*favorite greys for warm interactive elements*/
 /* Red Hat toners */
 /*Red Hat Official*/
 /* Red Hat Apps  - Web Extended */
 /*orange (the letter o)*/
 /*green*/
+/* red */
 /****************************
 *  Complex Color Definitions
 *****************************/
@@ -656,6 +679,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /*****************
 * Switcher Colors
 ******************/
+/* ie9 support */
 @font-face {
   font-family: 'Overpass';
   src: local("Overpass"), url('/fonts/overpass_regular-web.eot?#iefix') format("eot"), url('/fonts/overpass_regular-web.woff') format("woff"), url('/fonts/overpass_regular-web.ttf') format("truetype"), url('/fonts/overpass_regular-web.svg#webfontLTZe4IYH') format("svg");
@@ -677,6 +701,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 * Component Size Variables
 */
 /*****************
+* Responsive
+*****************/
+/*****************
+* Elements - Global
+*****************/
+/*****************
 * Sign-On Screen
 *****************/
 /********
@@ -701,16 +731,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 *  Login Colors
 *****************/
 /*********************************
-*  Pallette Colors
+*  Palette Colors
 **********************************/
 /*proposed colour palette*/
 /*generic default tone for non interactive elements*/
-/*favorite greys for warm interactve elements*/
+/*favorite greys for warm interactive elements*/
 /* Red Hat toners */
 /*Red Hat Official*/
 /* Red Hat Apps  - Web Extended */
 /*orange (the letter o)*/
 /*green*/
+/* red */
 /****************************
 *  Complex Color Definitions
 *****************************/
@@ -719,6 +750,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /*****************
 * Switcher Colors
 ******************/
+/* ie9 support */
 @font-face {
   font-family: 'Liberation Sans';
   src: local("Liberation Sans"), local("LiberationSans"), local("Liberation-Sans"), url('/fonts/LiberationSans-Regular-webfont.eot?#iefix') format("eot"), url('/fonts/LiberationSans-Regular-webfont.woff') format("woff"), url('/fonts/LiberationSans-Regular-webfont.ttf') format("truetype"), url('/fonts/LiberationSans-Regular-webfont.svg#webfontLfr8h6FA') format("svg");
@@ -804,6 +836,12 @@ fieldset {
 * Component Size Variables
 */
 /*****************
+* Responsive
+*****************/
+/*****************
+* Elements - Global
+*****************/
+/*****************
 * Sign-On Screen
 *****************/
 /********
@@ -828,16 +866,17 @@ fieldset {
 *  Login Colors
 *****************/
 /*********************************
-*  Pallette Colors
+*  Palette Colors
 **********************************/
 /*proposed colour palette*/
 /*generic default tone for non interactive elements*/
-/*favorite greys for warm interactve elements*/
+/*favorite greys for warm interactive elements*/
 /* Red Hat toners */
 /*Red Hat Official*/
 /* Red Hat Apps  - Web Extended */
 /*orange (the letter o)*/
 /*green*/
+/* red */
 /****************************
 *  Complex Color Definitions
 *****************************/
@@ -846,63 +885,141 @@ fieldset {
 /*****************
 * Switcher Colors
 ******************/
+/* ie9 support */
+/*
+* Font Type Variables
+*/
+/*
+* Component Size Variables
+*/
+/*****************
+* Responsive
+*****************/
+/*****************
+* Elements - Global
+*****************/
+/*****************
+* Sign-On Screen
+*****************/
+/********
+* Images
+*********/
+/*************
+* Base Colors
+**************/
+/* default links */
+/* unfocused tabs */
+/* list items prelight state */
+/**************
+* Form Colors
+***************/
+/****************
+*  Header Colors
+*****************/
+/****************
+*  Footer Colors
+*****************/
+/****************
+*  Login Colors
+*****************/
+/*********************************
+*  Palette Colors
+**********************************/
+/*proposed colour palette*/
+/*generic default tone for non interactive elements*/
+/*favorite greys for warm interactive elements*/
+/* Red Hat toners */
+/*Red Hat Official*/
+/* Red Hat Apps  - Web Extended */
+/*orange (the letter o)*/
+/*green*/
+/* red */
+/****************************
+*  Complex Color Definitions
+*****************************/
+/* background for header */
+/* background for tabs on header */
+/*****************
+* Switcher Colors
+******************/
+/* ie9 support */
+/* line 5, ../../../app/stylesheets/converge-ui/components/_shared.scss */
+.noscript-warning {
+  color: white;
+  background-color: #990000;
+  font-family: "Overpass", Interstate, sans-serif;
+  font-weight: bold;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 101;
+  text-align: center;
+  font-size: 120%;
+  padding: 5px 0px 5px 0px;
+}
+
 /* line 4, ../../../app/stylesheets/converge-ui/components/_login.scss */
 html, body {
   width: 100%;
   height: 100%;
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(50%, #ffffff), color-stop(100%, #ffffff));
-  background: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 50%, #ffffff 100%);
-  background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 50%, #ffffff 100%);
-  background: -o-linear-gradient(top, #ffffff 0%, #ffffff 50%, #ffffff 100%);
-  background: -ms-linear-gradient(top, #ffffff 0%, #ffffff 50%, #ffffff 100%);
-  background: linear-gradient(top, #ffffff 0%, #ffffff 50%, #ffffff 100%);
+  background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2VmZWZlZiIvPjxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSIjZWZlZmVmIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZWZlZmVmIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #efefef), color-stop(50%, #efefef), color-stop(100%, #efefef));
+  background: -webkit-linear-gradient(top, #efefef 0%, #efefef 50%, #efefef 100%);
+  background: -moz-linear-gradient(top, #efefef 0%, #efefef 50%, #efefef 100%);
+  background: -o-linear-gradient(top, #efefef 0%, #efefef 50%, #efefef 100%);
+  background: -ms-linear-gradient(top, #efefef 0%, #efefef 50%, #efefef 100%);
+  background: linear-gradient(top, #efefef 0%, #efefef 50%, #efefef 100%);
   font-family: "Overpass", Interstate, sans-serif;
+  background-color/*\**/: #008db8 \9;
 }
 
-/* line 11, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 13, ../../../app/stylesheets/converge-ui/components/_login.scss */
 #wrapper {
   min-height: 100%;
   padding-bottom: -56;
 }
 
-/* line 16, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 18, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article {
   position: relative;
-  top: 237px;
+  top: 185px;
 }
-/* line 20, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 22, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article a, article a:visited {
   cursor: hand;
   cursor: pointer;
   color: #1ca5d2;
   text-decoration: none;
 }
-/* line 26, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 28, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article a:hover, article a:focus, article a:visited:hover, article a:visited:focus {
   color: #3cbbe5;
   text-decoration: underline;
 }
-/* line 30, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 32, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article a:active, article a:visited:active {
   color: #105e78;
 }
-/* line 35, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 37, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .container {
   position: relative;
   width: 500px;
-  height: 275px;
+  height: 265px;
   margin: 0 auto;
   padding: 10px;
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(40%, rgba(255, 255, 255, 0)), color-stop(120%, #d9d9d9));
-  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 40%, #d9d9d9 120%);
-  background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 40%, #d9d9d9 120%);
-  background: -o-linear-gradient(top, rgba(255, 255, 255, 0) 40%, #d9d9d9 120%);
-  background: -ms-linear-gradient(top, rgba(255, 255, 255, 0) 40%, #d9d9d9 120%);
-  background: linear-gradient(top, rgba(255, 255, 255, 0) 40%, #d9d9d9 120%);
-  -moz-box-shadow: #d9d9d9 0px 12px 15px -8px;
-  -webkit-box-shadow: #d9d9d9 0px 12px 15px -8px;
-  -o-box-shadow: #d9d9d9 0px 12px 15px -8px;
-  box-shadow: #d9d9d9 0px 12px 15px -8px;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSI0MCUiIHN0b3AtY29sb3I9InJnYmEoMjU1LCAyNTUsIDI1NSwgMCkiLz48c3RvcCBvZmZzZXQ9IjEyMCUiIHN0b3AtY29sb3I9IiNkOWQ5ZDkiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(40%, rgba(255, 255, 255, 0)), color-stop(120%, #d9d9d9));
+  background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 40%, #d9d9d9 120%);
+  background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 40%, #d9d9d9 120%);
+  background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0) 40%, #d9d9d9 120%);
+  background-image: -ms-linear-gradient(top, rgba(255, 255, 255, 0) 40%, #d9d9d9 120%);
+  background-image: linear-gradient(top, rgba(255, 255, 255, 0) 40%, #d9d9d9 120%);
+  -moz-box-shadow: #acacac 0px 12px 15px -8px;
+  -webkit-box-shadow: #acacac 0px 12px 15px -8px;
+  -o-box-shadow: #acacac 0px 12px 15px -8px;
+  box-shadow: #acacac 0px 12px 15px -8px;
   -moz-border-radius: 7px;
   -webkit-border-radius: 7px;
   -o-border-radius: 7px;
@@ -910,11 +1027,12 @@ article .container {
   -khtml-border-radius: 7px;
   border-radius: 7px;
 }
-/* line 45, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 46, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .container aside {
   width: 140px;
-  min-height: 275px;
+  min-height: 265px;
   float: left;
+  background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwOWRjYyIvPjxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSIjMDA5ZGNjIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDA2ZjhmIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #009dcc), color-stop(50%, #009dcc), color-stop(100%, #006f8f));
   background: -webkit-linear-gradient(top, #009dcc 0%, #009dcc 50%, #006f8f 100%);
   background: -moz-linear-gradient(top, #009dcc 0%, #009dcc 50%, #006f8f 100%);
@@ -928,17 +1046,17 @@ article .container aside {
   -khtml-border-radius: 7px 0 0 7px;
   border-radius: 7px 0 0 7px;
 }
-/* line 52, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 53, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .container aside img {
-  margin-top: 91.667px;
+  margin-top: 88.333px;
 }
-/* line 57, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 58, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .container section {
   width: 360px;
   position: relative;
   overflow: hidden;
 }
-/* line 62, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 63, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .container section .card_container {
   width: 720px;
   position: absolute;
@@ -946,13 +1064,15 @@ article .container section .card_container {
   left: -360px;
   z-index: -1;
 }
-/* line 70, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 71, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .container section .card {
   position: relative;
-  min-height: 275px;
+  min-height: 255px;
+  height: 255px;
   width: 300px;
   background: #FFF;
   padding: 0 30px;
+  padding-top: 10px;
   -moz-border-radius: 0 7px 7px 0;
   -webkit-border-radius: 0 7px 7px 0;
   -o-border-radius: 0 7px 7px 0;
@@ -964,19 +1084,19 @@ article .container section .card {
   -o-box-shadow: inset -15px -15px 30px -7px #d9d9d9, inset 0px -15px 130px #d9d9d9;
   box-shadow: inset -15px -15px 30px -7px #d9d9d9, inset 0px -15px 130px #d9d9d9;
 }
-/* line 80, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 82, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .container section .card .spinner {
   margin-top: 1.8em;
   left: 4.5em;
   display: none;
 }
-/* line 85, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 87, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .container section .card .return_link_container {
   position: absolute;
   left: 30px;
   bottom: 37px;
 }
-/* line 90, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 92, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .container section .card .return_link_container a {
   margin-top: 15px;
   float: right;
@@ -986,7 +1106,7 @@ article .container section .card .return_link_container a {
   border-radius: 30px;
   background: #DEDEDE;
 }
-/* line 99, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 101, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .container section .card .return_link_container a:hover {
   border: 2px solid #0194e8;
   -moz-box-shadow: 0px 0px 4px #0194e8;
@@ -994,38 +1114,38 @@ article .container section .card .return_link_container a:hover {
   -o-box-shadow: 0px 0px 4px #0194e8;
   box-shadow: 0px 0px 4px #0194e8;
 }
-/* line 105, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 107, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .container section .card .return_link_container .left_arrow-icon-black {
   background-position: -654px -15px;
 }
-/* line 107, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 109, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .container section .card #login_form {
   position: absolute;
   top: 52px;
 }
-/* line 112, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 114, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .container section .card #username_recovery_form {
   position: absolute;
   top: 110px;
 }
-/* line 116, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 118, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .container section .card #username_recovery_form .secondary_actions {
   margin-bottom: 0px;
 }
-/* line 117, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 119, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .container section .card #username_recovery_form .button {
   margin-top: 20px;
 }
-/* line 120, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 122, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .container section .card #password_recovery_form {
   position: absolute;
   top: 85px;
 }
-/* line 124, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 126, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .container section .card #password_recovery_form .secondary_actions {
   margin-bottom: 0px;
 }
-/* line 127, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 129, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .container section .card h2 {
   margin-left: 10px;
   display: inline-block;
@@ -1033,16 +1153,16 @@ article .container section .card h2 {
   font-size: 12px;
   color: #50505a;
 }
-/* line 135, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 137, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .container section .card p {
   text-align: justify;
   height: 30px;
   font-family: "Overpass", Interstate, sans-serif;
-  color: #999999;
+  color: #3c3c3c;
   font-size: 10px;
   margin-left: 10px;
 }
-/* line 146, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 148, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .container section .card fieldset.primary label {
   display: block;
   margin-bottom: 0px;
@@ -1052,7 +1172,7 @@ article .container section .card fieldset.primary label {
   text-align: left;
   font-weight: bold;
 }
-/* line 156, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 158, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .container section .card fieldset.primary input {
   width: 290px;
   padding: 6px 0px 6px 10px;
@@ -1071,7 +1191,7 @@ article .container section .card fieldset.primary input {
   -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.2);
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.2);
 }
-/* line 166, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 168, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .container section .card fieldset.primary input:focus {
   -moz-box-shadow: 0px 0px 4px #0194e8;
   -webkit-box-shadow: 0px 0px 4px #0194e8;
@@ -1079,21 +1199,21 @@ article .container section .card fieldset.primary input:focus {
   box-shadow: 0px 0px 4px #0194e8;
   border: 1px solid #0194e8;
 }
-/* line 174, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 176, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .container section .card #password_conflict {
   color: red;
 }
-/* line 178, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 180, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .container section .card .group {
   position: relative;
   height: 50px;
 }
-/* line 182, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 184, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .container section .card .group.secondary_actions {
   margin-bottom: 15px;
   height: 18px;
 }
-/* line 187, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 189, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .container section .card .group span {
   position: absolute;
   bottom: 0;
@@ -1101,35 +1221,35 @@ article .container section .card .group span {
   font-size: 11px;
   color: #50505a;
 }
-/* line 194, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 196, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .container section .card .group span a {
   color: #0194e8;
 }
-/* line 198, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 200, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .container section .card #progress-indicator {
   margin: 4px;
   display: none;
 }
-/* line 203, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 205, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .container section .card a {
   display: inline-block;
   outline: 0;
   text-align: left;
   margin: 0;
 }
-/* line 209, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 211, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .container section .card a:hover {
   background-position-y: -16px;
 }
-/* line 214, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 216, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .container section .card .button {
   margin-bottom: 0px;
 }
-/* line 221, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 223, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article #save_password {
   margin-top: 18px;
 }
-/* line 223, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 225, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .button {
   font-family: "Liberation Sans", sans-serif;
   /* for some reason ff3.6 won't inherit from body */
@@ -1155,6 +1275,8 @@ article .button {
   -ms-border-radius: 10px;
   -khtml-border-radius: 10px;
   border-radius: 10px;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y5ZjlmOSIvPjxzdG9wIG9mZnNldD0iMzMuMzMzJSIgc3RvcC1jb2xvcj0iI2YwZjBmMCIvPjxzdG9wIG9mZnNldD0iNjYuNjY3JSIgc3RvcC1jb2xvcj0iI2U1ZTVlNSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2U5ZTllOSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f9f9f9), color-stop(33.333%, #f0f0f0), color-stop(66.667%, #e5e5e5), color-stop(100%, #e9e9e9));
   background-image: -webkit-linear-gradient(top, #f9f9f9, #f0f0f0, #e5e5e5, #e9e9e9);
   background-image: -moz-linear-gradient(top, #f9f9f9, #f0f0f0, #e5e5e5, #e9e9e9);
@@ -1162,11 +1284,11 @@ article .button {
   background-image: -ms-linear-gradient(top, #f9f9f9, #f0f0f0, #e5e5e5, #e9e9e9);
   background-image: linear-gradient(top, #f9f9f9, #f0f0f0, #e5e5e5, #e9e9e9);
 }
-/* line 242, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 244, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .button .nomargin {
   margin: 0;
 }
-/* line 245, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 247, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .button:hover {
   background: -moz-linear-gradient(top, white, white, #cfcfcf);
   background: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(0.6, white), to(#cfcfcf));
@@ -1177,7 +1299,7 @@ article .button:hover {
   text-decoration: none;
   color: black;
 }
-/* line 252, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 254, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .button:active {
   background: -moz-linear-gradient(top, #c2c3c0, #e4e5e4);
   background: -webkit-gradient(linear, left top, left bottom, from(#c2c3c0), to(#e4e5e4));
@@ -1186,73 +1308,85 @@ article .button:active {
   -webkit-box-shadow: none;
   text-decoration: none;
 }
-/* line 258, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 260, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .button:focus {
   text-decoration: none;
   color: #000;
   border-width: 2px;
   padding: 3px 11px;
 }
-/* line 264, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 266, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .button.dialogbutton {
   float: right;
   margin-left: 3px;
   margin: 40px 4px 4px;
 }
-/* line 269, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 271, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .button.formbutton {
   display: inline-block;
   margin-left: 3px;
   margin: 40px 4px 4px;
 }
-/* line 274, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 276, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .button.actionlink {
   margin: 40px 0 0;
 }
-/* line 277, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 279, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .button.disabled, article .button[disabled] {
   cursor: default;
   background: transparent;
   opacity: 0.4;
 }
-/* line 282, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 284, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .button.disabled:hover, article .button[disabled]:hover {
   background: transparent;
   box-shadow: none;
   -moz-box-shadow: none;
   -webkit-box-shadow: none;
 }
-/* line 287, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 289, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .button.iconbutton {
   display: inline-block;
 }
-/* line 290, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 292, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .button.tiny {
   padding: 4px;
   margin: 0;
 }
-/* line 293, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 295, ../../../app/stylesheets/converge-ui/components/_login.scss */
 article .button.tiny:active, article .button.tiny:focus {
   margin: 0;
   padding: 3px;
 }
 
-/* line 301, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 303, ../../../app/stylesheets/converge-ui/components/_login.scss */
 .invisible {
   visibility: hidden;
 }
 
-/* line 305, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 307, ../../../app/stylesheets/converge-ui/components/_login.scss */
 .hidden {
   display: none;
 }
 
+@media \0screen {
+  /* line 314, ../../../app/stylesheets/converge-ui/components/_login.scss */
+  .container {
+    border: 8px solid #007699;
+  }
+}
 /*
 * Font Type Variables
 */
 /*
 * Component Size Variables
 */
+/*****************
+* Responsive
+*****************/
+/*****************
+* Elements - Global
+*****************/
 /*****************
 * Sign-On Screen
 *****************/
@@ -1278,16 +1412,17 @@ article .button.tiny:active, article .button.tiny:focus {
 *  Login Colors
 *****************/
 /*********************************
-*  Pallette Colors
+*  Palette Colors
 **********************************/
 /*proposed colour palette*/
 /*generic default tone for non interactive elements*/
-/*favorite greys for warm interactve elements*/
+/*favorite greys for warm interactive elements*/
 /* Red Hat toners */
 /*Red Hat Official*/
 /* Red Hat Apps  - Web Extended */
 /*orange (the letter o)*/
 /*green*/
+/* red */
 /****************************
 *  Complex Color Definitions
 *****************************/
@@ -1296,11 +1431,12 @@ article .button.tiny:active, article .button.tiny:focus {
 /*****************
 * Switcher Colors
 ******************/
+/* ie9 support */
 /* line 4, ../../../app/stylesheets/converge-ui/components/_footer.scss */
 body > footer {
   min-height: 55px;
   background: #ebebeb;
-  border-top: 1px solid #f2f2f2;
+  border-top: 1px solid #d9d9d9;
   clear: both;
   position: relative;
   margin-top: -56px;
