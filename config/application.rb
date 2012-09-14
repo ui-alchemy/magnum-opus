@@ -42,15 +42,31 @@ module ConvergeExample
     config.assets.enabled = true
     config.assets.version = '1.0'
 
-    config.assets.cs_compressor = :yui
-    config.assets.js_compressor = :yui
-
+=begin
     config.after_initialize do
       require 'sass/plugin'
       Sass::Plugin.options[:never_update] = true
     end
+=end
 
     # Configure sensitive parameters which will be filtered from the log file.
     config.filter_parameters += [:password]
+
+    #config.assets.precompile << /\*\.scss/ #/(^[^_\/]|\/[^_])[^\/]*$/
+    
+    config.assets.precompile << Proc.new { |path|
+      if path =~ /\.(css|js)\z/
+        full_path = Rails.application.assets.resolve(path).to_path
+        app_assets_path = Rails.root.join('app', 'assets').to_path
+        if full_path.starts_with? app_assets_path
+          true
+        else
+          false
+        end
+      else
+        false
+      end
+    }
+
   end
 end

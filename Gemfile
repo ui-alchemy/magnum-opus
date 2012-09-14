@@ -5,10 +5,12 @@ gem 'rails', '= 3.2.2'
 group :assets do
   gem 'sass-rails', '~> 3.2.3'
   gem 'compass-rails', '~> 1.0.3'
+  gem 'therubyracer', :platforms => :ruby
+  gem 'uglifier', '>= 1.0.3'
 end
 
 gem 'sqlite3'
-gem 'haml'
+gem 'haml-rails'
 
 gem 'gettext_i18n_rails'
 
