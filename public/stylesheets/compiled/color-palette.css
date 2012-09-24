@@ -5,6 +5,12 @@
 * Component Size Variables
 */
 /*****************
+* Responsive
+*****************/
+/*****************
+* Elements - Global
+*****************/
+/*****************
 * Sign-On Screen
 *****************/
 /********
@@ -29,16 +35,17 @@
 *  Login Colors
 *****************/
 /*********************************
-*  Pallette Colors
+*  Palette Colors
 **********************************/
 /*proposed colour palette*/
 /*generic default tone for non interactive elements*/
-/*favorite greys for warm interactve elements*/
+/*favorite greys for warm interactive elements*/
 /* Red Hat toners */
 /*Red Hat Official*/
 /* Red Hat Apps  - Web Extended */
 /*orange (the letter o)*/
 /*green*/
+/* red */
 /****************************
 *  Complex Color Definitions
 *****************************/
@@ -47,6 +54,7 @@
 /*****************
 * Switcher Colors
 ******************/
+/* ie9 support */
 /* line 4, ../../../app/stylesheets/color-palette.scss */
 section.palette div {
   height: 9em;
