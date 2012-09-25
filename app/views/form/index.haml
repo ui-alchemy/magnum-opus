@@ -1,9 +1,3 @@
--#= content_for(:javascripts_block) do
-  = javascript_include_tag "converge-ui/vendor/jquery/jquery-1.6.2.js"
-  = javascript_include_tag "converge-ui/vendor/jquery/plugins/chosen.jquery.js"
-  :javascript
-    $(document).ready(function(){ $('select').chosen(); });
-
 = content_for(:content) do
   %h2
     = "Forms"

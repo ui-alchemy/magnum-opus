@@ -4,7 +4,10 @@ require 'rails/all'
 
 # If you have a Gemfile, require the gems listed there, including any gems
 # you've limited to :test, :development, or :production.
-Bundler.require(:default, Rails.env) if defined?(Bundler)
+
+if defined?(Bundler)
+  Bundler.require(*Rails.groups(:assets => %w(development test)))
+end
 
 module ConvergeExample
   class Application < Rails::Application
@@ -36,7 +39,34 @@ module ConvergeExample
     # Configure the default encoding used in templates for Ruby 1.9.
     config.encoding = "utf-8"
 
+    config.assets.enabled = true
+    config.assets.version = '1.0'
+
+=begin
+    config.after_initialize do
+      require 'sass/plugin'
+      Sass::Plugin.options[:never_update] = true
+    end
+=end
+
     # Configure sensitive parameters which will be filtered from the log file.
     config.filter_parameters += [:password]
+
+    #config.assets.precompile << /\*\.scss/ #/(^[^_\/]|\/[^_])[^\/]*$/
+    
+    config.assets.precompile << Proc.new { |path|
+      if path =~ /\.(css|js)\z/
+        full_path = Rails.application.assets.resolve(path).to_path
+        app_assets_path = Rails.root.join('app', 'assets').to_path
+        if full_path.starts_with? app_assets_path
+          true
+        else
+          false
+        end
+      else
+        false
+      end
+    }
+
   end
 end
