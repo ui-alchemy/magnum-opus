@@ -1,17 +1,11 @@
-/*
-* Font Type Variables
-*/
-/*
-* Component Size Variables
-*/
+/*****************
+* Font Types
+*****************/
 /*****************
 * Responsive
 *****************/
 /*****************
 * Elements - Global
-*****************/
-/*****************
-* Sign-On Screen
 *****************/
 /********
 * Images
@@ -19,41 +13,27 @@
 /*************
 * Base Colors
 **************/
-/* default links */
-/* unfocused tabs */
-/* list items prelight state */
-/**************
-* Form Colors
-***************/
 /****************
-*  Header Colors
-*****************/
-/****************
-*  Footer Colors
-*****************/
-/****************
-*  Login Colors
-*****************/
-/*********************************
 *  Palette Colors
-**********************************/
-/*proposed colour palette*/
-/*generic default tone for non interactive elements*/
-/*favorite greys for warm interactive elements*/
+*****************/
+/* Proposed colour palette
+===========================*/
+/* Generic default tone for non interactive elements */
+/* Favorite greys for warm interactive elements */
 /* Red Hat toners */
-/*Red Hat Official*/
-/* Red Hat Apps  - Web Extended */
-/*orange (the letter o)*/
-/*green*/
-/* red */
-/****************************
-*  Complex Color Definitions
-*****************************/
+/* Red Hat Official */
+/* Red Hat Apps  - Web Extended
+================================*/
+/* Orange (the letter o) */
+/* Green */
+/* Red */
+/************************
+* Company Switcher Colors
+*************************/
+/************
+* Theme color
+************/
 /* background for header */
-/* background for tabs on header */
-/*****************
-* Switcher Colors
-******************/
 /* ie9 support */
 /* line 4, ../../../app/stylesheets/color-palette.scss */
 section.palette div {
