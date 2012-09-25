@@ -2,7 +2,8 @@
   = "ConvergeUI-Example"
 
 = content_for(:logo) do
-  %a{ :href => "#", :class => "logo" }
+  %a{ :href => root_path, :class => "logo" }
+    = image_tag("logo.png", :alt => _('Example Logo'))
 
 = content_for(:tabs) do
   %ul
