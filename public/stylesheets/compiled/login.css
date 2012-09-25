@@ -63,20 +63,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/*
-* Font Type Variables
-*/
-/*
-* Component Size Variables
-*/
+/*****************
+* Font Types
+*****************/
 /*****************
 * Responsive
 *****************/
 /*****************
 * Elements - Global
-*****************/
-/*****************
-* Sign-On Screen
 *****************/
 /********
 * Images
@@ -84,41 +78,372 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /*************
 * Base Colors
 **************/
-/* default links */
-/* unfocused tabs */
-/* list items prelight state */
-/**************
-* Form Colors
-***************/
 /****************
-*  Header Colors
-*****************/
-/****************
-*  Footer Colors
-*****************/
-/****************
-*  Login Colors
-*****************/
-/*********************************
 *  Palette Colors
-**********************************/
-/*proposed colour palette*/
-/*generic default tone for non interactive elements*/
-/*favorite greys for warm interactive elements*/
+*****************/
+/* Proposed colour palette
+===========================*/
+/* Generic default tone for non interactive elements */
+/* Favorite greys for warm interactive elements */
 /* Red Hat toners */
-/*Red Hat Official*/
-/* Red Hat Apps  - Web Extended */
-/*orange (the letter o)*/
-/*green*/
-/* red */
-/****************************
-*  Complex Color Definitions
-*****************************/
+/* Red Hat Official */
+/* Red Hat Apps  - Web Extended
+================================*/
+/* Orange (the letter o) */
+/* Green */
+/* Red */
+/************************
+* Company Switcher Colors
+*************************/
+/************
+* Theme color
+************/
 /* background for header */
-/* background for tabs on header */
+/* ie9 support */
+/* line 5, ../../../app/stylesheets/converge-ui/components/footer/_footer.scss */
+body > footer {
+  min-height: 55px;
+  background: #ebebeb;
+  border-top: 1px solid #d9d9d9;
+  clear: both;
+  position: relative;
+  margin-top: -56px;
+  /* negative value of footer height */
+  height: 55px;
+}
+/* line 14, ../../../app/stylesheets/converge-ui/components/footer/_footer.scss */
+body > footer span {
+  width: 74px;
+  position: absolute;
+  left: 30px;
+  bottom: 16px;
+}
+/* line 21, ../../../app/stylesheets/converge-ui/components/footer/_footer.scss */
+body > footer p.copyright {
+  position: relative;
+  bottom: -16px;
+  text-align: center;
+}
+/* line 27, ../../../app/stylesheets/converge-ui/components/footer/_footer.scss */
+body > footer ul {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  bottom: 16px;
+}
+/* line 33, ../../../app/stylesheets/converge-ui/components/footer/_footer.scss */
+body > footer ul li {
+  margin-right: 20px;
+  float: left;
+}
+/* line 37, ../../../app/stylesheets/converge-ui/components/footer/_footer.scss */
+body > footer ul li a {
+  font-size: 11px;
+  color: #50505a;
+}
+/* line 43, ../../../app/stylesheets/converge-ui/components/footer/_footer.scss */
+body > footer ul:last-child {
+  margin-right: 30px;
+}
+/* line 48, ../../../app/stylesheets/converge-ui/components/footer/_footer.scss */
+body > footer .versioning {
+  position: relative;
+  bottom: -18px;
+  text-align: center;
+}
+
 /*****************
-* Switcher Colors
-******************/
+* Font Types
+*****************/
+/*****************
+* Responsive
+*****************/
+/*****************
+* Elements - Global
+*****************/
+/********
+* Images
+*********/
+/*************
+* Base Colors
+**************/
+/****************
+*  Palette Colors
+*****************/
+/* Proposed colour palette
+===========================*/
+/* Generic default tone for non interactive elements */
+/* Favorite greys for warm interactive elements */
+/* Red Hat toners */
+/* Red Hat Official */
+/* Red Hat Apps  - Web Extended
+================================*/
+/* Orange (the letter o) */
+/* Green */
+/* Red */
+/************************
+* Company Switcher Colors
+*************************/
+/************
+* Theme color
+************/
+/* background for header */
+/* ie9 support */
+/* line 5, ../../../app/stylesheets/converge-ui/components/_shared.scss */
+.noscript-warning {
+  color: white;
+  background-color: #990000;
+  font-family: "Overpass", Interstate, sans-serif;
+  font-weight: bold;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 101;
+  text-align: center;
+  font-size: 120%;
+  padding: 5px 0px 5px 0px;
+}
+
+/*****************
+* Font Types
+*****************/
+/*****************
+* Responsive
+*****************/
+/*****************
+* Elements - Global
+*****************/
+/********
+* Images
+*********/
+/*************
+* Base Colors
+**************/
+/****************
+*  Palette Colors
+*****************/
+/* Proposed colour palette
+===========================*/
+/* Generic default tone for non interactive elements */
+/* Favorite greys for warm interactive elements */
+/* Red Hat toners */
+/* Red Hat Official */
+/* Red Hat Apps  - Web Extended
+================================*/
+/* Orange (the letter o) */
+/* Green */
+/* Red */
+/************************
+* Company Switcher Colors
+*************************/
+/************
+* Theme color
+************/
+/* background for header */
+/* ie9 support */
+/*****************
+* Font Types
+*****************/
+/*****************
+* Responsive
+*****************/
+/*****************
+* Elements - Global
+*****************/
+/********
+* Images
+*********/
+/*************
+* Base Colors
+**************/
+/****************
+*  Palette Colors
+*****************/
+/* Proposed colour palette
+===========================*/
+/* Generic default tone for non interactive elements */
+/* Favorite greys for warm interactive elements */
+/* Red Hat toners */
+/* Red Hat Official */
+/* Red Hat Apps  - Web Extended
+================================*/
+/* Orange (the letter o) */
+/* Green */
+/* Red */
+/************************
+* Company Switcher Colors
+*************************/
+/************
+* Theme color
+************/
+/* background for header */
+/* ie9 support */
+@font-face {
+  font-family: 'Overpass';
+  src: local("Overpass"), url('/fonts/overpass_regular-web.eot?#iefix') format("eot"), url('/fonts/overpass_regular-web.woff') format("woff"), url('/fonts/overpass_regular-web.ttf') format("truetype"), url('/fonts/overpass_regular-web.svg#webfontLTZe4IYH') format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Overpass';
+  src: local("Overpass Bold"), local("OverpassBold"), url('/fonts/overpass_bold-web.eot?#iefix') format("eot"), url('/fonts/overpass_bold-web.woff') format("woff"), url('/fonts/overpass_bold-web.ttf') format("truetype"), url('/fonts/overpass_bold-web.svg#webfontzAU82Ltw') format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+
+/*****************
+* Font Types
+*****************/
+/*****************
+* Responsive
+*****************/
+/*****************
+* Elements - Global
+*****************/
+/********
+* Images
+*********/
+/*************
+* Base Colors
+**************/
+/****************
+*  Palette Colors
+*****************/
+/* Proposed colour palette
+===========================*/
+/* Generic default tone for non interactive elements */
+/* Favorite greys for warm interactive elements */
+/* Red Hat toners */
+/* Red Hat Official */
+/* Red Hat Apps  - Web Extended
+================================*/
+/* Orange (the letter o) */
+/* Green */
+/* Red */
+/************************
+* Company Switcher Colors
+*************************/
+/************
+* Theme color
+************/
+/* background for header */
+/* ie9 support */
+@font-face {
+  font-family: 'Liberation Sans';
+  src: local("Liberation Sans"), local("LiberationSans"), local("Liberation-Sans"), url('/fonts/LiberationSans-Regular-webfont.eot?#iefix') format("eot"), url('/fonts/LiberationSans-Regular-webfont.woff') format("woff"), url('/fonts/LiberationSans-Regular-webfont.ttf') format("truetype"), url('/fonts/LiberationSans-Regular-webfont.svg#webfontLfr8h6FA') format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Liberation Sans';
+  src: local("Liberation Sans Italic"), local("LiberationSansItalic"), local("Liberation-Sans-Italic"), url('/fonts/LiberationSans-Italic-webfont.woff') format("woff"), url('/fonts/LiberationSans-Italic-webfont.ttf') format("truetype"), url('/fonts/LiberationSans-Italic-webfont.svg#webfont8TmwkzPJ') format("svg");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Liberation Sans';
+  src: local("Liberation Sans Bold"), local("LiberationSansBold"), local("Liberation-Sans-Bold"), url('/fonts/LiberationSans-Bold-webfont.woff') format("woff"), url('/fonts/LiberationSans-Bold-webfont.ttf') format("truetype"), url('/fonts/LiberationSans-Bold-webfont.svg#webfontHyWb8e07') format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Liberation Sans';
+  src: local("Liberation Sans Bold Italic"), local("LiberationSansBoldItalic"), local("Liberation-Sans-Bold-Italic"), url('/fonts/LiberationSans-BoldItalic-webfont.woff') format("woff"), url('/fonts/LiberationSans-BoldItalic-webfont.ttf') format("truetype"), url('/fonts/LiberationSans-BoldItalic-webfont.svg#webfont8uGO27Bu') format("svg");
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* line 5, ../../../app/stylesheets/converge-ui/components/_text.scss */
+body {
+  font: 12px/1.5 "Liberation Sans", sans-serif;
+  color: #1a1a1a;
+}
+
+/* line 10, ../../../app/stylesheets/converge-ui/components/_text.scss */
+h1 {
+  font-size: 180%;
+  text-transform: uppercase;
+}
+
+/* line 14, ../../../app/stylesheets/converge-ui/components/_text.scss */
+h2 {
+  font-size: 170%;
+}
+
+/* line 15, ../../../app/stylesheets/converge-ui/components/_text.scss */
+h3 {
+  font-size: 160%;
+}
+
+/* line 16, ../../../app/stylesheets/converge-ui/components/_text.scss */
+h4 {
+  font-size: 150%;
+}
+
+/* line 17, ../../../app/stylesheets/converge-ui/components/_text.scss */
+h5 {
+  font-size: 140%;
+}
+
+/* line 18, ../../../app/stylesheets/converge-ui/components/_text.scss */
+h1, h2, h3, h4, h5 {
+  color: #939292;
+  font-family: "Overpass", Interstate, sans-serif;
+  font-weight: bold;
+  word-wrap: break-word;
+}
+
+/* line 24, ../../../app/stylesheets/converge-ui/components/_text.scss */
+li {
+  margin-left: 0;
+}
+
+/* line 27, ../../../app/stylesheets/converge-ui/components/_text.scss */
+fieldset {
+  margin-bottom: 10px;
+}
+
+/*****************
+* Font Types
+*****************/
+/*****************
+* Responsive
+*****************/
+/*****************
+* Elements - Global
+*****************/
+/********
+* Images
+*********/
+/*************
+* Base Colors
+**************/
+/****************
+*  Palette Colors
+*****************/
+/* Proposed colour palette
+===========================*/
+/* Generic default tone for non interactive elements */
+/* Favorite greys for warm interactive elements */
+/* Red Hat toners */
+/* Red Hat Official */
+/* Red Hat Apps  - Web Extended
+================================*/
+/* Orange (the letter o) */
+/* Green */
+/* Red */
+/************************
+* Company Switcher Colors
+*************************/
+/************
+* Theme color
+************/
+/* background for header */
 /* ie9 support */
 /* this needs to work for converge-ui */
 /* line 10, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
@@ -566,20 +891,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   background-position: -688px 0;
 }
 
-/*
-* Font Type Variables
-*/
-/*
-* Component Size Variables
-*/
+/*****************
+* Font Types
+*****************/
 /*****************
 * Responsive
 *****************/
 /*****************
 * Elements - Global
-*****************/
-/*****************
-* Sign-On Screen
 *****************/
 /********
 * Images
@@ -587,379 +906,29 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /*************
 * Base Colors
 **************/
-/* default links */
-/* unfocused tabs */
-/* list items prelight state */
-/**************
-* Form Colors
-***************/
 /****************
-*  Header Colors
-*****************/
-/****************
-*  Footer Colors
-*****************/
-/****************
-*  Login Colors
-*****************/
-/*********************************
 *  Palette Colors
-**********************************/
-/*proposed colour palette*/
-/*generic default tone for non interactive elements*/
-/*favorite greys for warm interactive elements*/
+*****************/
+/* Proposed colour palette
+===========================*/
+/* Generic default tone for non interactive elements */
+/* Favorite greys for warm interactive elements */
 /* Red Hat toners */
-/*Red Hat Official*/
-/* Red Hat Apps  - Web Extended */
-/*orange (the letter o)*/
-/*green*/
-/* red */
-/****************************
-*  Complex Color Definitions
-*****************************/
+/* Red Hat Official */
+/* Red Hat Apps  - Web Extended
+================================*/
+/* Orange (the letter o) */
+/* Green */
+/* Red */
+/************************
+* Company Switcher Colors
+*************************/
+/************
+* Theme color
+************/
 /* background for header */
-/* background for tabs on header */
-/*****************
-* Switcher Colors
-******************/
 /* ie9 support */
-/*
-* Font Type Variables
-*/
-/*
-* Component Size Variables
-*/
-/*****************
-* Responsive
-*****************/
-/*****************
-* Elements - Global
-*****************/
-/*****************
-* Sign-On Screen
-*****************/
-/********
-* Images
-*********/
-/*************
-* Base Colors
-**************/
-/* default links */
-/* unfocused tabs */
-/* list items prelight state */
-/**************
-* Form Colors
-***************/
-/****************
-*  Header Colors
-*****************/
-/****************
-*  Footer Colors
-*****************/
-/****************
-*  Login Colors
-*****************/
-/*********************************
-*  Palette Colors
-**********************************/
-/*proposed colour palette*/
-/*generic default tone for non interactive elements*/
-/*favorite greys for warm interactive elements*/
-/* Red Hat toners */
-/*Red Hat Official*/
-/* Red Hat Apps  - Web Extended */
-/*orange (the letter o)*/
-/*green*/
-/* red */
-/****************************
-*  Complex Color Definitions
-*****************************/
-/* background for header */
-/* background for tabs on header */
-/*****************
-* Switcher Colors
-******************/
-/* ie9 support */
-@font-face {
-  font-family: 'Overpass';
-  src: local("Overpass"), url('/fonts/overpass_regular-web.eot?#iefix') format("eot"), url('/fonts/overpass_regular-web.woff') format("woff"), url('/fonts/overpass_regular-web.ttf') format("truetype"), url('/fonts/overpass_regular-web.svg#webfontLTZe4IYH') format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Overpass';
-  src: local("Overpass Bold"), local("OverpassBold"), url('/fonts/overpass_bold-web.eot?#iefix') format("eot"), url('/fonts/overpass_bold-web.woff') format("woff"), url('/fonts/overpass_bold-web.ttf') format("truetype"), url('/fonts/overpass_bold-web.svg#webfontzAU82Ltw') format("svg");
-  font-weight: bold;
-  font-style: normal;
-}
-
-/*
-* Font Type Variables
-*/
-/*
-* Component Size Variables
-*/
-/*****************
-* Responsive
-*****************/
-/*****************
-* Elements - Global
-*****************/
-/*****************
-* Sign-On Screen
-*****************/
-/********
-* Images
-*********/
-/*************
-* Base Colors
-**************/
-/* default links */
-/* unfocused tabs */
-/* list items prelight state */
-/**************
-* Form Colors
-***************/
-/****************
-*  Header Colors
-*****************/
-/****************
-*  Footer Colors
-*****************/
-/****************
-*  Login Colors
-*****************/
-/*********************************
-*  Palette Colors
-**********************************/
-/*proposed colour palette*/
-/*generic default tone for non interactive elements*/
-/*favorite greys for warm interactive elements*/
-/* Red Hat toners */
-/*Red Hat Official*/
-/* Red Hat Apps  - Web Extended */
-/*orange (the letter o)*/
-/*green*/
-/* red */
-/****************************
-*  Complex Color Definitions
-*****************************/
-/* background for header */
-/* background for tabs on header */
-/*****************
-* Switcher Colors
-******************/
-/* ie9 support */
-@font-face {
-  font-family: 'Liberation Sans';
-  src: local("Liberation Sans"), local("LiberationSans"), local("Liberation-Sans"), url('/fonts/LiberationSans-Regular-webfont.eot?#iefix') format("eot"), url('/fonts/LiberationSans-Regular-webfont.woff') format("woff"), url('/fonts/LiberationSans-Regular-webfont.ttf') format("truetype"), url('/fonts/LiberationSans-Regular-webfont.svg#webfontLfr8h6FA') format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Liberation Sans';
-  src: local("Liberation Sans Italic"), local("LiberationSansItalic"), local("Liberation-Sans-Italic"), url('/fonts/LiberationSans-Italic-webfont.woff') format("woff"), url('/fonts/LiberationSans-Italic-webfont.ttf') format("truetype"), url('/fonts/LiberationSans-Italic-webfont.svg#webfont8TmwkzPJ') format("svg");
-  font-weight: normal;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'Liberation Sans';
-  src: local("Liberation Sans Bold"), local("LiberationSansBold"), local("Liberation-Sans-Bold"), url('/fonts/LiberationSans-Bold-webfont.woff') format("woff"), url('/fonts/LiberationSans-Bold-webfont.ttf') format("truetype"), url('/fonts/LiberationSans-Bold-webfont.svg#webfontHyWb8e07') format("svg");
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Liberation Sans';
-  src: local("Liberation Sans Bold Italic"), local("LiberationSansBoldItalic"), local("Liberation-Sans-Bold-Italic"), url('/fonts/LiberationSans-BoldItalic-webfont.woff') format("woff"), url('/fonts/LiberationSans-BoldItalic-webfont.ttf') format("truetype"), url('/fonts/LiberationSans-BoldItalic-webfont.svg#webfont8uGO27Bu') format("svg");
-  font-weight: bold;
-  font-style: italic;
-}
-
-/* line 5, ../../../app/stylesheets/converge-ui/components/_text.scss */
-body {
-  font: 12px/1.5 "Liberation Sans", sans-serif;
-  color: #1a1a1a;
-}
-
-/* line 10, ../../../app/stylesheets/converge-ui/components/_text.scss */
-h1 {
-  font-size: 180%;
-  text-transform: uppercase;
-}
-
-/* line 14, ../../../app/stylesheets/converge-ui/components/_text.scss */
-h2 {
-  font-size: 170%;
-}
-
-/* line 15, ../../../app/stylesheets/converge-ui/components/_text.scss */
-h3 {
-  font-size: 160%;
-}
-
-/* line 16, ../../../app/stylesheets/converge-ui/components/_text.scss */
-h4 {
-  font-size: 150%;
-}
-
-/* line 17, ../../../app/stylesheets/converge-ui/components/_text.scss */
-h5 {
-  font-size: 140%;
-}
-
-/* line 18, ../../../app/stylesheets/converge-ui/components/_text.scss */
-h1, h2, h3, h4, h5 {
-  color: #939292;
-  font-family: "Overpass", Interstate, sans-serif;
-  font-weight: bold;
-  word-wrap: break-word;
-}
-
-/* line 24, ../../../app/stylesheets/converge-ui/components/_text.scss */
-li {
-  margin-left: 0;
-}
-
-/* line 27, ../../../app/stylesheets/converge-ui/components/_text.scss */
-fieldset {
-  margin-bottom: 10px;
-}
-
-/*
-* Font Type Variables
-*/
-/*
-* Component Size Variables
-*/
-/*****************
-* Responsive
-*****************/
-/*****************
-* Elements - Global
-*****************/
-/*****************
-* Sign-On Screen
-*****************/
-/********
-* Images
-*********/
-/*************
-* Base Colors
-**************/
-/* default links */
-/* unfocused tabs */
-/* list items prelight state */
-/**************
-* Form Colors
-***************/
-/****************
-*  Header Colors
-*****************/
-/****************
-*  Footer Colors
-*****************/
-/****************
-*  Login Colors
-*****************/
-/*********************************
-*  Palette Colors
-**********************************/
-/*proposed colour palette*/
-/*generic default tone for non interactive elements*/
-/*favorite greys for warm interactive elements*/
-/* Red Hat toners */
-/*Red Hat Official*/
-/* Red Hat Apps  - Web Extended */
-/*orange (the letter o)*/
-/*green*/
-/* red */
-/****************************
-*  Complex Color Definitions
-*****************************/
-/* background for header */
-/* background for tabs on header */
-/*****************
-* Switcher Colors
-******************/
-/* ie9 support */
-/*
-* Font Type Variables
-*/
-/*
-* Component Size Variables
-*/
-/*****************
-* Responsive
-*****************/
-/*****************
-* Elements - Global
-*****************/
-/*****************
-* Sign-On Screen
-*****************/
-/********
-* Images
-*********/
-/*************
-* Base Colors
-**************/
-/* default links */
-/* unfocused tabs */
-/* list items prelight state */
-/**************
-* Form Colors
-***************/
-/****************
-*  Header Colors
-*****************/
-/****************
-*  Footer Colors
-*****************/
-/****************
-*  Login Colors
-*****************/
-/*********************************
-*  Palette Colors
-**********************************/
-/*proposed colour palette*/
-/*generic default tone for non interactive elements*/
-/*favorite greys for warm interactive elements*/
-/* Red Hat toners */
-/*Red Hat Official*/
-/* Red Hat Apps  - Web Extended */
-/*orange (the letter o)*/
-/*green*/
-/* red */
-/****************************
-*  Complex Color Definitions
-*****************************/
-/* background for header */
-/* background for tabs on header */
-/*****************
-* Switcher Colors
-******************/
-/* ie9 support */
-/* line 5, ../../../app/stylesheets/converge-ui/components/_shared.scss */
-.noscript-warning {
-  color: white;
-  background-color: #990000;
-  font-family: "Overpass", Interstate, sans-serif;
-  font-weight: bold;
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  z-index: 101;
-  text-align: center;
-  font-size: 120%;
-  padding: 5px 0px 5px 0px;
-}
-
-/* line 4, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 6, ../../../app/stylesheets/converge-ui/components/login/_login.scss */
 html, body {
   width: 100%;
   height: 100%;
@@ -974,34 +943,34 @@ html, body {
   background-color/*\**/: #008db8 \9;
 }
 
-/* line 13, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 15, ../../../app/stylesheets/converge-ui/components/login/_login.scss */
 #wrapper {
   min-height: 100%;
   padding-bottom: -56;
 }
 
-/* line 18, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 20, ../../../app/stylesheets/converge-ui/components/login/_login.scss */
 article {
   position: relative;
   top: 185px;
 }
-/* line 22, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 24, ../../../app/stylesheets/converge-ui/components/login/_login.scss */
 article a, article a:visited {
   cursor: hand;
   cursor: pointer;
   color: #1ca5d2;
   text-decoration: none;
 }
-/* line 28, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 30, ../../../app/stylesheets/converge-ui/components/login/_login.scss */
 article a:hover, article a:focus, article a:visited:hover, article a:visited:focus {
   color: #3cbbe5;
   text-decoration: underline;
 }
-/* line 32, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 34, ../../../app/stylesheets/converge-ui/components/login/_login.scss */
 article a:active, article a:visited:active {
   color: #105e78;
 }
-/* line 37, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 39, ../../../app/stylesheets/converge-ui/components/login/_login.scss */
 article .container {
   position: relative;
   width: 500px;
@@ -1027,7 +996,7 @@ article .container {
   -khtml-border-radius: 7px;
   border-radius: 7px;
 }
-/* line 46, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 48, ../../../app/stylesheets/converge-ui/components/login/_login.scss */
 article .container aside {
   width: 140px;
   min-height: 265px;
@@ -1046,17 +1015,17 @@ article .container aside {
   -khtml-border-radius: 7px 0 0 7px;
   border-radius: 7px 0 0 7px;
 }
-/* line 53, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 55, ../../../app/stylesheets/converge-ui/components/login/_login.scss */
 article .container aside img {
   margin-top: 88.333px;
 }
-/* line 58, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 60, ../../../app/stylesheets/converge-ui/components/login/_login.scss */
 article .container section {
   width: 360px;
   position: relative;
   overflow: hidden;
 }
-/* line 63, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 65, ../../../app/stylesheets/converge-ui/components/login/_login.scss */
 article .container section .card_container {
   width: 720px;
   position: absolute;
@@ -1064,7 +1033,7 @@ article .container section .card_container {
   left: -360px;
   z-index: -1;
 }
-/* line 71, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 73, ../../../app/stylesheets/converge-ui/components/login/_login.scss */
 article .container section .card {
   position: relative;
   min-height: 255px;
@@ -1084,19 +1053,19 @@ article .container section .card {
   -o-box-shadow: inset -15px -15px 30px -7px #d9d9d9, inset 0px -15px 130px #d9d9d9;
   box-shadow: inset -15px -15px 30px -7px #d9d9d9, inset 0px -15px 130px #d9d9d9;
 }
-/* line 82, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 84, ../../../app/stylesheets/converge-ui/components/login/_login.scss */
 article .container section .card .spinner {
   margin-top: 1.8em;
   left: 4.5em;
   display: none;
 }
-/* line 87, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 89, ../../../app/stylesheets/converge-ui/components/login/_login.scss */
 article .container section .card .return_link_container {
   position: absolute;
   left: 30px;
   bottom: 37px;
 }
-/* line 92, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 94, ../../../app/stylesheets/converge-ui/components/login/_login.scss */
 article .container section .card .return_link_container a {
   margin-top: 15px;
   float: right;
@@ -1106,7 +1075,7 @@ article .container section .card .return_link_container a {
   border-radius: 30px;
   background: #DEDEDE;
 }
-/* line 101, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 103, ../../../app/stylesheets/converge-ui/components/login/_login.scss */
 article .container section .card .return_link_container a:hover {
   border: 2px solid #0194e8;
   -moz-box-shadow: 0px 0px 4px #0194e8;
@@ -1114,38 +1083,38 @@ article .container section .card .return_link_container a:hover {
   -o-box-shadow: 0px 0px 4px #0194e8;
   box-shadow: 0px 0px 4px #0194e8;
 }
-/* line 107, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 109, ../../../app/stylesheets/converge-ui/components/login/_login.scss */
 article .container section .card .return_link_container .left_arrow-icon-black {
   background-position: -654px -15px;
 }
-/* line 109, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 111, ../../../app/stylesheets/converge-ui/components/login/_login.scss */
 article .container section .card #login_form {
   position: absolute;
   top: 52px;
 }
-/* line 114, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 116, ../../../app/stylesheets/converge-ui/components/login/_login.scss */
 article .container section .card #username_recovery_form {
   position: absolute;
   top: 110px;
 }
-/* line 118, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 120, ../../../app/stylesheets/converge-ui/components/login/_login.scss */
 article .container section .card #username_recovery_form .secondary_actions {
   margin-bottom: 0px;
 }
-/* line 119, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 121, ../../../app/stylesheets/converge-ui/components/login/_login.scss */
 article .container section .card #username_recovery_form .button {
   margin-top: 20px;
 }
-/* line 122, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 124, ../../../app/stylesheets/converge-ui/components/login/_login.scss */
 article .container section .card #password_recovery_form {
   position: absolute;
   top: 85px;
 }
-/* line 126, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 128, ../../../app/stylesheets/converge-ui/components/login/_login.scss */
 article .container section .card #password_recovery_form .secondary_actions {
   margin-bottom: 0px;
 }
-/* line 129, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 131, ../../../app/stylesheets/converge-ui/components/login/_login.scss */
 article .container section .card h2 {
   margin-left: 10px;
   display: inline-block;
@@ -1153,7 +1122,7 @@ article .container section .card h2 {
   font-size: 12px;
   color: #50505a;
 }
-/* line 137, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 139, ../../../app/stylesheets/converge-ui/components/login/_login.scss */
 article .container section .card p {
   text-align: justify;
   height: 30px;
@@ -1162,7 +1131,7 @@ article .container section .card p {
   font-size: 10px;
   margin-left: 10px;
 }
-/* line 148, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 150, ../../../app/stylesheets/converge-ui/components/login/_login.scss */
 article .container section .card fieldset.primary label {
   display: block;
   margin-bottom: 0px;
@@ -1172,7 +1141,7 @@ article .container section .card fieldset.primary label {
   text-align: left;
   font-weight: bold;
 }
-/* line 158, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 160, ../../../app/stylesheets/converge-ui/components/login/_login.scss */
 article .container section .card fieldset.primary input {
   width: 290px;
   padding: 6px 0px 6px 10px;
@@ -1191,7 +1160,7 @@ article .container section .card fieldset.primary input {
   -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.2);
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.2);
 }
-/* line 168, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 170, ../../../app/stylesheets/converge-ui/components/login/_login.scss */
 article .container section .card fieldset.primary input:focus {
   -moz-box-shadow: 0px 0px 4px #0194e8;
   -webkit-box-shadow: 0px 0px 4px #0194e8;
@@ -1199,21 +1168,21 @@ article .container section .card fieldset.primary input:focus {
   box-shadow: 0px 0px 4px #0194e8;
   border: 1px solid #0194e8;
 }
-/* line 176, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 178, ../../../app/stylesheets/converge-ui/components/login/_login.scss */
 article .container section .card #password_conflict {
   color: red;
 }
-/* line 180, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 182, ../../../app/stylesheets/converge-ui/components/login/_login.scss */
 article .container section .card .group {
   position: relative;
   height: 50px;
 }
-/* line 184, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 186, ../../../app/stylesheets/converge-ui/components/login/_login.scss */
 article .container section .card .group.secondary_actions {
   margin-bottom: 15px;
   height: 18px;
 }
-/* line 189, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 191, ../../../app/stylesheets/converge-ui/components/login/_login.scss */
 article .container section .card .group span {
   position: absolute;
   bottom: 0;
@@ -1221,35 +1190,35 @@ article .container section .card .group span {
   font-size: 11px;
   color: #50505a;
 }
-/* line 196, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 198, ../../../app/stylesheets/converge-ui/components/login/_login.scss */
 article .container section .card .group span a {
   color: #0194e8;
 }
-/* line 200, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 202, ../../../app/stylesheets/converge-ui/components/login/_login.scss */
 article .container section .card #progress-indicator {
   margin: 4px;
   display: none;
 }
-/* line 205, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 207, ../../../app/stylesheets/converge-ui/components/login/_login.scss */
 article .container section .card a {
   display: inline-block;
   outline: 0;
   text-align: left;
   margin: 0;
 }
-/* line 211, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 213, ../../../app/stylesheets/converge-ui/components/login/_login.scss */
 article .container section .card a:hover {
   background-position-y: -16px;
 }
-/* line 216, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 218, ../../../app/stylesheets/converge-ui/components/login/_login.scss */
 article .container section .card .button {
   margin-bottom: 0px;
 }
-/* line 223, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 225, ../../../app/stylesheets/converge-ui/components/login/_login.scss */
 article #save_password {
   margin-top: 18px;
 }
-/* line 225, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 227, ../../../app/stylesheets/converge-ui/components/login/_login.scss */
 article .button {
   font-family: "Liberation Sans", sans-serif;
   /* for some reason ff3.6 won't inherit from body */
@@ -1284,11 +1253,11 @@ article .button {
   background-image: -ms-linear-gradient(top, #f9f9f9, #f0f0f0, #e5e5e5, #e9e9e9);
   background-image: linear-gradient(top, #f9f9f9, #f0f0f0, #e5e5e5, #e9e9e9);
 }
-/* line 244, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 246, ../../../app/stylesheets/converge-ui/components/login/_login.scss */
 article .button .nomargin {
   margin: 0;
 }
-/* line 247, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 249, ../../../app/stylesheets/converge-ui/components/login/_login.scss */
 article .button:hover {
   background: -moz-linear-gradient(top, white, white, #cfcfcf);
   background: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(0.6, white), to(#cfcfcf));
@@ -1299,7 +1268,7 @@ article .button:hover {
   text-decoration: none;
   color: black;
 }
-/* line 254, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 256, ../../../app/stylesheets/converge-ui/components/login/_login.scss */
 article .button:active {
   background: -moz-linear-gradient(top, #c2c3c0, #e4e5e4);
   background: -webkit-gradient(linear, left top, left bottom, from(#c2c3c0), to(#e4e5e4));
@@ -1308,178 +1277,73 @@ article .button:active {
   -webkit-box-shadow: none;
   text-decoration: none;
 }
-/* line 260, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 262, ../../../app/stylesheets/converge-ui/components/login/_login.scss */
 article .button:focus {
   text-decoration: none;
-  color: #000;
-  border-width: 2px;
-  padding: 3px 11px;
+  -moz-box-shadow: 0px 0px 4px #0194e8;
+  -webkit-box-shadow: 0px 0px 4px #0194e8;
+  -o-box-shadow: 0px 0px 4px #0194e8;
+  box-shadow: 0px 0px 4px #0194e8;
+  border: 1px solid #0194e8;
+  outline: none;
 }
-/* line 266, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 268, ../../../app/stylesheets/converge-ui/components/login/_login.scss */
 article .button.dialogbutton {
   float: right;
   margin-left: 3px;
   margin: 40px 4px 4px;
 }
-/* line 271, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 273, ../../../app/stylesheets/converge-ui/components/login/_login.scss */
 article .button.formbutton {
   display: inline-block;
   margin-left: 3px;
   margin: 40px 4px 4px;
 }
-/* line 276, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 278, ../../../app/stylesheets/converge-ui/components/login/_login.scss */
 article .button.actionlink {
   margin: 40px 0 0;
 }
-/* line 279, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 281, ../../../app/stylesheets/converge-ui/components/login/_login.scss */
 article .button.disabled, article .button[disabled] {
   cursor: default;
   background: transparent;
   opacity: 0.4;
 }
-/* line 284, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 286, ../../../app/stylesheets/converge-ui/components/login/_login.scss */
 article .button.disabled:hover, article .button[disabled]:hover {
   background: transparent;
   box-shadow: none;
   -moz-box-shadow: none;
   -webkit-box-shadow: none;
 }
-/* line 289, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 291, ../../../app/stylesheets/converge-ui/components/login/_login.scss */
 article .button.iconbutton {
   display: inline-block;
 }
-/* line 292, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 294, ../../../app/stylesheets/converge-ui/components/login/_login.scss */
 article .button.tiny {
   padding: 4px;
   margin: 0;
 }
-/* line 295, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 297, ../../../app/stylesheets/converge-ui/components/login/_login.scss */
 article .button.tiny:active, article .button.tiny:focus {
   margin: 0;
   padding: 3px;
 }
 
-/* line 303, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 305, ../../../app/stylesheets/converge-ui/components/login/_login.scss */
 .invisible {
   visibility: hidden;
 }
 
-/* line 307, ../../../app/stylesheets/converge-ui/components/_login.scss */
+/* line 309, ../../../app/stylesheets/converge-ui/components/login/_login.scss */
 .hidden {
   display: none;
 }
 
 @media \0screen {
-  /* line 314, ../../../app/stylesheets/converge-ui/components/_login.scss */
+  /* line 316, ../../../app/stylesheets/converge-ui/components/login/_login.scss */
   .container {
     border: 8px solid #007699;
   }
-}
-/*
-* Font Type Variables
-*/
-/*
-* Component Size Variables
-*/
-/*****************
-* Responsive
-*****************/
-/*****************
-* Elements - Global
-*****************/
-/*****************
-* Sign-On Screen
-*****************/
-/********
-* Images
-*********/
-/*************
-* Base Colors
-**************/
-/* default links */
-/* unfocused tabs */
-/* list items prelight state */
-/**************
-* Form Colors
-***************/
-/****************
-*  Header Colors
-*****************/
-/****************
-*  Footer Colors
-*****************/
-/****************
-*  Login Colors
-*****************/
-/*********************************
-*  Palette Colors
-**********************************/
-/*proposed colour palette*/
-/*generic default tone for non interactive elements*/
-/*favorite greys for warm interactive elements*/
-/* Red Hat toners */
-/*Red Hat Official*/
-/* Red Hat Apps  - Web Extended */
-/*orange (the letter o)*/
-/*green*/
-/* red */
-/****************************
-*  Complex Color Definitions
-*****************************/
-/* background for header */
-/* background for tabs on header */
-/*****************
-* Switcher Colors
-******************/
-/* ie9 support */
-/* line 4, ../../../app/stylesheets/converge-ui/components/_footer.scss */
-body > footer {
-  min-height: 55px;
-  background: #ebebeb;
-  border-top: 1px solid #d9d9d9;
-  clear: both;
-  position: relative;
-  margin-top: -56px;
-  /* negative value of footer height */
-  height: 55px;
-}
-/* line 13, ../../../app/stylesheets/converge-ui/components/_footer.scss */
-body > footer span {
-  width: 74px;
-  position: absolute;
-  left: 30px;
-  bottom: 16px;
-}
-/* line 20, ../../../app/stylesheets/converge-ui/components/_footer.scss */
-body > footer p.copyright {
-  position: relative;
-  bottom: -16px;
-  text-align: center;
-}
-/* line 26, ../../../app/stylesheets/converge-ui/components/_footer.scss */
-body > footer ul {
-  display: inline-block;
-  position: absolute;
-  right: 0;
-  bottom: 16px;
-}
-/* line 32, ../../../app/stylesheets/converge-ui/components/_footer.scss */
-body > footer ul li {
-  margin-right: 20px;
-  float: left;
-}
-/* line 36, ../../../app/stylesheets/converge-ui/components/_footer.scss */
-body > footer ul li a {
-  font-size: 11px;
-  color: #50505a;
-}
-/* line 42, ../../../app/stylesheets/converge-ui/components/_footer.scss */
-body > footer ul:last-child {
-  margin-right: 30px;
-}
-/* line 47, ../../../app/stylesheets/converge-ui/components/_footer.scss */
-body > footer .versioning {
-  position: relative;
-  bottom: -18px;
-  text-align: center;
 }

@@ -63,20 +63,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/*
-* Font Type Variables
-*/
-/*
-* Component Size Variables
-*/
+/*****************
+* Font Types
+*****************/
 /*****************
 * Responsive
 *****************/
 /*****************
 * Elements - Global
-*****************/
-/*****************
-* Sign-On Screen
 *****************/
 /********
 * Images
@@ -84,41 +78,648 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /*************
 * Base Colors
 **************/
-/* default links */
-/* unfocused tabs */
-/* list items prelight state */
-/**************
-* Form Colors
-***************/
 /****************
-*  Header Colors
-*****************/
-/****************
-*  Footer Colors
-*****************/
-/****************
-*  Login Colors
-*****************/
-/*********************************
 *  Palette Colors
-**********************************/
-/*proposed colour palette*/
-/*generic default tone for non interactive elements*/
-/*favorite greys for warm interactive elements*/
+*****************/
+/* Proposed colour palette
+===========================*/
+/* Generic default tone for non interactive elements */
+/* Favorite greys for warm interactive elements */
 /* Red Hat toners */
-/*Red Hat Official*/
-/* Red Hat Apps  - Web Extended */
-/*orange (the letter o)*/
-/*green*/
-/* red */
-/****************************
-*  Complex Color Definitions
-*****************************/
+/* Red Hat Official */
+/* Red Hat Apps  - Web Extended
+================================*/
+/* Orange (the letter o) */
+/* Green */
+/* Red */
+/************************
+* Company Switcher Colors
+*************************/
+/************
+* Theme color
+************/
 /* background for header */
-/* background for tabs on header */
+/* ie9 support */
+/* line 5, ../../../app/stylesheets/converge-ui/components/_shared.scss */
+.noscript-warning {
+  color: white;
+  background-color: #990000;
+  font-family: "Overpass", Interstate, sans-serif;
+  font-weight: bold;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 101;
+  text-align: center;
+  font-size: 120%;
+  padding: 5px 0px 5px 0px;
+}
+
 /*****************
-* Switcher Colors
-******************/
+* Font Types
+*****************/
+/*****************
+* Responsive
+*****************/
+/*****************
+* Elements - Global
+*****************/
+/********
+* Images
+*********/
+/*************
+* Base Colors
+**************/
+/****************
+*  Palette Colors
+*****************/
+/* Proposed colour palette
+===========================*/
+/* Generic default tone for non interactive elements */
+/* Favorite greys for warm interactive elements */
+/* Red Hat toners */
+/* Red Hat Official */
+/* Red Hat Apps  - Web Extended
+================================*/
+/* Orange (the letter o) */
+/* Green */
+/* Red */
+/************************
+* Company Switcher Colors
+*************************/
+/************
+* Theme color
+************/
+/* background for header */
+/* ie9 support */
+/* background for tabs on header */
+/* line 6, ../../../app/stylesheets/converge-ui/components/header/_header.scss */
+.centered {
+  width: 960px;
+  margin: 0 auto;
+  height: 100%;
+  position: relative;
+}
+
+/* line 13, ../../../app/stylesheets/converge-ui/components/header/_header.scss */
+header#header {
+  background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwOWRjYyIvPjxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSIjMDA5ZGNjIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDA2ZjhmIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #009dcc), color-stop(50%, #009dcc), color-stop(100%, #006f8f));
+  background: -webkit-linear-gradient(top, #009dcc 0%, #009dcc 50%, #006f8f 100%);
+  background: -moz-linear-gradient(top, #009dcc 0%, #009dcc 50%, #006f8f 100%);
+  background: -o-linear-gradient(top, #009dcc 0%, #009dcc 50%, #006f8f 100%);
+  background: -ms-linear-gradient(top, #009dcc 0%, #009dcc 50%, #006f8f 100%);
+  background: linear-gradient(top, #009dcc 0%, #009dcc 50%, #006f8f 100%);
+  height: 85px;
+  border-top: 4px solid #01536d;
+  border-bottom: 1px solid rgba(11, 15, 16, 0.55);
+  position: relative;
+  font-family: "Overpass", Interstate, sans-serif;
+}
+/* line 21, ../../../app/stylesheets/converge-ui/components/header/_header.scss */
+header#header:after {
+  content: "";
+  background: #d9d9d9;
+  border-top: 1px solid rgba(205, 205, 208, 0.4);
+  height: 4px;
+  width: 100%;
+  position: absolute;
+  bottom: -6px;
+  z-index: 0;
+}
+/* line 32, ../../../app/stylesheets/converge-ui/components/header/_header.scss */
+header#header h1 {
+  display: inline-block;
+  position: absolute;
+  bottom: 25px;
+  left: 15px;
+  margin: 0;
+  font-size: inherit;
+  text-indent: -5555px;
+}
+/* line 42, ../../../app/stylesheets/converge-ui/components/header/_header.scss */
+header#header .logo {
+  background: url('/images/embed/logo.png?1346309026') no-repeat 0 0 transparent;
+  text-indent: -5555px;
+  width: 170px;
+  bottom: 16px;
+  height: 46px;
+  left: 30px;
+  position: absolute;
+  display: block;
+}
+/* line 53, ../../../app/stylesheets/converge-ui/components/header/_header.scss */
+header#header #loading {
+  display: none;
+  position: absolute;
+  bottom: 27px;
+  z-index: 100;
+  height: 22px;
+  width: 22px;
+  padding: 0;
+  background: url('/images/converge-ui/icons/spinner_head.gif?1347638130') no-repeat 0 0 transparent;
+}
+/* line 64, ../../../app/stylesheets/converge-ui/components/header/_header.scss */
+header#header #appnav {
+  border: 1px solid rgba(11, 15, 16, 0.55);
+  border-bottom: none;
+  -moz-border-radius: 3px 3px 0 0;
+  -webkit-border-radius: 3px 3px 0 0;
+  -o-border-radius: 3px 3px 0 0;
+  -ms-border-radius: 3px 3px 0 0;
+  -khtml-border-radius: 3px 3px 0 0;
+  border-radius: 3px 3px 0 0;
+  white-space: nowrap;
+  margin: 0 auto;
+  z-index: 2;
+  float: left;
+}
+/* line 73, ../../../app/stylesheets/converge-ui/components/header/_header.scss */
+header#header #appnav ul {
+  position: relative;
+  overflow: auto;
+  -moz-border-radius: 3px 3px 0 0;
+  -webkit-border-radius: 3px 3px 0 0;
+  -o-border-radius: 3px 3px 0 0;
+  -ms-border-radius: 3px 3px 0 0;
+  -khtml-border-radius: 3px 3px 0 0;
+  border-radius: 3px 3px 0 0;
+  border: 1px solid rgba(205, 205, 208, 0.4);
+  border-bottom: none;
+  outline: 0 none;
+  background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwOWRjYyIvPjxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSIjMDA5ZGNjIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDA2ZjhmIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #009dcc), color-stop(50%, #009dcc), color-stop(100%, #006f8f));
+  background: -webkit-linear-gradient(top, #009dcc 0%, #009dcc 50%, #006f8f 100%);
+  background: -moz-linear-gradient(top, #009dcc 0%, #009dcc 50%, #006f8f 100%);
+  background: -o-linear-gradient(top, #009dcc 0%, #009dcc 50%, #006f8f 100%);
+  background: -ms-linear-gradient(top, #009dcc 0%, #009dcc 50%, #006f8f 100%);
+  background: linear-gradient(top, #009dcc 0%, #009dcc 50%, #006f8f 100%);
+}
+/* line 82, ../../../app/stylesheets/converge-ui/components/header/_header.scss */
+header#header #appnav ul li {
+  display: block;
+  float: left;
+  position: relative;
+  outline: 0 none;
+}
+/* line 88, ../../../app/stylesheets/converge-ui/components/header/_header.scss */
+header#header #appnav ul li a {
+  display: block;
+  position: relative;
+  text-decoration: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+  font-weight: bold;
+  color: #f1f1f1;
+  padding: 0 13px;
+  font-size: 13px;
+  background-color: rgba(25, 25, 30, 0.4);
+  height: 28px;
+  line-height: 28px;
+  border-right: 3px solid rgba(205, 205, 208, 0.4);
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding;
+  -o-background-clip: padding;
+  -ms-background-clip: padding;
+  -khtml-background-clip: padding;
+  background-clip: padding;
+  outline: 0 none;
+}
+/* line 106, ../../../app/stylesheets/converge-ui/components/header/_header.scss */
+header#header #appnav ul li a:focus {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+/* line 107, ../../../app/stylesheets/converge-ui/components/header/_header.scss */
+header#header #appnav ul li a.selected {
+  color: #505050;
+  position: relative;
+  outline: 0 none;
+  background: #ffffff;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, white 0%, #ebebeb 50%, #d9d9d9 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, white), color-stop(50%, #ebebeb), color-stop(100%, #d9d9d9));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, white 0%, #ebebeb 50%, #d9d9d9 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, white 0%, #ebebeb 50%, #d9d9d9 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, white 0%, #ebebeb 50%, #d9d9d9 100%);
+  /* IE10+ */
+  background: linear-gradient(top, #ffffff 0%, #ebebeb 50%, #d9d9d9 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#d9d9d9',GradientType=0 );
+  /* IE6-9 */
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding;
+  background-clip: padding-box;
+}
+/* line 113, ../../../app/stylesheets/converge-ui/components/header/_header.scss */
+header#header #appnav ul li a.selected:hover {
+  background: #ffffff;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, white 0%, #ebebeb 50%, #d9d9d9 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, white), color-stop(50%, #ebebeb), color-stop(100%, #d9d9d9));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, white 0%, #ebebeb 50%, #d9d9d9 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, white 0%, #ebebeb 50%, #d9d9d9 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, white 0%, #ebebeb 50%, #d9d9d9 100%);
+  /* IE10+ */
+  background: linear-gradient(top, #ffffff 0%, #ebebeb 50%, #d9d9d9 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#d9d9d9',GradientType=0 );
+  /* IE6-9 */
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding;
+  background-clip: padding-box;
+  color: #37373E;
+}
+/* line 119, ../../../app/stylesheets/converge-ui/components/header/_header.scss */
+header#header #appnav ul li a:hover {
+  outline: 0 none;
+  background: rgba(25, 25, 30, 0.15);
+  color: #f1f1f1;
+}
+/* line 126, ../../../app/stylesheets/converge-ui/components/header/_header.scss */
+header#header #appnav ul li:first-child > a {
+  outline: 0 none;
+  -moz-border-radius: 3px 0 0 0;
+  -webkit-border-radius: 3px 0 0 0;
+  -o-border-radius: 3px 0 0 0;
+  -ms-border-radius: 3px 0 0 0;
+  -khtml-border-radius: 3px 0 0 0;
+  border-radius: 3px 0 0 0;
+}
+/* line 131, ../../../app/stylesheets/converge-ui/components/header/_header.scss */
+header#header #appnav ul li:last-child > a {
+  -moz-border-radius: 0 3px 0 0;
+  -webkit-border-radius: 0 3px 0 0;
+  -o-border-radius: 0 3px 0 0;
+  -ms-border-radius: 0 3px 0 0;
+  -khtml-border-radius: 0 3px 0 0;
+  border-radius: 0 3px 0 0;
+  border-right: none;
+}
+/* line 139, ../../../app/stylesheets/converge-ui/components/header/_header.scss */
+header#header #nav-container {
+  display: block;
+  position: absolute;
+  bottom: -1px;
+  left: 35%;
+  z-index: 1;
+  height: 2.5em;
+  padding: 5px 6px 0 6px;
+  -webkit-border-top-left-radius: 5px;
+  -webkit-border-top-right-radius: 5px;
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-topright: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+/* line 150, ../../../app/stylesheets/converge-ui/components/header/_header.scss */
+header#header #widget-container {
+  min-width: 225px;
+  position: relative;
+  top: 22px;
+  float: right;
+  margin-right: 15px;
+}
+/* line 157, ../../../app/stylesheets/converge-ui/components/header/_header.scss */
+header#header #widget-container a {
+  color: #FFF;
+}
+/* line 159, ../../../app/stylesheets/converge-ui/components/header/_header.scss */
+header#header #widget-container ul {
+  float: left;
+}
+/* line 163, ../../../app/stylesheets/converge-ui/components/header/_header.scss */
+header#header #widget-container ul li ul {
+  display: none;
+  position: absolute;
+  top: 16px;
+  z-index: 99;
+  left: 0px;
+  background-color: #0a6684;
+  -webkit-border-bottom-right-radius: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  -moz-border-radius-bottomright: 5px;
+  -moz-border-radius-bottomleft: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  -webkit-border-top-right-radius: 5px;
+  -moz-border-radius-topright: 5px;
+  border-top-right-radius: 5px;
+  -webkit-border-top-left-radius: 0;
+  -moz-border-radius-topleft: 0;
+  border-top-left-radius: 0;
+  -moz-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+  -o-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+  min-width: 4.2em;
+  padding: 2px 12px;
+  text-align: left;
+}
+/* line 176, ../../../app/stylesheets/converge-ui/components/header/_header.scss */
+header#header #widget-container ul li .arrow_icon_menu {
+  height: 11px;
+  width: 13px;
+  background: url('/images/converge-ui/icons/arrow_icon.png?1347638130') no-repeat 0 0;
+  float: right;
+  margin: 4px 0 0 0;
+}
+/* line 183, ../../../app/stylesheets/converge-ui/components/header/_header.scss */
+header#header #widget-container ul li .arrow_icon_menu:hover {
+  background: url('/images/converge-ui/icons/arrow_icon.png?1347638130') no-repeat 0 0;
+  background-position: 0 -13px;
+}
+/* line 192, ../../../app/stylesheets/converge-ui/components/header/_header.scss */
+header#header .header-widget {
+  background-color: rgba(25, 25, 30, 0.4);
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  font-size: 11px;
+  color: #FFF;
+  text-align: center;
+  margin-right: 8px;
+  padding: 2px 6px 0 6px;
+  text-decoration: none;
+  float: right;
+  height: 20px;
+  line-height: 18px;
+}
+
+@media \0screen {
+  /* line 209, ../../../app/stylesheets/converge-ui/components/header/_header.scss */
+  header#header {
+    background-color: #009DCC;
+  }
+  /* line 211, ../../../app/stylesheets/converge-ui/components/header/_header.scss */
+  header#header .header-widget {
+    background-color: #19191E;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=40);
+    opacity: 0.4;
+  }
+  /* line 215, ../../../app/stylesheets/converge-ui/components/header/_header.scss */
+  header#header #appnav {
+    margin-left: 10px;
+  }
+}
+/*****************
+* Font Types
+*****************/
+/*****************
+* Responsive
+*****************/
+/*****************
+* Elements - Global
+*****************/
+/********
+* Images
+*********/
+/*************
+* Base Colors
+**************/
+/****************
+*  Palette Colors
+*****************/
+/* Proposed colour palette
+===========================*/
+/* Generic default tone for non interactive elements */
+/* Favorite greys for warm interactive elements */
+/* Red Hat toners */
+/* Red Hat Official */
+/* Red Hat Apps  - Web Extended
+================================*/
+/* Orange (the letter o) */
+/* Green */
+/* Red */
+/************************
+* Company Switcher Colors
+*************************/
+/************
+* Theme color
+************/
+/* background for header */
+/* ie9 support */
+/* line 5, ../../../app/stylesheets/converge-ui/components/_content.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 7, ../../../app/stylesheets/converge-ui/components/_content.scss */
+body {
+  background-color: #d9d9d9;
+}
+/* line 9, ../../../app/stylesheets/converge-ui/components/_content.scss */
+body:before {
+  content: "";
+  height: 100%;
+  float: left;
+  width: 0;
+  margin-top: -32767px;
+}
+
+/* line 18, ../../../app/stylesheets/converge-ui/components/_content.scss */
+body, html {
+  height: 100%;
+  font-family: "Liberation Sans", sans-serif;
+  font-size: 12px;
+  font-size-adjust: none;
+  font-stretch: normal;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1.5;
+}
+
+/* line 30, ../../../app/stylesheets/converge-ui/components/_content.scss */
+html {
+  /*forcing scrl*/
+  height: 100%;
+  margin-bottom: 1px !important;
+  overflow-y: scroll;
+}
+
+/* line 36, ../../../app/stylesheets/converge-ui/components/_content.scss */
+#wrapper {
+  min-height: 100%;
+}
+
+/* line 40, ../../../app/stylesheets/converge-ui/components/_content.scss */
+#maincontent {
+  overflow: auto;
+  padding-bottom: 65px;
+}
+/* line 44, ../../../app/stylesheets/converge-ui/components/_content.scss */
+#maincontent section.maincontent {
+  background-color: #FFF;
+  min-height: 20em;
+  margin: 0 auto 5px;
+  width: 960px;
+  -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.6);
+  -o-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.6);
+}
+/* line 51, ../../../app/stylesheets/converge-ui/components/_content.scss */
+#maincontent section.maincontent h1 {
+  color: transparent;
+  padding-top: 3em;
+  color: #ddd;
+  text-align: center;
+  font-weight: normal;
+  text-transform: capitalize;
+}
+
+/* microclearfix on all areas */
+/* line 64, ../../../app/stylesheets/converge-ui/components/_content.scss */
+section:before, section:after, article:before, article:after {
+  content: "";
+  display: table;
+}
+
+/* line 69, ../../../app/stylesheets/converge-ui/components/_content.scss */
+article:after, section:after {
+  clear: both;
+}
+
+/*****************
+* Font Types
+*****************/
+/*****************
+* Responsive
+*****************/
+/*****************
+* Elements - Global
+*****************/
+/********
+* Images
+*********/
+/*************
+* Base Colors
+**************/
+/****************
+*  Palette Colors
+*****************/
+/* Proposed colour palette
+===========================*/
+/* Generic default tone for non interactive elements */
+/* Favorite greys for warm interactive elements */
+/* Red Hat toners */
+/* Red Hat Official */
+/* Red Hat Apps  - Web Extended
+================================*/
+/* Orange (the letter o) */
+/* Green */
+/* Red */
+/************************
+* Company Switcher Colors
+*************************/
+/************
+* Theme color
+************/
+/* background for header */
+/* ie9 support */
+/* line 5, ../../../app/stylesheets/converge-ui/components/footer/_footer.scss */
+body > footer {
+  min-height: 55px;
+  background: #ebebeb;
+  border-top: 1px solid #d9d9d9;
+  clear: both;
+  position: relative;
+  margin-top: -56px;
+  /* negative value of footer height */
+  height: 55px;
+}
+/* line 14, ../../../app/stylesheets/converge-ui/components/footer/_footer.scss */
+body > footer span {
+  width: 74px;
+  position: absolute;
+  left: 30px;
+  bottom: 16px;
+}
+/* line 21, ../../../app/stylesheets/converge-ui/components/footer/_footer.scss */
+body > footer p.copyright {
+  position: relative;
+  bottom: -16px;
+  text-align: center;
+}
+/* line 27, ../../../app/stylesheets/converge-ui/components/footer/_footer.scss */
+body > footer ul {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  bottom: 16px;
+}
+/* line 33, ../../../app/stylesheets/converge-ui/components/footer/_footer.scss */
+body > footer ul li {
+  margin-right: 20px;
+  float: left;
+}
+/* line 37, ../../../app/stylesheets/converge-ui/components/footer/_footer.scss */
+body > footer ul li a {
+  font-size: 11px;
+  color: #50505a;
+}
+/* line 43, ../../../app/stylesheets/converge-ui/components/footer/_footer.scss */
+body > footer ul:last-child {
+  margin-right: 30px;
+}
+/* line 48, ../../../app/stylesheets/converge-ui/components/footer/_footer.scss */
+body > footer .versioning {
+  position: relative;
+  bottom: -18px;
+  text-align: center;
+}
+
+/*****************
+* Font Types
+*****************/
+/*****************
+* Responsive
+*****************/
+/*****************
+* Elements - Global
+*****************/
+/********
+* Images
+*********/
+/*************
+* Base Colors
+**************/
+/****************
+*  Palette Colors
+*****************/
+/* Proposed colour palette
+===========================*/
+/* Generic default tone for non interactive elements */
+/* Favorite greys for warm interactive elements */
+/* Red Hat toners */
+/* Red Hat Official */
+/* Red Hat Apps  - Web Extended
+================================*/
+/* Orange (the letter o) */
+/* Green */
+/* Red */
+/************************
+* Company Switcher Colors
+*************************/
+/************
+* Theme color
+************/
+/* background for header */
 /* ie9 support */
 /* this needs to work for converge-ui */
 /* line 10, ../../../app/stylesheets/converge-ui/components/_sprites.scss */
@@ -566,20 +1167,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   background-position: -688px 0;
 }
 
-/*
-* Font Type Variables
-*/
-/*
-* Component Size Variables
-*/
+/*****************
+* Font Types
+*****************/
 /*****************
 * Responsive
 *****************/
 /*****************
 * Elements - Global
-*****************/
-/*****************
-* Sign-On Screen
 *****************/
 /********
 * Images
@@ -587,56 +1182,36 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /*************
 * Base Colors
 **************/
-/* default links */
-/* unfocused tabs */
-/* list items prelight state */
-/**************
-* Form Colors
-***************/
 /****************
-*  Header Colors
-*****************/
-/****************
-*  Footer Colors
-*****************/
-/****************
-*  Login Colors
-*****************/
-/*********************************
 *  Palette Colors
-**********************************/
-/*proposed colour palette*/
-/*generic default tone for non interactive elements*/
-/*favorite greys for warm interactive elements*/
+*****************/
+/* Proposed colour palette
+===========================*/
+/* Generic default tone for non interactive elements */
+/* Favorite greys for warm interactive elements */
 /* Red Hat toners */
-/*Red Hat Official*/
-/* Red Hat Apps  - Web Extended */
-/*orange (the letter o)*/
-/*green*/
-/* red */
-/****************************
-*  Complex Color Definitions
-*****************************/
+/* Red Hat Official */
+/* Red Hat Apps  - Web Extended
+================================*/
+/* Orange (the letter o) */
+/* Green */
+/* Red */
+/************************
+* Company Switcher Colors
+*************************/
+/************
+* Theme color
+************/
 /* background for header */
-/* background for tabs on header */
-/*****************
-* Switcher Colors
-******************/
 /* ie9 support */
-/*
-* Font Type Variables
-*/
-/*
-* Component Size Variables
-*/
+/*****************
+* Font Types
+*****************/
 /*****************
 * Responsive
 *****************/
 /*****************
 * Elements - Global
-*****************/
-/*****************
-* Sign-On Screen
 *****************/
 /********
 * Images
@@ -644,41 +1219,27 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /*************
 * Base Colors
 **************/
-/* default links */
-/* unfocused tabs */
-/* list items prelight state */
-/**************
-* Form Colors
-***************/
 /****************
-*  Header Colors
-*****************/
-/****************
-*  Footer Colors
-*****************/
-/****************
-*  Login Colors
-*****************/
-/*********************************
 *  Palette Colors
-**********************************/
-/*proposed colour palette*/
-/*generic default tone for non interactive elements*/
-/*favorite greys for warm interactive elements*/
+*****************/
+/* Proposed colour palette
+===========================*/
+/* Generic default tone for non interactive elements */
+/* Favorite greys for warm interactive elements */
 /* Red Hat toners */
-/*Red Hat Official*/
-/* Red Hat Apps  - Web Extended */
-/*orange (the letter o)*/
-/*green*/
-/* red */
-/****************************
-*  Complex Color Definitions
-*****************************/
+/* Red Hat Official */
+/* Red Hat Apps  - Web Extended
+================================*/
+/* Orange (the letter o) */
+/* Green */
+/* Red */
+/************************
+* Company Switcher Colors
+*************************/
+/************
+* Theme color
+************/
 /* background for header */
-/* background for tabs on header */
-/*****************
-* Switcher Colors
-******************/
 /* ie9 support */
 @font-face {
   font-family: 'Overpass';
@@ -694,20 +1255,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   font-style: normal;
 }
 
-/*
-* Font Type Variables
-*/
-/*
-* Component Size Variables
-*/
+/*****************
+* Font Types
+*****************/
 /*****************
 * Responsive
 *****************/
 /*****************
 * Elements - Global
-*****************/
-/*****************
-* Sign-On Screen
 *****************/
 /********
 * Images
@@ -715,41 +1270,27 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /*************
 * Base Colors
 **************/
-/* default links */
-/* unfocused tabs */
-/* list items prelight state */
-/**************
-* Form Colors
-***************/
 /****************
-*  Header Colors
-*****************/
-/****************
-*  Footer Colors
-*****************/
-/****************
-*  Login Colors
-*****************/
-/*********************************
 *  Palette Colors
-**********************************/
-/*proposed colour palette*/
-/*generic default tone for non interactive elements*/
-/*favorite greys for warm interactive elements*/
+*****************/
+/* Proposed colour palette
+===========================*/
+/* Generic default tone for non interactive elements */
+/* Favorite greys for warm interactive elements */
 /* Red Hat toners */
-/*Red Hat Official*/
-/* Red Hat Apps  - Web Extended */
-/*orange (the letter o)*/
-/*green*/
-/* red */
-/****************************
-*  Complex Color Definitions
-*****************************/
+/* Red Hat Official */
+/* Red Hat Apps  - Web Extended
+================================*/
+/* Orange (the letter o) */
+/* Green */
+/* Red */
+/************************
+* Company Switcher Colors
+*************************/
+/************
+* Theme color
+************/
 /* background for header */
-/* background for tabs on header */
-/*****************
-* Switcher Colors
-******************/
 /* ie9 support */
 @font-face {
   font-family: 'Liberation Sans';
@@ -829,20 +1370,14 @@ fieldset {
   margin-bottom: 10px;
 }
 
-/*
-* Font Type Variables
-*/
-/*
-* Component Size Variables
-*/
+/*****************
+* Font Types
+*****************/
 /*****************
 * Responsive
 *****************/
 /*****************
 * Elements - Global
-*****************/
-/*****************
-* Sign-On Screen
 *****************/
 /********
 * Images
@@ -850,1836 +1385,34 @@ fieldset {
 /*************
 * Base Colors
 **************/
-/* default links */
-/* unfocused tabs */
-/* list items prelight state */
-/**************
-* Form Colors
-***************/
 /****************
-*  Header Colors
-*****************/
-/****************
-*  Footer Colors
-*****************/
-/****************
-*  Login Colors
-*****************/
-/*********************************
 *  Palette Colors
-**********************************/
-/*proposed colour palette*/
-/*generic default tone for non interactive elements*/
-/*favorite greys for warm interactive elements*/
+*****************/
+/* Proposed colour palette
+===========================*/
+/* Generic default tone for non interactive elements */
+/* Favorite greys for warm interactive elements */
 /* Red Hat toners */
-/*Red Hat Official*/
-/* Red Hat Apps  - Web Extended */
-/*orange (the letter o)*/
-/*green*/
-/* red */
-/****************************
-*  Complex Color Definitions
-*****************************/
+/* Red Hat Official */
+/* Red Hat Apps  - Web Extended
+================================*/
+/* Orange (the letter o) */
+/* Green */
+/* Red */
+/************************
+* Company Switcher Colors
+*************************/
+/************
+* Theme color
+************/
 /* background for header */
-/* background for tabs on header */
-/*****************
-* Switcher Colors
-******************/
-/* ie9 support */
-/* line 4, ../../../app/stylesheets/converge-ui/components/_header.scss */
-.centered {
-  width: 960px;
-  margin: 0 auto;
-  height: 100%;
-  position: relative;
-}
-
-/* line 11, ../../../app/stylesheets/converge-ui/components/_header.scss */
-header#header {
-  background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwOWRjYyIvPjxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSIjMDA5ZGNjIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDA2ZjhmIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #009dcc), color-stop(50%, #009dcc), color-stop(100%, #006f8f));
-  background: -webkit-linear-gradient(top, #009dcc 0%, #009dcc 50%, #006f8f 100%);
-  background: -moz-linear-gradient(top, #009dcc 0%, #009dcc 50%, #006f8f 100%);
-  background: -o-linear-gradient(top, #009dcc 0%, #009dcc 50%, #006f8f 100%);
-  background: -ms-linear-gradient(top, #009dcc 0%, #009dcc 50%, #006f8f 100%);
-  background: linear-gradient(top, #009dcc 0%, #009dcc 50%, #006f8f 100%);
-  height: 85px;
-  border-top: 4px solid #01536d;
-  border-bottom: 1px solid rgba(11, 15, 16, 0.55);
-  position: relative;
-  font-family: "Overpass", Interstate, sans-serif;
-}
-/* line 19, ../../../app/stylesheets/converge-ui/components/_header.scss */
-header#header:after {
-  content: "";
-  background: #d9d9d9;
-  border-top: 1px solid rgba(205, 205, 208, 0.4);
-  height: 4px;
-  width: 100%;
-  position: absolute;
-  bottom: -6px;
-  z-index: 0;
-}
-/* line 30, ../../../app/stylesheets/converge-ui/components/_header.scss */
-header#header h1 {
-  display: inline-block;
-  position: absolute;
-  bottom: 25px;
-  left: 15px;
-  margin: 0;
-  font-size: inherit;
-  text-indent: -5555px;
-}
-/* line 40, ../../../app/stylesheets/converge-ui/components/_header.scss */
-header#header .logo {
-  background: url('/images/embed/logo.png?1346309026') no-repeat 0 0 transparent;
-  text-indent: -5555px;
-  width: 170px;
-  bottom: 16px;
-  height: 46px;
-  left: 30px;
-  position: absolute;
-  display: block;
-}
-/* line 51, ../../../app/stylesheets/converge-ui/components/_header.scss */
-header#header #loading {
-  display: none;
-  position: absolute;
-  bottom: 27px;
-  z-index: 100;
-  height: 22px;
-  width: 22px;
-  padding: 0;
-  background: url('/images/converge-ui/icons/spinner_head.gif?1347638130') no-repeat 0 0 transparent;
-}
-/* line 62, ../../../app/stylesheets/converge-ui/components/_header.scss */
-header#header #appnav {
-  border: 1px solid rgba(11, 15, 16, 0.55);
-  border-bottom: none;
-  -moz-border-radius: 3px 3px 0 0;
-  -webkit-border-radius: 3px 3px 0 0;
-  -o-border-radius: 3px 3px 0 0;
-  -ms-border-radius: 3px 3px 0 0;
-  -khtml-border-radius: 3px 3px 0 0;
-  border-radius: 3px 3px 0 0;
-  white-space: nowrap;
-  margin: 0 auto;
-  z-index: 2;
-  float: left;
-}
-/* line 71, ../../../app/stylesheets/converge-ui/components/_header.scss */
-header#header #appnav ul {
-  position: relative;
-  overflow: auto;
-  -moz-border-radius: 3px 3px 0 0;
-  -webkit-border-radius: 3px 3px 0 0;
-  -o-border-radius: 3px 3px 0 0;
-  -ms-border-radius: 3px 3px 0 0;
-  -khtml-border-radius: 3px 3px 0 0;
-  border-radius: 3px 3px 0 0;
-  border: 1px solid rgba(205, 205, 208, 0.4);
-  border-bottom: none;
-  outline: 0 none;
-  background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwOWRjYyIvPjxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSIjMDA5ZGNjIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDA2ZjhmIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #009dcc), color-stop(50%, #009dcc), color-stop(100%, #006f8f));
-  background: -webkit-linear-gradient(top, #009dcc 0%, #009dcc 50%, #006f8f 100%);
-  background: -moz-linear-gradient(top, #009dcc 0%, #009dcc 50%, #006f8f 100%);
-  background: -o-linear-gradient(top, #009dcc 0%, #009dcc 50%, #006f8f 100%);
-  background: -ms-linear-gradient(top, #009dcc 0%, #009dcc 50%, #006f8f 100%);
-  background: linear-gradient(top, #009dcc 0%, #009dcc 50%, #006f8f 100%);
-}
-/* line 80, ../../../app/stylesheets/converge-ui/components/_header.scss */
-header#header #appnav ul li {
-  display: block;
-  float: left;
-  position: relative;
-  outline: 0 none;
-}
-/* line 86, ../../../app/stylesheets/converge-ui/components/_header.scss */
-header#header #appnav ul li a {
-  display: block;
-  position: relative;
-  text-decoration: none;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  vertical-align: middle;
-  font-weight: bold;
-  color: #f1f1f1;
-  padding: 0 13px;
-  font-size: 13px;
-  background-color: rgba(25, 25, 30, 0.4);
-  height: 28px;
-  line-height: 28px;
-  border-right: 3px solid rgba(205, 205, 208, 0.4);
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding;
-  -o-background-clip: padding;
-  -ms-background-clip: padding;
-  -khtml-background-clip: padding;
-  background-clip: padding;
-  outline: 0 none;
-}
-/* line 104, ../../../app/stylesheets/converge-ui/components/_header.scss */
-header#header #appnav ul li a:focus {
-  background-color: rgba(0, 0, 0, 0.4);
-}
-/* line 105, ../../../app/stylesheets/converge-ui/components/_header.scss */
-header#header #appnav ul li a.selected {
-  color: #505050;
-  position: relative;
-  outline: 0 none;
-  background: #ffffff;
-  /* Old browsers */
-  background: -moz-linear-gradient(top, white 0%, #ebebeb 50%, #d9d9d9 100%);
-  /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, white), color-stop(50%, #ebebeb), color-stop(100%, #d9d9d9));
-  /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, white 0%, #ebebeb 50%, #d9d9d9 100%);
-  /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, white 0%, #ebebeb 50%, #d9d9d9 100%);
-  /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, white 0%, #ebebeb 50%, #d9d9d9 100%);
-  /* IE10+ */
-  background: linear-gradient(top, #ffffff 0%, #ebebeb 50%, #d9d9d9 100%);
-  /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#d9d9d9',GradientType=0 );
-  /* IE6-9 */
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding;
-  background-clip: padding-box;
-}
-/* line 111, ../../../app/stylesheets/converge-ui/components/_header.scss */
-header#header #appnav ul li a.selected:hover {
-  background: #ffffff;
-  /* Old browsers */
-  background: -moz-linear-gradient(top, white 0%, #ebebeb 50%, #d9d9d9 100%);
-  /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, white), color-stop(50%, #ebebeb), color-stop(100%, #d9d9d9));
-  /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, white 0%, #ebebeb 50%, #d9d9d9 100%);
-  /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, white 0%, #ebebeb 50%, #d9d9d9 100%);
-  /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, white 0%, #ebebeb 50%, #d9d9d9 100%);
-  /* IE10+ */
-  background: linear-gradient(top, #ffffff 0%, #ebebeb 50%, #d9d9d9 100%);
-  /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#d9d9d9',GradientType=0 );
-  /* IE6-9 */
-  -moz-background-clip: padding;
-  -webkit-background-clip: padding;
-  background-clip: padding-box;
-  color: #37373E;
-}
-/* line 117, ../../../app/stylesheets/converge-ui/components/_header.scss */
-header#header #appnav ul li a:hover {
-  outline: 0 none;
-  background: rgba(25, 25, 30, 0.15);
-  color: #f1f1f1;
-}
-/* line 124, ../../../app/stylesheets/converge-ui/components/_header.scss */
-header#header #appnav ul li:first-child > a {
-  outline: 0 none;
-  -moz-border-radius: 3px 0 0 0;
-  -webkit-border-radius: 3px 0 0 0;
-  -o-border-radius: 3px 0 0 0;
-  -ms-border-radius: 3px 0 0 0;
-  -khtml-border-radius: 3px 0 0 0;
-  border-radius: 3px 0 0 0;
-}
-/* line 129, ../../../app/stylesheets/converge-ui/components/_header.scss */
-header#header #appnav ul li:last-child > a {
-  -moz-border-radius: 0 3px 0 0;
-  -webkit-border-radius: 0 3px 0 0;
-  -o-border-radius: 0 3px 0 0;
-  -ms-border-radius: 0 3px 0 0;
-  -khtml-border-radius: 0 3px 0 0;
-  border-radius: 0 3px 0 0;
-  border-right: none;
-}
-/* line 137, ../../../app/stylesheets/converge-ui/components/_header.scss */
-header#header #nav-container {
-  display: block;
-  position: absolute;
-  bottom: -1px;
-  left: 35%;
-  z-index: 1;
-  height: 2.5em;
-  padding: 5px 6px 0 6px;
-  -webkit-border-top-left-radius: 5px;
-  -webkit-border-top-right-radius: 5px;
-  -moz-border-radius-topleft: 5px;
-  -moz-border-radius-topright: 5px;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-}
-/* line 148, ../../../app/stylesheets/converge-ui/components/_header.scss */
-header#header #widget-container {
-  min-width: 225px;
-  position: relative;
-  top: 22px;
-  float: right;
-  margin-right: 15px;
-}
-/* line 155, ../../../app/stylesheets/converge-ui/components/_header.scss */
-header#header #widget-container a {
-  color: #FFF;
-}
-/* line 157, ../../../app/stylesheets/converge-ui/components/_header.scss */
-header#header #widget-container ul {
-  float: left;
-}
-/* line 161, ../../../app/stylesheets/converge-ui/components/_header.scss */
-header#header #widget-container ul li ul {
-  display: none;
-  position: absolute;
-  top: 16px;
-  z-index: 99;
-  left: 0px;
-  background-color: #0a6684;
-  -webkit-border-bottom-right-radius: 5px;
-  -webkit-border-bottom-left-radius: 5px;
-  -moz-border-radius-bottomright: 5px;
-  -moz-border-radius-bottomleft: 5px;
-  border-bottom-right-radius: 5px;
-  border-bottom-left-radius: 5px;
-  -webkit-border-top-right-radius: 5px;
-  -moz-border-radius-topright: 5px;
-  border-top-right-radius: 5px;
-  -webkit-border-top-left-radius: 0;
-  -moz-border-radius-topleft: 0;
-  border-top-left-radius: 0;
-  -moz-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
-  -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
-  -o-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
-  min-width: 4.2em;
-  padding: 2px 12px;
-  text-align: left;
-}
-/* line 174, ../../../app/stylesheets/converge-ui/components/_header.scss */
-header#header #widget-container ul li .arrow_icon_menu {
-  height: 11px;
-  width: 13px;
-  background: url('/images/converge-ui/icons/arrow_icon.png?1347638130') no-repeat 0 0;
-  float: right;
-  margin: 4px 0 0 0;
-}
-/* line 181, ../../../app/stylesheets/converge-ui/components/_header.scss */
-header#header #widget-container ul li .arrow_icon_menu:hover {
-  background: url('/images/converge-ui/icons/arrow_icon.png?1347638130') no-repeat 0 0;
-  background-position: 0 -13px;
-}
-/* line 190, ../../../app/stylesheets/converge-ui/components/_header.scss */
-header#header .header-widget {
-  background-color: rgba(25, 25, 30, 0.4);
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -o-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -khtml-border-radius: 5px;
-  border-radius: 5px;
-  font-size: 11px;
-  color: #FFF;
-  text-align: center;
-  margin-right: 8px;
-  padding: 2px 6px 0 6px;
-  text-decoration: none;
-  float: right;
-  height: 20px;
-  line-height: 18px;
-}
-
-@media \0screen {
-  /* line 207, ../../../app/stylesheets/converge-ui/components/_header.scss */
-  header#header {
-    background-color: #009DCC;
-  }
-  /* line 209, ../../../app/stylesheets/converge-ui/components/_header.scss */
-  header#header .header-widget {
-    background-color: #19191E;
-    /* IE 8 */
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=$opacity * 100)";
-    /* IE 5-7 */
-    filter: alpha(opacity=40);
-    /* Netscape */
-    -moz-opacity: 0.4;
-    /* Safari 1.x */
-    -khtml-opacity: 0.4;
-    /* Good browsers */
-    opacity: 0.4;
-  }
-  /* line 213, ../../../app/stylesheets/converge-ui/components/_header.scss */
-  header#header #appnav {
-    margin-left: 10px;
-  }
-}
-/*
-* Font Type Variables
-*/
-/*
-* Component Size Variables
-*/
-/*****************
-* Responsive
-*****************/
-/*****************
-* Elements - Global
-*****************/
-/*****************
-* Sign-On Screen
-*****************/
-/********
-* Images
-*********/
-/*************
-* Base Colors
-**************/
-/* default links */
-/* unfocused tabs */
-/* list items prelight state */
-/**************
-* Form Colors
-***************/
-/****************
-*  Header Colors
-*****************/
-/****************
-*  Footer Colors
-*****************/
-/****************
-*  Login Colors
-*****************/
-/*********************************
-*  Palette Colors
-**********************************/
-/*proposed colour palette*/
-/*generic default tone for non interactive elements*/
-/*favorite greys for warm interactive elements*/
-/* Red Hat toners */
-/*Red Hat Official*/
-/* Red Hat Apps  - Web Extended */
-/*orange (the letter o)*/
-/*green*/
-/* red */
-/****************************
-*  Complex Color Definitions
-*****************************/
-/* background for header */
-/* background for tabs on header */
-/*****************
-* Switcher Colors
-******************/
-/* ie9 support */
-/* line 4, ../../../app/stylesheets/converge-ui/components/_content.scss */
-* {
-  margin: 0;
-  padding: 0;
-}
-
-/* line 6, ../../../app/stylesheets/converge-ui/components/_content.scss */
-body {
-  background-color: #d9d9d9;
-}
-/* line 8, ../../../app/stylesheets/converge-ui/components/_content.scss */
-body:before {
-  content: "";
-  height: 100%;
-  float: left;
-  width: 0;
-  margin-top: -32767px;
-}
-
-/* line 17, ../../../app/stylesheets/converge-ui/components/_content.scss */
-body, html {
-  height: 100%;
-  font-family: "Liberation Sans", sans-serif;
-  font-size: 12px;
-  font-size-adjust: none;
-  font-stretch: normal;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
-  line-height: 1.5;
-}
-
-/* line 29, ../../../app/stylesheets/converge-ui/components/_content.scss */
-html {
-  /*forcing scrl*/
-  height: 100%;
-  margin-bottom: 1px !important;
-  overflow-y: scroll;
-}
-
-/* line 35, ../../../app/stylesheets/converge-ui/components/_content.scss */
-#wrapper {
-  min-height: 100%;
-}
-
-/* line 39, ../../../app/stylesheets/converge-ui/components/_content.scss */
-#maincontent {
-  overflow: auto;
-  padding-bottom: 65px;
-}
-/* line 43, ../../../app/stylesheets/converge-ui/components/_content.scss */
-#maincontent section.maincontent {
-  background-color: #FFF;
-  min-height: 20em;
-  margin: 0 auto 5px;
-  width: 960px;
-  -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.6);
-  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.6);
-  -o-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.6);
-  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.6);
-}
-/* line 50, ../../../app/stylesheets/converge-ui/components/_content.scss */
-#maincontent section.maincontent h1 {
-  color: transparent;
-  padding-top: 3em;
-  color: #ddd;
-  text-align: center;
-  font-weight: normal;
-  text-transform: capitalize;
-}
-
-/* microclearfix on all areas */
-/* line 63, ../../../app/stylesheets/converge-ui/components/_content.scss */
-section:before, section:after, article:before, article:after {
-  content: "";
-  display: table;
-}
-
-/* line 68, ../../../app/stylesheets/converge-ui/components/_content.scss */
-article:after, section:after {
-  clear: both;
-}
-
-/*
-* Font Type Variables
-*/
-/*
-* Component Size Variables
-*/
-/*****************
-* Responsive
-*****************/
-/*****************
-* Elements - Global
-*****************/
-/*****************
-* Sign-On Screen
-*****************/
-/********
-* Images
-*********/
-/*************
-* Base Colors
-**************/
-/* default links */
-/* unfocused tabs */
-/* list items prelight state */
-/**************
-* Form Colors
-***************/
-/****************
-*  Header Colors
-*****************/
-/****************
-*  Footer Colors
-*****************/
-/****************
-*  Login Colors
-*****************/
-/*********************************
-*  Palette Colors
-**********************************/
-/*proposed colour palette*/
-/*generic default tone for non interactive elements*/
-/*favorite greys for warm interactive elements*/
-/* Red Hat toners */
-/*Red Hat Official*/
-/* Red Hat Apps  - Web Extended */
-/*orange (the letter o)*/
-/*green*/
-/* red */
-/****************************
-*  Complex Color Definitions
-*****************************/
-/* background for header */
-/* background for tabs on header */
-/*****************
-* Switcher Colors
-******************/
-/* ie9 support */
-/* line 4, ../../../app/stylesheets/converge-ui/components/_footer.scss */
-body > footer {
-  min-height: 55px;
-  background: #ebebeb;
-  border-top: 1px solid #d9d9d9;
-  clear: both;
-  position: relative;
-  margin-top: -56px;
-  /* negative value of footer height */
-  height: 55px;
-}
-/* line 13, ../../../app/stylesheets/converge-ui/components/_footer.scss */
-body > footer span {
-  width: 74px;
-  position: absolute;
-  left: 30px;
-  bottom: 16px;
-}
-/* line 20, ../../../app/stylesheets/converge-ui/components/_footer.scss */
-body > footer p.copyright {
-  position: relative;
-  bottom: -16px;
-  text-align: center;
-}
-/* line 26, ../../../app/stylesheets/converge-ui/components/_footer.scss */
-body > footer ul {
-  display: inline-block;
-  position: absolute;
-  right: 0;
-  bottom: 16px;
-}
-/* line 32, ../../../app/stylesheets/converge-ui/components/_footer.scss */
-body > footer ul li {
-  margin-right: 20px;
-  float: left;
-}
-/* line 36, ../../../app/stylesheets/converge-ui/components/_footer.scss */
-body > footer ul li a {
-  font-size: 11px;
-  color: #50505a;
-}
-/* line 42, ../../../app/stylesheets/converge-ui/components/_footer.scss */
-body > footer ul:last-child {
-  margin-right: 30px;
-}
-/* line 47, ../../../app/stylesheets/converge-ui/components/_footer.scss */
-body > footer .versioning {
-  position: relative;
-  bottom: -18px;
-  text-align: center;
-}
-
-/*
-* Font Type Variables
-*/
-/*
-* Component Size Variables
-*/
-/*****************
-* Responsive
-*****************/
-/*****************
-* Elements - Global
-*****************/
-/*****************
-* Sign-On Screen
-*****************/
-/********
-* Images
-*********/
-/*************
-* Base Colors
-**************/
-/* default links */
-/* unfocused tabs */
-/* list items prelight state */
-/**************
-* Form Colors
-***************/
-/****************
-*  Header Colors
-*****************/
-/****************
-*  Footer Colors
-*****************/
-/****************
-*  Login Colors
-*****************/
-/*********************************
-*  Palette Colors
-**********************************/
-/*proposed colour palette*/
-/*generic default tone for non interactive elements*/
-/*favorite greys for warm interactive elements*/
-/* Red Hat toners */
-/*Red Hat Official*/
-/* Red Hat Apps  - Web Extended */
-/*orange (the letter o)*/
-/*green*/
-/* red */
-/****************************
-*  Complex Color Definitions
-*****************************/
-/* background for header */
-/* background for tabs on header */
-/*****************
-* Switcher Colors
-******************/
-/* ie9 support */
-/* line 5, ../../../app/stylesheets/converge-ui/components/_shared.scss */
-.noscript-warning {
-  color: white;
-  background-color: #990000;
-  font-family: "Overpass", Interstate, sans-serif;
-  font-weight: bold;
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  z-index: 101;
-  text-align: center;
-  font-size: 120%;
-  padding: 5px 0px 5px 0px;
-}
-
-/*
-* Font Type Variables
-*/
-/*
-* Component Size Variables
-*/
-/*****************
-* Responsive
-*****************/
-/*****************
-* Elements - Global
-*****************/
-/*****************
-* Sign-On Screen
-*****************/
-/********
-* Images
-*********/
-/*************
-* Base Colors
-**************/
-/* default links */
-/* unfocused tabs */
-/* list items prelight state */
-/**************
-* Form Colors
-***************/
-/****************
-*  Header Colors
-*****************/
-/****************
-*  Footer Colors
-*****************/
-/****************
-*  Login Colors
-*****************/
-/*********************************
-*  Palette Colors
-**********************************/
-/*proposed colour palette*/
-/*generic default tone for non interactive elements*/
-/*favorite greys for warm interactive elements*/
-/* Red Hat toners */
-/*Red Hat Official*/
-/* Red Hat Apps  - Web Extended */
-/*orange (the letter o)*/
-/*green*/
-/* red */
-/****************************
-*  Complex Color Definitions
-*****************************/
-/* background for header */
-/* background for tabs on header */
-/*****************
-* Switcher Colors
-******************/
-/* ie9 support */
-/*
-  =======================================
-  FORMS
-  =======================================
-*/
-/* line 58, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form {
-  width: 100%;
-  display: block;
-  line-height: 1;
-  color: #3c3c3c;
-}
-
-/* line 65, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-fieldset {
-  border: 0 none;
-  padding: 0;
-  margin: 0;
-}
-
-/* line 71, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.control_group {
-  padding: 5px 8px;
-  position: relative;
-  white-space: nowrap;
-}
-/* line 76, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.control_group .label {
-  width: 200px;
-  float: left;
-  text-align: right;
-  position: relative;
-  padding: 0;
-}
-/* line 84, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.control_group .input {
-  margin-left: 200px;
-  position: relative;
-  min-height: 2.5em;
-}
-
-/*
-  =======================================
-  INPUTS
-  =======================================
-*/
-/* general */
-/* line 99, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form {
-  /* general styling of fields */
-  /* placeholder for various browsers
-     (needs to be separate) */
-  /* remove placeholder on focus
-     (needs to be separate) */
-  /* required field */
-  /* informative values */
-  /* disabled field */
-  /* warning field */
-  /* error field */
-  /* checking items */
-}
-/* line 101, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form .label label {
-  line-height: 2.5;
-  display: inline-block;
-  padding: 0 20px 0 3px;
-}
-/* line 111, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form input,
-.form select,
-.form textarea {
-  font-family: "Liberation Sans", sans-serif;
-}
-/* line 116, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form input {
-  line-height: 1.3;
-}
-/* line 127, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form input[type="text"],
-.form input[type="password"],
-.form input[type="email"],
-.form input[type="url"],
-.form input[type="search"],
-.form input[type="date"],
-.form input[type="number"],
-.form textarea {
-  width: 280px;
-  padding: 6px 10px;
-  color: inherit;
-  outline: none;
-  border: 1px solid #c5c5c2;
-  margin-bottom: 7px;
-  -moz-box-shadow: 0 1px 2px 0 #cdcdca inset;
-  -webkit-box-shadow: 0 1px 2px 0 #cdcdca inset;
-  -o-box-shadow: 0 1px 2px 0 #cdcdca inset;
-  box-shadow: 0 1px 2px 0 #cdcdca inset;
-  -moz-border-radius: 3px;
-  -webkit-border-radius: 3px;
-  -o-border-radius: 3px;
-  -ms-border-radius: 3px;
-  -khtml-border-radius: 3px;
-  border-radius: 3px;
-}
-/* line 137, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form input[type="text"]:hover,
-.form input[type="password"]:hover,
-.form input[type="email"]:hover,
-.form input[type="url"]:hover,
-.form input[type="search"]:hover,
-.form input[type="date"]:hover,
-.form input[type="number"]:hover,
-.form textarea:hover {
-  border-color: #989893;
-}
-/* line 141, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form input[type="text"]:focus,
-.form input[type="password"]:focus,
-.form input[type="email"]:focus,
-.form input[type="url"]:focus,
-.form input[type="search"]:focus,
-.form input[type="date"]:focus,
-.form input[type="number"]:focus,
-.form textarea:focus {
-  border-color: #3993d9;
-  -moz-box-shadow: 0 0 2px #3993d9;
-  -webkit-box-shadow: 0 0 2px #3993d9;
-  -o-box-shadow: 0 0 2px #3993d9;
-  box-shadow: 0 0 2px #3993d9;
-  -moz-transition: all 0.17s linear;
-  -webkit-transition: all 0.17s linear;
-  -o-transition: all 0.17s linear;
-  transition: all 0.17s linear;
-}
-/* line 149, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form input[type="file"],
-.form input[type="range"] {
-  width: auto;
-  max-width: 290px;
-  padding: 6px 0;
-  margin-bottom: 7px;
-}
-/* line 156, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form input[type="range"] {
-  width: 290px;
-  padding-top: 4px;
-}
-/* line 161, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form input[type="number"] {
-  width: 50px;
-  text-align: left;
-}
-/* line 166, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form select {
-  min-width: 186.667px;
-  width: auto;
-  max-width: 270px;
-  padding: 4px 0 4px 10px;
-  position: relative;
-  top: 2px;
-  font-size: 100%;
-  color: #3c3c3c;
-}
-/* line 176, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form select[multiple="multiple"] {
-  background: white;
-  height: auto;
-  line-height: 1.5;
-  border: 1px solid #c5c5c2;
-}
-/* line 184, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form textarea {
-  height: auto;
-  resize: none;
-  overflow: auto;
-}
-/* line 192, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form input::-webkit-input-placeholder {
-  color: #c8c8c8;
-  font-style: italic;
-}
-/* line 197, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form input:-moz-placeholder {
-  color: #c8c8c8;
-  font-style: italic;
-}
-/* line 204, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form input:focus::-webkit-input-placeholder {
-  color: rgba(255, 255, 255, 0);
-}
-/* line 208, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form input:focus:-moz-placeholder {
-  color: rgba(255, 255, 255, 0);
-}
-/* line 214, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form .required .label {
-  position: relative;
-}
-/* line 217, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form .required .label:after {
-  display: inline-block;
-  position: absolute;
-  right: 11px;
-  top: 4px;
-  font-size: 125%;
-  font-weight: bold;
-  content: '*';
-  color: #2479bb;
-}
-/* line 229, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form .required.warning .label:after {
-  color: #ff860e;
-}
-/* line 233, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form .required.error .label:after {
-  color: #e60000;
-}
-/* line 239, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form .value {
-  display: inline-block;
-  width: 280px;
-  padding: 8px 0;
-  margin-bottom: 7px;
-  line-height: 1.3;
-  font-size: 100%;
-  color: #898989;
-}
-/* line 254, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form .readonly input,
-.form .readonly textarea,
-.form .readonly select,
-.form .disabled input,
-.form .disabled textarea,
-.form .disabled select {
-  color: #a2a2a2;
-  background: #f7f7f6;
-}
-/* line 259, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form .readonly input:hover, .form .readonly input:focus,
-.form .readonly textarea:hover,
-.form .readonly textarea:focus,
-.form .readonly select:hover,
-.form .readonly select:focus,
-.form .disabled input:hover,
-.form .disabled input:focus,
-.form .disabled textarea:hover,
-.form .disabled textarea:focus,
-.form .disabled select:hover,
-.form .disabled select:focus {
-  border: 1px solid #c5c5c2;
-  -moz-box-shadow: 0 1px 2px 0 #cdcdca inset;
-  -webkit-box-shadow: 0 1px 2px 0 #cdcdca inset;
-  -o-box-shadow: 0 1px 2px 0 #cdcdca inset;
-  box-shadow: 0 1px 2px 0 #cdcdca inset;
-}
-/* line 268, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form .readonly select
-.form .readonly select:hover, .form .readonly select:focus,
-.form .disabled select
-.form .disabled select:hover,
-.form .disabled select:focus {
-  -moz-box-shadow: none;
-  -webkit-box-shadow: none;
-  -o-box-shadow: none;
-  box-shadow: none;
-}
-/* line 274, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form .disabled label {
-  color: #a2a2a2;
-}
-/* line 34, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form .warning .label {
-  color: #ff860e;
-}
-/* line 38, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form .warning input {
-  border-color: #ff860e;
-}
-/* line 41, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form .warning input:hover {
-  border-color: #cf6800;
-}
-/* line 45, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form .warning input:focus {
-  border-color: #ff860e;
-  -moz-box-shadow: 0 0 2px #ff860e;
-  -webkit-box-shadow: 0 0 2px #ff860e;
-  -o-box-shadow: 0 0 2px #ff860e;
-  box-shadow: 0 0 2px #ff860e;
-}
-/* line 34, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form .error .label {
-  color: #e60000;
-}
-/* line 38, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form .error input {
-  border-color: #e60000;
-}
-/* line 41, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form .error input:hover {
-  border-color: #a80000;
-}
-/* line 45, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form .error input:focus {
-  border-color: #e60000;
-  -moz-box-shadow: 0 0 2px #e60000;
-  -webkit-box-shadow: 0 0 2px #e60000;
-  -o-box-shadow: 0 0 2px #e60000;
-  box-shadow: 0 0 2px #e60000;
-}
-/* line 291, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form .checkbox .control,
-.form .radio .control {
-  display: block;
-  padding: 1px 0 5px 0;
-}
-/* line 295, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form .checkbox .control label,
-.form .radio .control label {
-  padding-right: 15px;
-}
-/* line 300, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form .checkbox > label + .control,
-.form .radio > label + .control {
-  display: inline-block;
-}
-/* line 304, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form .checkbox.horizontal .control,
-.form .radio.horizontal .control {
-  display: inline-block;
-  margin: 0 5px 0 0;
-}
-/* line 310, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form .checkbox label,
-.form .radio label {
-  line-height: 2;
-}
-/* line 314, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form .checkbox input,
-.form .radio input {
-  margin: 0 2px 0 0;
-  position: relative;
-  top: 1px;
-}
-
-/*
-  =======================================
-  MESSAGES
-  =======================================
-*/
-/* line 328, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form {
-  /* field validations */
-  /* success message */
-  /* warning message */
-  /* error message */
-}
-/* line 332, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form span {
-  display: inline-block;
-  max-width: 280px;
-  line-height: 1.1;
-  vertical-align: middle;
-  font-size: 90%;
-  white-space: normal;
-}
-/* line 345, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form .help i {
-  display: inline-block;
-  position: relative;
-  height: 13px;
-  width: 13px;
-  padding-top: 1px;
-  text-align: center;
-  color: #a2a2a2;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -o-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -khtml-border-radius: 50%;
-  border-radius: 50%;
-  border: 1px solid #dededc;
-  background: #f7f7f6 url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2VkZWRlYyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
-  background: #f7f7f6 -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #ededec));
-  background: #f7f7f6 -webkit-linear-gradient(#ffffff, #ededec);
-  background: #f7f7f6 -moz-linear-gradient(#ffffff, #ededec);
-  background: #f7f7f6 -o-linear-gradient(#ffffff, #ededec);
-  background: #f7f7f6 -ms-linear-gradient(#ffffff, #ededec);
-  background: #f7f7f6 linear-gradient(#ffffff, #ededec);
-  cursor: default;
-}
-/* line 361, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form .help i:hover {
-  color: white;
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
-  border-color: #585854;
-  background: #585854 url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzZkNmQ2NyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzYwNjA1YiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
-  background: #585854 -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #6d6d67), color-stop(100%, #60605b));
-  background: #585854 -webkit-linear-gradient(#6d6d67, #60605b);
-  background: #585854 -moz-linear-gradient(#6d6d67, #60605b);
-  background: #585854 -o-linear-gradient(#6d6d67, #60605b);
-  background: #585854 -ms-linear-gradient(#6d6d67, #60605b);
-  background: #585854 linear-gradient(#6d6d67, #60605b);
-}
-/* line 371, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form .help i:after {
-  display: none;
-  /* IE 8 */
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=$opacity * 100)";
-  /* IE 5-7 */
-  filter: alpha(opacity=97);
-  /* Netscape */
-  -moz-opacity: 0.97;
-  /* Safari 1.x */
-  -khtml-opacity: 0.97;
-  /* Good browsers */
-  opacity: 0.97;
-  content: "";
-  height: 0;
-  width: 0;
-  border-style: solid;
-  border-width: 0 9px 8px 9px;
-  border-color: rgba(255, 255, 255, 0) rgba(255, 255, 255, 0) #6d6d67;
-  position: absolute;
-  bottom: -11px;
-  left: -2px;
-  z-index: 2;
-}
-/* line 387, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form .help span {
-  display: none;
-  /* IE 8 */
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=$opacity * 100)";
-  /* IE 5-7 */
-  filter: alpha(opacity=97);
-  /* Netscape */
-  -moz-opacity: 0.97;
-  /* Safari 1.x */
-  -khtml-opacity: 0.97;
-  /* Good browsers */
-  opacity: 0.97;
-  position: absolute;
-  left: 5px;
-  top: 33px;
-  z-index: 1;
-  width: 160px;
-  padding: 7px 10px 9px 10px;
-  margin: 0;
-  -moz-border-radius: 3px;
-  -webkit-border-radius: 3px;
-  -o-border-radius: 3px;
-  -ms-border-radius: 3px;
-  -khtml-border-radius: 3px;
-  border-radius: 3px;
-  background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzZkNmQ2NyIvPjxzdG9wIG9mZnNldD0iMjAlIiBzdG9wLWNvbG9yPSIjNTg1ODU0Ii8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #6d6d67), color-stop(20%, #585854));
-  background: -webkit-linear-gradient(#6d6d67, #585854 20%);
-  background: -moz-linear-gradient(#6d6d67, #585854 20%);
-  background: -o-linear-gradient(#6d6d67, #585854 20%);
-  background: -ms-linear-gradient(#6d6d67, #585854 20%);
-  background: linear-gradient(#6d6d67, #585854 20%);
-  /* general */
-  *zoom: 1;
-  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF585854', endColorstr='#FF585854');
-  /* IE */
-  background-color: #585854;
-  /* fallback */
-  *zoom: 1;
-  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF6D6D67', endColorstr='#FF585854');
-  color: white;
-  border-color: #585854;
-  text-align: left;
-  line-height: 1.2;
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-  -moz-box-shadow: 0 1px 3px #f2f2f1;
-  -webkit-box-shadow: 0 1px 3px #f2f2f1;
-  -o-box-shadow: 0 1px 3px #f2f2f1;
-  box-shadow: 0 1px 3px #f2f2f1;
-}
-/* line 409, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form .help i:hover:after {
-  display: block;
-}
-/* line 413, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form .help i:hover ~ span {
-  display: block;
-}
-/* line 421, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form .note {
-  display: block;
-  font-size: 85%;
-  color: #a2a2a2;
-  margin: 0 0 5px 10px;
-}
-/* line 427, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form .note:before {
-  content: "Note:";
-  font-weight: bold;
-  margin-right: 5px;
-}
-/* line 437, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form .hint,
-.form .message {
-  position: relative;
-  left: 0;
-  color: #6f6f6f;
-  padding: 9px 10px 7px 10px;
-  margin-left: 10px;
-  background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjxzdG9wIG9mZnNldD0iMzAlIiBzdG9wLWNvbG9yPSIjZjdmN2Y2Ii8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(30%, #f7f7f6));
-  background: -webkit-linear-gradient(#ffffff, #f7f7f6 30%);
-  background: -moz-linear-gradient(#ffffff, #f7f7f6 30%);
-  background: -o-linear-gradient(#ffffff, #f7f7f6 30%);
-  background: -ms-linear-gradient(#ffffff, #f7f7f6 30%);
-  background: linear-gradient(#ffffff, #f7f7f6 30%);
-  /* general */
-  *zoom: 1;
-  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFF7F7F6', endColorstr='#FFF7F7F6');
-  /* IE */
-  background-color: #f7f7f6;
-  /* fallback */
-  *zoom: 1;
-  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFFFFFFF', endColorstr='#FFF7F7F6');
-  -moz-border-radius: 3px;
-  -webkit-border-radius: 3px;
-  -o-border-radius: 3px;
-  -ms-border-radius: 3px;
-  -khtml-border-radius: 3px;
-  border-radius: 3px;
-  border: 1px solid #dededc;
-  -moz-box-shadow: #f2f2f1 0 1px 3px;
-  -webkit-box-shadow: #f2f2f1 0 1px 3px;
-  -o-box-shadow: #f2f2f1 0 1px 3px;
-  box-shadow: #f2f2f1 0 1px 3px;
-  vertical-align: top;
-}
-/* line 451, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form .hint:before, .form .hint:after,
-.form .message:before,
-.form .message:after {
-  content: "";
-  display: block;
-  height: 0;
-  width: 0;
-  border-style: solid;
-  border-width: 8px 8px 8px 0;
-  border-color: rgba(255, 255, 255, 0) #f7f7f6 rgba(255, 255, 255, 0);
-  position: absolute;
-  top: 14px;
-  left: -8px;
-  margin-top: -8px;
-  z-index: 2;
-}
-/* line 466, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form .hint:after,
-.form .message:after {
-  border-right-color: #dededc;
-  left: -9px;
-  z-index: 1;
-}
-/* line 473, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form .hint {
-  /* IE 8 */
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=$opacity * 100)";
-  /* IE 5-7 */
-  filter: alpha(opacity=0);
-  /* Netscape */
-  -moz-opacity: 0;
-  /* Safari 1.x */
-  -khtml-opacity: 0;
-  /* Good browsers */
-  opacity: 0;
-  position: absolute;
-  top: 0;
-  left: 320px;
-}
-/* line 479, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form .hint.always_visible {
-  /* IE 8 */
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=$opacity * 100)";
-  /* IE 5-7 */
-  filter: alpha(opacity=100);
-  /* Netscape */
-  -moz-opacity: 1;
-  /* Safari 1.x */
-  -khtml-opacity: 1;
-  /* Good browsers */
-  opacity: 1;
-  position: relative;
-  left: 0;
-}
-/* line 486, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form .message ~ .hint {
-  display: none;
-}
-/* line 490, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form .control_group input:focus ~ .hint {
-  -moz-transition: all 0.29s ease;
-  -webkit-transition: all 0.29s ease;
-  -o-transition: all 0.29s ease;
-  transition: all 0.29s ease;
-  /* IE 8 */
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=$opacity * 100)";
-  /* IE 5-7 */
-  filter: alpha(opacity=100);
-  /* Netscape */
-  -moz-opacity: 1;
-  /* Safari 1.x */
-  -khtml-opacity: 1;
-  /* Good browsers */
-  opacity: 1;
-  left: 305px;
-}
-/* line 495, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form .control_group input:focus ~ .hint.always_visible {
-  left: 0;
-}
-/* line 504, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form .success .message,
-.form .warning .message,
-.form .error .message {
-  padding-left: 29px;
-  max-width: 261px;
-}
-/* line 511, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form .success .message {
-  background: #f7f7f6 url('/images/converge-ui/icons/success_icon.png?1348332271') no-repeat 8px 6px;
-  background: url('/images/converge-ui/icons/success_icon.png?1348332271') no-repeat 8px 6px, url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjxzdG9wIG9mZnNldD0iMzAlIiBzdG9wLWNvbG9yPSIjZjdmN2Y2Ii8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
-  background: url('/images/converge-ui/icons/success_icon.png?1348332271') no-repeat 8px 6px, -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(30%, #f7f7f6));
-  background: url('/images/converge-ui/icons/success_icon.png?1348332271') no-repeat 8px 6px, -webkit-linear-gradient(#ffffff, #f7f7f6 30%);
-  background: url('/images/converge-ui/icons/success_icon.png?1348332271') no-repeat 8px 6px, -moz-linear-gradient(#ffffff, #f7f7f6 30%);
-  background: url('/images/converge-ui/icons/success_icon.png?1348332271') no-repeat 8px 6px, -o-linear-gradient(#ffffff, #f7f7f6 30%);
-  background: url('/images/converge-ui/icons/success_icon.png?1348332271') no-repeat 8px 6px, -ms-linear-gradient(#ffffff, #f7f7f6 30%);
-  background: url('/images/converge-ui/icons/success_icon.png?1348332271') no-repeat 8px 6px, linear-gradient(#ffffff, #f7f7f6 30%);
-  *zoom: 1;
-  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#00FFFFFF', endColorstr='#00FFFFFF');
-}
-/* line 520, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form .warning .message {
-  background: #f7f7f6 url('/images/converge-ui/icons/warning_icon.png?1348332271') no-repeat 7px 6px;
-  background: url('/images/converge-ui/icons/warning_icon.png?1348332271') no-repeat 7px 6px, url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjxzdG9wIG9mZnNldD0iMzAlIiBzdG9wLWNvbG9yPSIjZjdmN2Y2Ii8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
-  background: url('/images/converge-ui/icons/warning_icon.png?1348332271') no-repeat 7px 6px, -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(30%, #f7f7f6));
-  background: url('/images/converge-ui/icons/warning_icon.png?1348332271') no-repeat 7px 6px, -webkit-linear-gradient(#ffffff, #f7f7f6 30%);
-  background: url('/images/converge-ui/icons/warning_icon.png?1348332271') no-repeat 7px 6px, -moz-linear-gradient(#ffffff, #f7f7f6 30%);
-  background: url('/images/converge-ui/icons/warning_icon.png?1348332271') no-repeat 7px 6px, -o-linear-gradient(#ffffff, #f7f7f6 30%);
-  background: url('/images/converge-ui/icons/warning_icon.png?1348332271') no-repeat 7px 6px, -ms-linear-gradient(#ffffff, #f7f7f6 30%);
-  background: url('/images/converge-ui/icons/warning_icon.png?1348332271') no-repeat 7px 6px, linear-gradient(#ffffff, #f7f7f6 30%);
-  *zoom: 1;
-  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#00FFFFFF', endColorstr='#00FFFFFF');
-}
-/* line 529, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form .error .message {
-  background: #f7f7f6 url('/images/converge-ui/icons/error_icon.png?1348332271') no-repeat 7px 6px;
-  background: url('/images/converge-ui/icons/error_icon.png?1348332271') no-repeat 7px 6px, url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjxzdG9wIG9mZnNldD0iMzAlIiBzdG9wLWNvbG9yPSIjZjdmN2Y2Ii8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
-  background: url('/images/converge-ui/icons/error_icon.png?1348332271') no-repeat 7px 6px, -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(30%, #f7f7f6));
-  background: url('/images/converge-ui/icons/error_icon.png?1348332271') no-repeat 7px 6px, -webkit-linear-gradient(#ffffff, #f7f7f6 30%);
-  background: url('/images/converge-ui/icons/error_icon.png?1348332271') no-repeat 7px 6px, -moz-linear-gradient(#ffffff, #f7f7f6 30%);
-  background: url('/images/converge-ui/icons/error_icon.png?1348332271') no-repeat 7px 6px, -o-linear-gradient(#ffffff, #f7f7f6 30%);
-  background: url('/images/converge-ui/icons/error_icon.png?1348332271') no-repeat 7px 6px, -ms-linear-gradient(#ffffff, #f7f7f6 30%);
-  background: url('/images/converge-ui/icons/error_icon.png?1348332271') no-repeat 7px 6px, linear-gradient(#ffffff, #f7f7f6 30%);
-  *zoom: 1;
-  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#00FFFFFF', endColorstr='#00FFFFFF');
-}
-
-/*
-  =======================================
-  RESPONSIVE
-  =======================================
-*/
-/* line 546, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form.labels_top .label {
-  float: none;
-  text-align: left;
-  display: inline-block;
-  width: auto;
-}
-/* line 552, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form.labels_top .label label {
-  padding: 0 8px 0 0;
-  line-height: 1.8;
-}
-/* line 558, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form.labels_top .label.help i {
-  position: absolute;
-  right: -13px;
-  top: 2px;
-}
-/* line 564, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form.labels_top .label.help span {
-  left: 60%;
-  top: 27px;
-}
-/* line 571, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form.labels_top .value {
-  padding-top: 2px;
-}
-/* line 577, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form.labels_top .required .label:after {
-  right: 0;
-  top: 0;
-}
-/* line 583, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form.labels_top .required .label.help i {
-  right: -19px;
-}
-/* line 590, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form.labels_top .input {
-  margin: 0 0 5px 0;
-}
-
-/* line 598, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form.messages_bottom .note {
-  display: block;
-  padding: 10px 10px 6px 10px;
-  margin: 0;
-  border: 1px solid #dededc;
-  border-top-width: 0;
-  -moz-border-radius: 0 0 3px 3px;
-  -webkit-border-radius: 0 0 3px 3px;
-  -o-border-radius: 0 0 3px 3px;
-  -ms-border-radius: 0 0 3px 3px;
-  -khtml-border-radius: 0 0 3px 3px;
-  border-radius: 0 0 3px 3px;
-  position: relative;
-  top: -10px;
-}
-/* line 610, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form.messages_bottom .hint ~ .note,
-.form.messages_bottom .message ~ .note {
-  background: white;
-  top: -4px;
-  padding-top: 7px;
-  border-top-width: 1px;
-}
-/* line 617, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form.messages_bottom .message ~ .hint {
-  display: none;
-}
-/* line 622, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form.messages_bottom .hint,
-.form.messages_bottom .message {
-  display: block;
-  position: relative;
-  left: 0;
-  /* IE 8 */
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=$opacity * 100)";
-  /* IE 5-7 */
-  filter: alpha(opacity=100);
-  /* Netscape */
-  -moz-opacity: 1;
-  /* Safari 1.x */
-  -khtml-opacity: 1;
-  /* Good browsers */
-  opacity: 1;
-  margin: 3px 0 0 0;
-}
-/* line 630, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form.messages_bottom .hint:before, .form.messages_bottom .hint:after,
-.form.messages_bottom .message:before,
-.form.messages_bottom .message:after {
-  border-width: 0 8px 8px 8px;
-  border-color: rgba(255, 255, 255, 0) rgba(255, 255, 255, 0) white;
-  top: 0;
-  left: auto;
-  right: 20px;
-}
-/* line 638, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form.messages_bottom .hint:after,
-.form.messages_bottom .message:after {
-  top: -1px;
-  left: auto;
-  border-color: rgba(255, 255, 255, 0) rgba(255, 255, 255, 0) #dededc;
-}
-/* line 644, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form.messages_bottom .hint:hover,
-.form.messages_bottom .message:hover {
-  left: 0;
-}
-/* line 649, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form.messages_bottom .control_group input:focus ~ .hint {
-  left: 0;
-}
-/* line 656, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form.messages_bottom .success .message,
-.form.messages_bottom .warning .message,
-.form.messages_bottom .error .message {
-  display: block;
-  margin: 3px 0 0 0;
-}
-/* line 660, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form.messages_bottom .success .message ~ .hint,
-.form.messages_bottom .warning .message ~ .hint,
-.form.messages_bottom .error .message ~ .hint {
-  margin: 0;
-  position: relative;
-  top: -2px;
-  -moz-border-radius: 0 0 3px 3px;
-  -webkit-border-radius: 0 0 3px 3px;
-  -o-border-radius: 0 0 3px 3px;
-  -ms-border-radius: 0 0 3px 3px;
-  -khtml-border-radius: 0 0 3px 3px;
-  border-radius: 0 0 3px 3px;
-}
-/* line 667, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.form.messages_bottom .success .message ~ .hint:before, .form.messages_bottom .success .message ~ .hint:after,
-.form.messages_bottom .warning .message ~ .hint:before,
-.form.messages_bottom .warning .message ~ .hint:after,
-.form.messages_bottom .error .message ~ .hint:before,
-.form.messages_bottom .error .message ~ .hint:after {
-  display: none;
-}
-
-@media screen and (max-width: 1024px) {
-  /* line 546, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-  .form .label {
-    float: none;
-    text-align: left;
-    display: inline-block;
-    width: auto;
-  }
-  /* line 552, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-  .form .label label {
-    padding: 0 8px 0 0;
-    line-height: 1.8;
-  }
-  /* line 558, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-  .form .label.help i {
-    position: absolute;
-    right: -13px;
-    top: 2px;
-  }
-  /* line 564, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-  .form .label.help span {
-    left: 60%;
-    top: 27px;
-  }
-  /* line 571, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-  .form .value {
-    padding-top: 2px;
-  }
-  /* line 577, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-  .form .required .label:after {
-    right: 0;
-    top: 0;
-  }
-  /* line 583, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-  .form .required .label.help i {
-    right: -19px;
-  }
-  /* line 590, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-  .form .input {
-    margin: 0 0 5px 0;
-  }
-}
-@media screen and (max-width: 768px) {
-  /* line 546, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-  .form .label {
-    float: none;
-    text-align: left;
-    display: inline-block;
-    width: auto;
-  }
-  /* line 552, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-  .form .label label {
-    padding: 0 8px 0 0;
-    line-height: 1.8;
-  }
-  /* line 558, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-  .form .label.help i {
-    position: absolute;
-    right: -13px;
-    top: 2px;
-  }
-  /* line 564, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-  .form .label.help span {
-    left: 60%;
-    top: 27px;
-  }
-  /* line 571, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-  .form .value {
-    padding-top: 2px;
-  }
-  /* line 577, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-  .form .required .label:after {
-    right: 0;
-    top: 0;
-  }
-  /* line 583, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-  .form .required .label.help i {
-    right: -19px;
-  }
-  /* line 590, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-  .form .input {
-    margin: 0 0 5px 0;
-  }
-  /* line 598, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-  .form .note {
-    display: block;
-    padding: 10px 10px 6px 10px;
-    margin: 0;
-    border: 1px solid #dededc;
-    border-top-width: 0;
-    -moz-border-radius: 0 0 3px 3px;
-    -webkit-border-radius: 0 0 3px 3px;
-    -o-border-radius: 0 0 3px 3px;
-    -ms-border-radius: 0 0 3px 3px;
-    -khtml-border-radius: 0 0 3px 3px;
-    border-radius: 0 0 3px 3px;
-    position: relative;
-    top: -10px;
-  }
-  /* line 610, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-  .form .hint ~ .note, .form .message ~ .note {
-    background: white;
-    top: -4px;
-    padding-top: 7px;
-    border-top-width: 1px;
-  }
-  /* line 617, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-  .form .message ~ .hint {
-    display: none;
-  }
-  /* line 622, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-  .form .hint, .form .message {
-    display: block;
-    position: relative;
-    left: 0;
-    /* IE 8 */
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=$opacity * 100)";
-    /* IE 5-7 */
-    filter: alpha(opacity=100);
-    /* Netscape */
-    -moz-opacity: 1;
-    /* Safari 1.x */
-    -khtml-opacity: 1;
-    /* Good browsers */
-    opacity: 1;
-    margin: 3px 0 0 0;
-  }
-  /* line 630, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-  .form .hint:before, .form .hint:after, .form .message:before, .form .message:after {
-    border-width: 0 8px 8px 8px;
-    border-color: rgba(255, 255, 255, 0) rgba(255, 255, 255, 0) white;
-    top: 0;
-    left: auto;
-    right: 20px;
-  }
-  /* line 638, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-  .form .hint:after, .form .message:after {
-    top: -1px;
-    left: auto;
-    border-color: rgba(255, 255, 255, 0) rgba(255, 255, 255, 0) #dededc;
-  }
-  /* line 644, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-  .form .hint:hover, .form .message:hover {
-    left: 0;
-  }
-  /* line 649, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-  .form .control_group input:focus ~ .hint {
-    left: 0;
-  }
-  /* line 656, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-  .form .success .message, .form .warning .message, .form .error .message {
-    display: block;
-    margin: 3px 0 0 0;
-  }
-  /* line 660, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-  .form .success .message ~ .hint, .form .warning .message ~ .hint, .form .error .message ~ .hint {
-    margin: 0;
-    position: relative;
-    top: -2px;
-    -moz-border-radius: 0 0 3px 3px;
-    -webkit-border-radius: 0 0 3px 3px;
-    -o-border-radius: 0 0 3px 3px;
-    -ms-border-radius: 0 0 3px 3px;
-    -khtml-border-radius: 0 0 3px 3px;
-    border-radius: 0 0 3px 3px;
-  }
-  /* line 667, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-  .form .success .message ~ .hint:before, .form .success .message ~ .hint:after, .form .warning .message ~ .hint:before, .form .warning .message ~ .hint:after, .form .error .message ~ .hint:before, .form .error .message ~ .hint:after {
-    display: none;
-  }
-}
-/*
-  =======================================
-  IE tweaks
-  =======================================
-*/
-/* line 706, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.ie8 .form .help i:hover:after {
-  display: none;
-}
-/* line 710, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.ie8 .form .help span {
-  top: 25px;
-}
-/* line 717, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.ie8 .form.labels_top .help span {
-  top: 20px;
-}
-/* line 726, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.ie8 .form .hint:before, .ie8 .form .hint:after,
-.ie8 .form .message:before,
-.ie8 .form .message:after {
-  display: none;
-}
-/* line 731, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.ie8 .form .hint {
-  display: none;
-}
-/* line 734, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.ie8 .form .hint.always_visible {
-  display: inline-block;
-}
-/* line 739, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.ie8 .form .control_group input:focus ~ .hint {
-  display: block;
-}
-/* line 742, ../../../app/stylesheets/converge-ui/components/_forms.scss */
-.ie8 .form .control_group input:focus ~ .hint.always_visible {
-  display: inline-block;
-}
-
-/*
-* Font Type Variables
-*/
-/*
-* Component Size Variables
-*/
-/*****************
-* Responsive
-*****************/
-/*****************
-* Elements - Global
-*****************/
-/*****************
-* Sign-On Screen
-*****************/
-/********
-* Images
-*********/
-/*************
-* Base Colors
-**************/
-/* default links */
-/* unfocused tabs */
-/* list items prelight state */
-/**************
-* Form Colors
-***************/
-/****************
-*  Header Colors
-*****************/
-/****************
-*  Footer Colors
-*****************/
-/****************
-*  Login Colors
-*****************/
-/*********************************
-*  Palette Colors
-**********************************/
-/*proposed colour palette*/
-/*generic default tone for non interactive elements*/
-/*favorite greys for warm interactive elements*/
-/* Red Hat toners */
-/*Red Hat Official*/
-/* Red Hat Apps  - Web Extended */
-/*orange (the letter o)*/
-/*green*/
-/* red */
-/****************************
-*  Complex Color Definitions
-*****************************/
-/* background for header */
-/* background for tabs on header */
-/*****************
-* Switcher Colors
-******************/
 /* ie9 support */
 /*
    ====================================
    BUTTONS
    ====================================
 */
-/* line 21, ../../../app/stylesheets/converge-ui/components/_buttons.scss */
+/* line 12, ../../../app/stylesheets/converge-ui/components/buttons/_buttons.scss */
 .btn,
 .button,
 button {
@@ -2739,7 +1472,7 @@ button {
 button {
   *display: inline;
 }
-/* line 39, ../../../app/stylesheets/converge-ui/components/_buttons.scss */
+/* line 30, ../../../app/stylesheets/converge-ui/components/buttons/_buttons.scss */
 .btn:hover,
 .button:hover,
 button:hover {
@@ -2758,7 +1491,7 @@ button:hover {
   background-color: #f7f7f6;
   /* fallback */
 }
-/* line 44, ../../../app/stylesheets/converge-ui/components/_buttons.scss */
+/* line 35, ../../../app/stylesheets/converge-ui/components/buttons/_buttons.scss */
 .btn:active,
 .button:active,
 button:active {
@@ -2782,7 +1515,7 @@ button:active {
   -o-box-shadow: none;
   box-shadow: none;
 }
-/* line 55, ../../../app/stylesheets/converge-ui/components/_buttons.scss */
+/* line 46, ../../../app/stylesheets/converge-ui/components/buttons/_buttons.scss */
 .btn.primary, .btn.warning:hover,
 .button.primary,
 .button.warning:hover,
@@ -2796,7 +1529,7 @@ button.warning:hover {
   -o-box-shadow: 0 1px 6px rgba(255, 255, 255, 0.25) inset;
   box-shadow: 0 1px 6px rgba(255, 255, 255, 0.25) inset;
 }
-/* line 60, ../../../app/stylesheets/converge-ui/components/_buttons.scss */
+/* line 51, ../../../app/stylesheets/converge-ui/components/buttons/_buttons.scss */
 .btn.primary:active, .btn.warning:hover:active,
 .button.primary:active,
 .button.warning:hover:active,
@@ -2809,7 +1542,7 @@ button.warning:hover:active {
   -o-box-shadow: none;
   box-shadow: none;
 }
-/* line 67, ../../../app/stylesheets/converge-ui/components/_buttons.scss */
+/* line 58, ../../../app/stylesheets/converge-ui/components/buttons/_buttons.scss */
 .btn.primary,
 .button.primary,
 button.primary {
@@ -2829,7 +1562,7 @@ button.primary {
   background-color: #2479bb, 7%;
   /* fallback */
 }
-/* line 71, ../../../app/stylesheets/converge-ui/components/_buttons.scss */
+/* line 62, ../../../app/stylesheets/converge-ui/components/buttons/_buttons.scss */
 .btn.primary:hover,
 .button.primary:hover,
 button.primary:hover {
@@ -2848,7 +1581,7 @@ button.primary:hover {
   background-color: #2479bb, 11%;
   /* fallback */
 }
-/* line 76, ../../../app/stylesheets/converge-ui/components/_buttons.scss */
+/* line 67, ../../../app/stylesheets/converge-ui/components/buttons/_buttons.scss */
 .btn.primary:active,
 .button.primary:active,
 button.primary:active {
@@ -2867,14 +1600,14 @@ button.primary:active {
   background-color: #2784cc;
   /* fallback */
 }
-/* line 82, ../../../app/stylesheets/converge-ui/components/_buttons.scss */
+/* line 73, ../../../app/stylesheets/converge-ui/components/buttons/_buttons.scss */
 .btn.warning,
 .button.warning,
 button.warning {
   /* warning */
   color: #c70000;
 }
-/* line 85, ../../../app/stylesheets/converge-ui/components/_buttons.scss */
+/* line 76, ../../../app/stylesheets/converge-ui/components/buttons/_buttons.scss */
 .btn.warning:hover,
 .button.warning:hover,
 button.warning:hover {
@@ -2893,7 +1626,7 @@ button.warning:hover {
   background-color: #bd0000;
   /* fallback */
 }
-/* line 90, ../../../app/stylesheets/converge-ui/components/_buttons.scss */
+/* line 81, ../../../app/stylesheets/converge-ui/components/buttons/_buttons.scss */
 .btn.warning:active,
 .button.warning:active,
 button.warning:active {
@@ -2911,31 +1644,31 @@ button.warning:active {
   background-color: #9e0000;
   /* fallback */
 }
-/* line 98, ../../../app/stylesheets/converge-ui/components/_buttons.scss */
+/* line 89, ../../../app/stylesheets/converge-ui/components/buttons/_buttons.scss */
 .btn.mini,
 .button.mini,
 button.mini {
   font-size: 75%;
 }
-/* line 102, ../../../app/stylesheets/converge-ui/components/_buttons.scss */
+/* line 93, ../../../app/stylesheets/converge-ui/components/buttons/_buttons.scss */
 .btn.small,
 .button.small,
 button.small {
   font-size: 85%;
 }
-/* line 106, ../../../app/stylesheets/converge-ui/components/_buttons.scss */
+/* line 97, ../../../app/stylesheets/converge-ui/components/buttons/_buttons.scss */
 .btn.large,
 .button.large,
 button.large {
   font-size: 125%;
 }
-/* line 110, ../../../app/stylesheets/converge-ui/components/_buttons.scss */
+/* line 101, ../../../app/stylesheets/converge-ui/components/buttons/_buttons.scss */
 .btn.huge,
 .button.huge,
 button.huge {
   font-size: 155%;
 }
-/* line 118, ../../../app/stylesheets/converge-ui/components/_buttons.scss */
+/* line 109, ../../../app/stylesheets/converge-ui/components/buttons/_buttons.scss */
 .btn.disabled, .btn[disabled],
 .button.disabled,
 .button[disabled],
@@ -2943,7 +1676,7 @@ button.disabled,
 button[disabled] {
   /* common for light buttons */
 }
-/* line 121, ../../../app/stylesheets/converge-ui/components/_buttons.scss */
+/* line 112, ../../../app/stylesheets/converge-ui/components/buttons/_buttons.scss */
 .btn.disabled, .btn.disabled:hover, .btn.disabled:active, .btn[disabled], .btn[disabled]:hover, .btn[disabled]:active,
 .button.disabled,
 .button.disabled:hover,
@@ -2975,7 +1708,7 @@ button[disabled]:active {
   background-color: #f9f9f9;
   /* fallback */
 }
-/* line 128, ../../../app/stylesheets/converge-ui/components/_buttons.scss */
+/* line 119, ../../../app/stylesheets/converge-ui/components/buttons/_buttons.scss */
 .btn.disabled.warning, .btn.disabled:hover.warning, .btn.disabled:active.warning, .btn[disabled].warning, .btn[disabled]:hover.warning, .btn[disabled]:active.warning,
 .button.disabled.warning,
 .button.disabled:hover.warning,
@@ -2991,7 +1724,7 @@ button[disabled]:hover.warning,
 button[disabled]:active.warning {
   color: rgba(163, 0, 0, 0.47);
 }
-/* line 137, ../../../app/stylesheets/converge-ui/components/_buttons.scss */
+/* line 128, ../../../app/stylesheets/converge-ui/components/buttons/_buttons.scss */
 .btn.processing, .btn.processing:hover, .btn.processing:active,
 .button.processing,
 .button.processing:hover,
@@ -3007,14 +1740,14 @@ button.processing:active {
   background: url('/images/converge-ui/icons/spinner.gif?1347638130') no-repeat 50% 50%, -ms-linear-gradient(#ffffff, #e5e5e4);
   background: url('/images/converge-ui/icons/spinner.gif?1347638130') no-repeat 50% 50%, linear-gradient(#ffffff, #e5e5e4);
 }
-/* line 147, ../../../app/stylesheets/converge-ui/components/_buttons.scss */
+/* line 138, ../../../app/stylesheets/converge-ui/components/buttons/_buttons.scss */
 .btn.icon,
 .button.icon,
 button.icon {
   padding-left: 28px;
   position: relative;
 }
-/* line 151, ../../../app/stylesheets/converge-ui/components/_buttons.scss */
+/* line 142, ../../../app/stylesheets/converge-ui/components/buttons/_buttons.scss */
 .btn.icon:before,
 .button.icon:before,
 button.icon:before {
@@ -3023,7 +1756,7 @@ button.icon:before {
   width: 16px;
   height: 16px;
 }
-/* line 159, ../../../app/stylesheets/converge-ui/components/_buttons.scss */
+/* line 150, ../../../app/stylesheets/converge-ui/components/buttons/_buttons.scss */
 .btn.icon i, .btn.icon:before,
 .button.icon i,
 .button.icon:before,
@@ -3033,7 +1766,7 @@ button.icon:before {
   top: 4px;
   left: 8px;
 }
-/* line 166, ../../../app/stylesheets/converge-ui/components/_buttons.scss */
+/* line 157, ../../../app/stylesheets/converge-ui/components/buttons/_buttons.scss */
 .btn.icon > .btn, .btn.icon > .button,
 .button.icon > .btn,
 .button.icon > .button,
@@ -3052,7 +1785,7 @@ button.icon > .button {
   -o-box-shadow: none;
   box-shadow: none;
 }
-/* line 176, ../../../app/stylesheets/converge-ui/components/_buttons.scss */
+/* line 167, ../../../app/stylesheets/converge-ui/components/buttons/_buttons.scss */
 .btn.icon.download_example:before,
 .button.icon.download_example:before,
 button.icon.download_example:before {
@@ -3060,13 +1793,13 @@ button.icon.download_example:before {
   background-position: -512px -16px;
 }
 
-/* line 184, ../../../app/stylesheets/converge-ui/components/_buttons.scss */
+/* line 175, ../../../app/stylesheets/converge-ui/components/buttons/_buttons.scss */
 div.btn.icon {
   padding: 0;
   display: inline-block;
 }
 
-/* line 191, ../../../app/stylesheets/converge-ui/components/_buttons.scss */
+/* line 182, ../../../app/stylesheets/converge-ui/components/buttons/_buttons.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -3075,7 +1808,7 @@ input::-moz-focus-inner {
 
 /* ----------------------- */
 /* groups */
-/* line 202, ../../../app/stylesheets/converge-ui/components/_buttons.scss */
+/* line 193, ../../../app/stylesheets/converge-ui/components/buttons/_buttons.scss */
 .btn_group .btn,
 .btn_group .button,
 .btn_group button {
@@ -3091,7 +1824,7 @@ input::-moz-focus-inner {
   -khtml-border-radius: 0;
   border-radius: 0;
 }
-/* line 210, ../../../app/stylesheets/converge-ui/components/_buttons.scss */
+/* line 201, ../../../app/stylesheets/converge-ui/components/buttons/_buttons.scss */
 .btn_group .btn:first-child,
 .btn_group .button:first-child,
 .btn_group button:first-child {
@@ -3103,7 +1836,7 @@ input::-moz-focus-inner {
   -khtml-border-radius: 3px 0 0 3px;
   border-radius: 3px 0 0 3px;
 }
-/* line 215, ../../../app/stylesheets/converge-ui/components/_buttons.scss */
+/* line 206, ../../../app/stylesheets/converge-ui/components/buttons/_buttons.scss */
 .btn_group .btn:last-child,
 .btn_group .button:last-child,
 .btn_group button:last-child {
@@ -3114,7 +1847,7 @@ input::-moz-focus-inner {
   -khtml-border-radius: 0 3px 3px 0;
   border-radius: 0 3px 3px 0;
 }
-/* line 220, ../../../app/stylesheets/converge-ui/components/_buttons.scss */
+/* line 211, ../../../app/stylesheets/converge-ui/components/buttons/_buttons.scss */
 .btn_group:after {
   /* clear after itself */
   content: "";
@@ -3122,16 +1855,16 @@ input::-moz-focus-inner {
   height: 0;
   clear: both;
 }
-/* line 227, ../../../app/stylesheets/converge-ui/components/_buttons.scss */
+/* line 218, ../../../app/stylesheets/converge-ui/components/buttons/_buttons.scss */
 .btn_group form {
   /* for rails button_to helper (creates form > div > input) */
 }
-/* line 228, ../../../app/stylesheets/converge-ui/components/_buttons.scss */
+/* line 219, ../../../app/stylesheets/converge-ui/components/buttons/_buttons.scss */
 .btn_group form div {
   display: block;
   float: left;
 }
-/* line 236, ../../../app/stylesheets/converge-ui/components/_buttons.scss */
+/* line 227, ../../../app/stylesheets/converge-ui/components/buttons/_buttons.scss */
 .btn_group form:first-child .btn,
 .btn_group form:first-child .button,
 .btn_group form:first-child button {
@@ -3143,7 +1876,7 @@ input::-moz-focus-inner {
   -khtml-border-radius: 3px 0 0 3px;
   border-radius: 3px 0 0 3px;
 }
-/* line 245, ../../../app/stylesheets/converge-ui/components/_buttons.scss */
+/* line 236, ../../../app/stylesheets/converge-ui/components/buttons/_buttons.scss */
 .btn_group form:last-child .btn,
 .btn_group form:last-child .button,
 .btn_group form:last-child button {
@@ -3155,58 +1888,1042 @@ input::-moz-focus-inner {
   border-radius: 0 3px 3px 0;
 }
 
-/*************
-* Base Colors
-**************/
-/* default links */
-/* unfocused tabs */
-/* list items prelight state */
-/**************
-* Form Colors
-***************/
-/****************
-*  Header Colors
-*****************/
-/****************
-*  Footer Colors
-*****************/
-/****************
-*  Login Colors
-*****************/
-/*********************************
-*  Palette Colors
-**********************************/
-/*proposed colour palette*/
-/*generic default tone for non interactive elements*/
-/*favorite greys for warm interactive elements*/
-/* Red Hat toners */
-/*Red Hat Official*/
-/* Red Hat Apps  - Web Extended */
-/*orange (the letter o)*/
-/*green*/
-/* red */
-/****************************
-*  Complex Color Definitions
-*****************************/
-/* background for header */
-/* background for tabs on header */
 /*****************
-* Switcher Colors
-******************/
-/*
-* Font Type Variables
-*/
-/*
-* Component Size Variables
-*/
+* Font Types
+*****************/
 /*****************
 * Responsive
 *****************/
 /*****************
 * Elements - Global
 *****************/
+/********
+* Images
+*********/
+/*************
+* Base Colors
+**************/
+/****************
+*  Palette Colors
+*****************/
+/* Proposed colour palette
+===========================*/
+/* Generic default tone for non interactive elements */
+/* Favorite greys for warm interactive elements */
+/* Red Hat toners */
+/* Red Hat Official */
+/* Red Hat Apps  - Web Extended
+================================*/
+/* Orange (the letter o) */
+/* Green */
+/* Red */
+/************************
+* Company Switcher Colors
+*************************/
+/************
+* Theme color
+************/
+/* background for header */
+/* ie9 support */
+/*
+  =======================================
+  FORMS
+  =======================================
+*/
+/* line 11, ../../../app/stylesheets/converge-ui/components/forms/_forms.scss */
+.form {
+  width: 100%;
+  display: block;
+  line-height: 1;
+  color: #3c3c3c;
+}
+
+/* line 18, ../../../app/stylesheets/converge-ui/components/forms/_forms.scss */
+fieldset {
+  border: 0 none;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 24, ../../../app/stylesheets/converge-ui/components/forms/_forms.scss */
+.control_group {
+  padding: 5px 8px;
+  position: relative;
+  white-space: nowrap;
+}
+/* line 29, ../../../app/stylesheets/converge-ui/components/forms/_forms.scss */
+.control_group .label {
+  width: 200px;
+  float: left;
+  text-align: right;
+  position: relative;
+  padding: 0;
+}
+/* line 37, ../../../app/stylesheets/converge-ui/components/forms/_forms.scss */
+.control_group .input {
+  margin-left: 200px;
+  position: relative;
+  min-height: 2.5em;
+}
+
+/*
+  =======================================
+  INPUTS
+  =======================================
+*/
+/* general */
+/* line 52, ../../../app/stylesheets/converge-ui/components/forms/_forms.scss */
+.form {
+  /* general styling of fields */
+  /* placeholder for various browsers
+     (needs to be separate) */
+  /* remove placeholder on focus
+     (needs to be separate) */
+  /* required field */
+  /* informative values */
+  /* disabled field */
+  /* warning field */
+  /* error field */
+  /* checking items */
+}
+/* line 54, ../../../app/stylesheets/converge-ui/components/forms/_forms.scss */
+.form .label label {
+  line-height: 2.5;
+  display: inline-block;
+  padding: 0 20px 0 3px;
+}
+/* line 64, ../../../app/stylesheets/converge-ui/components/forms/_forms.scss */
+.form input,
+.form select,
+.form textarea {
+  font-family: "Liberation Sans", sans-serif;
+}
+/* line 69, ../../../app/stylesheets/converge-ui/components/forms/_forms.scss */
+.form input {
+  line-height: 1.3;
+}
+/* line 80, ../../../app/stylesheets/converge-ui/components/forms/_forms.scss */
+.form input[type="text"],
+.form input[type="password"],
+.form input[type="email"],
+.form input[type="url"],
+.form input[type="search"],
+.form input[type="date"],
+.form input[type="number"],
+.form textarea {
+  width: 280px;
+  padding: 6px 10px;
+  color: inherit;
+  outline: none;
+  border: 1px solid #c5c5c2;
+  margin-bottom: 7px;
+  -moz-box-shadow: 0 1px 2px 0 #cdcdca inset;
+  -webkit-box-shadow: 0 1px 2px 0 #cdcdca inset;
+  -o-box-shadow: 0 1px 2px 0 #cdcdca inset;
+  box-shadow: 0 1px 2px 0 #cdcdca inset;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+}
+/* line 90, ../../../app/stylesheets/converge-ui/components/forms/_forms.scss */
+.form input[type="text"]:hover,
+.form input[type="password"]:hover,
+.form input[type="email"]:hover,
+.form input[type="url"]:hover,
+.form input[type="search"]:hover,
+.form input[type="date"]:hover,
+.form input[type="number"]:hover,
+.form textarea:hover {
+  border-color: #989893;
+}
+/* line 94, ../../../app/stylesheets/converge-ui/components/forms/_forms.scss */
+.form input[type="text"]:focus,
+.form input[type="password"]:focus,
+.form input[type="email"]:focus,
+.form input[type="url"]:focus,
+.form input[type="search"]:focus,
+.form input[type="date"]:focus,
+.form input[type="number"]:focus,
+.form textarea:focus {
+  border-color: #3993d9;
+  -moz-box-shadow: 0 0 2px #3993d9;
+  -webkit-box-shadow: 0 0 2px #3993d9;
+  -o-box-shadow: 0 0 2px #3993d9;
+  box-shadow: 0 0 2px #3993d9;
+  -moz-transition: all 0.17s linear;
+  -webkit-transition: all 0.17s linear;
+  -o-transition: all 0.17s linear;
+  transition: all 0.17s linear;
+}
+/* line 102, ../../../app/stylesheets/converge-ui/components/forms/_forms.scss */
+.form input[type="file"],
+.form input[type="range"] {
+  width: auto;
+  max-width: 290px;
+  padding: 6px 0;
+  margin-bottom: 7px;
+}
+/* line 109, ../../../app/stylesheets/converge-ui/components/forms/_forms.scss */
+.form input[type="range"] {
+  width: 290px;
+  padding-top: 4px;
+}
+/* line 114, ../../../app/stylesheets/converge-ui/components/forms/_forms.scss */
+.form input[type="number"] {
+  width: 50px;
+  text-align: left;
+}
+/* line 119, ../../../app/stylesheets/converge-ui/components/forms/_forms.scss */
+.form select {
+  min-width: 186.667px;
+  width: auto;
+  max-width: 270px;
+  padding: 4px 0 4px 10px;
+  position: relative;
+  top: 2px;
+  font-size: 100%;
+  color: #3c3c3c;
+}
+/* line 129, ../../../app/stylesheets/converge-ui/components/forms/_forms.scss */
+.form select[multiple="multiple"] {
+  background: white;
+  height: auto;
+  line-height: 1.5;
+  border: 1px solid #c5c5c2;
+}
+/* line 137, ../../../app/stylesheets/converge-ui/components/forms/_forms.scss */
+.form textarea {
+  height: auto;
+  resize: none;
+  overflow: auto;
+}
+/* line 145, ../../../app/stylesheets/converge-ui/components/forms/_forms.scss */
+.form input::-webkit-input-placeholder {
+  color: #c8c8c8;
+  font-style: italic;
+}
+/* line 150, ../../../app/stylesheets/converge-ui/components/forms/_forms.scss */
+.form input:-moz-placeholder {
+  color: #c8c8c8;
+  font-style: italic;
+}
+/* line 157, ../../../app/stylesheets/converge-ui/components/forms/_forms.scss */
+.form input:focus::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0);
+}
+/* line 161, ../../../app/stylesheets/converge-ui/components/forms/_forms.scss */
+.form input:focus:-moz-placeholder {
+  color: rgba(255, 255, 255, 0);
+}
+/* line 167, ../../../app/stylesheets/converge-ui/components/forms/_forms.scss */
+.form .required .label {
+  position: relative;
+}
+/* line 170, ../../../app/stylesheets/converge-ui/components/forms/_forms.scss */
+.form .required .label:after {
+  display: inline-block;
+  position: absolute;
+  right: 11px;
+  top: 4px;
+  font-size: 125%;
+  font-weight: bold;
+  content: '*';
+  color: #2479bb;
+}
+/* line 182, ../../../app/stylesheets/converge-ui/components/forms/_forms.scss */
+.form .required.warning .label:after {
+  color: #ff860e;
+}
+/* line 186, ../../../app/stylesheets/converge-ui/components/forms/_forms.scss */
+.form .required.error .label:after {
+  color: #e60000;
+}
+/* line 192, ../../../app/stylesheets/converge-ui/components/forms/_forms.scss */
+.form .value {
+  display: inline-block;
+  width: 280px;
+  padding: 8px 0;
+  margin-bottom: 7px;
+  line-height: 1.3;
+  font-size: 100%;
+  color: #898989;
+}
+/* line 207, ../../../app/stylesheets/converge-ui/components/forms/_forms.scss */
+.form .readonly input,
+.form .readonly textarea,
+.form .readonly select,
+.form .disabled input,
+.form .disabled textarea,
+.form .disabled select {
+  color: #a2a2a2;
+  background: #f7f7f6;
+}
+/* line 212, ../../../app/stylesheets/converge-ui/components/forms/_forms.scss */
+.form .readonly input:hover, .form .readonly input:focus,
+.form .readonly textarea:hover,
+.form .readonly textarea:focus,
+.form .readonly select:hover,
+.form .readonly select:focus,
+.form .disabled input:hover,
+.form .disabled input:focus,
+.form .disabled textarea:hover,
+.form .disabled textarea:focus,
+.form .disabled select:hover,
+.form .disabled select:focus {
+  border: 1px solid #c5c5c2;
+  -moz-box-shadow: 0 1px 2px 0 #cdcdca inset;
+  -webkit-box-shadow: 0 1px 2px 0 #cdcdca inset;
+  -o-box-shadow: 0 1px 2px 0 #cdcdca inset;
+  box-shadow: 0 1px 2px 0 #cdcdca inset;
+}
+/* line 221, ../../../app/stylesheets/converge-ui/components/forms/_forms.scss */
+.form .readonly select
+.form .readonly select:hover, .form .readonly select:focus,
+.form .disabled select
+.form .disabled select:hover,
+.form .disabled select:focus {
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none;
+}
+/* line 227, ../../../app/stylesheets/converge-ui/components/forms/_forms.scss */
+.form .disabled label {
+  color: #a2a2a2;
+}
+/* line 2, ../../../app/stylesheets/converge-ui/components/forms/_forms_mixins.scss */
+.form .warning .label {
+  color: #ff860e;
+}
+/* line 6, ../../../app/stylesheets/converge-ui/components/forms/_forms_mixins.scss */
+.form .warning input {
+  border-color: #ff860e;
+}
+/* line 9, ../../../app/stylesheets/converge-ui/components/forms/_forms_mixins.scss */
+.form .warning input:hover {
+  border-color: #cf6800;
+}
+/* line 13, ../../../app/stylesheets/converge-ui/components/forms/_forms_mixins.scss */
+.form .warning input:focus {
+  border-color: #ff860e;
+  -moz-box-shadow: 0 0 2px #ff860e;
+  -webkit-box-shadow: 0 0 2px #ff860e;
+  -o-box-shadow: 0 0 2px #ff860e;
+  box-shadow: 0 0 2px #ff860e;
+}
+/* line 2, ../../../app/stylesheets/converge-ui/components/forms/_forms_mixins.scss */
+.form .error .label {
+  color: #e60000;
+}
+/* line 6, ../../../app/stylesheets/converge-ui/components/forms/_forms_mixins.scss */
+.form .error input {
+  border-color: #e60000;
+}
+/* line 9, ../../../app/stylesheets/converge-ui/components/forms/_forms_mixins.scss */
+.form .error input:hover {
+  border-color: #a80000;
+}
+/* line 13, ../../../app/stylesheets/converge-ui/components/forms/_forms_mixins.scss */
+.form .error input:focus {
+  border-color: #e60000;
+  -moz-box-shadow: 0 0 2px #e60000;
+  -webkit-box-shadow: 0 0 2px #e60000;
+  -o-box-shadow: 0 0 2px #e60000;
+  box-shadow: 0 0 2px #e60000;
+}
+/* line 244, ../../../app/stylesheets/converge-ui/components/forms/_forms.scss */
+.form .checkbox .control,
+.form .radio .control {
+  display: block;
+  padding: 1px 0 5px 0;
+}
+/* line 248, ../../../app/stylesheets/converge-ui/components/forms/_forms.scss */
+.form .checkbox .control label,
+.form .radio .control label {
+  padding-right: 15px;
+}
+/* line 253, ../../../app/stylesheets/converge-ui/components/forms/_forms.scss */
+.form .checkbox > label + .control,
+.form .radio > label + .control {
+  display: inline-block;
+}
+/* line 257, ../../../app/stylesheets/converge-ui/components/forms/_forms.scss */
+.form .checkbox.horizontal .control,
+.form .radio.horizontal .control {
+  display: inline-block;
+  margin: 0 5px 0 0;
+}
+/* line 263, ../../../app/stylesheets/converge-ui/components/forms/_forms.scss */
+.form .checkbox label,
+.form .radio label {
+  line-height: 2;
+}
+/* line 267, ../../../app/stylesheets/converge-ui/components/forms/_forms.scss */
+.form .checkbox input,
+.form .radio input {
+  margin: 0 2px 0 0;
+  position: relative;
+  top: 1px;
+}
+
+/*
+  =======================================
+  MESSAGES
+  =======================================
+*/
+/* line 281, ../../../app/stylesheets/converge-ui/components/forms/_forms.scss */
+.form {
+  /* field validations */
+  /* success message */
+  /* warning message */
+  /* error message */
+}
+/* line 285, ../../../app/stylesheets/converge-ui/components/forms/_forms.scss */
+.form span {
+  display: inline-block;
+  max-width: 280px;
+  line-height: 1.1;
+  vertical-align: middle;
+  font-size: 90%;
+  white-space: normal;
+}
+/* line 298, ../../../app/stylesheets/converge-ui/components/forms/_forms.scss */
+.form .help i {
+  display: inline-block;
+  position: relative;
+  height: 13px;
+  width: 13px;
+  padding-top: 1px;
+  text-align: center;
+  color: #a2a2a2;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -o-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -khtml-border-radius: 50%;
+  border-radius: 50%;
+  border: 1px solid #dededc;
+  background: #f7f7f6 url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2VkZWRlYyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background: #f7f7f6 -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #ededec));
+  background: #f7f7f6 -webkit-linear-gradient(#ffffff, #ededec);
+  background: #f7f7f6 -moz-linear-gradient(#ffffff, #ededec);
+  background: #f7f7f6 -o-linear-gradient(#ffffff, #ededec);
+  background: #f7f7f6 -ms-linear-gradient(#ffffff, #ededec);
+  background: #f7f7f6 linear-gradient(#ffffff, #ededec);
+  cursor: default;
+}
+/* line 314, ../../../app/stylesheets/converge-ui/components/forms/_forms.scss */
+.form .help i:hover {
+  color: white;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+  border-color: #585854;
+  background: #585854 url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzZkNmQ2NyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzYwNjA1YiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background: #585854 -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #6d6d67), color-stop(100%, #60605b));
+  background: #585854 -webkit-linear-gradient(#6d6d67, #60605b);
+  background: #585854 -moz-linear-gradient(#6d6d67, #60605b);
+  background: #585854 -o-linear-gradient(#6d6d67, #60605b);
+  background: #585854 -ms-linear-gradient(#6d6d67, #60605b);
+  background: #585854 linear-gradient(#6d6d67, #60605b);
+}
+/* line 324, ../../../app/stylesheets/converge-ui/components/forms/_forms.scss */
+.form .help i:after {
+  display: none;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=97);
+  opacity: 0.97;
+  content: "";
+  height: 0;
+  width: 0;
+  border-style: solid;
+  border-width: 0 9px 8px 9px;
+  border-color: rgba(255, 255, 255, 0) rgba(255, 255, 255, 0) #6d6d67;
+  position: absolute;
+  bottom: -11px;
+  left: -2px;
+  z-index: 2;
+}
+/* line 340, ../../../app/stylesheets/converge-ui/components/forms/_forms.scss */
+.form .help span {
+  display: none;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=97);
+  opacity: 0.97;
+  position: absolute;
+  left: 5px;
+  top: 33px;
+  z-index: 1;
+  width: 160px;
+  padding: 7px 10px 9px 10px;
+  margin: 0;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+  background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzZkNmQ2NyIvPjxzdG9wIG9mZnNldD0iMjAlIiBzdG9wLWNvbG9yPSIjNTg1ODU0Ii8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #6d6d67), color-stop(20%, #585854));
+  background: -webkit-linear-gradient(#6d6d67, #585854 20%);
+  background: -moz-linear-gradient(#6d6d67, #585854 20%);
+  background: -o-linear-gradient(#6d6d67, #585854 20%);
+  background: -ms-linear-gradient(#6d6d67, #585854 20%);
+  background: linear-gradient(#6d6d67, #585854 20%);
+  /* general */
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF585854', endColorstr='#FF585854');
+  /* IE */
+  background-color: #585854;
+  /* fallback */
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF6D6D67', endColorstr='#FF585854');
+  color: white;
+  border-color: #585854;
+  text-align: left;
+  line-height: 1.2;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 1px 3px #f2f2f1;
+  -webkit-box-shadow: 0 1px 3px #f2f2f1;
+  -o-box-shadow: 0 1px 3px #f2f2f1;
+  box-shadow: 0 1px 3px #f2f2f1;
+}
+/* line 362, ../../../app/stylesheets/converge-ui/components/forms/_forms.scss */
+.form .help i:hover:after {
+  display: block;
+}
+/* line 366, ../../../app/stylesheets/converge-ui/components/forms/_forms.scss */
+.form .help i:hover ~ span {
+  display: block;
+}
+/* line 374, ../../../app/stylesheets/converge-ui/components/forms/_forms.scss */
+.form .note {
+  display: block;
+  font-size: 85%;
+  color: #a2a2a2;
+  margin: 0 0 5px 10px;
+}
+/* line 380, ../../../app/stylesheets/converge-ui/components/forms/_forms.scss */
+.form .note:before {
+  content: "Note:";
+  font-weight: bold;
+  margin-right: 5px;
+}
+/* line 390, ../../../app/stylesheets/converge-ui/components/forms/_forms.scss */
+.form .hint,
+.form .message {
+  position: relative;
+  left: 0;
+  color: #6f6f6f;
+  padding: 9px 10px 7px 10px;
+  margin-left: 10px;
+  background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjxzdG9wIG9mZnNldD0iMzAlIiBzdG9wLWNvbG9yPSIjZjdmN2Y2Ii8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(30%, #f7f7f6));
+  background: -webkit-linear-gradient(#ffffff, #f7f7f6 30%);
+  background: -moz-linear-gradient(#ffffff, #f7f7f6 30%);
+  background: -o-linear-gradient(#ffffff, #f7f7f6 30%);
+  background: -ms-linear-gradient(#ffffff, #f7f7f6 30%);
+  background: linear-gradient(#ffffff, #f7f7f6 30%);
+  /* general */
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFF7F7F6', endColorstr='#FFF7F7F6');
+  /* IE */
+  background-color: #f7f7f6;
+  /* fallback */
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFFFFFFF', endColorstr='#FFF7F7F6');
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+  border: 1px solid #dededc;
+  -moz-box-shadow: #f2f2f1 0 1px 3px;
+  -webkit-box-shadow: #f2f2f1 0 1px 3px;
+  -o-box-shadow: #f2f2f1 0 1px 3px;
+  box-shadow: #f2f2f1 0 1px 3px;
+  vertical-align: top;
+}
+/* line 404, ../../../app/stylesheets/converge-ui/components/forms/_forms.scss */
+.form .hint:before, .form .hint:after,
+.form .message:before,
+.form .message:after {
+  content: "";
+  display: block;
+  height: 0;
+  width: 0;
+  border-style: solid;
+  border-width: 8px 8px 8px 0;
+  border-color: rgba(255, 255, 255, 0) #f7f7f6 rgba(255, 255, 255, 0);
+  position: absolute;
+  top: 14px;
+  left: -8px;
+  margin-top: -8px;
+  z-index: 2;
+}
+/* line 419, ../../../app/stylesheets/converge-ui/components/forms/_forms.scss */
+.form .hint:after,
+.form .message:after {
+  border-right-color: #dededc;
+  left: -9px;
+  z-index: 1;
+}
+/* line 426, ../../../app/stylesheets/converge-ui/components/forms/_forms.scss */
+.form .hint {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 320px;
+}
+/* line 432, ../../../app/stylesheets/converge-ui/components/forms/_forms.scss */
+.form .hint.always_visible {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+  position: relative;
+  left: 0;
+}
+/* line 439, ../../../app/stylesheets/converge-ui/components/forms/_forms.scss */
+.form .message ~ .hint {
+  display: none;
+}
+/* line 443, ../../../app/stylesheets/converge-ui/components/forms/_forms.scss */
+.form .control_group input:focus ~ .hint {
+  -moz-transition: all 0.29s ease;
+  -webkit-transition: all 0.29s ease;
+  -o-transition: all 0.29s ease;
+  transition: all 0.29s ease;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+  left: 305px;
+}
+/* line 448, ../../../app/stylesheets/converge-ui/components/forms/_forms.scss */
+.form .control_group input:focus ~ .hint.always_visible {
+  left: 0;
+}
+/* line 457, ../../../app/stylesheets/converge-ui/components/forms/_forms.scss */
+.form .success .message,
+.form .warning .message,
+.form .error .message {
+  padding-left: 29px;
+  max-width: 261px;
+}
+/* line 464, ../../../app/stylesheets/converge-ui/components/forms/_forms.scss */
+.form .success .message {
+  background: #f7f7f6 url('/images/converge-ui/icons/success_icon.png?1348576322') no-repeat 8px 6px;
+  background: url('/images/converge-ui/icons/success_icon.png?1348576322') no-repeat 8px 6px, url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjxzdG9wIG9mZnNldD0iMzAlIiBzdG9wLWNvbG9yPSIjZjdmN2Y2Ii8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
+  background: url('/images/converge-ui/icons/success_icon.png?1348576322') no-repeat 8px 6px, -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(30%, #f7f7f6));
+  background: url('/images/converge-ui/icons/success_icon.png?1348576322') no-repeat 8px 6px, -webkit-linear-gradient(#ffffff, #f7f7f6 30%);
+  background: url('/images/converge-ui/icons/success_icon.png?1348576322') no-repeat 8px 6px, -moz-linear-gradient(#ffffff, #f7f7f6 30%);
+  background: url('/images/converge-ui/icons/success_icon.png?1348576322') no-repeat 8px 6px, -o-linear-gradient(#ffffff, #f7f7f6 30%);
+  background: url('/images/converge-ui/icons/success_icon.png?1348576322') no-repeat 8px 6px, -ms-linear-gradient(#ffffff, #f7f7f6 30%);
+  background: url('/images/converge-ui/icons/success_icon.png?1348576322') no-repeat 8px 6px, linear-gradient(#ffffff, #f7f7f6 30%);
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#00FFFFFF', endColorstr='#00FFFFFF');
+}
+/* line 473, ../../../app/stylesheets/converge-ui/components/forms/_forms.scss */
+.form .warning .message {
+  background: #f7f7f6 url('/images/converge-ui/icons/warning_icon.png?1348576322') no-repeat 7px 6px;
+  background: url('/images/converge-ui/icons/warning_icon.png?1348576322') no-repeat 7px 6px, url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjxzdG9wIG9mZnNldD0iMzAlIiBzdG9wLWNvbG9yPSIjZjdmN2Y2Ii8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
+  background: url('/images/converge-ui/icons/warning_icon.png?1348576322') no-repeat 7px 6px, -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(30%, #f7f7f6));
+  background: url('/images/converge-ui/icons/warning_icon.png?1348576322') no-repeat 7px 6px, -webkit-linear-gradient(#ffffff, #f7f7f6 30%);
+  background: url('/images/converge-ui/icons/warning_icon.png?1348576322') no-repeat 7px 6px, -moz-linear-gradient(#ffffff, #f7f7f6 30%);
+  background: url('/images/converge-ui/icons/warning_icon.png?1348576322') no-repeat 7px 6px, -o-linear-gradient(#ffffff, #f7f7f6 30%);
+  background: url('/images/converge-ui/icons/warning_icon.png?1348576322') no-repeat 7px 6px, -ms-linear-gradient(#ffffff, #f7f7f6 30%);
+  background: url('/images/converge-ui/icons/warning_icon.png?1348576322') no-repeat 7px 6px, linear-gradient(#ffffff, #f7f7f6 30%);
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#00FFFFFF', endColorstr='#00FFFFFF');
+}
+/* line 482, ../../../app/stylesheets/converge-ui/components/forms/_forms.scss */
+.form .error .message {
+  background: #f7f7f6 url('/images/converge-ui/icons/error_icon.png?1348576322') no-repeat 7px 6px;
+  background: url('/images/converge-ui/icons/error_icon.png?1348576322') no-repeat 7px 6px, url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIvPjxzdG9wIG9mZnNldD0iMzAlIiBzdG9wLWNvbG9yPSIjZjdmN2Y2Ii8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
+  background: url('/images/converge-ui/icons/error_icon.png?1348576322') no-repeat 7px 6px, -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(30%, #f7f7f6));
+  background: url('/images/converge-ui/icons/error_icon.png?1348576322') no-repeat 7px 6px, -webkit-linear-gradient(#ffffff, #f7f7f6 30%);
+  background: url('/images/converge-ui/icons/error_icon.png?1348576322') no-repeat 7px 6px, -moz-linear-gradient(#ffffff, #f7f7f6 30%);
+  background: url('/images/converge-ui/icons/error_icon.png?1348576322') no-repeat 7px 6px, -o-linear-gradient(#ffffff, #f7f7f6 30%);
+  background: url('/images/converge-ui/icons/error_icon.png?1348576322') no-repeat 7px 6px, -ms-linear-gradient(#ffffff, #f7f7f6 30%);
+  background: url('/images/converge-ui/icons/error_icon.png?1348576322') no-repeat 7px 6px, linear-gradient(#ffffff, #f7f7f6 30%);
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#00FFFFFF', endColorstr='#00FFFFFF');
+}
+
+/*
+  =======================================
+  RESPONSIVE
+  =======================================
+*/
+/* line 3, ../../../app/stylesheets/converge-ui/components/forms/_forms_responsive.scss */
+.form.labels_top .label {
+  float: none;
+  text-align: left;
+  display: inline-block;
+  width: auto;
+}
+/* line 9, ../../../app/stylesheets/converge-ui/components/forms/_forms_responsive.scss */
+.form.labels_top .label label {
+  padding: 0 8px 0 0;
+  line-height: 1.8;
+}
+/* line 15, ../../../app/stylesheets/converge-ui/components/forms/_forms_responsive.scss */
+.form.labels_top .label.help i {
+  position: absolute;
+  right: -13px;
+  top: 2px;
+}
+/* line 21, ../../../app/stylesheets/converge-ui/components/forms/_forms_responsive.scss */
+.form.labels_top .label.help span {
+  left: 60%;
+  top: 27px;
+}
+/* line 28, ../../../app/stylesheets/converge-ui/components/forms/_forms_responsive.scss */
+.form.labels_top .value {
+  padding-top: 2px;
+}
+/* line 34, ../../../app/stylesheets/converge-ui/components/forms/_forms_responsive.scss */
+.form.labels_top .required .label:after {
+  right: 0;
+  top: 0;
+}
+/* line 40, ../../../app/stylesheets/converge-ui/components/forms/_forms_responsive.scss */
+.form.labels_top .required .label.help i {
+  right: -19px;
+}
+/* line 47, ../../../app/stylesheets/converge-ui/components/forms/_forms_responsive.scss */
+.form.labels_top .input {
+  margin: 0 0 5px 0;
+}
+
+/* line 55, ../../../app/stylesheets/converge-ui/components/forms/_forms_responsive.scss */
+.form.messages_bottom .note {
+  display: block;
+  padding: 10px 10px 6px 10px;
+  margin: 0;
+  border: 1px solid #dededc;
+  border-top-width: 0;
+  -moz-border-radius: 0 0 3px 3px;
+  -webkit-border-radius: 0 0 3px 3px;
+  -o-border-radius: 0 0 3px 3px;
+  -ms-border-radius: 0 0 3px 3px;
+  -khtml-border-radius: 0 0 3px 3px;
+  border-radius: 0 0 3px 3px;
+  position: relative;
+  top: -10px;
+}
+/* line 67, ../../../app/stylesheets/converge-ui/components/forms/_forms_responsive.scss */
+.form.messages_bottom .hint ~ .note,
+.form.messages_bottom .message ~ .note {
+  background: white;
+  top: -4px;
+  padding-top: 7px;
+  border-top-width: 1px;
+}
+/* line 74, ../../../app/stylesheets/converge-ui/components/forms/_forms_responsive.scss */
+.form.messages_bottom .message ~ .hint {
+  display: none;
+}
+/* line 79, ../../../app/stylesheets/converge-ui/components/forms/_forms_responsive.scss */
+.form.messages_bottom .hint,
+.form.messages_bottom .message {
+  display: block;
+  position: relative;
+  left: 0;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+  margin: 3px 0 0 0;
+}
+/* line 87, ../../../app/stylesheets/converge-ui/components/forms/_forms_responsive.scss */
+.form.messages_bottom .hint:before, .form.messages_bottom .hint:after,
+.form.messages_bottom .message:before,
+.form.messages_bottom .message:after {
+  border-width: 0 8px 8px 8px;
+  border-color: rgba(255, 255, 255, 0) rgba(255, 255, 255, 0) white;
+  top: 0;
+  left: auto;
+  right: 20px;
+}
+/* line 95, ../../../app/stylesheets/converge-ui/components/forms/_forms_responsive.scss */
+.form.messages_bottom .hint:after,
+.form.messages_bottom .message:after {
+  top: -1px;
+  left: auto;
+  border-color: rgba(255, 255, 255, 0) rgba(255, 255, 255, 0) #dededc;
+}
+/* line 101, ../../../app/stylesheets/converge-ui/components/forms/_forms_responsive.scss */
+.form.messages_bottom .hint:hover,
+.form.messages_bottom .message:hover {
+  left: 0;
+}
+/* line 106, ../../../app/stylesheets/converge-ui/components/forms/_forms_responsive.scss */
+.form.messages_bottom .control_group input:focus ~ .hint {
+  left: 0;
+}
+/* line 113, ../../../app/stylesheets/converge-ui/components/forms/_forms_responsive.scss */
+.form.messages_bottom .success .message,
+.form.messages_bottom .warning .message,
+.form.messages_bottom .error .message {
+  display: block;
+  margin: 3px 0 0 0;
+}
+/* line 117, ../../../app/stylesheets/converge-ui/components/forms/_forms_responsive.scss */
+.form.messages_bottom .success .message ~ .hint,
+.form.messages_bottom .warning .message ~ .hint,
+.form.messages_bottom .error .message ~ .hint {
+  margin: 0;
+  position: relative;
+  top: -2px;
+  -moz-border-radius: 0 0 3px 3px;
+  -webkit-border-radius: 0 0 3px 3px;
+  -o-border-radius: 0 0 3px 3px;
+  -ms-border-radius: 0 0 3px 3px;
+  -khtml-border-radius: 0 0 3px 3px;
+  border-radius: 0 0 3px 3px;
+}
+/* line 124, ../../../app/stylesheets/converge-ui/components/forms/_forms_responsive.scss */
+.form.messages_bottom .success .message ~ .hint:before, .form.messages_bottom .success .message ~ .hint:after,
+.form.messages_bottom .warning .message ~ .hint:before,
+.form.messages_bottom .warning .message ~ .hint:after,
+.form.messages_bottom .error .message ~ .hint:before,
+.form.messages_bottom .error .message ~ .hint:after {
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  /* line 3, ../../../app/stylesheets/converge-ui/components/forms/_forms_responsive.scss */
+  .form .label {
+    float: none;
+    text-align: left;
+    display: inline-block;
+    width: auto;
+  }
+  /* line 9, ../../../app/stylesheets/converge-ui/components/forms/_forms_responsive.scss */
+  .form .label label {
+    padding: 0 8px 0 0;
+    line-height: 1.8;
+  }
+  /* line 15, ../../../app/stylesheets/converge-ui/components/forms/_forms_responsive.scss */
+  .form .label.help i {
+    position: absolute;
+    right: -13px;
+    top: 2px;
+  }
+  /* line 21, ../../../app/stylesheets/converge-ui/components/forms/_forms_responsive.scss */
+  .form .label.help span {
+    left: 60%;
+    top: 27px;
+  }
+  /* line 28, ../../../app/stylesheets/converge-ui/components/forms/_forms_responsive.scss */
+  .form .value {
+    padding-top: 2px;
+  }
+  /* line 34, ../../../app/stylesheets/converge-ui/components/forms/_forms_responsive.scss */
+  .form .required .label:after {
+    right: 0;
+    top: 0;
+  }
+  /* line 40, ../../../app/stylesheets/converge-ui/components/forms/_forms_responsive.scss */
+  .form .required .label.help i {
+    right: -19px;
+  }
+  /* line 47, ../../../app/stylesheets/converge-ui/components/forms/_forms_responsive.scss */
+  .form .input {
+    margin: 0 0 5px 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* line 3, ../../../app/stylesheets/converge-ui/components/forms/_forms_responsive.scss */
+  .form .label {
+    float: none;
+    text-align: left;
+    display: inline-block;
+    width: auto;
+  }
+  /* line 9, ../../../app/stylesheets/converge-ui/components/forms/_forms_responsive.scss */
+  .form .label label {
+    padding: 0 8px 0 0;
+    line-height: 1.8;
+  }
+  /* line 15, ../../../app/stylesheets/converge-ui/components/forms/_forms_responsive.scss */
+  .form .label.help i {
+    position: absolute;
+    right: -13px;
+    top: 2px;
+  }
+  /* line 21, ../../../app/stylesheets/converge-ui/components/forms/_forms_responsive.scss */
+  .form .label.help span {
+    left: 60%;
+    top: 27px;
+  }
+  /* line 28, ../../../app/stylesheets/converge-ui/components/forms/_forms_responsive.scss */
+  .form .value {
+    padding-top: 2px;
+  }
+  /* line 34, ../../../app/stylesheets/converge-ui/components/forms/_forms_responsive.scss */
+  .form .required .label:after {
+    right: 0;
+    top: 0;
+  }
+  /* line 40, ../../../app/stylesheets/converge-ui/components/forms/_forms_responsive.scss */
+  .form .required .label.help i {
+    right: -19px;
+  }
+  /* line 47, ../../../app/stylesheets/converge-ui/components/forms/_forms_responsive.scss */
+  .form .input {
+    margin: 0 0 5px 0;
+  }
+  /* line 55, ../../../app/stylesheets/converge-ui/components/forms/_forms_responsive.scss */
+  .form .note {
+    display: block;
+    padding: 10px 10px 6px 10px;
+    margin: 0;
+    border: 1px solid #dededc;
+    border-top-width: 0;
+    -moz-border-radius: 0 0 3px 3px;
+    -webkit-border-radius: 0 0 3px 3px;
+    -o-border-radius: 0 0 3px 3px;
+    -ms-border-radius: 0 0 3px 3px;
+    -khtml-border-radius: 0 0 3px 3px;
+    border-radius: 0 0 3px 3px;
+    position: relative;
+    top: -10px;
+  }
+  /* line 67, ../../../app/stylesheets/converge-ui/components/forms/_forms_responsive.scss */
+  .form .hint ~ .note, .form .message ~ .note {
+    background: white;
+    top: -4px;
+    padding-top: 7px;
+    border-top-width: 1px;
+  }
+  /* line 74, ../../../app/stylesheets/converge-ui/components/forms/_forms_responsive.scss */
+  .form .message ~ .hint {
+    display: none;
+  }
+  /* line 79, ../../../app/stylesheets/converge-ui/components/forms/_forms_responsive.scss */
+  .form .hint, .form .message {
+    display: block;
+    position: relative;
+    left: 0;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    opacity: 1;
+    margin: 3px 0 0 0;
+  }
+  /* line 87, ../../../app/stylesheets/converge-ui/components/forms/_forms_responsive.scss */
+  .form .hint:before, .form .hint:after, .form .message:before, .form .message:after {
+    border-width: 0 8px 8px 8px;
+    border-color: rgba(255, 255, 255, 0) rgba(255, 255, 255, 0) white;
+    top: 0;
+    left: auto;
+    right: 20px;
+  }
+  /* line 95, ../../../app/stylesheets/converge-ui/components/forms/_forms_responsive.scss */
+  .form .hint:after, .form .message:after {
+    top: -1px;
+    left: auto;
+    border-color: rgba(255, 255, 255, 0) rgba(255, 255, 255, 0) #dededc;
+  }
+  /* line 101, ../../../app/stylesheets/converge-ui/components/forms/_forms_responsive.scss */
+  .form .hint:hover, .form .message:hover {
+    left: 0;
+  }
+  /* line 106, ../../../app/stylesheets/converge-ui/components/forms/_forms_responsive.scss */
+  .form .control_group input:focus ~ .hint {
+    left: 0;
+  }
+  /* line 113, ../../../app/stylesheets/converge-ui/components/forms/_forms_responsive.scss */
+  .form .success .message, .form .warning .message, .form .error .message {
+    display: block;
+    margin: 3px 0 0 0;
+  }
+  /* line 117, ../../../app/stylesheets/converge-ui/components/forms/_forms_responsive.scss */
+  .form .success .message ~ .hint, .form .warning .message ~ .hint, .form .error .message ~ .hint {
+    margin: 0;
+    position: relative;
+    top: -2px;
+    -moz-border-radius: 0 0 3px 3px;
+    -webkit-border-radius: 0 0 3px 3px;
+    -o-border-radius: 0 0 3px 3px;
+    -ms-border-radius: 0 0 3px 3px;
+    -khtml-border-radius: 0 0 3px 3px;
+    border-radius: 0 0 3px 3px;
+  }
+  /* line 124, ../../../app/stylesheets/converge-ui/components/forms/_forms_responsive.scss */
+  .form .success .message ~ .hint:before, .form .success .message ~ .hint:after, .form .warning .message ~ .hint:before, .form .warning .message ~ .hint:after, .form .error .message ~ .hint:before, .form .error .message ~ .hint:after {
+    display: none;
+  }
+}
+/*
+  =======================================
+  IE tweaks
+  =======================================
+*/
+/* line 4, ../../../app/stylesheets/converge-ui/components/forms/_forms_ie.scss */
+.ie8 .form .help i:hover:after {
+  display: none;
+}
+/* line 8, ../../../app/stylesheets/converge-ui/components/forms/_forms_ie.scss */
+.ie8 .form .help span {
+  top: 25px;
+}
+/* line 15, ../../../app/stylesheets/converge-ui/components/forms/_forms_ie.scss */
+.ie8 .form.labels_top .help span {
+  top: 20px;
+}
+/* line 24, ../../../app/stylesheets/converge-ui/components/forms/_forms_ie.scss */
+.ie8 .form .hint:before, .ie8 .form .hint:after,
+.ie8 .form .message:before,
+.ie8 .form .message:after {
+  display: none;
+}
+/* line 29, ../../../app/stylesheets/converge-ui/components/forms/_forms_ie.scss */
+.ie8 .form .hint {
+  display: none;
+}
+/* line 32, ../../../app/stylesheets/converge-ui/components/forms/_forms_ie.scss */
+.ie8 .form .hint.always_visible {
+  display: inline-block;
+}
+/* line 37, ../../../app/stylesheets/converge-ui/components/forms/_forms_ie.scss */
+.ie8 .form .control_group input:focus ~ .hint {
+  display: block;
+}
+/* line 40, ../../../app/stylesheets/converge-ui/components/forms/_forms_ie.scss */
+.ie8 .form .control_group input:focus ~ .hint.always_visible {
+  display: inline-block;
+}
+
+/*************
+* Base Colors
+**************/
+/****************
+*  Palette Colors
+*****************/
+/* Proposed colour palette
+===========================*/
+/* Generic default tone for non interactive elements */
+/* Favorite greys for warm interactive elements */
+/* Red Hat toners */
+/* Red Hat Official */
+/* Red Hat Apps  - Web Extended
+================================*/
+/* Orange (the letter o) */
+/* Green */
+/* Red */
+/************************
+* Company Switcher Colors
+*************************/
+/************
+* Theme color
+************/
+/* background for header */
 /*****************
-* Sign-On Screen
+* Font Types
+*****************/
+/*****************
+* Responsive
+*****************/
+/*****************
+* Elements - Global
 *****************/
 /********
 * Images
@@ -3664,27 +3381,27 @@ input::-moz-focus-inner {
 }
 
 /* @end */
-/* line 7, ../../../app/stylesheets/converge-example.scss */
+/* line 6, ../../../app/stylesheets/converge-example.scss */
 .maincontent {
   padding: 20px 40px;
 }
-/* line 10, ../../../app/stylesheets/converge-example.scss */
+/* line 9, ../../../app/stylesheets/converge-example.scss */
 .maincontent ul {
   list-style: circle;
 }
-/* line 13, ../../../app/stylesheets/converge-example.scss */
+/* line 12, ../../../app/stylesheets/converge-example.scss */
 .maincontent ul li {
   display: list-item;
   margin-top: 10px;
   font-size: 14px;
   font-family: "Overpass", Interstate, sans-serif;
 }
-/* line 19, ../../../app/stylesheets/converge-example.scss */
+/* line 18, ../../../app/stylesheets/converge-example.scss */
 .maincontent ul li a, .maincontent ul li a:visited, .maincontent ul li a:link, .maincontent ul li a:active {
   color: #1682a5;
   text-decoration: none;
 }
-/* line 26, ../../../app/stylesheets/converge-example.scss */
+/* line 25, ../../../app/stylesheets/converge-example.scss */
 .maincontent h3 {
   margin: 35px 0 0 0;
 }
