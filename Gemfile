@@ -9,7 +9,6 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-gem 'sqlite3'
 gem 'haml-rails'
 
 gem 'gettext_i18n_rails'
