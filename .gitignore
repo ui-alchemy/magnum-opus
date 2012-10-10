@@ -3,5 +3,6 @@
 log/
 tmp/
 docs/build/*
+.sass-cache/
 .bundle/
 bundle/

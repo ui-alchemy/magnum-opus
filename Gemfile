@@ -1,13 +1,16 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.10'
+gem 'rails', '3.2.6'
 
-# Bundle edge Rails instead:
-# gem 'rails', :git => 'git://github.com/rails/rails.git'
+group :assets do
+  gem 'sass-rails', '~> 3.2.3'
+  gem 'compass-rails', '~> 1.0.3'
+  gem 'therubyracer', :platforms => :ruby
+  gem 'uglifier', '>= 1.0.3'
+end
 
 gem 'sqlite3'
-gem 'haml'
-gem 'compass', '0.11.5'
+gem 'haml-rails'
 
 gem 'gettext_i18n_rails'
 
@@ -16,10 +19,6 @@ gem 'gettext_i18n_rails'
 
 # Deploy with Capistrano
 # gem 'capistrano'
-
-# To use debugger (ruby-debug for Ruby 1.8.7+, ruby-debug19 for Ruby 1.9.2+)
-#gem 'ruby-debug'
-#gem 'ruby-debug19', :require => 'ruby-debug'
 
 # Bundle the extra gems:
 # gem 'bj'

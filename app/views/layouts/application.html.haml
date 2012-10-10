@@ -5,12 +5,14 @@
 <!--[if (gt IE 9)|!(IE)]> <html> <![endif]-->
 
 = content_for(:stylesheets_block) do
-  = stylesheet_link_tag "compiled/converge-example"
-  = stylesheet_link_tag "compiled/ie"
+  = stylesheet_link_tag "converge-example"
+
+= content_for(:javascripts_block) do
+  = javascript_include_tag "manifests/application"
 
 = render :partial => "common/header"
 
 = content_for(:footer) do
   = render :partial => "common/footer"
 
-= render :file => 'layouts/converge-ui/shell_layout'
+= render :template => 'layouts/converge-ui/shell_layout'
