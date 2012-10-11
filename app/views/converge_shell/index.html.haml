@@ -1,5 +1,5 @@
 = content_for(:content) do
-  %ul
+  %ul.main_elements
     %li
       %a{ :href => "http://convergeui.readthedocs.org/en/latest/" }
         = "ConvergeUI Official Documentation"
@@ -8,17 +8,20 @@
     %li
       = link_to "Change Password", change_password_path
     %li
-      %a{ "href" => "/buttons" } 
+      %a{ "href" => "/buttons" }
         = "Buttons"
     %li
-      %a{ "href" => "/form" } 
+      %a{ "href" => "/form" }
         = "Forms"
     %li
-      %a{ "href" => "/typography" } 
+      %a{ "href" => "/flash_messages" }
+        = "Flash Messages"
+    %li
+      %a{ "href" => "/typography" }
         = "Typography"
     %li
-      %a{ "href" => "/images" } 
+      %a{ "href" => "/images" }
         = "Images and Icons"
     %li
-      %a{ "href" => "/color" } 
+      %a{ "href" => "/color" }
         = "Color Pallette"
