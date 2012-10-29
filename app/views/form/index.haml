@@ -1,217 +1,218 @@
 = content_for(:content) do
-  %h2
-    = "Forms"
+  .content
+    %h2
+      = "Forms"
 
-  %form.form
-    .control_group
-      .label.help
-        %i ?
-        %label{:for => "input"} Text input
-        %span Here will be placed explanatory information about concrete label term. In this case it would be for "Text input". What is Text input?
-      .input
-        %input{:type => "text", :id => "input", :placeholder => "Placeholder"}
-        %span.hint Fill in your given name. Maximum allowed length is up to 30 characters. (Hint length is max 2 lines)
-        %span.note This is note, which is visible all the time. Can be longer than one line. Don't use if not necessary.
+    %form.form
+      .control_group
+        .label.help
+          %i ?
+          %label{:for => "input"} Text input
+          %span Here will be placed explanatory information about concrete label term. In this case it would be for "Text input". What is Text input?
+        .input
+          %input{:type => "text", :id => "input", :placeholder => "Placeholder"}
+          %span.hint Fill in your given name. Maximum allowed length is up to 30 characters. (Hint length is max 2 lines)
+          %span.note This is note, which is visible all the time. Can be longer than one line. Don't use if not necessary.
 
-    .control_group
-      .label
-        %label{:for => "input_password"} Password input
-      .input
-        %input{:type => "password", :id => "input_password"}
+      .control_group
+        .label
+          %label{:for => "input_password"} Password input
+        .input
+          %input{:type => "password", :id => "input_password"}
 
-    .control_group
-      .label
-        %label{:for => "input_email"} E-mail input
-      .input
-        %input{:type => "email", :id => "input_email"}
+      .control_group
+        .label
+          %label{:for => "input_email"} E-mail input
+        .input
+          %input{:type => "email", :id => "input_email"}
 
-    .control_group
-      .label
-        %label{:for => "input_url"} URL input
-      .input
-        %input{:type => "url", :id => "input_url"}
+      .control_group
+        .label
+          %label{:for => "input_url"} URL input
+        .input
+          %input{:type => "url", :id => "input_url"}
 
-    .control_group
-      .label
-        %label{:for => "input_search"} Search input
-      .input
-        %input{:type => "text", :id => "input_search"}
-        %span.note Use classic "text" type since "search" type has lot of browser restrictions in css styling.
+      .control_group
+        .label
+          %label{:for => "input_search"} Search input
+        .input
+          %input{:type => "text", :id => "input_search"}
+          %span.note Use classic "text" type since "search" type has lot of browser restrictions in css styling.
 
-    .control_group.required
-      .label
-        %label{:for => "input_required"} Required input
-      .input
-        %input{:type => "text", :id => "input_required", :required => "required"}
+      .control_group.required
+        .label
+          %label{:for => "input_required"} Required input
+        .input
+          %input{:type => "text", :id => "input_required", :required => "required"}
 
-    .control_group.informative
-      .label
-        %label Informative item
-      .input
-        %span.value This is informative text
+      .control_group.informative
+        .label
+          %label Informative item
+        .input
+          %span.value This is informative text
 
-    .control_group.readonly
-      .label
-        %label{:for => "input_readonly"} Read-only input
-      .input
-        %input{:type => "text", :id => "input_readonly", :readonly => "readonly", :value => "Readonly text"}
+      .control_group.readonly
+        .label
+          %label{:for => "input_readonly"} Read-only input
+        .input
+          %input{:type => "text", :id => "input_readonly", :readonly => "readonly", :value => "Readonly text"}
 
-    .control_group.disabled
-      .label
-        %label{:for => "input_disabled"} Disabled input
-      .input
-        %input{:type => "text", :id => "input_disabled", :disabled => "disabled"}
+      .control_group.disabled
+        .label
+          %label{:for => "input_disabled"} Disabled input
+        .input
+          %input{:type => "text", :id => "input_disabled", :disabled => "disabled"}
 
-    .control_group.success
-      .label
-        %label{:for => "input_success"} Input with success
-      .input
-        %input{:type => "text", :id => "input_success"}
-        %span.message This looks great! :)
-        %span.hint Fill in password in length of 6-20 characters.
-        %span.note This class will be used for some required confirmations on fly.
+      .control_group.success
+        .label
+          %label{:for => "input_success"} Input with success
+        .input
+          %input{:type => "text", :id => "input_success"}
+          %span.message This looks great! :)
+          %span.hint Fill in password in length of 6-20 characters.
+          %span.note This class will be used for some required confirmations on fly.
 
-    .control_group.warning.required
-      .label.help
-        %i ?
-        %label{:for => "input_warning"} Input with warning
-        %span Here will be placed explanatory information about concrete control. In this case it would be for "Input with warning". What is Input with warning?
-      .input
-        %input{:type => "text", :id => "input_warning", :required => "required"}
-        %span.message Password is volnurable. Use at least one letter, number and special character.
-        %span.hint Fill in password in length of 6-20 characters.
+      .control_group.warning.required
+        .label.help
+          %i ?
+          %label{:for => "input_warning"} Input with warning
+          %span Here will be placed explanatory information about concrete control. In this case it would be for "Input with warning". What is Input with warning?
+        .input
+          %input{:type => "text", :id => "input_warning", :required => "required"}
+          %span.message Password is volnurable. Use at least one letter, number and special character.
+          %span.hint Fill in password in length of 6-20 characters.
 
-    .control_group.error
-      .label.help
-        %i ?
-        %label{:for => "input_error"} Input with error
-        %span Here will be placed explanatory information about concrete control. In this case it would be for "Input with error". What is Input with error?
-      .input
-        %input{:type => "text", :id => "input_error"}
-        %span.message Argh! Password is too short. Length should be 6-20 characters.
-        %span.hint Fill in password in length of 6-20 characters.
-        %span.note Here you can see combination of Note below input and Hint on the right. Not very common combination.
+      .control_group.error
+        .label.help
+          %i ?
+          %label{:for => "input_error"} Input with error
+          %span Here will be placed explanatory information about concrete control. In this case it would be for "Input with error". What is Input with error?
+        .input
+          %input{:type => "text", :id => "input_error"}
+          %span.message Argh! Password is too short. Length should be 6-20 characters.
+          %span.hint Fill in password in length of 6-20 characters.
+          %span.note Here you can see combination of Note below input and Hint on the right. Not very common combination.
 
-    .control_group
-      .label
-        %label Single-select
-      .input
-        %select
-          %option
-            = "Option 1"
-          %option
-            = "Option 2"
-          %option
-            = "Option 3"
+      .control_group
+        .label
+          %label Single-select
+        .input
+          %select
+            %option
+              = "Option 1"
+            %option
+              = "Option 2"
+            %option
+              = "Option 3"
 
-    .control_group
-      .label
-        %label Multiple-select
-      .input
-        %select{ :multiple => "multiple" }
-          %option
-            = "Option 1"
-          %option
-            = "Option 2"
-          %option
-            = "Option 3"
+      .control_group
+        .label
+          %label Multiple-select
+        .input
+          %select{ :multiple => "multiple" }
+            %option
+              = "Option 1"
+            %option
+              = "Option 2"
+            %option
+              = "Option 3"
 
-    .control_group.checkbox
-      .label
-        %label Checkbox
-      .input
-        .control
-          %input{:type => "checkbox", :id => "checkbox_01"}
-          %label.control_label{:for => "checkbox_01"} Check me
+      .control_group.checkbox
+        .label
+          %label Checkbox
+        .input
+          .control
+            %input{:type => "checkbox", :id => "checkbox_01"}
+            %label.control_label{:for => "checkbox_01"} Check me
 
-    .control_group.checkbox
-      .label
-        %label Checkboxes - vertical
-      .input
-        .control
-          %input{:type => "checkbox", :id => "checkbox_02"}
-          %label{:for => "checkbox_02"} Option A
-        .control
-          %input{:type => "checkbox", :id => "checkbox_03"}
-          %label{:for => "checkbox_03"} Option B
-        .control
-          %input{:type => "checkbox", :id => "checkbox_04"}
-          %label{:for => "checkbox_04"} Option C
+      .control_group.checkbox
+        .label
+          %label Checkboxes - vertical
+        .input
+          .control
+            %input{:type => "checkbox", :id => "checkbox_02"}
+            %label{:for => "checkbox_02"} Option A
+          .control
+            %input{:type => "checkbox", :id => "checkbox_03"}
+            %label{:for => "checkbox_03"} Option B
+          .control
+            %input{:type => "checkbox", :id => "checkbox_04"}
+            %label{:for => "checkbox_04"} Option C
 
-    .control_group.checkbox.horizontal
-      .label
-        %label Checkboxes - horizontal
-      .input
-        .control
-          %input{:type => "checkbox", :id => "checkbox_05"}
-          %label{:for => "checkbox_05"} Option A
-        .control
-          %input{:type => "checkbox", :id => "checkbox_06"}
-          %label{:for => "checkbox_06"} Option B
-        .control
-          %input{:type => "checkbox", :id => "checkbox_07"}
-          %label{:for => "checkbox_07"} Option C
+      .control_group.checkbox.horizontal
+        .label
+          %label Checkboxes - horizontal
+        .input
+          .control
+            %input{:type => "checkbox", :id => "checkbox_05"}
+            %label{:for => "checkbox_05"} Option A
+          .control
+            %input{:type => "checkbox", :id => "checkbox_06"}
+            %label{:for => "checkbox_06"} Option B
+          .control
+            %input{:type => "checkbox", :id => "checkbox_07"}
+            %label{:for => "checkbox_07"} Option C
 
-    .control_group.radio
-      .label
-        %label Radio buttons - vertical
-      .input
-        .control
-          %input{:type => "radio", :id => "radio_01", :name => "radio_vertical"}
-          %label{:for => "radio_01"} Option A
-        .control
-          %input{:type => "radio", :id => "radio_02", :name => "radio_vertical"}
-          %label{:for => "radio_02"} Option B
-        .control
-          %input{:type => "radio", :id => "radio_03", :name => "radio_vertical"}
-          %label{:for => "radio_03"} Option C
+      .control_group.radio
+        .label
+          %label Radio buttons - vertical
+        .input
+          .control
+            %input{:type => "radio", :id => "radio_01", :name => "radio_vertical"}
+            %label{:for => "radio_01"} Option A
+          .control
+            %input{:type => "radio", :id => "radio_02", :name => "radio_vertical"}
+            %label{:for => "radio_02"} Option B
+          .control
+            %input{:type => "radio", :id => "radio_03", :name => "radio_vertical"}
+            %label{:for => "radio_03"} Option C
 
-    .control_group.radio.horizontal
-      .label
-        %label Radio buttons - horizontal
-      .input
-        .control
-          %input{:type => "radio", :id => "radio_04", :name => "radio_horizontal"}
-          %label{:for => "radio_04"} Option A
-        .control
-          %input{:type => "radio", :id => "radio_05", :name => "radio_horizontal"}
-          %label{:for => "radio_05"} Option B
-        .control
-          %input{:type => "radio", :id => "radio_06", :name => "radio_horizontal"}
-          %label{:for => "radio_06"} Option C
+      .control_group.radio.horizontal
+        .label
+          %label Radio buttons - horizontal
+        .input
+          .control
+            %input{:type => "radio", :id => "radio_04", :name => "radio_horizontal"}
+            %label{:for => "radio_04"} Option A
+          .control
+            %input{:type => "radio", :id => "radio_05", :name => "radio_horizontal"}
+            %label{:for => "radio_05"} Option B
+          .control
+            %input{:type => "radio", :id => "radio_06", :name => "radio_horizontal"}
+            %label{:for => "radio_06"} Option C
 
-    .control_group
-      .label
-        %label{:for => "input_file"} File input
-      .input
-        %input{:type => "file", :id => "input_file"}
+      .control_group
+        .label
+          %label{:for => "input_file"} File input
+        .input
+          %input{:type => "file", :id => "input_file"}
 
-    .control_group
-      .label
-        %label{:for => "textarea_01"} Textarea
-      .input
-        %textarea{:id => "textarea_01"}
+      .control_group
+        .label
+          %label{:for => "textarea_01"} Textarea
+        .input
+          %textarea{:id => "textarea_01"}
 
-    .control_group
-      .label
-        %label{:for => "date_01"} Date
-      .input
-        %input{:type => "date", :id => "date_01"}
+      .control_group
+        .label
+          %label{:for => "date_01"} Date
+        .input
+          %input{:type => "date", :id => "date_01"}
 
-    .control_group
-      .label
-        %label{:for => "number_01"} Number input
-      .input
-        %input{:type => "number", :id => "number_01", :min => 0, :max => 20, :value => 0}
+      .control_group
+        .label
+          %label{:for => "number_01"} Number input
+        .input
+          %input{:type => "number", :id => "number_01", :min => 0, :max => 20, :value => 0}
 
-    .control_group
-      .label
-        %label{:for => "range_01"} Range input
-      .input
-        %input{:type => "range", :id => "range_01", :min => 0, :max => 20, :value => 0}
+      .control_group
+        .label
+          %label{:for => "range_01"} Range input
+        .input
+          %input{:type => "range", :id => "range_01", :min => 0, :max => 20, :value => 0}
 
-    .control_group.buttons
-      .label
-      .input
-        %input.btn.primary{:type => "submit", :value => "Save"}
-        %input.btn{:type => "submit", :value => "Cancel"}
+      .control_group.buttons
+        .label
+        .input
+          %input.btn.primary{:type => "submit", :value => "Save"}
+          %input.btn{:type => "submit", :value => "Cancel"}

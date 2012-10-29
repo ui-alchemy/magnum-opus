@@ -3,10 +3,11 @@
 @import "converge-ui/composites/content_elements";
 
 .maincontent {
-  padding: 20px 40px;
+  padding-top: 5px; //because of the top line under header
 
-  ul {
+  ul.main_elements {
     list-style: circle;
+    padding: 20px 40px;
 
     li {
       display: list-item;
@@ -21,7 +22,15 @@
     }
   }
 
-  h3 {
-    margin: 35px 0 0 0;
+  .content {
+    padding: 20px 40px;
+
+    & > h2 {
+      margin: 35px 0 0 0;
+    }
+
+    & > h3 {
+      margin: 35px 0 0 0;
+    }
   }
 }
