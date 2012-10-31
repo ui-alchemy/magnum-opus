@@ -1,22 +1,38 @@
-require 'ostruct'
-
 class LoginController < ApplicationController
+  layout "login"
 
   def index
-    render :layout => "converge-ui/login_layout"
   end
 
   def update
-    render "index", :layout => "converge-ui/login_layout"
+    respond_to do |format|
+      format.html { redirect_to user_session_path }
+      format.js { render :nothing => true }
+    end
+  end
+
+  def username_recovery
+    respond_to do |format|
+      format.html { redirect_to user_session_path }
+      format.js
+    end
   end
 
   def password_reset
-    render "index", :layout => "converge-ui/login_layout"
+    respond_to do |format|
+      format.html { redirect_to user_session_path }
+      format.js
+    end
   end
 
   def change_password
-    @user = OpenStruct.new(:password_reset_token => "")
-    render "change_password", :layout => "converge-ui/change_password_layout"
+    @user = User.new
   end
 
+  def save_changed_password
+    respond_to do |format|
+      format.html { redirect_to user_session_path }
+      format.js { render :js => "window.location.href = '#{user_session_path}'" }
+    end
+  end
 end
