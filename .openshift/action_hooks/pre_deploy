@@ -1,0 +1,11 @@
+#!/bin/bash
+# This deploy hook gets executed after dependencies are resolved and the
+# build hook has been run but before the application has been started back
+# up again but before the rsync by jenkins to copy over the files.  This 
+# script gets executed directly, so it could be python, php, ruby, etc.
+
+# Try to make the symlink
+unlink -f $assets/assets 2> /dev/null
+if [ $? -gt 0 ]; then
+  echo "Unable to create symlink to assets directory, using existing directory in repository"
+fi
