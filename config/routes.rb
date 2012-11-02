@@ -13,12 +13,10 @@ ConvergeExample::Application.routes.draw do
 
   match 'user_session/login' => 'login#index', :via => :get, :as => 'user_session'
   match 'user_session/login' => 'login#update', :via => :post, :as => 'user_session'
-  match 'user_session/login' => 'login#update', :via => :post, :as => 'new_user_session'
 
-  match 'user_session/password_reset' => 'login#password_reset', :via => :get, :as => 'password_reset'
-  match 'user_session/password_reset' => 'login#password_reset', :via => :get, :as => 'password_resets'
-  match 'user_session/password_reset' => 'login#password_reset', :via => :post, :as => 'email_logins_password_resets'
-  match 'user_session/password_reset' => 'login#password_reset', :via => :post, :as => 'new_password_reset'
+  match 'user_session/password_reset' => 'login#password_reset', :via => :post, :as => 'password_reset'
+  match 'user_session/username_recovery' => 'login#username_recovery', :via => :post, :as => 'username_recovery'
 
   match 'user_session/change_password' => 'login#change_password', :via => :get, :as => 'change_password'
+  match 'user_session/save_changed_password' => 'login#save_changed_password', :via => :post, :as => 'save_changed_password'
 end

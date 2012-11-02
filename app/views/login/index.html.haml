@@ -1,17 +1,8 @@
-= content_for(:stylesheets_block) do
-  = stylesheet_link_tag "login"
-
-= content_for(:javascripts_block) do
-  = javascript_include_tag "manifests/login"
-
-= content_for(:project_name) do
-  = image_tag("embed/logo.png", :alt => get_string(:example_logo))
-
-= content_for(:forgot_password_link) do
-  = link_to get_string(:forgot_username_password), password_resets_path
-
-= content_for(:show_password) do
-  = get_string(:show_password)
-
-= content_for(:footer) do
-  = render :partial => "common/footer"
+= content_for(:content) do
+  = render :partial => "layouts/converge-ui/login_layout",
+           :locals => { :login_form_path_string => user_session_path,
+                        :recovery_strings => raw(get_string(:recovery_link) % [link_to(get_string(:username), user_session_path(:card => :username_recovery), :id => "username_link"),
+                                                                          link_to(get_string(:password), user_session_path(:card => :password_reset), :id => "password_link")]),
+                        :login_path_string => user_session_path,
+                        :new_username_recoveries_form_path_string => username_recovery_path,
+                        :new_password_resets_form_path_string => password_reset_path }
