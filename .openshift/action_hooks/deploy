@@ -8,7 +8,7 @@ data="${OPENSHIFT_DATA_DIR}/assets"
 assets="${OPENSHIFT_REPO_DIR}/public"
 
 # Remove the assets directory if it's empty
-cp -rf $assets/assets $OPENSHIFT_DATA_DIR
+cp -rf $assets/assets/* $OPENSHIFT_DATA_DIR
 find $assets/assets -maxdepth 0 -type d -empty -delete 2> /dev/null
 
 # Try to make the symlink
