@@ -1,3 +1,0 @@
-[submodule "vendor/converge-ui"]
-	path = vendor/converge-ui
-	url = https://github.com/Katello/converge-ui.git

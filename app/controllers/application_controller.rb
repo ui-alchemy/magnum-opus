@@ -1,7 +1,7 @@
 class ApplicationController < ActionController::Base
   include FastGettext::Translation
 
-  helper "converge-ui/translation"
+  helper Alchemy::TranslationHelper
 
   protect_from_forgery
   before_filter :set_locale

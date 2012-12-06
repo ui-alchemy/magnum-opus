@@ -13,6 +13,8 @@ gem 'haml-rails'
 
 gem 'gettext_i18n_rails'
 
+gem 'alchemy', :path => "../alchemy"
+
 # Use unicorn as the web server
 # gem 'unicorn'
 
