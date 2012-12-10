@@ -4,7 +4,7 @@ ConvergeExample::Application.routes.draw do
 
   resources :converge_shell, :only => :index
   resources :login, :only => :index
-  resources :form, :only => :index
+  resources :form, :only => :index, :as => 'forms'
   resources :typography, :only => :index
   resources :images, :only => :index
   resources :color, :only => :index
