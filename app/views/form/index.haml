@@ -6,31 +6,39 @@
     %h3
       = "Input Types"
     = alchemy_form_for form_object do |form|
-      = form.input  :text_input
+      = form.input  :text_input_with_translation
+      = form.input  :text_input_with_options, :help => 'Help text',
+                                              :note => 'Note text',
+                                              :hint => 'Hint text',
+                                              :placeholder => 'Placeholder text'
+      = form.input  :password_input,  :as => :password
       = form.input  :password_input,  :as => :password
       = form.input  :email_input,     :as => :email
       = form.input  :url_input,       :as => :url
-      = form.input  :search_input,    :as => :search
-      = form.input  :required_input,  :required => true
-      = form.input  :info_input,      :as => :informative
+      = form.input  :search_input,    :note => 'Use classic "text" type since "search" type has lot of browser restrictions in css styling.'
+      = form.input  :required_input_through_validations
+      = form.input  :required_input_through_options,    :required => true
+      = form.input  :info_input,      :as => :informative, :text => 'This is informative text'
       = form.input  :readonly_input,  :readonly => true
       = form.input  :disabled_input,  :disabled => true
       = form.input  :textarea,        :as => :text
       = form.input  :file_input,      :as => :file
-      = form.input  :date_input,      :as => :date
-      = form.input  :number_input,    :as => :integer
+      = form.input  :date_input,      :input_html => { :type => :date }
+      = form.input  :number_input,    :as => :integer, :input_html => { :value => 0 }
       = form.input  :range_input,     :as => :range
-      = form.input  :select,          :as => :select
-      = form.input  :multiselect,     :as => :select, :multiple => true
-      = form.input  :checkbox,        :as => :check_boxes
-      = form.input  :checkbox_horizontal, :as => :check_boxes, :horizontal => true
-      = form.input  :checkbox_vertical,   :as => :check_boxes, :vertical => true
-      = form.input  :radio_vertical,      :as => :radio_buttons, :vertical => true
-      = form.input  :radio_horizontal,    :as => :radio_buttons, :horizontal => true
+      = form.input  :select,          :as => :select, :collection => ['Option 1', 'Option 2', 'Option 3']
+      = form.input  :multiselect,     :as => :select, :collection => ['Option 1', 'Option 2', 'Option 3'],
+                                      :input_html => { :multiple => true }
+      = form.input  :boolean_checkbox,    :as => :boolean
+      = form.input  :checkbox_with_text,  :as => :check_boxes, :note => 'not implemented'
+      = form.input  :checkbox_horizontal, :as => :check_boxes, :horizontal => true, :note => 'not implemented'
+      = form.input  :checkbox_vertical,   :as => :check_boxes, :vertical => true, :note => 'not implemented'
+      = form.input  :radio_vertical,      :as => :radio_buttons, :vertical => true, :note => 'not implemented'
+      = form.input  :radio_horizontal,    :as => :radio_buttons, :horizontal => true, :note => 'not implemented'
 
     %h3
       = "States"
     = alchemy_form_for form_object do |form|
-      = form.input  :input_with_success,  :success => true
-      = form.input  :input_with_warning,  :warning => true
-      = form.input  :input_with_error,    :error   => true
+      = form.input  :input_with_success,  :success => true, :note => 'not implemented'
+      = form.input  :input_with_warning,  :warning => true, :note => 'not implemented'
+      = form.input  :input_with_error

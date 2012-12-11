@@ -1,0 +1,34 @@
+en:
+  simple_form:
+    "yes": 'Yes'
+    "no": 'No'
+    required:
+      text: 'required'
+      mark: '*'
+      # You can uncomment the line below if you need to overwrite the whole required html.
+      # When using html, text and mark won't be used.
+      # html: '<abbr title="required">*</abbr>'
+    buttons:
+      cancel: 'Cancel'
+    error_notification:
+      default_message: 'Some errors prevented the %{model} from being saved. Please review the problems below.'
+    labels:
+      form:
+        text_input_with_translation: 'Text input (translations)'
+        text_input_with_options: 'Text input (options)'
+        required_input_through_validations: 'Required input (validations)'
+        required_input_through_options: 'Required input (options)'
+        number_input: 'Number input (validations)'
+    hints:
+      form:
+        text_input_with_translation: 'Fill in your given name. Maximum allowed length is up to 30 characters. (Hint length is max 2 lines)'
+    placeholders:
+      form:
+        text_input_with_translation: 'Placeholder'
+    helps:
+      form:
+        text_input_with_translation: 'Here will be placed explanatory information about concrete label term. In this case it would be for "Text input". What is Text input?'
+    notes:
+      note_label: 'Note:'
+      form:
+        text_input_with_translation: 'This is note, which is visible all the time. Can be longer than one line. Don''t use if not necessary.'
