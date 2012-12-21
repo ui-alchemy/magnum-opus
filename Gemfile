@@ -1,11 +1,11 @@
-source 'http://rubygems.org'
+source 'http://mirror1.prod.rhcloud.com/mirror/ruby/'
 
 gem 'rails', '3.2.6'
 
 group :assets do
   gem 'sass-rails', '~> 3.2.3'
   gem 'compass-rails', '~> 1.0.3'
-  gem 'therubyracer', :platforms => :ruby
+  gem 'therubyracer', '~> 0.10.0', :platforms => :ruby
   gem 'uglifier', '>= 1.0.3'
 end
 
