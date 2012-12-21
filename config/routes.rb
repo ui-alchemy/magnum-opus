@@ -1,7 +1,8 @@
 AlchemyWorkbench::Application.routes.draw do
 
-  root :to => 'shell#index'
+  root :to => 'home#index'
 
+  resources :home, :only => :index
   resources :shell, :only => :index
   resources :login, :only => :index
   resources :form, :only => :index

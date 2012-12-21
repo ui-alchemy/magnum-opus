@@ -8,27 +8,17 @@
 = content_for(:tabs) do
   %ul
     %li
-      %a{ :href => "#", :class => 'selected' }
-        First Tab
+      %a{ :href => root_path, :class => 'selected' }
+        Home
+    %li
+      %a{ :href => shell_index_path }
+        Library
     %li
       %a{ :href => "#" }
-        Second Tab
+        Install
     %li
       %a{ :href => "#" }
-        Third Tab
+        Documentation
     %li
       %a{ :href => "#" }
-        Fourth Tab
-    %li
-      %a{ :href => "#" }
-        Fifth Tab
-
-= content_for(:widgets) do
-  %a{ :href => "#", "class" => "header-widget" }
-    = "Widget 1"
-  %a{ :href => "#", "class" => "header-widget" }
-    = "Widget 2"
-  %ul.header-widget
-    %li
-      %a{ :href => "#" }
-        = "Widget 3"
+        Get Involved

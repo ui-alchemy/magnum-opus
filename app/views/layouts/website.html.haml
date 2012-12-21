@@ -1,0 +1,19 @@
+<!--[if lt IE 7 ]>        <html class="ie6"> <![endif]-->
+<!--[if IE 7 ]>           <html class="ie7"> <![endif]-->
+<!--[if IE 8 ]>           <html class="ie8"> <![endif]-->
+<!--[if IE 9 ]>           <html class="ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]> <html> <![endif]-->
+
+= content_for(:stylesheets_block) do
+  = stylesheet_link_tag "application"
+
+= content_for(:javascripts_block) do
+  = javascript_include_tag "manifests/application"
+
+= content_for(:body) do
+  #wrapper
+    = render :partial => "common/header"
+    = render :partial => "alchemy/layouts/header_layout"
+    = yield :content
+
+= render :template => "alchemy/layouts/base"
