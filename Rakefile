@@ -4,4 +4,4 @@
 require File.expand_path('../config/application', __FILE__)
 require 'rake'
 
-ConvergeExample::Application.load_tasks
+AlchemyWorkbench::Application.load_tasks
