@@ -13,7 +13,11 @@ gem 'haml-rails'
 
 gem 'gettext_i18n_rails'
 
-gem 'alchemy', :path => "../alchemy"
+if File.exists? File.expand_path('../alchemy')
+  gem 'alchemy', :path => '../alchemy'
+else
+  gem 'alchemy'
+end
 
 # Use unicorn as the web server
 # gem 'unicorn'
