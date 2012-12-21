@@ -1,6 +1,5 @@
 GEM
   remote: http://www.rubygems.org/
-  remote: http://mirror1.prod.rhcloud.com/mirror/ruby/
   specs:
     actionmailer (3.2.6)
       actionpack (= 3.2.6)
