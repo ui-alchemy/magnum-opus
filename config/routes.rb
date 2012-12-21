@@ -1,8 +1,8 @@
-ConvergeExample::Application.routes.draw do
+AlchemyWorkbench::Application.routes.draw do
 
-  root :to => 'converge_shell#index'
+  root :to => 'shell#index'
 
-  resources :converge_shell, :only => :index
+  resources :shell, :only => :index
   resources :login, :only => :index
   resources :form, :only => :index
   resources :typography, :only => :index
