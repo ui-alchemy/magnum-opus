@@ -1,24 +1,233 @@
 = content_for(:content) do
-  %ul.main_elements
-    %li
-      = link_to "Login Page", user_session_path
-    %li
-      = link_to "Change Password", change_password_path
-    %li
-      %a{ "href" => "/buttons" }
-        = "Buttons"
-    %li
-      %a{ "href" => "/form" }
-        = "Forms"
-    %li
-      %a{ "href" => "/flash_messages" }
-        = "Flash Messages"
-    %li
-      %a{ "href" => "/typography" }
-        = "Typography"
-    %li
-      %a{ "href" => "/images" }
-        = "Images and Icons"
-    %li
-      %a{ "href" => "/color" }
-        = "Color Pallette"
+  .nav_second_tier
+    %span.title Components:
+    %ul
+      %li
+        %a{ "href" => "/buttons" }
+          = "Buttons"
+      %li
+        %a{ "href" => "/form" }
+          = "Forms"
+      %li
+        %a{ "href" => "/flash_messages" }
+          = "Flash Messages"
+      %li
+        %a{ "href" => "/typography" }
+          = "Typography"
+      %li
+        %a{ "href" => "/images" }
+          = "Images and Icons"
+      %li
+        %a{ "href" => "/color" }
+          = "Color Pallette"
+
+  .nav_second_tier
+    %span.title Composites:
+    %ul
+      %li
+        = link_to "Login Page", user_session_path
+      %li
+        = link_to "Change Password", change_password_path
+
+
+  %section.content
+    %h1 Forms
+
+    %a.button.primary.download{ "href" => "#" }
+      = "Download component"
+
+    %ul.page_nav
+      %li
+        %a{ "href" => "#preview" }
+          = "Preview"
+      %li
+        %a{ "href" => "#layout" }
+          = "Layout"
+      %li
+        %a{ "href" => "#elements" }
+          = "Elements"
+      %li
+        %a{ "href" => "#features" }
+          = "Features"
+
+    %p.about
+      = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis lectus vel justo sagittis mollis. Nullam sed purus non libero suscipit semper. Fusce sagittis mattis tortor a vulputate. Suspendisse eget erat vel justo sodales fermentum ut vitae dolor. Ut eget eros luctus lacus tincidunt tristique non vitae sem. Pellentesque et tellus quis orci mattis laoreet eu at odio. Nunc tempor neque sit amet quam fringilla sed elementum risus volutpat."
+
+
+    %section
+      %h2#preview.bottom_line Preview
+
+      .example
+        %form.form
+          .control_group
+            .label
+              %label{:for => "preview_name"} Name and surname
+            .input
+              %input{:type => "text", :id => "preview_name"}
+              %span.hint The length should be between 1-50 characters.
+
+          .control_group
+            .label.help
+              %i ?
+              %label{:for => "preview_login"} Login name
+              %span You can fill in your own login name, otherwise your <nobr>e-mail</nobr> will be used as a login information.
+            .input
+              %input{:type => "text", :id => "preview_login"}
+              %span.hint The length should be between 1-15 characters.
+
+          .control_group.required
+            .label
+              %label{:for => "preview_email"} E-mail
+            .input
+              %input{:type => "email", :id => "preview_email", :required => "required"}
+
+          .control_group.required
+            .label
+              %label{:for => "preview_password"} Password
+            .input
+              %input{:type => "password", :id => "preview_password", :required => "required"}
+              %span.hint You need to use at least one capital letter, one digit and one special character (such as "." "," "_" "-"). The length should be between 1-15 characters.
+
+          .control_group.required
+            .label
+              %label{:for => "preview_password_confirm"} Password confirmation
+            .input
+              %input{:type => "password", :id => "preview_password_confirm", :required => "required"}
+              %span.hint Please re-type your password.
+
+          .control_group.buttons
+            .label
+            .input
+              %input.btn.primary{:type => "submit", :value => "Save"}
+              %a.btn{"href" => "#"}
+                = "Cancel"
+
+
+    %section
+      %h2#layout.bottom_line Layout
+      %ul.switcher
+        %li.selected
+          %a{ "href" => "#" }
+            = "Wide version"
+        %li
+          %a{ "href" => "#" }
+            = "Labels top"
+        %li
+          %a{ "href" => "#" }
+            = "Messages bottom"
+        %li
+          %a{ "href" => "#" }
+            = "Narrow version"
+
+      .example
+        %form.form
+          .control_group
+            .label.help
+              %label{:for => "input_01"} First row
+            .input
+              %input{:type => "text", :id => "input_01"}
+              %span.hint Here is example of hint and how it will behave when changing the layout.
+
+          .control_group
+            .label
+              %label{:for => "input_02"} Second row
+            .input
+              %input{:type => "text", :id => "input_02"}
+
+          .control_group
+            .label
+              %label{:for => "input_03"} Third row
+            .input
+              %input{:type => "text", :id => "input_03"}
+              %span.hint Here is example of hint and how it will behave when changing the layout.
+              %span.note Always visible underline note and its behavior on layout changing. Let's try it!
+
+      .instructions
+        %p
+          = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis lectus vel justo sagittis mollis. Nullam sed purus non libero suscipit semper. Fusce sagittis mattis tortor a vulputate. Suspendisse eget erat vel justo sodales fermentum ut vitae dolor. Ut eget eros luctus lacus tincidunt tristique non vitae sem. Pellentesque et tellus quis orci mattis laoreet eu at odio. Nunc tempor neque sit amet quam fringilla sed elementum risus volutpat."
+
+      .markup
+        %ul.switcher
+          %li.selected
+            %a{ "href" => "#" }
+              = "HTML"
+          %li
+            %a{ "href" => "#" }
+              = "Haml"
+          %li
+            %a{ "href" => "#" }
+              = "Simple Form"
+        %pre
+          = preserve do
+            :escaped
+              <form class="form">
+                <div class="control_group">"
+                  <div class="label">
+                    <label for="..."> ... </label>
+                  </div>
+                  <div class="input">
+                    <input type="text" id="..."/>
+                    <span class="hint"> ... </hint>
+                  </div>
+                </div>
+
+                <div class="control_group">
+                  ...
+                </div>
+
+                ...
+              </form>
+
+
+    %section
+      %h2#elements.bottom_line Elements
+
+      %ul.section_nav
+        %li
+          %a{ "href" => "#text_input" }
+            = "Text input"
+        %li
+          %a{ "href" => "#combobox" }
+            = "ComboBox"
+        %li
+          %a{ "href" => "#radio_button" }
+            = "Radio button"
+        %li
+          %a{ "href" => "#checkbox" }
+            = "Checkbox"
+        %li
+          %a{ "href" => "#select" }
+            = "Select"
+
+
+      .element
+        %h3#combobox.bottom_line ComboBox
+
+        %ul.source_options
+          %li
+            %a{ "href" => "#" }
+              = "SCSS source"
+            %a{ "href" => "#" }
+              = "Compiled CSS"
+            %a{ "href" => "#" }
+              = "Javascript"
+
+        %ul.switcher
+          %li.selected
+            %a{ "href" => "#" }
+              = "Default"
+          %li
+            %a{ "href" => "#" }
+              = "Disabled"
+          %li
+            %a{ "href" => "#" }
+              = "Read-only"
+          %li
+            %a{ "href" => "#" }
+              = "Error state"
+          %li
+            %a{ "href" => "#" }
+              = "Warning state"
+
+    %section
+      %h2#features.bottom_line Features
