@@ -8,17 +8,17 @@
 = content_for(:tabs) do
   %ul
     %li
-      %a{ :href => root_path, :class => 'selected' }
+      %a{ :href => root_path, 'data-id' => 'home' }
         Home
     %li
-      %a{ :href => shell_index_path }
+      %a{ :href => shell_index_path, 'data-id' => 'library' }
         Library
     %li
-      %a{ :href => "#" }
+      %a{ :href => root_path }
         Install
     %li
-      %a{ :href => "#" }
+      %a{ :href => root_path }
         Documentation
     %li
-      %a{ :href => "#" }
+      %a{ :href => root_path }
         Get Involved
