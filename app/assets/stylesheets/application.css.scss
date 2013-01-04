@@ -5,6 +5,10 @@ $static_width: 1152px;
 @import "alchemy/composites/shell";
 @import "alchemy/composites/content_elements";
 
+.hidden {
+  display: none;
+}
+
 .maincontent {
   padding-top: 5px; //because of the top line under header
 
