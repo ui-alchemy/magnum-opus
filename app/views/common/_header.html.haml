@@ -8,10 +8,10 @@
 = content_for(:tabs) do
   %ul
     %li
-      %a{ :href => root_path, 'data-id' => 'home' }
+      %a{ :href => root_path, :class => ("selected" if current_main_tab == "home") }
         Home
     %li
-      %a{ :href => shell_index_path, 'data-id' => 'library' }
+      %a{ :href => form_index_path, :class => ("selected" if current_main_tab == "library") }
         Library
     %li
       %a{ :href => root_path }

@@ -146,7 +146,7 @@ header#header {
       float: left;
 
       &:hover,
-      .selected {
+      &.selected {
         background: $primary_gradient_top_color;
 
         a {

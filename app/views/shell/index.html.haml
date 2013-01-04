@@ -1,34 +1,4 @@
 = content_for(:content) do
-  .nav_second_tier
-    %span.title Components:
-    %ul
-      %li
-        %a{ "href" => "/buttons" }
-          = "Buttons"
-      %li
-        %a{ "href" => "/form" }
-          = "Forms"
-      %li
-        %a{ "href" => "/flash_messages" }
-          = "Flash Messages"
-      %li
-        %a{ "href" => "/typography" }
-          = "Typography"
-      %li
-        %a{ "href" => "/images" }
-          = "Images and Icons"
-      %li
-        %a{ "href" => "/color" }
-          = "Color Pallette"
-
-  .nav_second_tier
-    %span.title Composites:
-    %ul
-      %li
-        = link_to "Login Page", user_session_path
-      %li
-        = link_to "Change Password", change_password_path
-
 
   %section.content
     %h1 Forms

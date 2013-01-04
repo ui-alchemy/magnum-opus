@@ -1,0 +1,29 @@
+.nav_second_tier
+  %span.title Components:
+  %ul
+    %li{ :class => ("selected" if current_sub_tab == "buttons") }
+      %a{ "href" => "/buttons" }       
+        = "Buttons"
+    %li{ :class => ("selected" if current_sub_tab == "form") }
+      %a{ "href" => "/form" }
+        = "Forms"
+    %li{ :class => ("selected" if current_sub_tab == "flash_messages") }
+      %a{ "href" => "/flash_messages" }
+        = "Flash Messages"
+    %li{ :class => ("selected" if current_sub_tab == "typography") }
+      %a{ "href" => "/typography" }
+        = "Typography"
+    %li{ :class => ("selected" if current_sub_tab == "images") }
+      %a{ "href" => "/images" }
+        = "Images and Icons"
+    %li{ :class => ("selected" if current_sub_tab == "color") }
+      %a{ "href" => "/color" }
+        = "Color Pallette"
+
+.nav_second_tier
+  %span.title Composites:
+  %ul
+    %li
+      = link_to "Login Page", user_session_path
+    %li
+      = link_to "Change Password", change_password_path
