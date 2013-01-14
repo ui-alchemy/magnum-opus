@@ -14,7 +14,7 @@
   #wrapper
     = render :partial => "common/header"
     = render :partial => "alchemy/layouts/header_layout"
-    = render :partial => "common/navigation_second_tier"
+    = render :partial => "common/navigation_second_tier" if current_main_tab == "library"
     = yield :content
 
 = render :template => "alchemy/layouts/base"
