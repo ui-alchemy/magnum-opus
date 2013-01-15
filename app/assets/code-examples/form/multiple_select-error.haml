@@ -1,0 +1,12 @@
+.control_group.error
+  .label
+    %label Multiple-select
+  .input
+    %select{ :multiple => true }
+      %option
+        = "Option 1"
+      %option
+        = "Option 2"
+      %option
+        = "Option 3"
+    %span.message Error message

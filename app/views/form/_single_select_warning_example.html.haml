@@ -1,0 +1,14 @@
+%form.form
+  .control_group.warning
+    .label
+      %label{:for => "single_select_warning_input_01"} First row
+    .input
+      %select{:id => "single_select_warning_input_01"}
+        %option
+          = "Option 1"
+        %option
+          = "Option 2"
+        %option
+          = "Option 3"
+      %span.hint Here is example of hint and how it will behave when changing the layout.
+      %span.message Warning message

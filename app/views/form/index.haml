@@ -72,97 +72,73 @@
               %a.btn{"href" => "#"}
                 = "Cancel"
 
-
-    %section
-      %h2#layout.bottom_line Layout
-      %ul.switcher
-        %li.selected
-          %a{ "href" => "#", "data-component" => "example-tab", "data-type" => "wide", "data-target" => ".form", "data-class" => "form" }
-            = "Wide version"
-        %li
-          %a{ "href" => "#", "data-component" => "example-tab", "data-type" => "labels_top", "data-target" => ".form", "data-class" => "form labels_top" }
-            = "Labels top"
-        %li
-          %a{ "href" => "#", "data-component" => "example-tab", "data-type" => "messages_bottom", "data-target" => ".form", "data-class" => "form messages_bottom" }
-            = "Messages bottom"
-        %li
-          %a{ "href" => "#", "data-component" => "example-tab", "data-type" => "narrow", "data-target" => ".form", "data-class" => "form labels_top messages_bottom" }
-            = "Narrow version"
-
-      .example
-        = render :partial => "example"
-
-      .instructions
-        %p
-          = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis lectus vel justo sagittis mollis. Nullam sed purus non libero suscipit semper. Fusce sagittis mattis tortor a vulputate. Suspendisse eget erat vel justo sodales fermentum ut vitae dolor. Ut eget eros luctus lacus tincidunt tristique non vitae sem. Pellentesque et tellus quis orci mattis laoreet eu at odio. Nunc tempor neque sit amet quam fringilla sed elementum risus volutpat."
-      .markup
-        %ul.switcher
-          %li.selected
-            %a{ "href" => "#", "data-component" => "code-tab", "data-format" => "html" }
-              = "HTML"
-          %li
-            %a{ "href" => "#", "data-component" => "code-tab", "data-format" => "haml" }
-              = "Haml"
-          %li
-            %a{ "href" => "#", "data-component" => "code-tab", "data-format" => "simple_form" }
-              = "Simple Form"
-
-        - ['wide', 'labels_top', 'messages_bottom', 'narrow'].each_with_index do |type, type_index|
-          - ['html', 'haml', 'simple_form'].each_with_index do |format, format_index|
-            %div{ "class" => "#{'hidden' if type_index != 0  || format_index != 0}", "data-component" => "tab-container", "data-type" => type, "data-format" => format }
-              %pre
-                = preserve do
-                  = render_code_example('layout', type, format)
+    = render :partial => "layout", :locals => { :types => %w(wide labels_top messages_bottom narrow),
+                                                :formats => %w(html haml simple_form) }
 
     %section
       %h2#elements.bottom_line Elements
 
       %ul.section_nav
         %li
-          %a{ "href" => "#text_input" }
-            = "Text input"
+          %a{ "href" => "#input" }
+            Input
         %li
-          %a{ "href" => "#combobox" }
-            = "ComboBox"
+          %a{ "href" => "#single_select" }
+            Single-select
         %li
-          %a{ "href" => "#radio_button" }
-            = "Radio button"
+          %a{ "href" => "#multiple_select" }
+            Multiple-select
         %li
           %a{ "href" => "#checkbox" }
-            = "Checkbox"
+            Checkbox
         %li
-          %a{ "href" => "#select" }
-            = "Select"
+          %a{ "href" => "#textarea" }
+            Textarea
+        %li
+          %a{ "href" => "#file" }
+            File
+        %li
+          %a{ "href" => "#date" }
+            Date
+        %li
+          %a{ "href" => "#number" }
+            Number
+        %li
+          %a{ "href" => "#range" }
+            Range
+        %li
+          %a{ "href" => "#text" }
+            Text
 
+      = render :partial => "input", :locals => { :types => %w(default disabled readonly error warning),
+                                                 :formats => %w(haml) }
 
-      .element
-        %h3#combobox.bottom_line ComboBox
+      = render :partial => "single_select", :locals => { :types => %w(default disabled error warning),
+                                                         :formats => %w(haml) }
 
-        %ul.source_options
-          %li
-            %a{ "href" => "#" }
-              = "SCSS source"
-            %a{ "href" => "#" }
-              = "Compiled CSS"
-            %a{ "href" => "#" }
-              = "Javascript"
+      = render :partial => "multiple_select", :locals => { :types => %w(default disabled error warning),
+                                                           :formats => %w(haml) }
 
-        %ul.switcher
-          %li.selected
-            %a{ "href" => "#" }
-              = "Default"
-          %li
-            %a{ "href" => "#" }
-              = "Disabled"
-          %li
-            %a{ "href" => "#" }
-              = "Read-only"
-          %li
-            %a{ "href" => "#" }
-              = "Error state"
-          %li
-            %a{ "href" => "#" }
-              = "Warning state"
+      = render :partial => "checkbox", :locals => { :types => %w(default disabled error warning),
+                                                    :formats => %w(haml) }
+
+      = render :partial => "textarea", :locals => { :types => %w(default disabled readonly error warning),
+                                                    :formats => %w(haml) }
+
+      = render :partial => "file", :locals => { :types => %w(default disabled error warning),
+                                                :formats => %w(haml) }
+
+      = render :partial => "date", :locals => { :types => %w(default disabled readonly error warning),
+                                                :formats => %w(haml) }
+
+      = render :partial => "number", :locals => { :types => %w(default disabled readonly error warning),
+                                                  :formats => %w(haml) }
+
+      = render :partial => "range", :locals => { :types => %w(default disabled readonly error warning),
+                                                 :formats => %w(haml) }
+
+      = render :partial => "text", :locals => { :types => %w(default error warning),
+                                                 :formats => %w(haml) }
 
     %section
       %h2#features.bottom_line Features
