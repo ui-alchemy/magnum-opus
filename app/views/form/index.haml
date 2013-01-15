@@ -77,16 +77,16 @@
       %h2#layout.bottom_line Layout
       %ul.switcher
         %li.selected
-          %a{ "href" => "#" }
+          %a{ "href" => "#", "data-component" => "example-tab", "data-type" => "wide", "data-target" => ".form", "data-class" => "form" }
             = "Wide version"
         %li
-          %a{ "href" => "#" }
+          %a{ "href" => "#", "data-component" => "example-tab", "data-type" => "labels_top", "data-target" => ".form", "data-class" => "form labels_top" }
             = "Labels top"
         %li
-          %a{ "href" => "#" }
+          %a{ "href" => "#", "data-component" => "example-tab", "data-type" => "messages_bottom", "data-target" => ".form", "data-class" => "form messages_bottom" }
             = "Messages bottom"
         %li
-          %a{ "href" => "#" }
+          %a{ "href" => "#", "data-component" => "example-tab", "data-type" => "narrow", "data-target" => ".form", "data-class" => "form labels_top messages_bottom" }
             = "Narrow version"
 
       .example
@@ -95,30 +95,24 @@
       .instructions
         %p
           = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis lectus vel justo sagittis mollis. Nullam sed purus non libero suscipit semper. Fusce sagittis mattis tortor a vulputate. Suspendisse eget erat vel justo sodales fermentum ut vitae dolor. Ut eget eros luctus lacus tincidunt tristique non vitae sem. Pellentesque et tellus quis orci mattis laoreet eu at odio. Nunc tempor neque sit amet quam fringilla sed elementum risus volutpat."
-
       .markup
         %ul.switcher
           %li.selected
-            %a{ "href" => "#html_rendering", "data-component" => "tab" }
+            %a{ "href" => "#", "data-component" => "code-tab", "data-format" => "html" }
               = "HTML"
           %li
-            %a{ "href" => "#haml_rendering", "data-component" => "tab" }
+            %a{ "href" => "#", "data-component" => "code-tab", "data-format" => "haml" }
               = "Haml"
           %li
-            %a{ "href" => "#simple_form_rendering", "data-component" => "tab" }
+            %a{ "href" => "#", "data-component" => "code-tab", "data-format" => "simple_form" }
               = "Simple Form"
-        #html_rendering{ "data-component" => "tab-container"}
-          %pre
-            = preserve do
-              = html_rendering
-        #haml_rendering.hidden{ "data-component" => "tab-container" }
-          %pre
-            = preserve do
-              = haml_rendering
-        #simple_form_rendering.hidden{ "data-component" => "tab-container" }
-          %pre
-            = preserve do
-              = simple_form_rendering
+
+        - ['wide', 'labels_top', 'messages_bottom', 'narrow'].each_with_index do |type, type_index|
+          - ['html', 'haml', 'simple_form'].each_with_index do |format, format_index|
+            %div{ "class" => "#{'hidden' if type_index != 0  || format_index != 0}", "data-component" => "tab-container", "data-type" => type, "data-format" => format }
+              %pre
+                = preserve do
+                  = render_code_example('layout', type, format)
 
     %section
       %h2#elements.bottom_line Elements
