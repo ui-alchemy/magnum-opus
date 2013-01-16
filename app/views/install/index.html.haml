@@ -1,0 +1,110 @@
+= content_for(:content) do
+
+  %section.content
+    %h1 Install
+    %p Getting started with Alchemy.
+
+    %p.about
+    %ul.page_nav
+      %li= link_to"Installing the Alchemy gem", "#install_gem"
+      %li= link_to"Using Alchemy assets", "#include_assets"
+      %li= link_to"Custom component styling", "#custom"
+      %li= link_to"Alchemy layout structure", "#layout"
+      / %li= link_to"Login layout and functionality", "#"
+
+    %section
+      %h2#install_gem Installing the Alchemy gem
+      %p.about
+        Alchemy gem is available at
+        = link_to "rubygems.org", "https://rubygems.org/gems/alchemy"
+        so to install it, all you need to do is add
+        %code gem "alchemy", "~> 1.0.1"
+        to your gemfile and run
+        %code bundle install
+        \.
+      %p.about
+        Alternatively you can run latest version directly from Github using
+        %code gem "alchemy", :git => "git://github.com/ui-alchemy/alchemy.git"
+
+      %p.about
+        All the Alchemy assets are now available in your application.
+
+    %section
+      %h2#include_assets Using the Alchemy assets
+      %p.about
+        Alchemy gathers it's stylesheet components into three Composites:
+      %p.about
+        %ul
+          %li
+            %strong Content Elements
+            \- includes content-related components
+          %li
+            %strong Shell
+            \- components used for application layout styling
+          %li
+          %strong Login
+          \- components that style up the login layout
+      %p.about
+        As Alchemy is based on compass framework, it uses compass/reset.
+      %p.about
+        Import the components at the beginning of your application.css.scss:
+      %code.code_block
+        @import "compass/reset";
+        %br
+        @import "alchemy/composites/shell";
+        %br
+        @import "alchemy/composites/content_elements";
+      %p.about
+        To enable javascript functionality, include components js files in your application.js manifest file:
+      %code.code_block
+        \//= require alchemy/flash_messages
+        %br
+        \//= require alchemy/forms
+        %br
+        \//= require alchemy/password
+        %br
+        \//= require alchemy/login
+    %section
+      %h2#custom Custom component styling
+      %p.about
+        Alchemy has set of predefined variables, that can be easily overriden, allowing you for custom look. To do this, create _vars.css.scss partial and include it before Alchemy composites:
+      %code.code_block
+        \@import "vars";
+        %br
+        %br
+        @import "alchemy/composites/shell";
+        %br
+        @import "alchemy/composites/content_elements";
+      %p.about
+        The list of variables is available in
+        = link_to "Library", "#"
+        \.
+      %p.about
+        For deeper customization of the Alchemy components look, we recommend creating stylesheet partials that resemble to given Alchemy Components and importing them after the Alchemy Composites:
+      %code.code_block
+        \@import "vars";
+        %br
+        %br
+        @import "alchemy/composites/shell";
+        %br
+        @import "alchemy/composites/content_elements";
+        %br
+        %br
+        @import "fonts";
+        %br
+        @import "buttons";
+        %br
+        \...
+
+    %section
+      %h2#layout Alchemy layout structure
+      %p.about
+        Alchemy provides it's own application structure, which can be used to provide initial structure to your application.
+        %br
+        For more information about the layout structuring see
+        = link_to "Alchemy layout documentation", "#"
+        \.
+
+
+
+

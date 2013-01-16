@@ -356,3 +356,18 @@ section {
     padding: 7px;
   }
 }
+
+code{
+  @include linear_gradient(rgb(240, 240, 240), rgb(235, 235, 235), rgb(240, 240, 240), 3%);
+  font-size: 90%;
+  width: 42.5%;
+  position: relative;
+  border: 1px solid rgb(220, 220, 220);
+  font-family: monospace;
+  color: rgb(140, 140, 140);
+  padding: 5px;
+  &.code_block{
+    display: block;
+    padding: 7px;
+  }
+}
