@@ -11,6 +11,7 @@ AlchemyWorkbench::Application.routes.draw do
   resources :color, :only => :index
   resources :buttons, :only => :index
   resources :flash_messages, :only => :index
+  resources :install, :only => :index
 
   match 'user_session/login' => 'login#index', :via => :get, :as => 'user_session'
   match 'user_session/login' => 'login#update', :via => :post, :as => 'user_session'
