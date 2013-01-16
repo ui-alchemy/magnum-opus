@@ -1,51 +1,80 @@
 = content_for(:content) do
-  .content
-    %h2
-      = "Buttons"
 
-    %h3 HTML Types
-    %a.btn{:href => "#"} Link
-    %button Button
-    %input.btn{:type => "reset", :value => "Reset"}
-    %input.btn{:type => "button", :value => "Input button"}
-    %input.btn{:type => "submit", :value => "Submit"}
+  %section.content
+    %h1 Buttons
 
-    %h3 Sizes
-    %input.btn.mini{:type => "submit", :value => "Mini"}
-    %input.btn.small{:type => "submit", :value => "Small"}
-    %input.btn{:type => "submit", :value => "Default"}
-    %input.btn.large{:type => "submit", :value => "Large"}
-    %input.btn.huge{:type => "submit", :value => "Huge"}
+    %ul.page_nav
+      %li
+        %a{ "href" => "#elements" }
+          = "Elements"
+      %li
+        %a{ "href" => "#features" }
+          = "Features"
 
-    %h3 Colors
-    %input.btn{:type => "submit", :value => "Default"}
-    %input.btn.primary{:type => "submit", :value => "Primary"}
-    %input.btn.warning{:type => "submit", :value => "Warning"}
+    %section
+      %h2#elements.bottom_line Elements
 
-    %h3 Statuses
-    %input.btn{:type => "submit", :value => "Disabled", :disabled => "disabled", :title => "We are working on that..."}
-    %input.btn.processing{:type => "submit", :value => "Processing", :disabled => "disabled", :title => "We are working on that..."}
+      .example
+        %h3 HTML Types
+        %a.btn{:href => "#"} Link
+        %button Button
+        %input.btn{:type => "reset", :value => "Reset"}
+        %input.btn{:type => "button", :value => "Input button"}
+        %input.btn{:type => "submit", :value => "Submit"}
 
-    %h3 Groups
-    .btn_group
-      %a.btn{:href => "#"} Left
-      %input.btn{:type => "button", :value => "Middle"}
-      -#test for rails helper button_to
-      %form
-        %div
-          %input{:type => "hidden"}
-          %input.btn{:type => "submit", :value => "Right"}
-          %input{:type => "hidden"}
+      .markup
+        %ul.switcher
+          %li.selected
+            %a{ "href" => "#", "data-component" => "code-tab", "data-format" => "html" }
+              = "HTML"
+          %li
+            %a{ "href" => "#", "data-component" => "code-tab", "data-format" => "haml" }
+              = "Haml"
 
-    %h3 Icons
-    %a.btn.icon.download_example{:href => "#"}
-      = "Download link (:before)"
-    .btn.icon
-      %i.download_icon-black
-      %a.btn{:href => "#"}
-        = "Download link (<i>)"
-    .btn.icon.download_example
-      %input.btn{:type => "submit", :value => "Submit (:before)"}
-    .btn.icon
-      %i.download_icon-black
-      %input.btn{:type => "submit", :value => "Submit (<i>)"}
+        - ['html', 'haml'].each_with_index do |format, format_index|
+          %div{ "class" => "#{'hidden' if format_index != 0}", "data-component" => "tab-container", "data-format" => format }
+            %pre
+
+    %section
+      %h2#features.bottom_line Features
+
+      .example
+        %h3 Sizes
+        %input.btn.mini{:type => "submit", :value => "Mini"}
+        %input.btn.small{:type => "submit", :value => "Small"}
+        %input.btn{:type => "submit", :value => "Default"}
+        %input.btn.large{:type => "submit", :value => "Large"}
+        %input.btn.huge{:type => "submit", :value => "Huge"}
+
+        %h3 Colors
+        %input.btn{:type => "submit", :value => "Default"}
+        %input.btn.primary{:type => "submit", :value => "Primary"}
+        %input.btn.warning{:type => "submit", :value => "Warning"}
+
+        %h3 Statuses
+        %input.btn{:type => "submit", :value => "Disabled", :disabled => "disabled", :title => "We are working on that..."}
+        %input.btn.processing{:type => "submit", :value => "Processing", :disabled => "disabled", :title => "We are working on that..."}
+
+        %h3 Groups
+        .btn_group
+          %a.btn{:href => "#"} Left
+          %input.btn{:type => "button", :value => "Middle"}
+          -#test for rails helper button_to
+          %form
+            %div
+              %input{:type => "hidden"}
+              %input.btn{:type => "submit", :value => "Right"}
+              %input{:type => "hidden"}
+
+        %h3 Icons
+        %a.btn.icon.download_example{:href => "#"}
+          = "Download link (:before)"
+        .btn.icon
+          %i.download_icon-black
+          %a.btn{:href => "#"}
+            = "Download link (<i>)"
+        .btn.icon.download_example
+          %input.btn{:type => "submit", :value => "Submit (:before)"}
+        .btn.icon
+          %i.download_icon-black
+          %input.btn{:type => "submit", :value => "Submit (<i>)"}
