@@ -3,7 +3,7 @@ $(function(){
     $('a[data-component="code-tab"]').live('click', function(e){
         e.preventDefault();
 
-        var $section = $(this).closest('section');
+        var $section = $(this).closest('.code_example_section');
         $section.find('a[data-component="code-tab"]').parent().removeClass('selected');
         $(this).parent().addClass('selected');
 
@@ -18,11 +18,12 @@ $(function(){
         $('a[data-component="example-tab"]').parent().removeClass('selected');
         $(this).parent().addClass('selected');
 
-        var $section = $(this).closest('section');
-        $section.find($(this).data("target")).removeClass().addClass($(this).data("class"));
-
+        var $section = $(this).closest('.code_example_section');
         var type = $(this).data('type');
         var format = $section.find('li.selected > a[data-component="code-tab"]').data('format');
+
+        $section.find('.example').hide();
+        $section.find('.example.' + type).show();
         showCodeExample($section, type, format);
     });
 

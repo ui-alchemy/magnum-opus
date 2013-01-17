@@ -1,0 +1,33 @@
+.element.code_example_section
+  %h3#checkbox.bottom_line Checkbox
+
+  %ul.switcher
+    %li.selected
+      %a{ "href" => "#", "data-component" => "example-tab", "data-type" => "default" }
+        Default
+    %li
+      %a{ "href" => "#", "data-component" => "example-tab", "data-type" => "disabled" }
+        Disabled
+    %li
+      %a{ "href" => "#", "data-component" => "example-tab", "data-type" => "error" }
+        Error state
+    %li
+      %a{ "href" => "#", "data-component" => "example-tab", "data-type" => "warning" }
+        Warning state
+
+  - types.each_with_index do |type, type_index|
+    %div{ "class" => "example #{type} #{'hidden' if type_index != 0 }" }
+      = render :partial => "checkbox_#{type}_example"
+
+  .instructions
+    %p
+      = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis lectus vel justo sagittis mollis. Nullam sed purus non libero suscipit semper. Fusce sagittis mattis tortor a vulputate. Suspendisse eget erat vel justo sodales fermentum ut vitae dolor. Ut eget eros luctus lacus tincidunt tristique non vitae sem. Pellentesque et tellus quis orci mattis laoreet eu at odio. Nunc tempor neque sit amet quam fringilla sed elementum risus volutpat."
+  .markup
+    = render :partial => "switcher"
+
+    - types.each_with_index do |type, type_index|
+      - formats.each_with_index do |format, format_index|
+        %div{ "class" => "#{'hidden' if type_index != 0  || format_index != 0}", "data-component" => "tab-container", "data-type" => type, "data-format" => format }
+          %pre
+            = preserve do
+              = render_code_example('checkbox', type, format)
