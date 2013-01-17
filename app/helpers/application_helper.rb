@@ -18,7 +18,7 @@ module ApplicationHelper
     logger.error ex.message
     logger.error ex.backtrace.join("\n")
 
-    render :nothing => true
+    render :text => ''
   end
 
 end
