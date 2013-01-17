@@ -1,0 +1,100 @@
+= content_for(:content) do
+
+  %section.content
+    %h1 Get Involved
+
+    %p.about
+    %ul.page_nav
+      %li= link_to "Contact Us", "#contact_us"
+      %li= link_to "Artifacts", "#source_code"
+      %li= link_to "Contribute", "#contribute"
+
+    %article
+      %h2.bottom_line#contact_us
+        = "Contact Us"
+      %p.about
+        = "Users and developers can contact the project directly through IRC for real time interactions or through the mailing list."
+      %p.about
+        %h5
+          = "IRC"
+        = link_to "Join", "http://webchat.freenode.net/?channels=#ui-alchemy"
+        = "us on Freenode at #ui-alchemy"
+      %p.about
+        %h5
+          = "Mailing List"
+        = "Users and developers can monitor discussions or send questions by joining the mailing list"
+        = link_to "here", "https://www.redhat.com/mailman/listinfo/ui-alchemy"
+        = "."
+      %p.about
+        %h5
+          = "Report a Bug or Request a Feature"
+        = "Bugs can be reported directly via "
+        = link_to "Github Issues", "https://github.com/ui-alchemy/alchemy/issues/new"
+        = ".  Feature requets may be presented either via the mailing list or by opening a Github issue."
+
+    %article
+      %h2.bottom_line#contribute
+        = "Contribute"
+      %p.about
+        = "If you'd like to start contributing to Alchemy you can find a bug and fix it, find a feature and tackle it, add documentation to Alchemy source code and the Workbench or join in the on-going discussions within Github, IRC and the mailing list."
+      %section.about
+        %h5
+          = "Open Items to Tackle"
+        %li
+          = link_to "Open Bugs", "https://github.com/ui-alchemy/alchemy/issues?milestone=8&state=open"
+        %li
+          = link_to "Current Feature Milestones", "https://github.com/ui-alchemy/alchemy/issues/milestones"
+        %li
+          = link_to "Feature Backlog", "https://github.com/ui-alchemy/alchemy/issues?milestone=2&state=open"
+
+      %section.about
+        %h5
+          = "How To Contribute"
+        %ol
+          %li= "Fork the upstream repository"
+          %li= "Create a feature branch related to the bug or feature in your fork"
+          %li= "Commit code to your branch and push to your fork"
+          %li
+            = "Ensure your code follows the style and naming conventions:"
+            %ul
+              %li= "SCSS"
+              %li= "JavaScript"
+              %li= "Preface the commit messages with the issue number or feature and include a brief message, e.g. \'34 - Fixes ie bug that caused no background colors to be shown.\' or \'Header Updates - Adds dropdown menu in tabs to be used as a application context switcher.\'"
+
+          %li
+            = "Open a pull request on the upstream repository and include:"
+            %ul
+              %li= "A brief description of the issue being fixed or feature being added"
+              %li= "explanation of approach taken when warranted"
+              %li= "references or links to visual implementation of feature e.g. codepen, converge-ui-example, screenshot"
+              %li= "decide if you would like specific individuals to review your request and include them via the @-tag e.g. @ehelms"
+          %li
+            = "The pull request will be assigned an iteration that fits the current release schedule."
+          %li
+            = "A reviewer will be assigned who is responsible for merging under the following conditions:"
+            %ul
+              %li= "If no specific reviewers have been requested, the assigned reviewer may ACK and merge at will"
+              %li= "If specific reviewers have been requested via @-tag, reviewer may ACK and merge after all requested reviewers have ACK\'d"
+              %li= "If there are comments raised by others within the pull request, reviewer should ensure the concerns have been met and request ACKs from those who commented on the pull request before ACK'ing and merging"
+
+    %section
+      %h2.bottom_line#source_code
+        = "Artifacts"
+      
+      %p.about
+        %h5
+          = "Project Milestones"
+        = "Alchemy development and releases are organized into a set of feature based milestones.  The open milestones can be viewed on Github - "
+        = link_to "Milestones", "https://github.com/ui-alchemy/alchemy/issues/milestones?state=open"
+      %section.about
+        %h5
+          = "Source Code"
+        %li
+          = "Alchemy Organization - "
+          = link_to "https://github.com/UI-Alchemy", "https://github.com/UI-Alchemy"
+        %li
+          = "Alchemy - "
+          = link_to "https://github.com/UI-Alchemy/alchemy", "https://github.com/UI-Alchemy/alchemy"
+        %li
+          = "Workbench (a.k.a Alchemy Dev Guide and Test Bed) - "
+          = link_to "https://github.com/UI-Alchemy/alchemy-workbench", "https://github.com/UI-Alchemy/alchemy-workbench"

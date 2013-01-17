@@ -1,34 +1,41 @@
 = content_for(:content) do
 
-  .secondary_navigation
+  %section.content
+    %h1 Flash Messages
 
-  .flash_hud
-    %a.control{:href => '#', :title => "Close"}
-    %ul.flash_messages.error
+    %ul.page_nav
       %li
-        = "Can't save user, because of 3 errors which occured in form."
+        %a{ "href" => "#elements" }
+          = "Elements"
 
-  .flash_hud
-    %a.control{:href => '#', :title => "Close"}
-    %ul.flash_messages.success
-      %li 
-        = "Action numero uno succeeded"
-      %li
-        = "Please don't use links here - just for informative text. But if it is really needed you can place a"
-        %a{:href => '#'} link
-        = "here as well."
+    %section
+      %h2#elements.bottom_line Elements
 
-  .flash_hud
-    %a.control{:href => '#', :title => "Close"}
-    %ul.flash_messages.warning
-      %li
-        %a{:href => "#"} Password
-        = "is weak and might be vulnerable."
-      %ul
-        %li You can even have a list here
-        %li And second item
-        %li And more and more
+      .example
 
-  .content
-    %h2
-      = "Flash messages"
+        .flash_hud
+          %a.control{:href => '#', :title => "Close"}
+          %ul.flash_messages.error
+            %li
+              = "Can't save user, because of 3 errors which occured in form."
+
+        .flash_hud
+          %a.control{:href => '#', :title => "Close"}
+          %ul.flash_messages.success
+            %li 
+              = "Action numero uno succeeded"
+            %li
+              = "Please don't use links here - just for informative text. But if it is really needed you can place a"
+              %a{:href => '#'} link
+              = "here as well."
+
+        .flash_hud
+          %a.control{:href => '#', :title => "Close"}
+          %ul.flash_messages.warning
+            %li
+              %a{:href => "#"} Password
+              = "is weak and might be vulnerable."
+            %ul
+              %li You can even have a list here
+              %li And second item
+              %li And more and more
