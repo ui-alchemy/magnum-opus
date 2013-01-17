@@ -23,7 +23,7 @@
 .nav_second_tier
   %span.title Composites:
   %ul
-    %li
-      = link_to "Login Page", user_session_path
-    %li
+    %li{ :class => ("selected" if current_sub_tab == "login") }
+      = link_to "Login Page", login_index_path
+    %li{ :class => ("selected" if current_sub_tab == "change_password") }
       = link_to "Change Password", change_password_path

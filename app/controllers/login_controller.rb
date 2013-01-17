@@ -1,7 +1,15 @@
 class LoginController < ApplicationController
-  layout "login"
+
+  def section_id
+    "library"
+  end
+
+  def new
+    render :new, :layout => "login_layout"
+  end
 
   def index
+    render :index, :locals => { :src => new_login_path }
   end
 
   def update
@@ -23,10 +31,6 @@ class LoginController < ApplicationController
       format.html { redirect_to user_session_path }
       format.js
     end
-  end
-
-  def change_password
-    @user = User.new
   end
 
   def save_changed_password
