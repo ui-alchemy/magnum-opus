@@ -4,6 +4,8 @@ $static_width: 1152px;
 @import "compass/reset";
 @import "alchemy/composites/shell";
 @import "alchemy/composites/content_elements";
+@import "alchemy/components/helpers";
+@import "alchemy/components/media_object";
 
 .hidden {
   display: none;
@@ -369,5 +371,19 @@ code{
   &.code_block{
     display: block;
     padding: 7px;
+  }
+}
+
+.about {
+  ul, ol, li {
+    margin-left: 10px;
+  }
+
+  ul {
+    list-style: disc;
+  }
+
+  ol {
+    list-style-type: decimal;
   }
 }
