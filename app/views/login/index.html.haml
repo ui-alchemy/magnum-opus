@@ -1,8 +1,14 @@
 = content_for(:content) do
-  = render :partial => "alchemy/layouts/login_layout",
-           :locals => { :login_form_path_string => user_session_path,
-                        :recovery_strings => raw(get_string(:recovery_link) % [link_to(get_string(:username), user_session_path(:card => :username_recovery), :id => "username_link"),
-                                                                          link_to(get_string(:password), user_session_path(:card => :password_reset), :id => "password_link")]),
-                        :login_path_string => user_session_path,
-                        :new_username_recoveries_form_path_string => username_recovery_path,
-                        :new_password_resets_form_path_string => password_reset_path }
+  %section.content
+    %h1 Login Composite
+
+    %ul.page_nav
+      %li
+        %a{ "href" => "#preview" }
+          = "Preview"
+
+    %section
+      %h2#preview.bottom_line Preview
+
+      .example
+        %iframe{ :src => src, :style => "width: 95%; height: 65%; margin: 0 auto; display: block;" }

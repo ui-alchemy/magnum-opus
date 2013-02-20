@@ -1,0 +1,24 @@
+= content_for(:content) do
+  %div{ :style => "margin: 0 auto; margin-top: 50px; width: 400px;"}
+    %a{ :href => root_path, :class => "logo" }
+      = image_tag("logo_big.png", :alt => _('Alchemy Workbench'))
+
+  %div{ :style => "width: 1150px; margin: 0 auto; margin-top: 40px;"}
+    %div.fl{:style => "height: 580px; width: 375px; overflow: auto;" }
+      %div.media{ :style => "height: 30%; border: 2px solid #CCC; border-radius: 6px; margin-top 10px; background: rgb(243, 243, 243); padding: 5px;" }
+        %h4.bd
+          = "Developer's Needs"
+      %div.media{ :style => "height: 30%; border: 2px solid #CCC; border-radius: 6px; margin-top 10px; background: rgb(243, 243, 243); padding: 5px;" }
+        %h4.bd
+          = "User's Needs"
+    %div.fl{:style => "height: 440px; width: 375px; overflow: auto;" }
+      %div.media{ :style => "height: 85%; margin-top: 10px; padding: 5px; border-radius: 6px; border: 2px solid #CCC;" }
+        %h4.bd
+          = "Start Using Alchemy"
+    %div.fl{:style => "height: 580px; width: 375px; overflow: auto;" }
+      %div.media{ :style => "height: 30%; border: 2px solid #CCC; border-radius: 6px; margin-top 10px; background: rgb(243, 243, 243); padding: 5px;" }
+        %h4.bd
+          = "Components"
+      %div.media{ :style => "height: 30%; border: 2px solid #CCC; border-radius: 6px; margin-top 10px; background: rgb(243, 243, 243); padding: 5px;" }
+        %h4.bd
+          = "Composites"

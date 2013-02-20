@@ -1,0 +1,33 @@
+%section.code_example_section
+  %h2#layout.bottom_line Layout
+
+  %ul.switcher
+    %li.selected
+      %a{ "href" => "#", "data-component" => "example-tab", "data-type" => "wide" }
+        Wide version
+    %li
+      %a{ "href" => "#", "data-component" => "example-tab", "data-type" => "labels_top" }
+        Labels top
+    %li
+      %a{ "href" => "#", "data-component" => "example-tab", "data-type" => "messages_bottom" }
+        Messages bottom
+    %li
+      %a{ "href" => "#", "data-component" => "example-tab", "data-type" => "narrow" }
+        Narrow version
+
+  - types.each_with_index do |type, type_index|
+    %div{ "class" => "example #{type} #{'hidden' if type_index != 0 }" }
+      = render :partial => "layout_#{type}_example"
+
+  .instructions
+    %p
+      = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis lectus vel justo sagittis mollis. Nullam sed purus non libero suscipit semper. Fusce sagittis mattis tortor a vulputate. Suspendisse eget erat vel justo sodales fermentum ut vitae dolor. Ut eget eros luctus lacus tincidunt tristique non vitae sem. Pellentesque et tellus quis orci mattis laoreet eu at odio. Nunc tempor neque sit amet quam fringilla sed elementum risus volutpat."
+  .markup
+    = render :partial => "switcher"
+
+    - types.each_with_index do |type, type_index|
+      - formats.each_with_index do |format, format_index|
+        %div{ "class" => "#{'hidden' if type_index != 0  || format_index != 0}", "data-component" => "tab-container", "data-type" => type, "data-format" => format }
+          %pre
+            = preserve do
+              = render_code_example('layout', type, format)

@@ -1,4 +1,149 @@
 = content_for(:content) do
+
+  %section.content
+    %h1 Forms
+
+    %a.button.primary.download{ "href" => "#" }
+      = "Download component"
+
+    %ul.page_nav
+      %li
+        %a{ "href" => "#preview" }
+          = "Preview"
+      %li
+        %a{ "href" => "#layout" }
+          = "Layout"
+      %li
+        %a{ "href" => "#elements" }
+          = "Elements"
+      %li
+        %a{ "href" => "#features" }
+          = "Features"
+
+    %p.about
+      = ""
+
+
+    %section
+      %h2#preview.bottom_line Preview
+
+      .example
+        %form.form
+          .control_group
+            .label
+              %label{:for => "preview_name"} Name and surname
+            .input
+              %input{:type => "text", :id => "preview_name"}
+              %span.hint The length should be between 1-50 characters.
+
+          .control_group
+            .label.help
+              %i ?
+              %label{:for => "preview_login"} Login name
+              %span You can fill in your own login name, otherwise your <nobr>e-mail</nobr> will be used as a login information.
+            .input
+              %input{:type => "text", :id => "preview_login"}
+              %span.hint The length should be between 1-15 characters.
+
+          .control_group.required
+            .label
+              %label{:for => "preview_email"} E-mail
+            .input
+              %input{:type => "email", :id => "preview_email", :required => "required"}
+
+          .control_group.required
+            .label
+              %label{:for => "preview_password"} Password
+            .input
+              %input{:type => "password", :id => "preview_password", :required => "required"}
+              %span.hint You need to use at least one capital letter, one digit and one special character (such as "." "," "_" "-"). The length should be between 1-15 characters.
+
+          .control_group.required
+            .label
+              %label{:for => "preview_password_confirm"} Password confirmation
+            .input
+              %input{:type => "password", :id => "preview_password_confirm", :required => "required"}
+              %span.hint Please re-type your password.
+
+          .control_group.buttons
+            .label
+            .input
+              %input.btn.primary{:type => "submit", :value => "Save"}
+              %a.btn{"href" => "#"}
+                = "Cancel"
+
+    = render :partial => "layout", :locals => { :types => %w(wide labels_top messages_bottom narrow),
+                                                :formats => %w(html haml simple_form) }
+
+    %section
+      %h2#elements.bottom_line Elements
+
+      %ul.section_nav
+        %li
+          %a{ "href" => "#input" }
+            Input
+        %li
+          %a{ "href" => "#single_select" }
+            Single-select
+        %li
+          %a{ "href" => "#multiple_select" }
+            Multiple-select
+        %li
+          %a{ "href" => "#checkbox" }
+            Checkbox
+        %li
+          %a{ "href" => "#textarea" }
+            Textarea
+        %li
+          %a{ "href" => "#file" }
+            File
+        %li
+          %a{ "href" => "#date" }
+            Date
+        %li
+          %a{ "href" => "#number" }
+            Number
+        %li
+          %a{ "href" => "#range" }
+            Range
+        %li
+          %a{ "href" => "#text" }
+            Text
+
+      = render :partial => "input", :locals => { :types => %w(default disabled readonly error warning),
+                                                 :formats => %w(haml) }
+
+      = render :partial => "single_select", :locals => { :types => %w(default disabled error warning),
+                                                         :formats => %w(haml) }
+
+      = render :partial => "multiple_select", :locals => { :types => %w(default disabled error warning),
+                                                           :formats => %w(haml) }
+
+      = render :partial => "checkbox", :locals => { :types => %w(default disabled error warning),
+                                                    :formats => %w(haml) }
+
+      = render :partial => "textarea", :locals => { :types => %w(default disabled readonly error warning),
+                                                    :formats => %w(haml) }
+
+      = render :partial => "file", :locals => { :types => %w(default disabled error warning),
+                                                :formats => %w(haml) }
+
+      = render :partial => "date", :locals => { :types => %w(default disabled readonly error warning),
+                                                :formats => %w(haml) }
+
+      = render :partial => "number", :locals => { :types => %w(default disabled readonly error warning),
+                                                  :formats => %w(haml) }
+
+      = render :partial => "range", :locals => { :types => %w(default disabled readonly error warning),
+                                                 :formats => %w(haml) }
+
+      = render :partial => "text", :locals => { :types => %w(default error warning),
+                                                 :formats => %w(haml) }
+
+    %section
+      %h2#features.bottom_line Features
+
+-#= content_for(:content) do
   .content
     %h2
       = "Forms"
