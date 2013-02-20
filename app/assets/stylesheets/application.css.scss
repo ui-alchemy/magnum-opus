@@ -1,9 +1,15 @@
-$primary_color: #DB6300;
+$primary_color: rgb(103,0,41);
 $static_width: 1152px;
 
 @import "compass/reset";
 @import "alchemy/composites/shell";
 @import "alchemy/composites/content_elements";
+@import "alchemy/components/helpers";
+@import "alchemy/components/media_object";
+
+.hidden {
+  display: none;
+}
 
 .maincontent {
   padding-top: 5px; //because of the top line under header
@@ -36,4 +42,354 @@ $static_width: 1152px;
       margin: 35px 0 0 0;
     }
   }
+}
+
+body {
+  background: none;
+}
+
+header#header {
+  height: 50px;
+
+  &:after {
+    display: none;
+  }
+
+  .logo {
+    bottom: default;
+    top: 5%;
+    left: 30px;
+  }
+
+  .centered {
+    width: 100%;
+    text-align: center;
+  }
+
+  #nav-container {
+    position: relative;
+    margin: 0 auto;
+    display: inline-block;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    height: auto;
+    padding: 0;
+
+    #appnav {
+      height: 100%;
+      border: 0 none;
+
+      ul,
+      ul li,
+      ul li a {
+        height: auto;
+        border: 0 none;
+      }
+
+      ul {
+        border-top: 1px solid rgba(white, 0.3);
+      }
+
+      ul li {
+        &:first-child {
+          border-left: 1px solid rgba(white, 0.3);
+        }
+      }
+
+      ul li a {
+        background: rgba(black, 0.09);
+        border: 0 none;
+        border-right: 1px solid rgba(white, 0.3);
+        height: 40px;
+        padding-top: 10px;
+        color: rgba(white, 0.85);
+
+        &:active,
+        &.selected {
+          color: rgba(black, 0.7);
+          @include linear_gradient(rgb(230, 230, 230), rgb(250, 250, 250), rgb(230, 230, 230));
+
+          &:hover {
+            color: rgba(black, 0.8);
+            @include linear_gradient(rgb(230, 230, 230), rgb(250, 250, 250), rgb(230, 230, 230));
+          }
+        }
+
+        &:hover {
+          background: none;
+          color: white;
+        }
+      }
+    }
+  }
+}
+
+
+.nav_second_tier {
+  background: rgb(230, 230, 230);
+  border-bottom: 1px solid rgb(200, 200, 200);
+  display: table;
+  width: 100%;
+  border-collapse: collapse;
+
+  .title {
+    color: rgb(130, 130, 130);
+    width: 90px;
+    padding: 0 0 0 30px;
+    border-right: 1px solid rgb(200, 200, 200);
+    background: rgb(220, 220, 220);
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  ul {
+    display: table-cell;
+    vertical-align: middle;
+
+    li {
+      display: block;
+      float: left;
+
+      &:hover,
+      &.selected {
+        background: $primary_gradient_top_color;
+
+        a {
+          color: white;
+        }
+      }
+
+      a {
+        display: inline-block;
+        padding: 5px 15px;
+        text-decoration: none;
+        font-weight: bold;
+        color: $primary_color;
+      }
+    }
+  }
+}
+
+section.content {
+  padding: 10px 30px;
+  position: relative;
+
+  h1, h2, h3 {
+    line-height: 1.1;
+  }
+
+  h1 {
+    margin: 25px 0 0 0;
+    font-size: 210%;
+    color: rgb(60, 60, 60);
+  }
+
+  h2 {
+    margin: 20px 0 0 0;
+    font-size: 170%;
+    color: rgb(110, 110, 110);
+  }
+
+  h3 {
+    margin: 15px 0 0 0;
+    font-size: 130%;
+    color: rgb(130, 130, 130);
+  }
+
+  .bottom_line {
+    border-bottom: 1px solid rgb(200, 200, 200);
+  }
+
+  a {
+    text-decoration: underline;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  .btn,
+  .button {
+    text-decoration: none;
+  }
+}
+
+section {
+  position: relative;
+}
+
+.button.download {
+  position: absolute;
+  right: 30px;
+  top: 25px;
+}
+
+.page_nav,
+.section_nav {
+  li {
+    display: block;
+    float: left;
+    padding-right: 15px;
+
+    a {
+      color: rgb(100, 100, 100);
+    }
+  }
+
+  &:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+}
+
+.section_nav {
+  padding: 10px;
+  border-bottom: 1px solid rgb(200, 200, 200);
+  background: rgb(249, 249, 249);
+
+  li a {
+    color: rgb(150, 150, 150);
+  }
+}
+
+.about {
+  margin-top: 20px;
+}
+
+.switcher {
+  display: inline-block;
+  border: 1px solid rgb(200, 200, 200);
+  border-top: 0;
+  @include linear_gradient(rgb(230, 230, 230), rgb(250, 250, 250), rgb(230, 230, 230));
+  color: rgb(90, 90, 90);
+  @include border-radius(0 0 5px 5px);
+
+  li {
+    border-right: 1px solid rgb(200, 200, 200);
+    display: block;
+    float: left;
+
+    a {
+      display: inline-block;
+      padding: 5px 10px;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    &:last-child {
+      border-right: 0 none;
+
+      a {
+        @include border-radius(0 0 5px 0);
+      }
+    }
+
+    &:first-child a {
+      @include border-radius(0 0 0 5px);
+    }
+
+    &.selected a,
+    a:hover {
+      @include linear_gradient(rgb(70, 70, 70), rgb(110, 110, 110), rgb(70, 70, 70));
+      color: white;
+    }
+  }
+
+  &:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+}
+
+.element {
+  position: relative;
+  padding-top: 10px;
+  clear: both;
+}
+
+.source_options {
+  position: absolute;
+  top: -2px;
+  right: 0;
+
+  a {
+    display: inline-block;
+    margin-left: 10px;
+    color: $primary_color;
+  }
+}
+
+.example,
+.instructions,
+.markup {
+  margin-top: 20px;
+}
+
+.instructions {
+  float: left;
+  width: 52.5%;
+}
+
+.markup {
+  @include linear_gradient(rgb(240, 240, 240), rgb(235, 235, 235), rgb(240, 240, 240), 3%);
+  font-size: 90%;
+  float: right;
+  width: 42.5%;
+  position: relative;
+  border: 1px solid rgb(220, 220, 220);
+
+  .switcher {
+    font-size: 80%;
+    border-left: 0 none;
+    border-top: 0 none;
+    margin-left: 7px;
+
+    li {
+      &.selected {
+        color: white;
+      }
+    }
+  }
+
+  pre {
+    font-family: monospace;
+    color: rgb(140, 140, 140);
+    padding: 7px;
+  }
+}
+
+code{
+  @include linear_gradient(rgb(240, 240, 240), rgb(235, 235, 235), rgb(240, 240, 240), 3%);
+  font-size: 90%;
+  width: 42.5%;
+  position: relative;
+  border: 1px solid rgb(220, 220, 220);
+  font-family: monospace;
+  color: rgb(140, 140, 140);
+  padding: 5px;
+  &.code_block{
+    display: block;
+    padding: 7px;
+  }
+}
+
+.about {
+  ul, ol, li {
+    margin-left: 10px;
+  }
+
+  ul {
+    list-style: disc;
+  }
+
+  ol {
+    list-style-type: decimal;
+  }
+}
+
+body > footer {
+  margin-top: 10px;
 }

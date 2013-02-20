@@ -1,6 +1,8 @@
 class ApplicationController < ActionController::Base
   include FastGettext::Translation
 
+  layout "website"
+
   helper Alchemy::TranslationHelper
 
   protect_from_forgery

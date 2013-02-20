@@ -1,0 +1,11 @@
+%form.form
+  .control_group.error
+    .label.help
+      %i ?
+      %label{:for => "input_error_input_01"} First row
+      %span Here will be placed explanatory information about concrete label term. In this case it would be for "Text input". What is Text input?
+    .input
+      %input{:type => "text", :id => "input_error_input_01", :placeholder => "Placeholder"}
+      %span.message Error message
+      %span.hint Fill in your given name. Maximum allowed length is up to 30 characters. (Hint length is max 2 lines)
+      %span.note This is note, which is visible all the time. Can be longer than one line. Don't use if not necessary.

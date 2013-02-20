@@ -1,2 +1,12 @@
+$primary_color: rgb(103,0,41);
+
 @import "compass/reset";
 @import "alchemy/composites/login";
+
+body {
+  background: white;
+
+  & > footer {
+    display: none;
+  }
+}
