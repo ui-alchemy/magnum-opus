@@ -1,4 +1,4 @@
-AlchemyWorkbench::Application.routes.draw do
+MagnumOpus::Application.routes.draw do
 
   root :to => 'home#index'
 
