@@ -1,7 +1,7 @@
 #source 'http://mirror1.prod.rhcloud.com/mirror/ruby/'
 source 'http://www.rubygems.org'
 
-gem 'rails', '3.2.6'
+gem 'rails', '~> 3.2.6'
 
 group :assets do
   gem 'sass-rails', '~> 3.2.3'
@@ -14,10 +14,10 @@ gem 'haml-rails'
 
 gem 'gettext_i18n_rails'
 
-if File.exists? File.expand_path('../alchemy')
-  gem 'alchemy', :path => '../alchemy'
+if File.exists? File.expand_path('../ui_alchemy-rails')
+  gem 'ui_alchemy-rails', :path => '../ui_alchemy-rails'
 else
-  gem 'alchemy'
+  gem 'ui_alchemy-rails'
 end
 
 # This version needs to be hardcoded for OpenShift compatability

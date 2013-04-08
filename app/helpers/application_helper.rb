@@ -1,6 +1,6 @@
 module ApplicationHelper
 
-  include Alchemy::TranslationHelper
+  include UIAlchemy::TranslationHelper
 
   def current_main_tab
     return controller.section_id

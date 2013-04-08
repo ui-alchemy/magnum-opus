@@ -1,4 +1,4 @@
-//= require alchemy/jquery/jquery-1.6.2
+//= require ui_alchemy/jquery/jquery
 //= require alchemy/flash_messages
 //= require alchemy/rails.js
 //= require tabs.js
